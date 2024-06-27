@@ -1,6 +1,6 @@
 # QGIS Generated Color Map Export File
 INTERPOLATION:DISCRETE
--2,12,88,235,255,Water
--0.5,255,255,255,255,Missing
+# -2,12,88,235,255,Water
+# -0.5,255,255,255,255,Missing
 0,128,128,128,255,No burn
 366,255,0,0,255,Burn
