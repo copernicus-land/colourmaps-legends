@@ -1,6 +1,15 @@
-# CGLS_colourmaps
-Colour maps and legends for Copernicus Global Land Service datasets
+# CGLS colourmaps
+
+This repository contains the colour maps and legends for the Copernicus Global Land Service (CGLS) WMTS service.
+The colour maps are being used in the CGLS WMTS service (https://globalland.vito.be/wmts?request=GetCapabilities).
 
 Sub-folders:
-* QGIS_3.x colour palettes
-* Legend: example legends
+* ColourMaps: colour maps in TXT (QGIS generated color map export file) or SLD (Style Layer Descriptot) XML format
+* Legend: legends generated from the colour map
+
+## Naming convention
+
+The filename of the colour maps and legends is derived from the WMTS layer name:
+* ColourMaps: <wmts_layer_name>.(txt|sld), e.g. clms_global_ndvi_1km_v2_10daily.txt
+* Legend: <wmts_layer_name>.png, e.g. clms_global_ndvi_1km_v2_10daily.png
+
