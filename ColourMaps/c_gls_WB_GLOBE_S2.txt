@@ -1,0 +1,3 @@
+# Fichier d'export QGIS de palette de couleur
+INTERPOLATION:EXACT
+70,31,113,220,254,Inland water
