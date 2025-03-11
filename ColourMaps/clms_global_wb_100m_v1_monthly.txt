@@ -1,3 +1,6 @@
 # Fichier d'export QGIS de palette de couleur
 INTERPOLATION:EXACT
+0,0,0,0,0,Sea
 70,31,113,220,254,Inland water
+251,0,0,0,0,No data
+255,0,0,0,0,No water
