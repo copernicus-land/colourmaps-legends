@@ -1,0 +1,111 @@
+# QGIS-Farbabbildungsexportdatei
+INTERPOLATION:DISCRETE
+0,0,0,0,0,Outside area of interest
+20,0,0,110,255,Water
+21,0,0,110,255,Sea
+22,0,0,110,255,Lake or river
+30,157,157,157,255,Cloud
+100,44,128,45,255,0 % snow cover (snow free)
+101,204,255,255,255,1 % snow cover
+102,194,255,255,255,2 % snow cover
+103,184,255,255,255,3 % snow cover
+104,173,255,255,255,4 % snow cover
+105,163,255,255,255,5 % snow cover
+106,153,255,255,255,6 % snow cover
+107,148,250,255,255,7 % snow cover
+108,142,245,255,255,8 % snow cover
+109,137,240,255,255,9 % snow cover
+110,132,235,255,255,10 % snow cover
+111,127,229,255,255,11 % snow cover
+112,122,224,255,255,12 % snow cover
+113,117,219,255,255,13 % snow cover
+114,111,214,255,255,14 % snow cover
+115,106,209,255,255,15 % snow cover
+116,101,203,255,255,16 % snow cover
+117,94,198,255,255,17 % snow cover
+118,88,192,255,255,18 % snow cover
+119,81,186,255,255,19 % snow cover
+120,75,180,255,255,20 % snow cover
+121,68,174,255,255,21 % snow cover
+122,62,168,255,255,22 % snow cover
+123,55,163,255,255,23 % snow cover
+124,49,157,255,255,24 % snow cover
+125,43,151,255,255,25 % snow cover
+126,38,145,255,255,26 % snow cover
+127,37,141,252,255,27 % snow cover
+128,37,136,250,255,28 % snow cover
+129,36,131,247,255,29 % snow cover
+130,36,126,245,255,30 % snow cover
+131,36,121,242,255,31 % snow cover
+132,35,116,240,255,32 % snow cover
+133,35,112,237,255,33 % snow cover
+134,34,107,235,255,34 % snow cover
+135,34,102,232,255,35 % snow cover
+136,34,98,231,255,36 % snow cover
+137,36,96,232,255,37 % snow cover
+138,37,94,233,255,38 % snow cover
+139,38,92,234,255,39 % snow cover
+140,40,91,236,255,40 % snow cover
+141,41,89,237,255,41 % snow cover
+142,43,87,238,255,42 % snow cover
+143,44,85,239,255,43 % snow cover
+144,45,83,241,255,44 % snow cover
+145,47,81,242,255,45 % snow cover
+146,47,77,242,255,46 % snow cover
+147,44,72,242,255,47 % snow cover
+148,42,66,242,255,48 % snow cover
+149,39,60,242,255,49 % snow cover
+150,37,55,242,255,50 % snow cover
+151,34,49,242,255,51 % snow cover
+152,32,43,242,255,52 % snow cover
+153,29,37,242,255,53 % snow cover
+154,27,32,242,255,54 % snow cover
+155,25,26,242,255,55 % snow cover
+156,25,23,240,255,56 % snow cover
+157,27,23,237,255,57 % snow cover
+158,30,22,233,255,58 % snow cover
+159,33,22,229,255,59 % snow cover
+160,35,21,225,255,60 % snow cover
+161,38,21,221,255,61 % snow cover
+162,41,21,217,255,62 % snow cover
+163,44,20,213,255,63 % snow cover
+164,47,20,210,255,64 % snow cover
+165,49,20,206,255,65 % snow cover
+166,53,20,204,255,66 % snow cover
+167,57,21,204,255,67 % snow cover
+168,60,22,204,255,68 % snow cover
+169,64,23,204,255,69 % snow cover
+170,68,24,204,255,70 % snow cover
+171,72,25,204,255,71 % snow cover
+172,75,26,204,255,72 % snow cover
+173,79,27,204,255,73 % snow cover
+174,83,28,204,255,74 % snow cover
+175,87,29,204,255,75 % snow cover
+176,91,29,206,255,76 % snow cover
+177,94,28,209,255,77 % snow cover
+178,98,27,212,255,78 % snow cover
+179,102,27,214,255,79 % snow cover
+180,106,26,217,255,80 % snow cover
+181,110,25,219,255,81 % snow cover
+182,114,24,222,255,82 % snow cover
+183,118,23,227,255,83 % snow cover
+184,122,23,227,255,84 % snow cover
+185,126,22,230,255,85 % snow cover
+186,128,21,229,255,86 % snow cover
+187,130,20,228,255,87 % snow cover
+188,132,19,226,255,88 % snow cover
+189,135,17,225,255,89 % snow cover
+190,137,16,224,255,90 % snow cover
+191,139,15,223,255,91 % snow cover
+192,141,14,221,255,92 % snow cover
+193,144,12,220,255,93 % snow cover
+194,146,11,219,255,94 % snow cover
+195,148,10,217,255,95 % snow cover
+196,155,10,217,255,96 % snow cover
+197,162,10,217,255,97 % snow cover
+198,169,10,217,255,98 % snow cover
+199,176,10,217,255,99 % snow cover
+200,183,11,217,255,100 % snow cover (fully snow covered)
+251,38,38,38,166,Polar Night
+254,0,0,0,0,Input Data Error
+255,0,0,0,0,No data
