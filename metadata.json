@@ -1,0 +1,75 @@
+{
+  "repositoryInfo": {
+    "name": "CLMS-colourmaps",
+    "description": "Colour maps and legends for the Copernicus Land Monitoring Service (CLMS)",
+    "url": "https://github.com/your-org/CLMS-colourmaps",
+    "version": "1.0.0",
+    "lastUpdated": "2025-04-28T18:35:57.449011"
+  },
+  "contents": {
+    "colourmaps": {
+      "description": "Colour maps for CLMS data products",
+      "formats": [
+        "SLD",
+        "TXT"
+      ],
+      "indexPaths": [
+        "colourmaps/index.json"
+      ]
+    },
+    "legends": {
+      "description": "Colour maps for CLMS data products",
+      "formats": [
+        "SLD",
+        "TXT"
+      ],
+      "indexPaths": [
+        "legends/index.json"
+      ]
+    }
+  },
+  "schema": {
+    "colourmaps": {
+      "sld": {
+        "description": "Style Layer Descriptor XML format",
+        "mimeType": "application/xml",
+        "standard": "OGC SLD 1.0/1.1",
+        "primaryUse": true
+      },
+      "txt": {
+        "description": "QGIS color map export format",
+        "mimeType": "text/plain",
+        "standard": "QGIS",
+        "primaryUse": false,
+        "legacy": true
+      }
+    },
+    "legend": {
+      "png": {
+        "description": "Legend image in PNG format",
+        "mimeType": "image/png",
+        "primaryUse": true
+      }
+    }
+  },
+  "usage": {
+    "apiEndpoint": "https://api.example.com/clms/colourmaps",
+    "documentation": "https://docs.example.com/clms/colourmaps",
+    "examples": [
+      {
+        "description": "Retrieve SLD for NDVI product",
+        "endpoint": "/colourmaps/clms_global_ndvi_1km_v2_10daily.sld"
+      },
+      {
+        "description": "Retrieve legend for NDVI product",
+        "endpoint": "/legends/clms_global_ndvi_1km_v2_10daily.png"
+      }
+    ]
+  },
+  "license": "See LICENSE file in repository root",
+  "contact": {
+    "name": "Copernicus Land Monitoring Service Team",
+    "email": "contact@example.com",
+    "website": "https://land.copernicus.eu/"
+  }
+}

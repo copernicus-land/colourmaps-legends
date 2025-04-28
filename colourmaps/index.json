@@ -1,0 +1,1147 @@
+{
+  "directoryName": "colourmaps",
+  "directoryPath": "colourmaps",
+  "directoryType": "colourmaps",
+  "fileCount": 71,
+  "generatedAt": "2025-04-28T18:35:57.434693",
+  "products": {
+    "clms": [
+      {
+        "fileName": "clms_global_fapar_1km_v1_10daily.sld",
+        "filePath": "colourmaps\\fapar_global_1km_10daily_v1\\clms_global_fapar_1km_v1_10daily.sld",
+        "fileSize": 17087,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:36.107709",
+        "md5Hash": "45fb873672792c06c2e4c691730aeee5",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fapar",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fapar_1km_v2_10daily.sld",
+        "filePath": "colourmaps\\fapar_global_1km_10daily_v2\\clms_global_fapar_1km_v2_10daily.sld",
+        "fileSize": 17087,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:36.440383",
+        "md5Hash": "45fb873672792c06c2e4c691730aeee5",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fapar",
+          "resolution": "1km",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fapar_300m_v1_10daily.sld",
+        "filePath": "colourmaps\\fapar_global_300m_10daily_v1\\clms_global_fapar_300m_v1_10daily.sld",
+        "fileSize": 17087,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:36.810458",
+        "md5Hash": "45fb873672792c06c2e4c691730aeee5",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fapar",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_lai_1km_v1_10daily.sld",
+        "filePath": "colourmaps\\lai_global_1km_10daily_v1\\clms_global_lai_1km_v1_10daily.sld",
+        "fileSize": 15305,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:39.382261",
+        "md5Hash": "7c939e2cf36d2fee39fe85c0f592f3d5",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lai",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_lai_1km_v2_10daily.sld",
+        "filePath": "colourmaps\\lai_global_1km_10daily_v2\\clms_global_lai_1km_v2_10daily.sld",
+        "fileSize": 15305,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:39.756204",
+        "md5Hash": "7c939e2cf36d2fee39fe85c0f592f3d5",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lai",
+          "resolution": "1km",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_lai_300m_v1_10daily.sld",
+        "filePath": "colourmaps\\lai_global_300m_10daily_v1\\clms_global_lai_300m_v1_10daily.sld",
+        "fileSize": 15305,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:40.140264",
+        "md5Hash": "7c939e2cf36d2fee39fe85c0f592f3d5",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lai",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v2_10daily-chla_mean.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_100m_10daily_v2\\clms_global_lwq_100m_v2_10daily-chla_mean.sld",
+        "fileSize": 2550,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:51.912893",
+        "md5Hash": "ea95eef6b0b53d08f2ae5215e1d6648b",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "100m",
+          "version": "2",
+          "temporal": "10daily-chla_mean"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v2_10daily-trophic_state_index.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_100m_10daily_v2\\clms_global_lwq_100m_v2_10daily-trophic_state_index.sld",
+        "fileSize": 1783,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:52.295340",
+        "md5Hash": "62d3e519dcdce06a7412f0b1aba61c2c",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "100m",
+          "version": "2",
+          "temporal": "10daily-trophic_state_index"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v2_10daily-tsm_mean.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_100m_10daily_v2\\clms_global_lwq_100m_v2_10daily-tsm_mean.sld",
+        "fileSize": 2540,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:52.691423",
+        "md5Hash": "c68b0869869951dc36cf14a8c7cd426d",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "100m",
+          "version": "2",
+          "temporal": "10daily-tsm_mean"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v2_10daily-turbidity_mean.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_100m_10daily_v2\\clms_global_lwq_100m_v2_10daily-turbidity_mean.sld",
+        "fileSize": 2540,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:52.882728",
+        "md5Hash": "c68b0869869951dc36cf14a8c7cd426d",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "100m",
+          "version": "2",
+          "temporal": "10daily-turbidity_mean"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v2_10daily-chla_mean.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_300m_10daily_v2\\clms_global_lwq_300m_v2_10daily-chla_mean.sld",
+        "fileSize": 2550,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:53.280249",
+        "md5Hash": "ea95eef6b0b53d08f2ae5215e1d6648b",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily-chla_mean"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v2_10daily-trophic_state_index.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_300m_10daily_v2\\clms_global_lwq_300m_v2_10daily-trophic_state_index.sld",
+        "fileSize": 1783,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:53.671599",
+        "md5Hash": "62d3e519dcdce06a7412f0b1aba61c2c",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily-trophic_state_index"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v2_10daily-tsm_mean.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_300m_10daily_v2\\clms_global_lwq_300m_v2_10daily-tsm_mean.sld",
+        "fileSize": 2540,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:54.046105",
+        "md5Hash": "c68b0869869951dc36cf14a8c7cd426d",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily-tsm_mean"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v2_10daily-turbidity_mean.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_300m_10daily_v2\\clms_global_lwq_300m_v2_10daily-turbidity_mean.sld",
+        "fileSize": 2540,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:13:54.417416",
+        "md5Hash": "c68b0869869951dc36cf14a8c7cd426d",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily-turbidity_mean"
+        }
+      },
+      {
+        "fileName": "clms_nhemi_swe_5km_v2_daily.sld",
+        "filePath": "colourmaps\\swe_northernhemisphere_5km_daily_v2\\clms_nhemi_swe_5km_v2_daily.sld",
+        "fileSize": 1974,
+        "fileType": "sld",
+        "lastModified": "2025-04-28T18:14:00.016363",
+        "md5Hash": "56da7bee1bb8c325954062e2a8133b04",
+        "productInfo": {
+          "product": "clms",
+          "region": "nhemi",
+          "variable": "swe",
+          "resolution": "5km",
+          "version": "2",
+          "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_global_ba_300m_v3_daily.txt",
+        "filePath": "colourmaps\\ba_global_300m_daily_v3\\clms_global_ba_300m_v3_daily.txt",
+        "fileSize": 171,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:34.648705",
+        "md5Hash": "8979273066647e0d03ef959d506766b7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "ba",
+          "resolution": "300m",
+          "version": "3",
+          "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_global_ba_300m_v3_monthly.txt",
+        "filePath": "colourmaps\\ba_global_300m_monthly_v3\\clms_global_ba_300m_v3_monthly.txt",
+        "fileSize": 171,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:35.028095",
+        "md5Hash": "8979273066647e0d03ef959d506766b7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "ba",
+          "resolution": "300m",
+          "version": "3",
+          "temporal": "monthly"
+        }
+      },
+      {
+        "fileName": "clms_global_dmp_1km_v2_10daily.txt",
+        "filePath": "colourmaps\\dmp_global_1km_10daily_v2\\clms_global_dmp_1km_v2_10daily.txt",
+        "fileSize": 237,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:35.405714",
+        "md5Hash": "0d7b57e15f2fd08f8eb53b6cad6ade19",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "dmp",
+          "resolution": "1km",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_dmp_300m_v1_10daily.txt",
+        "filePath": "colourmaps\\dmp_global_300m_10daily_v1\\clms_global_dmp_300m_v1_10daily.txt",
+        "fileSize": 237,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:35.747457",
+        "md5Hash": "0d7b57e15f2fd08f8eb53b6cad6ade19",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "dmp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fcover_1km_v1_10daily.txt",
+        "filePath": "colourmaps\\fcover_global_1km_10daily_v1\\clms_global_fcover_1km_v1_10daily.txt",
+        "fileSize": 141,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:37.153340",
+        "md5Hash": "a602c58cf9d6861ab5ecf1ec33f15f03",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fcover",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fcover_1km_v2_10daily.txt",
+        "filePath": "colourmaps\\fcover_global_1km_10daily_v2\\clms_global_fcover_1km_v2_10daily.txt",
+        "fileSize": 141,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:37.528979",
+        "md5Hash": "a602c58cf9d6861ab5ecf1ec33f15f03",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fcover",
+          "resolution": "1km",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fcover_300m_v1_10daily.txt",
+        "filePath": "colourmaps\\fcover_global_300m_10daily_v1\\clms_global_fcover_300m_v1_10daily.txt",
+        "fileSize": 141,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:37.899479",
+        "md5Hash": "a602c58cf9d6861ab5ecf1ec33f15f03",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fcover",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_gdmp_1km_v2_10daily.txt",
+        "filePath": "colourmaps\\gdmp_global_1km_10daily_v2\\clms_global_gdmp_1km_v2_10daily.txt",
+        "fileSize": 239,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:38.279587",
+        "md5Hash": "0ec4ac21c0665b4eb235aea96f33f54e",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "gdmp",
+          "resolution": "1km",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_gdmp_300m_v1_10daily.txt",
+        "filePath": "colourmaps\\gdmp_global_300m_10daily_v1\\clms_global_gdmp_300m_v1_10daily.txt",
+        "fileSize": 239,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:38.644501",
+        "md5Hash": "0ec4ac21c0665b4eb235aea96f33f54e",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "gdmp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_gpp_300m_v1_10daily.txt",
+        "filePath": "colourmaps\\gpp_global_300m_10daily_v1\\clms_global_gpp_300m_v1_10daily.txt",
+        "fileSize": 245,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:39.001894",
+        "md5Hash": "0f5c59dd2126c00e0a99c1e8940a55b8",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "gpp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_ampl_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_ampl_season1.txt",
+        "fileSize": 229,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:40.517006",
+        "md5Hash": "c512bc9488fb859a355ba23fa2ccd6f7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_ampl_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_ampl_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_ampl_season2.txt",
+        "fileSize": 229,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:40.871551",
+        "md5Hash": "c512bc9488fb859a355ba23fa2ccd6f7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_ampl_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_eosd_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_eosd_season1.txt",
+        "fileSize": 1104,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:41.053056",
+        "md5Hash": "98a861119b7b019a0393473de67714be",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_eosd_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_eosd_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_eosd_season2.txt",
+        "fileSize": 1104,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:41.433397",
+        "md5Hash": "98a861119b7b019a0393473de67714be",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_eosd_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_eosv_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_eosv_season1.txt",
+        "fileSize": 229,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:41.808093",
+        "md5Hash": "c512bc9488fb859a355ba23fa2ccd6f7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_eosv_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_eosv_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_eosv_season2.txt",
+        "fileSize": 229,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:42.208254",
+        "md5Hash": "c512bc9488fb859a355ba23fa2ccd6f7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_eosv_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_length_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_length_season1.txt",
+        "fileSize": 5936,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:42.582909",
+        "md5Hash": "2abea5e9da23de8e85c39292e9ebc516",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_length_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_length_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_length_season2.txt",
+        "fileSize": 5936,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:42.770535",
+        "md5Hash": "2abea5e9da23de8e85c39292e9ebc516",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_length_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_lslope_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_lslope_season1.txt",
+        "fileSize": 218,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:43.162935",
+        "md5Hash": "88ddeded4a9feede3342ae6f24f87712",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_lslope_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_lslope_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_lslope_season2.txt",
+        "fileSize": 218,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:43.547696",
+        "md5Hash": "88ddeded4a9feede3342ae6f24f87712",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_lslope_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_maxd_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_maxd_season1.txt",
+        "fileSize": 1104,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:43.942310",
+        "md5Hash": "98a861119b7b019a0393473de67714be",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_maxd_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_maxd_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_maxd_season2.txt",
+        "fileSize": 1104,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:44.311171",
+        "md5Hash": "98a861119b7b019a0393473de67714be",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_maxd_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_maxv_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_maxv_season1.txt",
+        "fileSize": 229,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:44.693349",
+        "md5Hash": "c512bc9488fb859a355ba23fa2ccd6f7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_maxv_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_maxv_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_maxv_season2.txt",
+        "fileSize": 229,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:45.072367",
+        "md5Hash": "c512bc9488fb859a355ba23fa2ccd6f7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_maxv_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_minv_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_minv_season1.txt",
+        "fileSize": 229,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:45.260333",
+        "md5Hash": "c512bc9488fb859a355ba23fa2ccd6f7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_minv_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_minv_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_minv_season2.txt",
+        "fileSize": 229,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:45.637525",
+        "md5Hash": "c512bc9488fb859a355ba23fa2ccd6f7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_minv_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_qa_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_qa_season1.txt",
+        "fileSize": 183,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:46.021970",
+        "md5Hash": "242dd278bc4d6a79bef164da8e3b6fa7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_qa_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_qa_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_qa_season2.txt",
+        "fileSize": 183,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:46.407862",
+        "md5Hash": "242dd278bc4d6a79bef164da8e3b6fa7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_qa_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_rslope_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_rslope_season1.txt",
+        "fileSize": 218,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:46.771917",
+        "md5Hash": "88ddeded4a9feede3342ae6f24f87712",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_rslope_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_rslope_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_rslope_season2.txt",
+        "fileSize": 218,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:47.166077",
+        "md5Hash": "88ddeded4a9feede3342ae6f24f87712",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_rslope_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_sosd_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_sosd_season1.txt",
+        "fileSize": 1104,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:47.552191",
+        "md5Hash": "98a861119b7b019a0393473de67714be",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_sosd_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_sosd_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_sosd_season2.txt",
+        "fileSize": 1104,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:47.921161",
+        "md5Hash": "98a861119b7b019a0393473de67714be",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_sosd_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_sosv_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_sosv_season1.txt",
+        "fileSize": 229,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:48.113940",
+        "md5Hash": "c512bc9488fb859a355ba23fa2ccd6f7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_sosv_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_sosv_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_sosv_season2.txt",
+        "fileSize": 229,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:48.314858",
+        "md5Hash": "c512bc9488fb859a355ba23fa2ccd6f7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_sosv_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_sprod_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_sprod_season1.txt",
+        "fileSize": 297,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:48.705299",
+        "md5Hash": "8ad3671da53df7c43ed7d27c02c8c4cf",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_sprod_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_sprod_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_sprod_season2.txt",
+        "fileSize": 297,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:49.078369",
+        "md5Hash": "8ad3671da53df7c43ed7d27c02c8c4cf",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_sprod_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_tprod_season1.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_tprod_season1.txt",
+        "fileSize": 297,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:49.687479",
+        "md5Hash": "8ad3671da53df7c43ed7d27c02c8c4cf",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_tprod_season1"
+        }
+      },
+      {
+        "fileName": "clms_global_lsp_300m_v1_yearly_tprod_season2.txt",
+        "filePath": "colourmaps\\lsp_global_300m_yearly_v1\\clms_global_lsp_300m_v1_yearly_tprod_season2.txt",
+        "fileSize": 297,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:49.897995",
+        "md5Hash": "8ad3671da53df7c43ed7d27c02c8c4cf",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lsp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "yearly_tprod_season2"
+        }
+      },
+      {
+        "fileName": "clms_global_lst_5km_v1_10daily-daily-cycle.txt",
+        "filePath": "colourmaps\\lst-daily-cycle_global_5km_10daily_v1\\clms_global_lst_5km_v1_10daily-daily-cycle.txt",
+        "fileSize": 5338,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:50.361053",
+        "md5Hash": "e539680cf690eececd7163e7c7e1790f",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "5km",
+          "version": "1",
+          "temporal": "10daily-daily-cycle"
+        }
+      },
+      {
+        "fileName": "clms_global_lst_5km_v1_10daily-tci.txt",
+        "filePath": "colourmaps\\lst-daily-cycle_global_5km_10daily_v1\\clms_global_lst_5km_v1_10daily-tci.txt",
+        "fileSize": 5338,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:50.722463",
+        "md5Hash": "e539680cf690eececd7163e7c7e1790f",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "5km",
+          "version": "1",
+          "temporal": "10daily-tci"
+        }
+      },
+      {
+        "fileName": "clms_global_lst_5km_v2_10daily-daily-cycle.txt",
+        "filePath": "colourmaps\\lst-daily-cycle_global_5km_10daily_v2\\clms_global_lst_5km_v2_10daily-daily-cycle.txt",
+        "fileSize": 5338,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:51.144910",
+        "md5Hash": "e539680cf690eececd7163e7c7e1790f",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "5km",
+          "version": "2",
+          "temporal": "10daily-daily-cycle"
+        }
+      },
+      {
+        "fileName": "clms_global_lst_5km_v2_10daily-tci.txt",
+        "filePath": "colourmaps\\lst-daily-cycle_global_5km_10daily_v2\\clms_global_lst_5km_v2_10daily-tci.txt",
+        "fileSize": 5338,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:51.528039",
+        "md5Hash": "e539680cf690eececd7163e7c7e1790f",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "5km",
+          "version": "2",
+          "temporal": "10daily-tci"
+        }
+      },
+      {
+        "fileName": "clms_global_ndvi_1km_v2_statistics.txt",
+        "filePath": "colourmaps\\ndvi-lts_global_1km_10daily_v2\\clms_global_ndvi_1km_v2_statistics.txt",
+        "fileSize": 412,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:55.205446",
+        "md5Hash": "4e02f1446e8bd95e1aae568fa0bdedc0",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "ndvi",
+          "resolution": "1km",
+          "version": "2",
+          "temporal": "statistics"
+        }
+      },
+      {
+        "fileName": "clms_global_ndvi_1km_v3_statistics.txt",
+        "filePath": "colourmaps\\ndvi-lts_global_1km_10daily_v3\\clms_global_ndvi_1km_v3_statistics.txt",
+        "fileSize": 412,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:56.007613",
+        "md5Hash": "4e02f1446e8bd95e1aae568fa0bdedc0",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "ndvi",
+          "resolution": "1km",
+          "version": "3",
+          "temporal": "statistics"
+        }
+      },
+      {
+        "fileName": "clms_global_ndvi_1km_v2_10daily.txt",
+        "filePath": "colourmaps\\ndvi_global_1km_10daily_v2\\clms_global_ndvi_1km_v2_10daily.txt",
+        "fileSize": 412,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:54.825554",
+        "md5Hash": "4e02f1446e8bd95e1aae568fa0bdedc0",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "ndvi",
+          "resolution": "1km",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_ndvi_1km_v3_10daily.txt",
+        "filePath": "colourmaps\\ndvi_global_1km_10daily_v3\\clms_global_ndvi_1km_v3_10daily.txt",
+        "fileSize": 412,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:55.586863",
+        "md5Hash": "4e02f1446e8bd95e1aae568fa0bdedc0",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "ndvi",
+          "resolution": "1km",
+          "version": "3",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_ndvi_300m_v1_10daily.txt",
+        "filePath": "colourmaps\\ndvi_global_300m_10daily_v1\\clms_global_ndvi_300m_v1_10daily.txt",
+        "fileSize": 412,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:56.391528",
+        "md5Hash": "4e02f1446e8bd95e1aae568fa0bdedc0",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "ndvi",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_ndvi_300m_v2_10daily.txt",
+        "filePath": "colourmaps\\ndvi_global_300m_10daily_v2\\clms_global_ndvi_300m_v2_10daily.txt",
+        "fileSize": 412,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:56.592826",
+        "md5Hash": "4e02f1446e8bd95e1aae568fa0bdedc0",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "ndvi",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_npp_300m_v1_10daily.txt",
+        "filePath": "colourmaps\\npp_global_300m_10daily_v1\\clms_global_npp_300m_v1_10daily.txt",
+        "fileSize": 243,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:56.795101",
+        "md5Hash": "48ee2d0a28694644281874e3d42fc33a",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "npp",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_ceuro_sce_500m_v1_daily.txt",
+        "filePath": "colourmaps\\sce_europe_500m_daily_v1\\clms_ceuro_sce_500m_v1_daily.txt",
+        "fileSize": 3905,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:33.580770",
+        "md5Hash": "5b6a379f1e1cbbe70e28cf93c41d562d",
+        "productInfo": {
+          "product": "clms",
+          "region": "ceuro",
+          "variable": "sce",
+          "resolution": "500m",
+          "version": "1",
+          "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_nhemi_sce_1km_v1_daily.txt",
+        "filePath": "colourmaps\\sce_northernhemisphere_1km_daily_v1\\clms_nhemi_sce_1km_v1_daily.txt",
+        "fileSize": 3905,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:59.273607",
+        "md5Hash": "5b6a379f1e1cbbe70e28cf93c41d562d",
+        "productInfo": {
+          "product": "clms",
+          "region": "nhemi",
+          "variable": "sce",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_global_ssm_1km_v1_daily.txt",
+        "filePath": "colourmaps\\ssm_europe_1km_daily_v1\\clms_global_ssm_1km_v1_daily.txt",
+        "fileSize": 315,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:57.216110",
+        "md5Hash": "8663a734beeba5239b36da5e01245f92",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "ssm",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_global_swi_1km_v1_daily.txt",
+        "filePath": "colourmaps\\swi_europe_1km_daily_v1\\clms_global_swi_1km_v1_daily.txt",
+        "fileSize": 315,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:57.613537",
+        "md5Hash": "8663a734beeba5239b36da5e01245f92",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "swi",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_global_swi_12.5km_v3_10daily.txt",
+        "filePath": "colourmaps\\swi_global_12.5km_10daily_v3\\clms_global_swi_12.5km_v3_10daily.txt",
+        "fileSize": 315,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:58.051922",
+        "md5Hash": "8663a734beeba5239b36da5e01245f92",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "swi",
+          "resolution": "12.5km",
+          "version": "3",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_swi_12.5km_v3_daily.txt",
+        "filePath": "colourmaps\\swi_global_12.5km_daily_v3\\clms_global_swi_12.5km_v3_daily.txt",
+        "fileSize": 315,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:58.281056",
+        "md5Hash": "8663a734beeba5239b36da5e01245f92",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "swi",
+          "resolution": "12.5km",
+          "version": "3",
+          "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_global_wb_100m_v1_monthly.txt",
+        "filePath": "colourmaps\\wb_global_100m_monthly_v1\\clms_global_wb_100m_v1_monthly.txt",
+        "fileSize": 158,
+        "fileType": "txt",
+        "lastModified": "2025-04-28T18:13:58.547596",
+        "md5Hash": "5201736fb20e8b1dc1fcea36d0fc4fba",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "wb",
+          "resolution": "100m",
+          "version": "1",
+          "temporal": "monthly"
+        }
+      }
+    ]
+  }
+}
