@@ -29,6 +29,14 @@ The filename of the colour maps and legends follows this pattern:
 
 NOTE: in case of multiple layers/variables names should be distint accordingly to the specific variable represented e.g. 'clms_global_NDVI300-NDVI_v2_10daily.sld, clms_global_NDVI300-NOBS_v2_10daily.sld ...'
 
+## Machine-to-Machine (M2M) Access
+
+This repository is designed for machine-to-machine access with these features:
+
+1. **index.json files**: Each directory contains an index.json file that lists all resources with metadata
+2. **metadata.json**: Repository-level metadata for automated discovery
+3. **Structured filenames**: Consistent naming pattern for programmatic parsing
+
 ## Usage
 
 These colour maps and legends are used to standardize the visual representation of CGLS data products across various applications and platforms.
