@@ -2,10 +2,346 @@
   "directoryName": "colourmaps",
   "directoryPath": "colourmaps",
   "directoryType": "colourmaps",
-  "fileCount": 71,
-  "generatedAt": "2025-04-28T18:35:57.434693",
+  "fileCount": 99,
+  "generatedAt": "2025-05-05T19:07:22.935467",
   "products": {
     "clms": [
+      {
+        "fileName": "clms_global_lswt_1km_v1_10daily-nrt-lake_surface_water_temperature.sld",
+        "filePath": "colourmaps\\clms_global_lswt_1km_v1_10daily-nrt-lake_surface_water_temperature.sld",
+        "fileSize": 26174,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.228955",
+        "md5Hash": "77d50ab7ecb66a04a27658d08139b830",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lswt",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "10daily-nrt-lake_surface_water_temperature"
+        }
+      },
+      {
+        "fileName": "clms_global_lswt_1km_v1_10daily-reproc-lake_surface_water_temperature.sld",
+        "filePath": "colourmaps\\clms_global_lswt_1km_v1_10daily-reproc-lake_surface_water_temperature.sld",
+        "fileSize": 26174,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.229955",
+        "md5Hash": "77d50ab7ecb66a04a27658d08139b830",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lswt",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "10daily-reproc-lake_surface_water_temperature"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v1_10daily-Rw.sld",
+        "filePath": "colourmaps\\clms_global_lwq_100m_v1_10daily-Rw.sld",
+        "fileSize": 1512,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.229955",
+        "md5Hash": "1a43aba33d6927d3ee5083b69de265a5",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "100m",
+          "version": "1",
+          "temporal": "10daily-Rw"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v1_10daily-trophic_state_index.sld",
+        "filePath": "colourmaps\\clms_global_lwq_100m_v1_10daily-trophic_state_index.sld",
+        "fileSize": 1783,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.229955",
+        "md5Hash": "62d3e519dcdce06a7412f0b1aba61c2c",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "100m",
+          "version": "1",
+          "temporal": "10daily-trophic_state_index"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v1_10daily-turbidity_blended_mean.sld",
+        "filePath": "colourmaps\\clms_global_lwq_100m_v1_10daily-turbidity_blended_mean.sld",
+        "fileSize": 2540,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.230955",
+        "md5Hash": "c68b0869869951dc36cf14a8c7cd426d",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "100m",
+          "version": "1",
+          "temporal": "10daily-turbidity_blended_mean"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v2_10daily-floating_cyanobacteria.sld",
+        "filePath": "colourmaps\\clms_global_lwq_100m_v2_10daily-floating_cyanobacteria.sld",
+        "fileSize": 1451,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.230955",
+        "md5Hash": "6f7dd1326d7f2129a2d71f9aeb83ab3a",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "100m",
+          "version": "2",
+          "temporal": "10daily-floating_cyanobacteria"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v2_10daily-Rw.sld",
+        "filePath": "colourmaps\\clms_global_lwq_100m_v2_10daily-Rw.sld",
+        "fileSize": 1512,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.230955",
+        "md5Hash": "1a43aba33d6927d3ee5083b69de265a5",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "100m",
+          "version": "2",
+          "temporal": "10daily-Rw"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_1km_v1_10daily-nrt-Rw.sld",
+        "filePath": "colourmaps\\clms_global_lwq_1km_v1_10daily-nrt-Rw.sld",
+        "fileSize": 1512,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.231955",
+        "md5Hash": "1a43aba33d6927d3ee5083b69de265a5",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "10daily-nrt-Rw"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_1km_v1_10daily-nrt-trophic_state_mean.sld",
+        "filePath": "colourmaps\\clms_global_lwq_1km_v1_10daily-nrt-trophic_state_mean.sld",
+        "fileSize": 1783,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.231955",
+        "md5Hash": "62d3e519dcdce06a7412f0b1aba61c2c",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "10daily-nrt-trophic_state_mean"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_1km_v1_10daily-nrt-turbidity_mean.sld",
+        "filePath": "colourmaps\\clms_global_lwq_1km_v1_10daily-nrt-turbidity_mean.sld",
+        "fileSize": 2540,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.231955",
+        "md5Hash": "c68b0869869951dc36cf14a8c7cd426d",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "10daily-nrt-turbidity_mean"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_1km_v1_10daily-reproc-Rw.sld",
+        "filePath": "colourmaps\\clms_global_lwq_1km_v1_10daily-reproc-Rw.sld",
+        "fileSize": 1512,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.231955",
+        "md5Hash": "1a43aba33d6927d3ee5083b69de265a5",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "10daily-reproc-Rw"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_1km_v1_10daily-reproc-trophic_state_mean.sld",
+        "filePath": "colourmaps\\clms_global_lwq_1km_v1_10daily-reproc-trophic_state_mean.sld",
+        "fileSize": 1783,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.232955",
+        "md5Hash": "62d3e519dcdce06a7412f0b1aba61c2c",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "10daily-reproc-trophic_state_mean"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_1km_v1_10daily-reproc-turbidity_mean.sld",
+        "filePath": "colourmaps\\clms_global_lwq_1km_v1_10daily-reproc-turbidity_mean.sld",
+        "fileSize": 2540,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.232955",
+        "md5Hash": "c68b0869869951dc36cf14a8c7cd426d",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "1km",
+          "version": "1",
+          "temporal": "10daily-reproc-turbidity_mean"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v1_10daily-reproc-Rw.sld",
+        "filePath": "colourmaps\\clms_global_lwq_300m_v1_10daily-reproc-Rw.sld",
+        "fileSize": 1512,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.234012",
+        "md5Hash": "1a43aba33d6927d3ee5083b69de265a5",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily-reproc-Rw"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v1_10daily-reproc-trophic_state_index.sld",
+        "filePath": "colourmaps\\clms_global_lwq_300m_v1_10daily-reproc-trophic_state_index.sld",
+        "fileSize": 1783,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.234012",
+        "md5Hash": "62d3e519dcdce06a7412f0b1aba61c2c",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily-reproc-trophic_state_index"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v1_10daily-reproc-turbidity_mean.sld",
+        "filePath": "colourmaps\\clms_global_lwq_300m_v1_10daily-reproc-turbidity_mean.sld",
+        "fileSize": 2540,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.234012",
+        "md5Hash": "c68b0869869951dc36cf14a8c7cd426d",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily-reproc-turbidity_mean"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v1_10daily-Rw.sld",
+        "filePath": "colourmaps\\clms_global_lwq_300m_v1_10daily-Rw.sld",
+        "fileSize": 1512,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.232955",
+        "md5Hash": "1a43aba33d6927d3ee5083b69de265a5",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily-Rw"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v1_10daily-trophic_state_index.sld",
+        "filePath": "colourmaps\\clms_global_lwq_300m_v1_10daily-trophic_state_index.sld",
+        "fileSize": 1783,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.235020",
+        "md5Hash": "62d3e519dcdce06a7412f0b1aba61c2c",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily-trophic_state_index"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v1_10daily-turbidity_mean.sld",
+        "filePath": "colourmaps\\clms_global_lwq_300m_v1_10daily-turbidity_mean.sld",
+        "fileSize": 2540,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.235020",
+        "md5Hash": "c68b0869869951dc36cf14a8c7cd426d",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily-turbidity_mean"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v2_10daily-floating_cyanobacteria.sld",
+        "filePath": "colourmaps\\clms_global_lwq_300m_v2_10daily-floating_cyanobacteria.sld",
+        "fileSize": 1451,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.236012",
+        "md5Hash": "6f7dd1326d7f2129a2d71f9aeb83ab3a",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily-floating_cyanobacteria"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v2_10daily-Rw.sld",
+        "filePath": "colourmaps\\clms_global_lwq_300m_v2_10daily-Rw.sld",
+        "fileSize": 1512,
+        "fileType": "sld",
+        "lastModified": "2025-05-05T16:19:27.235020",
+        "md5Hash": "1a43aba33d6927d3ee5083b69de265a5",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lwq",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily-Rw"
+        }
+      },
       {
         "fileName": "clms_global_fapar_1km_v1_10daily.sld",
         "filePath": "colourmaps\\fapar_global_1km_10daily_v1\\clms_global_fapar_1km_v1_10daily.sld",
@@ -276,6 +612,54 @@
           "resolution": "300m",
           "version": "3",
           "temporal": "monthly"
+        }
+      },
+      {
+        "fileName": "clms_baltic_lie_250m_v1_daily.txt",
+        "filePath": "colourmaps\\clms_baltic_lie_250m_v1_daily\\clms_baltic_lie_250m_v1_daily.txt",
+        "fileSize": 244,
+        "fileType": "txt",
+        "lastModified": "2025-05-05T19:06:16.751502",
+        "md5Hash": "5cb1528da7a70f5b03f9d5e254b9560a",
+        "productInfo": {
+          "product": "clms",
+          "region": "baltic",
+          "variable": "lie",
+          "resolution": "250m",
+          "version": "1",
+          "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_ceuro_lie_250m_v2_daily.txt",
+        "filePath": "colourmaps\\clms_ceuro_lie_250m_v2_daily\\clms_ceuro_lie_250m_v2_daily.txt",
+        "fileSize": 244,
+        "fileType": "txt",
+        "lastModified": "2025-05-05T19:06:16.752023",
+        "md5Hash": "5cb1528da7a70f5b03f9d5e254b9560a",
+        "productInfo": {
+          "product": "clms",
+          "region": "ceuro",
+          "variable": "lie",
+          "resolution": "250m",
+          "version": "2",
+          "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_nhemi_lie_500m_v1_daily.txt",
+        "filePath": "colourmaps\\clms_nhemi_lie_500m_v1_daily\\clms_nhemi_lie_500m_v1_daily.txt",
+        "fileSize": 208,
+        "fileType": "txt",
+        "lastModified": "2025-05-05T19:06:16.752544",
+        "md5Hash": "6c80eda8593349ebc021087be4a81221",
+        "productInfo": {
+          "product": "clms",
+          "region": "nhemi",
+          "variable": "lie",
+          "resolution": "500m",
+          "version": "1",
+          "temporal": "daily"
         }
       },
       {
@@ -857,10 +1241,10 @@
       {
         "fileName": "clms_global_lst_5km_v1_10daily-daily-cycle.txt",
         "filePath": "colourmaps\\lst-daily-cycle_global_5km_10daily_v1\\clms_global_lst_5km_v1_10daily-daily-cycle.txt",
-        "fileSize": 5338,
+        "fileSize": 288,
         "fileType": "txt",
-        "lastModified": "2025-04-28T18:13:50.361053",
-        "md5Hash": "e539680cf690eececd7163e7c7e1790f",
+        "lastModified": "2025-05-05T18:58:46.142987",
+        "md5Hash": "7d8f3c373cb2abf0e62a49d571e0e8a9",
         "productInfo": {
           "product": "clms",
           "region": "global",
@@ -871,12 +1255,28 @@
         }
       },
       {
+        "fileName": "clms_global_lst_5km_v1_10daily-synthesis.txt",
+        "filePath": "colourmaps\\lst-daily-cycle_global_5km_10daily_v1\\clms_global_lst_5km_v1_10daily-synthesis.txt",
+        "fileSize": 288,
+        "fileType": "txt",
+        "lastModified": "2025-05-05T18:58:46.143986",
+        "md5Hash": "7d8f3c373cb2abf0e62a49d571e0e8a9",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "5km",
+          "version": "1",
+          "temporal": "10daily-synthesis"
+        }
+      },
+      {
         "fileName": "clms_global_lst_5km_v1_10daily-tci.txt",
         "filePath": "colourmaps\\lst-daily-cycle_global_5km_10daily_v1\\clms_global_lst_5km_v1_10daily-tci.txt",
-        "fileSize": 5338,
+        "fileSize": 360,
         "fileType": "txt",
-        "lastModified": "2025-04-28T18:13:50.722463",
-        "md5Hash": "e539680cf690eececd7163e7c7e1790f",
+        "lastModified": "2025-05-05T18:58:46.143986",
+        "md5Hash": "44cbfda0a3387ebc0c1d13b890e2140e",
         "productInfo": {
           "product": "clms",
           "region": "global",
@@ -889,10 +1289,10 @@
       {
         "fileName": "clms_global_lst_5km_v2_10daily-daily-cycle.txt",
         "filePath": "colourmaps\\lst-daily-cycle_global_5km_10daily_v2\\clms_global_lst_5km_v2_10daily-daily-cycle.txt",
-        "fileSize": 5338,
+        "fileSize": 288,
         "fileType": "txt",
-        "lastModified": "2025-04-28T18:13:51.144910",
-        "md5Hash": "e539680cf690eececd7163e7c7e1790f",
+        "lastModified": "2025-05-05T18:58:46.144987",
+        "md5Hash": "7d8f3c373cb2abf0e62a49d571e0e8a9",
         "productInfo": {
           "product": "clms",
           "region": "global",
@@ -903,12 +1303,28 @@
         }
       },
       {
+        "fileName": "clms_global_lst_5km_v2_10daily-synthesis.txt",
+        "filePath": "colourmaps\\lst-daily-cycle_global_5km_10daily_v2\\clms_global_lst_5km_v2_10daily-synthesis.txt",
+        "fileSize": 288,
+        "fileType": "txt",
+        "lastModified": "2025-05-05T18:58:46.144987",
+        "md5Hash": "7d8f3c373cb2abf0e62a49d571e0e8a9",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "5km",
+          "version": "2",
+          "temporal": "10daily-synthesis"
+        }
+      },
+      {
         "fileName": "clms_global_lst_5km_v2_10daily-tci.txt",
         "filePath": "colourmaps\\lst-daily-cycle_global_5km_10daily_v2\\clms_global_lst_5km_v2_10daily-tci.txt",
-        "fileSize": 5338,
+        "fileSize": 360,
         "fileType": "txt",
-        "lastModified": "2025-04-28T18:13:51.528039",
-        "md5Hash": "e539680cf690eececd7163e7c7e1790f",
+        "lastModified": "2025-05-05T18:58:46.145987",
+        "md5Hash": "44cbfda0a3387ebc0c1d13b890e2140e",
         "productInfo": {
           "product": "clms",
           "region": "global",
@@ -916,6 +1332,38 @@
           "resolution": "5km",
           "version": "2",
           "temporal": "10daily-tci"
+        }
+      },
+      {
+        "fileName": "clms_global_lst_5km_v1_hourly.txt",
+        "filePath": "colourmaps\\lst_global_5km_hourly_v1\\clms_global_lst_5km_v1_hourly.txt",
+        "fileSize": 288,
+        "fileType": "txt",
+        "lastModified": "2025-05-05T18:58:46.146987",
+        "md5Hash": "7d8f3c373cb2abf0e62a49d571e0e8a9",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "5km",
+          "version": "1",
+          "temporal": "hourly"
+        }
+      },
+      {
+        "fileName": "clms_global_lst_5km_v2_hourly.txt",
+        "filePath": "colourmaps\\lst_global_5km_hourly_v2\\clms_global_lst_5km_v2_hourly.txt",
+        "fileSize": 288,
+        "fileType": "txt",
+        "lastModified": "2025-05-05T18:58:46.146987",
+        "md5Hash": "7d8f3c373cb2abf0e62a49d571e0e8a9",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "5km",
+          "version": "2",
+          "temporal": "hourly"
         }
       },
       {
