@@ -6,10 +6,10 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <NamedLayer>
-    <Name>clms_nhemi_lie_500m_v1_daily</Name>
+    <Name>clms_nhemi_lie_500m_lie_v1_daily</Name>
     <UserStyle>
-      <Title>clms_nhemi_lie_500m_v1_daily</Title>
-      <Abstract>SLD for clms_nhemi_lie_500m_v1_daily</Abstract>
+      <Title>clms_nhemi_lie_500m_lie_v1_daily</Title>
+      <Abstract>SLD for clms_nhemi_lie_500m_lie_v1_daily</Abstract>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
