@@ -10,6 +10,3 @@
 100,0,100,200,255,Permanent water bodies
 110,240,240,240,255,Snow and ice
 254,10,10,10,255,Unclassifiable
- 
- 
- 
