@@ -22,6 +22,9 @@ SLD (Style Layer Descriptor) is the standard format used for colour maps. TXT fi
 
 ## Naming Convention
 
+The **folder** name follows the pattern:
+- `<dataset_short_name>_<coveragearea>_<nominal_resolution>_<temporal_sampling>_<Major_version>`, e.g., `ndvi_global_1km_10daily_V2`
+
 The filename of the colour maps and legends follows this pattern:
 
 - **ColourMaps**: `<layer_name>.(sld|txt)`, e.g., `clms_global_ndvi_1km_v2_10daily.sld`
