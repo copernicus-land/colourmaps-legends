@@ -2,100 +2,16 @@
   "directoryName": "colourmaps",
   "directoryPath": "colourmaps",
   "directoryType": "colourmaps",
-  "fileCount": 120,
-  "generatedAt": "2025-05-12T10:49:27.847269",
+  "fileCount": 130,
+  "generatedAt": "2025-11-24T17:44:47.746086",
   "products": {
     "clms": [
-      {
-        "fileName": "clms_baltic_lie_250m_v1_daily.sld",
-        "filePath": "colourmaps\\clms_baltic_lie_250m_v1_daily\\clms_baltic_lie_250m_v1_daily.sld",
-        "fileSize": 1495,
-        "fileType": "sld",
-        "lastModified": "2025-05-12T09:07:28.478631",
-        "md5Hash": "2af0aac0ec55e7f9309a4db63f9402ca",
-        "productInfo": {
-          "product": "clms",
-          "region": "baltic",
-          "variable": "lie",
-          "resolution": "250m",
-          "version": "1",
-          "temporal": "daily"
-        }
-      },
-      {
-        "fileName": "clms_ceuro_lie_250m_v2_daily.sld",
-        "filePath": "colourmaps\\clms_ceuro_lie_250m_v2_daily\\clms_ceuro_lie_250m_v2_daily.sld",
-        "fileSize": 1492,
-        "fileType": "sld",
-        "lastModified": "2025-05-12T09:07:28.479631",
-        "md5Hash": "01edb5517928e34dfa538ce56a531570",
-        "productInfo": {
-          "product": "clms",
-          "region": "ceuro",
-          "variable": "lie",
-          "resolution": "250m",
-          "version": "2",
-          "temporal": "daily"
-        }
-      },
-      {
-        "fileName": "clms_global_swi_12.5km_static_ci_v3.sld",
-        "filePath": "colourmaps\\clms_global_swi_12.5km_static_ci_v3\\clms_global_swi_12.5km_static_ci_v3.sld",
-        "fileSize": 20224,
-        "fileType": "sld",
-        "lastModified": "2025-05-12T09:07:28.480631",
-        "md5Hash": "5a2a7d291c774ef9fd555f4199f37520",
-        "productInfo": {
-          "product": "clms",
-          "variable": "swi",
-          "version": "unknown"
-        }
-      },
-      {
-        "fileName": "clms_global_swi_12.5km_static_fm_v3.sld",
-        "filePath": "colourmaps\\clms_global_swi_12.5km_static_fm_v3\\clms_global_swi_12.5km_static_fm_v3.sld",
-        "fileSize": 1099,
-        "fileType": "sld",
-        "lastModified": "2025-05-12T09:07:28.480631",
-        "md5Hash": "8329fd6473b15d8a3c3326785158eef2",
-        "productInfo": {
-          "product": "clms",
-          "variable": "swi",
-          "version": "unknown"
-        }
-      },
-      {
-        "fileName": "clms_global_swi_12.5km_static_tc_v3.sld",
-        "filePath": "colourmaps\\clms_global_swi_12.5km_static_tc_v3\\clms_global_swi_12.5km_static_tc_v3.sld",
-        "fileSize": 8700,
-        "fileType": "sld",
-        "lastModified": "2025-05-12T09:07:28.481694",
-        "md5Hash": "4f835c950d16bfe66c470c87ad047f3f",
-        "productInfo": {
-          "product": "clms",
-          "variable": "swi",
-          "version": "unknown"
-        }
-      },
-      {
-        "fileName": "clms_global_swi_12.5km_static_wf_v3.sld",
-        "filePath": "colourmaps\\clms_global_swi_12.5km_static_wf_v3\\clms_global_swi_12.5km_static_wf_v3.sld",
-        "fileSize": 8694,
-        "fileType": "sld",
-        "lastModified": "2025-05-12T09:07:28.482699",
-        "md5Hash": "d293732f3000b42de644224b70347166",
-        "productInfo": {
-          "product": "clms",
-          "variable": "swi",
-          "version": "unknown"
-        }
-      },
       {
         "fileName": "clms_nhemi_lie_500m_lie_v1_daily.sld",
         "filePath": "colourmaps\\clms_nhemi_lie_500m_v1_daily\\clms_nhemi_lie_500m_lie_v1_daily.sld",
         "fileSize": 1470,
         "fileType": "sld",
-        "lastModified": "2025-05-12T09:07:28.482699",
+        "lastModified": "2025-11-24T17:36:03.039906",
         "md5Hash": "7c21aab5435ff7f910a034186d0da7af",
         "productInfo": {
           "product": "clms",
@@ -108,12 +24,124 @@
         "filePath": "colourmaps\\clms_nhemi_lie_500m_v1_daily\\clms_nhemi_lie_500m_statistical_probability_v1_daily.sld",
         "fileSize": 1358,
         "fileType": "sld",
-        "lastModified": "2025-05-12T09:07:28.484699",
+        "lastModified": "2025-11-24T17:36:03.048641",
         "md5Hash": "59f23e0198998d8c8643f3327b8fb615",
         "productInfo": {
           "product": "clms",
           "variable": "lie",
           "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_eta-flag_300m_v1_10daily.sld",
+        "filePath": "colourmaps\\eta_global_300m_10daily_v1\\clms_global_eta-flag_300m_v1_10daily.sld",
+        "fileSize": 1298,
+        "fileType": "sld",
+        "lastModified": "2025-11-24T17:25:28.559629",
+        "md5Hash": "3aebb03835af17092104ffcc27a3b8e7",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "eta-flag",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_eta-gfd_300m_v1_10daily.sld",
+        "filePath": "colourmaps\\eta_global_300m_10daily_v1\\clms_global_eta-gfd_300m_v1_10daily.sld",
+        "fileSize": 1194,
+        "fileType": "sld",
+        "lastModified": "2025-11-24T17:25:28.562144",
+        "md5Hash": "f8313991e8b7981a785750750d68123d",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "eta-gfd",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_eta-nobs_300m_v1_10daily.sld",
+        "filePath": "colourmaps\\eta_global_300m_10daily_v1\\clms_global_eta-nobs_300m_v1_10daily.sld",
+        "fileSize": 1235,
+        "fileType": "sld",
+        "lastModified": "2025-11-24T17:25:28.563864",
+        "md5Hash": "078b40ddc76adcbb3a383e5a46e3eecc",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "eta-nobs",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_eta-std_300m_v1_10daily.sld",
+        "filePath": "colourmaps\\eta_global_300m_10daily_v1\\clms_global_eta-std_300m_v1_10daily.sld",
+        "fileSize": 1271,
+        "fileType": "sld",
+        "lastModified": "2025-11-24T17:25:28.564863",
+        "md5Hash": "31a5a3557f04ead6787290bcd062b73a",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "eta-std",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_eta-wf_300m_v1_10daily.sld",
+        "filePath": "colourmaps\\eta_global_300m_10daily_v1\\clms_global_eta-wf_300m_v1_10daily.sld",
+        "fileSize": 1237,
+        "fileType": "sld",
+        "lastModified": "2025-11-24T17:25:28.567381",
+        "md5Hash": "c4f43e96b71472aca0c004b774112bd4",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "eta-wf",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_eta-h_300m_v1_daily.sld",
+        "filePath": "colourmaps\\eta_global_300m_daily_v1\\clms_global_eta-h_300m_v1_daily.sld",
+        "fileSize": 1205,
+        "fileType": "sld",
+        "lastModified": "2025-11-24T17:25:28.569385",
+        "md5Hash": "8568b0281e0005a563520fce5531065e",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "eta-h",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_global_eta-le_300m_v1_daily.sld",
+        "filePath": "colourmaps\\eta_global_300m_daily_v1\\clms_global_eta-le_300m_v1_daily.sld",
+        "fileSize": 1201,
+        "fileType": "sld",
+        "lastModified": "2025-11-24T17:25:28.570906",
+        "md5Hash": "c3ea8dfe738a88e812eb6075c6bd07e6",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "eta-le",
+          "resolution": "300m",
+          "version": "1",
+          "temporal": "daily"
         }
       },
       {
@@ -210,6 +238,38 @@
           "resolution": "300m",
           "version": "1",
           "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_baltic_lie_250m_v1_daily.sld",
+        "filePath": "colourmaps\\lie_baltic_250m_daily_v1\\clms_baltic_lie_250m_v1_daily.sld",
+        "fileSize": 1495,
+        "fileType": "sld",
+        "lastModified": "2025-11-24T17:36:03.021359",
+        "md5Hash": "2af0aac0ec55e7f9309a4db63f9402ca",
+        "productInfo": {
+          "product": "clms",
+          "region": "baltic",
+          "variable": "lie",
+          "resolution": "250m",
+          "version": "1",
+          "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_ceuro_lie_250m_v2_daily.sld",
+        "filePath": "colourmaps\\lie_ceurope_250m_daily_v2\\clms_ceuro_lie_250m_v2_daily.sld",
+        "fileSize": 1492,
+        "fileType": "sld",
+        "lastModified": "2025-11-24T17:36:03.032397",
+        "md5Hash": "01edb5517928e34dfa538ce56a531570",
+        "productInfo": {
+          "product": "clms",
+          "region": "ceuro",
+          "variable": "lie",
+          "resolution": "250m",
+          "version": "2",
+          "temporal": "daily"
         }
       },
       {
@@ -729,7 +789,7 @@
         "filePath": "colourmaps\\lwq-nrt_global_300m_10daily_v2\\clms_global_lwq_300m_v2_10daily-floating_cyanobacteria.sld",
         "fileSize": 1451,
         "fileType": "sld",
-        "lastModified": "2025-05-05T16:19:27.236012",
+        "lastModified": "2025-11-14T13:44:25.284961",
         "md5Hash": "6f7dd1326d7f2129a2d71f9aeb83ab3a",
         "productInfo": {
           "product": "clms",
@@ -917,6 +977,74 @@
         }
       },
       {
+        "fileName": "clms_global_swi_12.5km_static_ci_v3.sld",
+        "filePath": "colourmaps\\swi-static_global_12.5km_daily_v3\\clms_global_swi_12.5km_static_ci_v3.sld",
+        "fileSize": 20224,
+        "fileType": "sld",
+        "lastModified": "2025-05-12T09:07:28.480631",
+        "md5Hash": "5a2a7d291c774ef9fd555f4199f37520",
+        "productInfo": {
+          "product": "clms",
+          "variable": "swi",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_swi_12.5km_static_fm_v3.sld",
+        "filePath": "colourmaps\\swi-static_global_12.5km_daily_v3\\clms_global_swi_12.5km_static_fm_v3.sld",
+        "fileSize": 1099,
+        "fileType": "sld",
+        "lastModified": "2025-05-12T09:07:28.480631",
+        "md5Hash": "8329fd6473b15d8a3c3326785158eef2",
+        "productInfo": {
+          "product": "clms",
+          "variable": "swi",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_swi_12.5km_static_tc_v3.sld",
+        "filePath": "colourmaps\\swi-static_global_12.5km_daily_v3\\clms_global_swi_12.5km_static_tc_v3.sld",
+        "fileSize": 8700,
+        "fileType": "sld",
+        "lastModified": "2025-05-12T09:07:28.481694",
+        "md5Hash": "4f835c950d16bfe66c470c87ad047f3f",
+        "productInfo": {
+          "product": "clms",
+          "variable": "swi",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_swi_12.5km_static_wf_v3.sld",
+        "filePath": "colourmaps\\swi-static_global_12.5km_daily_v3\\clms_global_swi_12.5km_static_wf_v3.sld",
+        "fileSize": 8694,
+        "fileType": "sld",
+        "lastModified": "2025-05-12T09:07:28.482699",
+        "md5Hash": "d293732f3000b42de644224b70347166",
+        "productInfo": {
+          "product": "clms",
+          "variable": "swi",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_toc_300m_v2_daily.sld",
+        "filePath": "colourmaps\\toc_global_300m_daily_v2\\clms_global_toc_300m_v2_daily.sld",
+        "fileSize": 977,
+        "fileType": "sld",
+        "lastModified": "2025-11-14T13:26:03.235353",
+        "md5Hash": "1964a16f09564f89004c2935f6483277",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "toc",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "daily"
+        }
+      },
+      {
         "fileName": "clms_global_ba_300m_v3_daily.txt",
         "filePath": "colourmaps\\ba_global_300m_daily_v3\\clms_global_ba_300m_v3_daily.txt",
         "fileSize": 171,
@@ -949,43 +1077,11 @@
         }
       },
       {
-        "fileName": "clms_baltic_lie_250m_v1_daily.txt",
-        "filePath": "colourmaps\\clms_baltic_lie_250m_v1_daily\\clms_baltic_lie_250m_v1_daily.txt",
-        "fileSize": 244,
-        "fileType": "txt",
-        "lastModified": "2025-05-05T19:06:16.751502",
-        "md5Hash": "5cb1528da7a70f5b03f9d5e254b9560a",
-        "productInfo": {
-          "product": "clms",
-          "region": "baltic",
-          "variable": "lie",
-          "resolution": "250m",
-          "version": "1",
-          "temporal": "daily"
-        }
-      },
-      {
-        "fileName": "clms_ceuro_lie_250m_v2_daily.txt",
-        "filePath": "colourmaps\\clms_ceuro_lie_250m_v2_daily\\clms_ceuro_lie_250m_v2_daily.txt",
-        "fileSize": 244,
-        "fileType": "txt",
-        "lastModified": "2025-05-05T19:06:16.752023",
-        "md5Hash": "5cb1528da7a70f5b03f9d5e254b9560a",
-        "productInfo": {
-          "product": "clms",
-          "region": "ceuro",
-          "variable": "lie",
-          "resolution": "250m",
-          "version": "2",
-          "temporal": "daily"
-        }
-      },
-      {
         "fileName": "clms_nhemi_lie_500m_lie_v1_daily.txt",
         "filePath": "colourmaps\\clms_nhemi_lie_500m_v1_daily\\clms_nhemi_lie_500m_lie_v1_daily.txt",
         "fileSize": 208,
         "fileType": "txt",
-        "lastModified": "2025-05-12T09:07:28.483700",
+        "lastModified": "2025-11-24T17:36:03.043947",
         "md5Hash": "6c80eda8593349ebc021087be4a81221",
         "productInfo": {
           "product": "clms",
@@ -998,7 +1094,7 @@
         "filePath": "colourmaps\\clms_nhemi_lie_500m_v1_daily\\clms_nhemi_lie_500m_statistical_probability_v1_daily.txt",
         "fileSize": 156,
         "fileType": "txt",
-        "lastModified": "2025-05-12T09:07:28.484699",
+        "lastModified": "2025-11-24T17:36:03.052221",
         "md5Hash": "5f4c27250512734ec2e85a319fb60683",
         "productInfo": {
           "product": "clms",
@@ -1132,6 +1228,38 @@
           "resolution": "300m",
           "version": "1",
           "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_baltic_lie_250m_v1_daily.txt",
+        "filePath": "colourmaps\\lie_baltic_250m_daily_v1\\clms_baltic_lie_250m_v1_daily.txt",
+        "fileSize": 244,
+        "fileType": "txt",
+        "lastModified": "2025-11-24T17:36:03.026868",
+        "md5Hash": "5cb1528da7a70f5b03f9d5e254b9560a",
+        "productInfo": {
+          "product": "clms",
+          "region": "baltic",
+          "variable": "lie",
+          "resolution": "250m",
+          "version": "1",
+          "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_ceuro_lie_250m_v2_daily.txt",
+        "filePath": "colourmaps\\lie_ceurope_250m_daily_v2\\clms_ceuro_lie_250m_v2_daily.txt",
+        "fileSize": 244,
+        "fileType": "txt",
+        "lastModified": "2025-11-24T17:36:03.034900",
+        "md5Hash": "5cb1528da7a70f5b03f9d5e254b9560a",
+        "productInfo": {
+          "product": "clms",
+          "region": "ceuro",
+          "variable": "lie",
+          "resolution": "250m",
+          "version": "2",
+          "temporal": "daily"
         }
       },
       {
@@ -1900,6 +2028,36 @@
           "resolution": "300m",
           "version": "2",
           "temporal": "monthly"
+        }
+      }
+    ],
+    "lcfm-lcm": [
+      {
+        "fileName": "lcfm-lcm_global_10m_yearly_v1.txt",
+        "filePath": "colourmaps\\lcfm-lcm_global_10m_yearly_v1\\lcfm-lcm_global_10m_yearly_v1.txt",
+        "fileSize": 390,
+        "fileType": "txt",
+        "lastModified": "2025-11-14T13:26:03.223786",
+        "md5Hash": "b4d6e9b5a899f92a65dcb10c7a087d6a",
+        "productInfo": {
+          "product": "lcfm-lcm",
+          "variable": "10m",
+          "version": "unknown"
+        }
+      }
+    ],
+    "lcfm-tcd": [
+      {
+        "fileName": "lcfm-tcd_pantropical_10m_yearly_v1.txt",
+        "filePath": "colourmaps\\lcfm-tcd_pantropical_10m_yearly_v1\\lcfm-tcd_pantropical_10m_yearly_v1.txt",
+        "fileSize": 327,
+        "fileType": "txt",
+        "lastModified": "2025-11-14T13:26:03.226847",
+        "md5Hash": "7d7d372d6335ffb1f987d9fb8477569b",
+        "productInfo": {
+          "product": "lcfm-tcd",
+          "variable": "10m",
+          "version": "unknown"
         }
       }
     ]
