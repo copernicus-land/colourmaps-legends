@@ -5,7 +5,7 @@
       <sld:FeatureTypeConstraint/>
     </sld:LayerFeatureConstraints>
     <sld:UserStyle>
-      <sld:Name>CLMS_WSI_SP_UTM_060m_S1S2_NWSO</sld:Name>
+      <sld:Name>CLMS_WSI_SP_LAEA_060m_S1S2_NCSO</sld:Name>
       <sld:FeatureTypeStyle>
         <sld:Rule>
           <sld:RasterSymbolizer>
