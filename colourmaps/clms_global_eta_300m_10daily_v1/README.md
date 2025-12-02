@@ -1,6 +1,6 @@
 # CGLS 10-daily global 300m evapotranspiration (ETA) colourmap and Legends
-The following list shows how the 5 avialable colourmaps are mapped to the different variables.
-1. **clms_global_eta-wf_300m_v1_10daily**: The water flux colour map applies to the following 9 variables:
+For easy M2M integration, each variable has its own colourmap and legend. The water fluxes share an identical colourmap and legend, as do the standard deviation variables.
+1. **Water flux**: The water flux colour map is identical for the following 9 variables:
     - *ET-TSEBPT*
     - *ET-ETLOOK*
     - *ET-ENSEMBLE*
@@ -10,10 +10,7 @@ The following list shows how the 5 avialable colourmaps are mapped to the differ
     - *T-TSEBPT*
     - *T-ETLOOK*
     - *T-ENSEMBLE*
-2. **clms_global_eta-flag_300m_v1_10daily**: The quality flag colour map applies to the *FLAG* variable.
-3. **clms_global_eta-gfd_300m_v1_10daily**: The gap-filling distance colour map applies to the *GFD* variable.
-4. **clms_global_eta-nobs_300m_v1_10daily**: The number of observations colour map applies to the *NOBS* variable.
-5. **clms_global_eta-std_300m_v1_10daily**: The standard deviation colour map applies to the following 3 variables:
+2. **Standard deviation**: The standard deviation colour map is identical for the following 3 variables:
     - *ET-STD*
     - *E-STD*
     - *T-STD*
