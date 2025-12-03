@@ -8,17 +8,17 @@
   <NamedLayer>
     <Name>Color gradient</Name>
     <UserStyle>
-      <Title>clms_global_eta-std_300m_v1_10daily</Title>
-      <Abstract>Standard deviation between dekadal T modelled with TSEB-PT and ETlook models</Abstract>
+      <Title>clms_global_eta_e-etlook_300m_v1_10daily</Title>
+      <Abstract>Dekadal average of daily total water flux from soil, ETLook model</Abstract>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
             <sld:ColorMap type="ramp">
-              <sld:ColorMapEntry color="#edf8fb" quantity="0" label="0.0000"/>
-              <sld:ColorMapEntry color="#b3cde3" quantity="0.5" label="0.5000"/>
-              <sld:ColorMapEntry color="#8c96c6" quantity="1" label="1.0000"/>
-              <sld:ColorMapEntry color="#8856a7" quantity="1.5" label="1.5000"/>
-              <sld:ColorMapEntry color="#810f7c" quantity="2" label="2.0000"/>
+              <sld:ColorMapEntry color="#f1eef6" quantity="0" label="0.0000"/>
+              <sld:ColorMapEntry color="#bdc9e1" quantity="2.5" label="2.5000"/>
+              <sld:ColorMapEntry color="#74a9cf" quantity="5" label="5.0000"/>
+              <sld:ColorMapEntry color="#2b8cbe" quantity="7.5" label="7.5000"/>
+              <sld:ColorMapEntry color="#045a8d" quantity="10" label="10.0000"/>
             </sld:ColorMap>
           </RasterSymbolizer>
         </Rule>

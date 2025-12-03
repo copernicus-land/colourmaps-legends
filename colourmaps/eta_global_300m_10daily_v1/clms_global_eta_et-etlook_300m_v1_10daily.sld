@@ -8,8 +8,8 @@
   <NamedLayer>
     <Name>Color gradient</Name>
     <UserStyle>
-      <Title>clms_global_eta-wf_300m_v1_10daily</Title>
-      <Abstract>Dekadal average of daily total water flux</Abstract>
+      <Title>clms_global_eta_et-etlook_300m_v1_10daily</Title>
+      <Abstract>Dekadal average of daily total water flux from land surface, ETLook model</Abstract>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
