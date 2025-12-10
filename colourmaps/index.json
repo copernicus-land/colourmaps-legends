@@ -2,36 +2,10 @@
   "directoryName": "colourmaps",
   "directoryPath": "colourmaps",
   "directoryType": "colourmaps",
-  "fileCount": 144,
-  "generatedAt": "2025-12-03T08:22:46.811429",
+  "fileCount": 145,
+  "generatedAt": "2025-12-10T16:42:17.861846",
   "products": {
     "clms": [
-      {
-        "fileName": "clms_nhemi_lie_500m_lie_v1_daily.sld",
-        "filePath": "colourmaps\\clms_nhemi_lie_500m_v1_daily\\clms_nhemi_lie_500m_lie_v1_daily.sld",
-        "fileSize": 1470,
-        "fileType": "sld",
-        "lastModified": "2025-11-24T17:36:03.039906",
-        "md5Hash": "7c21aab5435ff7f910a034186d0da7af",
-        "productInfo": {
-          "product": "clms",
-          "variable": "lie",
-          "version": "unknown"
-        }
-      },
-      {
-        "fileName": "clms_nhemi_lie_500m_statistical_probability_v1_daily.sld",
-        "filePath": "colourmaps\\clms_nhemi_lie_500m_v1_daily\\clms_nhemi_lie_500m_statistical_probability_v1_daily.sld",
-        "fileSize": 1358,
-        "fileType": "sld",
-        "lastModified": "2025-11-24T17:36:03.048641",
-        "md5Hash": "59f23e0198998d8c8643f3327b8fb615",
-        "productInfo": {
-          "product": "clms",
-          "variable": "lie",
-          "version": "unknown"
-        }
-      },
       {
         "fileName": "clms_global_eta-flag_300m_v1_10daily.sld",
         "filePath": "colourmaps\\eta_global_300m_10daily_v1\\clms_global_eta-flag_300m_v1_10daily.sld",
@@ -394,6 +368,32 @@
           "resolution": "250m",
           "version": "2",
           "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_nhemi_lie_500m_lie_v1_daily.sld",
+        "filePath": "colourmaps\\lie_northernhemisphere_500m_daily_v1\\clms_nhemi_lie_500m_lie_v1_daily.sld",
+        "fileSize": 1470,
+        "fileType": "sld",
+        "lastModified": "2025-11-24T17:36:03.039906",
+        "md5Hash": "7c21aab5435ff7f910a034186d0da7af",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lie",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_nhemi_lie_500m_statistical_probability_v1_daily.sld",
+        "filePath": "colourmaps\\lie_northernhemisphere_500m_daily_v1\\clms_nhemi_lie_500m_statistical_probability_v1_daily.sld",
+        "fileSize": 1358,
+        "fileType": "sld",
+        "lastModified": "2025-11-24T17:36:03.048641",
+        "md5Hash": "59f23e0198998d8c8643f3327b8fb615",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lie",
+          "version": "unknown"
         }
       },
       {
@@ -1085,6 +1085,22 @@
         }
       },
       {
+        "fileName": "clms_global_ndvi_300m_v3_10daily.sld",
+        "filePath": "colourmaps\\ndvi_global_300m_10daily_v3\\clms_global_ndvi_300m_v3_10daily.sld",
+        "fileSize": 2224,
+        "fileType": "sld",
+        "lastModified": "2025-12-10T16:39:12.103338",
+        "md5Hash": "f41185e21830c31c458550dc62e6cb06",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "ndvi",
+          "resolution": "300m",
+          "version": "3",
+          "temporal": "10daily"
+        }
+      },
+      {
         "fileName": "clms_global_sce_1km_v1_daily.sld",
         "filePath": "colourmaps\\sce_global_1km_daily_v1\\clms_global_sce_1km_v1_daily.sld",
         "fileSize": 10927,
@@ -1227,32 +1243,6 @@
           "resolution": "300m",
           "version": "3",
           "temporal": "monthly"
-        }
-      },
-      {
-        "fileName": "clms_nhemi_lie_500m_lie_v1_daily.txt",
-        "filePath": "colourmaps\\clms_nhemi_lie_500m_v1_daily\\clms_nhemi_lie_500m_lie_v1_daily.txt",
-        "fileSize": 208,
-        "fileType": "txt",
-        "lastModified": "2025-11-24T17:36:03.043947",
-        "md5Hash": "6c80eda8593349ebc021087be4a81221",
-        "productInfo": {
-          "product": "clms",
-          "variable": "lie",
-          "version": "unknown"
-        }
-      },
-      {
-        "fileName": "clms_nhemi_lie_500m_statistical_probability_v1_daily.txt",
-        "filePath": "colourmaps\\clms_nhemi_lie_500m_v1_daily\\clms_nhemi_lie_500m_statistical_probability_v1_daily.txt",
-        "fileSize": 156,
-        "fileType": "txt",
-        "lastModified": "2025-11-24T17:36:03.052221",
-        "md5Hash": "5f4c27250512734ec2e85a319fb60683",
-        "productInfo": {
-          "product": "clms",
-          "variable": "lie",
-          "version": "unknown"
         }
       },
       {
@@ -1413,6 +1403,32 @@
           "resolution": "250m",
           "version": "2",
           "temporal": "daily"
+        }
+      },
+      {
+        "fileName": "clms_nhemi_lie_500m_lie_v1_daily.txt",
+        "filePath": "colourmaps\\lie_northernhemisphere_500m_daily_v1\\clms_nhemi_lie_500m_lie_v1_daily.txt",
+        "fileSize": 208,
+        "fileType": "txt",
+        "lastModified": "2025-11-24T17:36:03.043947",
+        "md5Hash": "6c80eda8593349ebc021087be4a81221",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lie",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_nhemi_lie_500m_statistical_probability_v1_daily.txt",
+        "filePath": "colourmaps\\lie_northernhemisphere_500m_daily_v1\\clms_nhemi_lie_500m_statistical_probability_v1_daily.txt",
+        "fileSize": 156,
+        "fileType": "txt",
+        "lastModified": "2025-11-24T17:36:03.052221",
+        "md5Hash": "5f4c27250512734ec2e85a319fb60683",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lie",
+          "version": "unknown"
         }
       },
       {
