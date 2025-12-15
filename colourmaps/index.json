@@ -2,10 +2,1154 @@
   "directoryName": "colourmaps",
   "directoryPath": "colourmaps",
   "directoryType": "colourmaps",
-  "fileCount": 145,
-  "generatedAt": "2025-12-10T16:42:17.861846",
+  "fileCount": 233,
+  "generatedAt": "2025-12-15T15:26:20.471079",
   "products": {
     "clms": [
+      {
+        "fileName": "clms_wsi_cloud-classification_europe_utm_20m_daily_v1_CC-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_cloud-classification_europe_utm_20m_daily_v1\\clms_wsi_cloud-classification_europe_utm_20m_daily_v1_CC-QA.sld",
+        "fileSize": 1377,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.712266",
+        "md5Hash": "fec6f64bd57c1e712dcaee4af21eedb7",
+        "productInfo": {
+          "product": "clms",
+          "variable": "cloud-classification",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_cloud-classification_europe_utm_20m_daily_v1_CC.sld",
+        "filePath": "colourmaps\\clms_wsi_cloud-classification_europe_utm_20m_daily_v1\\clms_wsi_cloud-classification_europe_utm_20m_daily_v1_CC.sld",
+        "fileSize": 1385,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.715292",
+        "md5Hash": "cecf7eb5469c3bc9fcc827267dd9be0d",
+        "productInfo": {
+          "product": "clms",
+          "variable": "cloud-classification",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_FSCOG-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2\\clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_FSCOG-QA.sld",
+        "fileSize": 1566,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.719306",
+        "md5Hash": "324a5d03543f3096377b01f44f2b3318",
+        "productInfo": {
+          "product": "clms",
+          "variable": "fractional-snow-cover",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_FSCOG.sld",
+        "filePath": "colourmaps\\clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2\\clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_FSCOG.sld",
+        "fileSize": 9580,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.724303",
+        "md5Hash": "c778d9726758cbb9d5bbc8865347255d",
+        "productInfo": {
+          "product": "clms",
+          "variable": "fractional-snow-cover",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_FSCTOC-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2\\clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_FSCTOC-QA.sld",
+        "fileSize": 1567,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.728316",
+        "md5Hash": "50b4281dadc3f027e8e2e2c04bebea51",
+        "productInfo": {
+          "product": "clms",
+          "variable": "fractional-snow-cover",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_FSCTOC.sld",
+        "filePath": "colourmaps\\clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2\\clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_FSCTOC.sld",
+        "fileSize": 9581,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.732317",
+        "md5Hash": "daf0f6e95e1af748d8432f1d7d278481",
+        "productInfo": {
+          "product": "clms",
+          "variable": "fractional-snow-cover",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_NDSI.sld",
+        "filePath": "colourmaps\\clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2\\clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_NDSI.sld",
+        "fileSize": 9579,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.735827",
+        "md5Hash": "ce636afd0ceec5f50e867720eb4dc698",
+        "productInfo": {
+          "product": "clms",
+          "variable": "fractional-snow-cover",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_gap-filled-fractional-snow-cover_europe_utm_60m_daily_v1_GF-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_gap-filled-fractional-snow-cover_europe_utm_60m_daily_v1\\clms_wsi_gap-filled-fractional-snow-cover_europe_utm_60m_daily_v1_GF-QA.sld",
+        "fileSize": 1564,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.740834",
+        "md5Hash": "c0d4fa86779661aa0df86589a6bb50b6",
+        "productInfo": {
+          "product": "clms",
+          "variable": "gap-filled-fractional-snow-cover",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_gap-filled-fractional-snow-cover_europe_utm_60m_daily_v1_GF.sld",
+        "filePath": "colourmaps\\clms_wsi_gap-filled-fractional-snow-cover_europe_utm_60m_daily_v1\\clms_wsi_gap-filled-fractional-snow-cover_europe_utm_60m_daily_v1_GF.sld",
+        "fileSize": 9578,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.743834",
+        "md5Hash": "7050163c7774ede8bc60ca25d7acf52f",
+        "productInfo": {
+          "product": "clms",
+          "variable": "gap-filled-fractional-snow-cover",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_high-resolution-water-layer_europe_laea_100m_3yearly_v1_WL.sld",
+        "filePath": "colourmaps\\clms_wsi_high-resolution-water-layer_europe_laea_100m_3yearly_v1\\clms_wsi_high-resolution-water-layer_europe_laea_100m_3yearly_v1_WL.sld",
+        "fileSize": 1468,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.750374",
+        "md5Hash": "0e9f118dd84d6cc6cbdd7ab432e7417c",
+        "productInfo": {
+          "product": "clms",
+          "variable": "high-resolution-water-layer",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1_WCL.sld",
+        "filePath": "colourmaps\\clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1\\clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1_WCL.sld",
+        "fileSize": 10185,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.754376",
+        "md5Hash": "49ea9e92a5782832aa98a6f643dc5159",
+        "productInfo": {
+          "product": "clms",
+          "variable": "high-resolution-water-layer",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1_WL.sld",
+        "filePath": "colourmaps\\clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1\\clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1_WL.sld",
+        "fileSize": 1468,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.758898",
+        "md5Hash": "e3552f956bf546a1a9d145074a6e095e",
+        "productInfo": {
+          "product": "clms",
+          "variable": "high-resolution-water-layer",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1_WPI.sld",
+        "filePath": "colourmaps\\clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1\\clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1_WPI.sld",
+        "fileSize": 10580,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.762895",
+        "md5Hash": "a4564c27ba313fab65550ebbeb5d35a6",
+        "productInfo": {
+          "product": "clms",
+          "variable": "high-resolution-water-layer",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_high-resolution-water-layer_europe_utm_10m_3yearly_v1-WL.sld",
+        "filePath": "colourmaps\\clms_wsi_high-resolution-water-layer_europe_utm_10m_3yearly_v1\\clms_wsi_high-resolution-water-layer_europe_utm_10m_3yearly_v1-WL.sld",
+        "fileSize": 1467,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.763896",
+        "md5Hash": "80c5ea4106cb313ebf66cca180a2551d",
+        "productInfo": {
+          "product": "clms",
+          "variable": "high-resolution-water-layer",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_ice-cover-duration_europe_laea_100m_yearly_v1-ICD-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_laea_100m_yearly_v1\\clms_wsi_ice-cover-duration_europe_laea_100m_yearly_v1-ICD-QA.sld",
+        "fileSize": 1384,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.772926",
+        "md5Hash": "2f86035fef65151f7149300e9e0007eb",
+        "productInfo": {
+          "product": "clms",
+          "variable": "ice-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_ice-cover-duration_europe_laea_100m_yearly_v1-ICD.sld",
+        "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_laea_100m_yearly_v1\\clms_wsi_ice-cover-duration_europe_laea_100m_yearly_v1-ICD.sld",
+        "fileSize": 31657,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.778955",
+        "md5Hash": "0997587ea7efdd37797b1c127d7d1abd",
+        "productInfo": {
+          "product": "clms",
+          "variable": "ice-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_ice-cover-duration_europe_laea_100m_yearly_v1-NOBS1.sld",
+        "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_laea_100m_yearly_v1\\clms_wsi_ice-cover-duration_europe_laea_100m_yearly_v1-NOBS1.sld",
+        "fileSize": 31659,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.786975",
+        "md5Hash": "29778db547500b746a3dcc63589e190f",
+        "productInfo": {
+          "product": "clms",
+          "variable": "ice-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_ice-cover-duration_europe_laea_100m_yearly_v1-NOBS2.sld",
+        "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_laea_100m_yearly_v1\\clms_wsi_ice-cover-duration_europe_laea_100m_yearly_v1-NOBS2.sld",
+        "fileSize": 31659,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.791481",
+        "md5Hash": "0557dc5c0624686862bc55596279fb44",
+        "productInfo": {
+          "product": "clms",
+          "variable": "ice-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_ice-cover-duration_europe_laea_20m_yearly_v1-ICD-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_laea_20m_yearly_v1\\clms_wsi_ice-cover-duration_europe_laea_20m_yearly_v1-ICD-QA.sld",
+        "fileSize": 1384,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.797219",
+        "md5Hash": "0158dd014e6e21bfb441fc2fa2e124bb",
+        "productInfo": {
+          "product": "clms",
+          "variable": "ice-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_ice-cover-duration_europe_laea_20m_yearly_v1-ICD.sld",
+        "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_laea_20m_yearly_v1\\clms_wsi_ice-cover-duration_europe_laea_20m_yearly_v1-ICD.sld",
+        "fileSize": 31657,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.801728",
+        "md5Hash": "e9085a835853b40975f6c0e72afb7728",
+        "productInfo": {
+          "product": "clms",
+          "variable": "ice-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_ice-cover-duration_europe_laea_20m_yearly_v1-NOBS1.sld",
+        "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_laea_20m_yearly_v1\\clms_wsi_ice-cover-duration_europe_laea_20m_yearly_v1-NOBS1.sld",
+        "fileSize": 31659,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.806236",
+        "md5Hash": "89dcca02404891ade139f938c83170b6",
+        "productInfo": {
+          "product": "clms",
+          "variable": "ice-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_ice-cover-duration_europe_laea_20m_yearly_v1-NOBS2.sld",
+        "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_laea_20m_yearly_v1\\clms_wsi_ice-cover-duration_europe_laea_20m_yearly_v1-NOBS2.sld",
+        "fileSize": 31659,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.811860",
+        "md5Hash": "db0ba4eb57aafda8ed513a86d7286232",
+        "productInfo": {
+          "product": "clms",
+          "variable": "ice-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-ICD-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-ICD-QA.sld",
+        "fileSize": 1383,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.816361",
+        "md5Hash": "ecab75f7d3f6d72452f2aefc0df2f7ae",
+        "productInfo": {
+          "product": "clms",
+          "variable": "ice-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-ICD.sld",
+        "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-ICD.sld",
+        "fileSize": 31656,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.820872",
+        "md5Hash": "d9702e6eb1d5b01b3f0a4185cb84c54e",
+        "productInfo": {
+          "product": "clms",
+          "variable": "ice-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-NOBS1.sld",
+        "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-NOBS1.sld",
+        "fileSize": 31658,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.825378",
+        "md5Hash": "a47e02a17deca7d3ba8c6be617e47c08",
+        "productInfo": {
+          "product": "clms",
+          "variable": "ice-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-NOBS2.sld",
+        "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-NOBS2.sld",
+        "fileSize": 31658,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.830383",
+        "md5Hash": "2b07afecb9047456678ef8d719f6f91c",
+        "productInfo": {
+          "product": "clms",
+          "variable": "ice-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_sar-wet-snow_europe_utm_60m_daily_v2_WSM-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_sar-wet-snow_europe_utm_60m_daily_v2\\clms_wsi_sar-wet-snow_europe_utm_60m_daily_v2_WSM-QA.sld",
+        "fileSize": 1461,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.834397",
+        "md5Hash": "3c970685bd584aadf80fbc648c086631",
+        "productInfo": {
+          "product": "clms",
+          "variable": "sar-wet-snow",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_sar-wet-snow_europe_utm_60m_daily_v2_WSM.sld",
+        "filePath": "colourmaps\\clms_wsi_sar-wet-snow_europe_utm_60m_daily_v2\\clms_wsi_sar-wet-snow_europe_utm_60m_daily_v2_WSM.sld",
+        "fileSize": 1678,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.838454",
+        "md5Hash": "708f2603491056e2a3819c10cae25bbb",
+        "productInfo": {
+          "product": "clms",
+          "variable": "sar-wet-snow",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_NCSO.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_NCSO.sld",
+        "fileSize": 31745,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.843471",
+        "md5Hash": "9390fe59797dde68e996e9b2c27c6e71",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_NWSO.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_NWSO.sld",
+        "fileSize": 31745,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.848584",
+        "md5Hash": "79f2abda0aad1f5ffcaaeb635349086b",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCD-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCD-QA.sld",
+        "fileSize": 1471,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.852597",
+        "md5Hash": "b564518caff69ad8192a78df575d602c",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCD.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCD.sld",
+        "fileSize": 31744,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.857103",
+        "md5Hash": "f2cfd365dbeb009a64768ba48d4acabe",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCM-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCM-QA.sld",
+        "fileSize": 31747,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.861102",
+        "md5Hash": "7255f9df358c522c63a0182c34e81c38",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCM.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCM.sld",
+        "fileSize": 31294,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.866555",
+        "md5Hash": "b1ea073f9f768e351d91ee3d2fbd3435",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCO-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCO-QA.sld",
+        "fileSize": 31587,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.870559",
+        "md5Hash": "43030d4680529bf637e1a67caff8d2d5",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCO.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCO.sld",
+        "fileSize": 31294,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.875504",
+        "md5Hash": "3003c31f709c95a6f7ef8d617fb7856b",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_NCSO.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_NCSO.sld",
+        "fileSize": 31745,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.880513",
+        "md5Hash": "c3f83d193983281c5e8a770b277a95db",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_NWSO.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_NWSO.sld",
+        "fileSize": 31745,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.886533",
+        "md5Hash": "195ec2ce6652a0d4c9567a7542c969e2",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCD-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCD-QA.sld",
+        "fileSize": 1471,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.892531",
+        "md5Hash": "17191a43a948ecd969f8f84634a991ff",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCD.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCD.sld",
+        "fileSize": 31744,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.897224",
+        "md5Hash": "234b8be1520894474e26e4e4470317a4",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCM-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCM-QA.sld",
+        "fileSize": 31747,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.902730",
+        "md5Hash": "3034c13a8e890eb2a0560b28c5788565",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCM.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCM.sld",
+        "fileSize": 31294,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.907307",
+        "md5Hash": "99ab65d7ed6e1b1ae9704b139e38a049",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCO-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCO-QA.sld",
+        "fileSize": 31587,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.913306",
+        "md5Hash": "63add28f12a45e3a6967a8962ac05aff",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCO.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCO.sld",
+        "fileSize": 31294,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.919852",
+        "md5Hash": "09fcc088e18abf1f9986af30d32023b6",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_NCSO.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_NCSO.sld",
+        "fileSize": 31744,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.926411",
+        "md5Hash": "d6a3b0d17eab3fc43b0d8f8f7ebfcb2b",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_NWSO.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_NWSO.sld",
+        "fileSize": 31744,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.932411",
+        "md5Hash": "87a5ec406986cbcc620e9b816a4daa1e",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCD-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCD-QA.sld",
+        "fileSize": 1470,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.937957",
+        "md5Hash": "db83e21d23062e3061e8de894f519456",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCD.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCD.sld",
+        "fileSize": 31743,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.942037",
+        "md5Hash": "12e982bc197c9d8b7df69f16247ba54b",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCM-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCM-QA.sld",
+        "fileSize": 31746,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.947623",
+        "md5Hash": "486ca56b30285d7e3c63d03ad1e3f101",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCM.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCM.sld",
+        "fileSize": 31293,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.953625",
+        "md5Hash": "b1d8cb26e71350e0e1fd75f90450676b",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCO-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCO-QA.sld",
+        "fileSize": 31586,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.960969",
+        "md5Hash": "c7b464c0323c55fbdf5186b1e6afe161",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCO.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCO.sld",
+        "fileSize": 31293,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.966482",
+        "md5Hash": "b4163dbb2a5390c22194b309ba53ee8b",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-NOBS.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-NOBS.sld",
+        "fileSize": 31743,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.973996",
+        "md5Hash": "dff3548279c51123ab1bf073871ef8f7",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-SCD-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-SCD-QA.sld",
+        "fileSize": 1469,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.980510",
+        "md5Hash": "74c99b4ed6f566d2c84f76ff062eacd1",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-SCD.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-SCD.sld",
+        "fileSize": 31742,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.985507",
+        "md5Hash": "db21cee3d0a0824645ad860492f9742f",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-SCM-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-SCM-QA.sld",
+        "fileSize": 31585,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.992018",
+        "md5Hash": "e5e37d4663e37bd75d1c957f5f69fca1",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-SCM.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-SCM.sld",
+        "fileSize": 31292,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:52.996593",
+        "md5Hash": "a9b391a9fb08dd74b32c7ad0aefdd554",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-SCO-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-SCO-QA.sld",
+        "fileSize": 31585,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.003728",
+        "md5Hash": "f917730d1a4f71f1b3b23cf3b58bb50d",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-SCO.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_100m_yearly_v1-SCO.sld",
+        "fileSize": 31292,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.009825",
+        "md5Hash": "2fdf5ec0917d01d63b4fd2bea69f72f4",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-NOBS.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-NOBS.sld",
+        "fileSize": 31743,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.016334",
+        "md5Hash": "2ed7213d29171643f3984cba22f00506",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-SCD-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-SCD-QA.sld",
+        "fileSize": 1469,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.021152",
+        "md5Hash": "f98fd0dc8baa8118031b5a68a2786c31",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-SCD.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-SCD.sld",
+        "fileSize": 31742,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.026669",
+        "md5Hash": "32ebf946520631b46adc763563150a19",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-SCM-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-SCM-QA.sld",
+        "fileSize": 31585,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.032693",
+        "md5Hash": "ec761f727043f0beeb6a05908fc5fadb",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-SCM.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-SCM.sld",
+        "fileSize": 31292,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.038202",
+        "md5Hash": "af6a399427957ed70a4d5536dc754828",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-SCO-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-SCO-QA.sld",
+        "fileSize": 31585,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.044481",
+        "md5Hash": "3477ba32676688df473643a948728edc",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-SCO.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_laea_20m_yearly_v1-SCO.sld",
+        "fileSize": 31292,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.052043",
+        "md5Hash": "ef3269c3e0553b18ddcccaa95f905166",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-NOBS.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-NOBS.sld",
+        "fileSize": 31738,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.057560",
+        "md5Hash": "8edccb3cc8839ee5ff950d3b67bcd7b1",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-SCD-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-SCD-QA.sld",
+        "fileSize": 1464,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.063591",
+        "md5Hash": "30d62107f6c30268473aa56a6a51838d",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-SCD.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-SCD.sld",
+        "fileSize": 31737,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.068101",
+        "md5Hash": "4983f09fcaede437c6017cc568a82e57",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-SCM-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-SCM-QA.sld",
+        "fileSize": 31580,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.073610",
+        "md5Hash": "d759deee335f3329fa3f4c56f209d2a8",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-SCM.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-SCM.sld",
+        "fileSize": 31287,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.077626",
+        "md5Hash": "2eac91ab76082c1d38c7899cca10d96b",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-SCO-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-SCO-QA.sld",
+        "fileSize": 31577,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.084132",
+        "md5Hash": "04f18498cabf96aa1c61d0d1f3e4897d",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-SCO.sld",
+        "filePath": "colourmaps\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1-SCO.sld",
+        "fileSize": 31311,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.090397",
+        "md5Hash": "865863b82de529d22ac2d05183332ada",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_water-cover-duration_europe_laea_100m_yearly_v1_WCD-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_water-cover-duration_europe_laea_100m_yearly_v1\\clms_wsi_water-cover-duration_europe_laea_100m_yearly_v1_WCD-QA.sld",
+        "fileSize": 1570,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.095223",
+        "md5Hash": "12e07ca0dfb84783626aa6c1ef0b7358",
+        "productInfo": {
+          "product": "clms",
+          "variable": "water-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_water-cover-duration_europe_laea_100m_yearly_v1_WCD.sld",
+        "filePath": "colourmaps\\clms_wsi_water-cover-duration_europe_laea_100m_yearly_v1\\clms_wsi_water-cover-duration_europe_laea_100m_yearly_v1_WCD.sld",
+        "fileSize": 31845,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.099248",
+        "md5Hash": "af187c36a32fd125f31a1769eb5340bd",
+        "productInfo": {
+          "product": "clms",
+          "variable": "water-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_water-cover-duration_europe_laea_10m_yearly_v1_WCD-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_water-cover-duration_europe_laea_10m_yearly_v1\\clms_wsi_water-cover-duration_europe_laea_10m_yearly_v1_WCD-QA.sld",
+        "fileSize": 1569,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.105263",
+        "md5Hash": "f9a7479613b6f04caa007e836c724f8f",
+        "productInfo": {
+          "product": "clms",
+          "variable": "water-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_water-cover-duration_europe_laea_10m_yearly_v1_WCD.sld",
+        "filePath": "colourmaps\\clms_wsi_water-cover-duration_europe_laea_10m_yearly_v1\\clms_wsi_water-cover-duration_europe_laea_10m_yearly_v1_WCD.sld",
+        "fileSize": 31844,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.109268",
+        "md5Hash": "63437f59a2926c77ed02dcd1805806ca",
+        "productInfo": {
+          "product": "clms",
+          "variable": "water-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_water-cover-duration_europe_utm_10m_yearly_v1_WCD-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_water-cover-duration_europe_utm_10m_yearly_v1\\clms_wsi_water-cover-duration_europe_utm_10m_yearly_v1_WCD-QA.sld",
+        "fileSize": 1569,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.117547",
+        "md5Hash": "f167254b187755094865d724a2fe6326",
+        "productInfo": {
+          "product": "clms",
+          "variable": "water-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_water-cover-duration_europe_utm_10m_yearly_v1_WCD.sld",
+        "filePath": "colourmaps\\clms_wsi_water-cover-duration_europe_utm_10m_yearly_v1\\clms_wsi_water-cover-duration_europe_utm_10m_yearly_v1_WCD.sld",
+        "fileSize": 31844,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.121546",
+        "md5Hash": "66090fb8d16997e768fdc134308caafc",
+        "productInfo": {
+          "product": "clms",
+          "variable": "water-cover-duration",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_water-ice-cover-s1-s2_europe_utm_20m_daily_v1_WIC-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_water-ice-cover-s1-s2_europe_utm_20m_daily_v1\\clms_wsi_water-ice-cover-s1-s2_europe_utm_20m_daily_v1_WIC-QA.sld",
+        "fileSize": 1596,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.126767",
+        "md5Hash": "6ba0e00a93ee530803b47b493bea4025",
+        "productInfo": {
+          "product": "clms",
+          "variable": "water-ice-cover-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_water-ice-cover-s1-s2_europe_utm_20m_daily_v1_WIC.sld",
+        "filePath": "colourmaps\\clms_wsi_water-ice-cover-s1-s2_europe_utm_20m_daily_v1\\clms_wsi_water-ice-cover-s1-s2_europe_utm_20m_daily_v1_WIC.sld",
+        "fileSize": 1524,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.129767",
+        "md5Hash": "ab51f9e90147ac9c8881d876821dc40e",
+        "productInfo": {
+          "product": "clms",
+          "variable": "water-ice-cover-s1-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_water-ice-cover-s1_europe_utm_60m_daily_v1_WIC-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_water-ice-cover-s1_europe_utm_60m_daily_v1\\clms_wsi_water-ice-cover-s1_europe_utm_60m_daily_v1_WIC-QA.sld",
+        "fileSize": 1498,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.133900",
+        "md5Hash": "e3ef339962d9ecfaac68cb36b33dede4",
+        "productInfo": {
+          "product": "clms",
+          "variable": "water-ice-cover-s1",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_water-ice-cover-s1_europe_utm_60m_daily_v1_WIC.sld",
+        "filePath": "colourmaps\\clms_wsi_water-ice-cover-s1_europe_utm_60m_daily_v1\\clms_wsi_water-ice-cover-s1_europe_utm_60m_daily_v1_WIC.sld",
+        "fileSize": 1336,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.137416",
+        "md5Hash": "2db5227a182367c631b31000879a4e88",
+        "productInfo": {
+          "product": "clms",
+          "variable": "water-ice-cover-s1",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1_PRB.sld",
+        "filePath": "colourmaps\\clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1_PRB.sld",
+        "fileSize": 10201,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.141924",
+        "md5Hash": "0fe1c063ddc9c375277132f1a0f9f6a2",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1_WIC-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1_WIC-QA.sld",
+        "fileSize": 1476,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.145445",
+        "md5Hash": "eb422a690c74152292da8e9d2923233a",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1_WIC.sld",
+        "filePath": "colourmaps\\clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1\\clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1_WIC.sld",
+        "fileSize": 1408,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.149518",
+        "md5Hash": "c927f13e695e3c50b18af3fca810a3b1",
+        "productInfo": {
+          "product": "clms",
+          "variable": "snow-phenology-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_wet-dry-snow_europe_utm_60m_daily_v2_SSC-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_wet-dry-snow_europe_utm_60m_daily_v2\\clms_wsi_wet-dry-snow_europe_utm_60m_daily_v2_SSC-QA.sld",
+        "fileSize": 1461,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.153028",
+        "md5Hash": "5e1467b703084d108a8d75d56587a83d",
+        "productInfo": {
+          "product": "clms",
+          "variable": "wet-dry-snow",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_wet-dry-snow_europe_utm_60m_daily_v2_SSC.sld",
+        "filePath": "colourmaps\\clms_wsi_wet-dry-snow_europe_utm_60m_daily_v2\\clms_wsi_wet-dry-snow_europe_utm_60m_daily_v2_SSC.sld",
+        "fileSize": 1762,
+        "fileType": "sld",
+        "lastModified": "2025-12-15T15:25:53.156537",
+        "md5Hash": "c9e88ccfe72980b7c793b691d21d0471",
+        "productInfo": {
+          "product": "clms",
+          "variable": "wet-dry-snow",
+          "version": "unknown"
+        }
+      },
       {
         "fileName": "clms_global_eta-flag_300m_v1_10daily.sld",
         "filePath": "colourmaps\\eta_global_300m_10daily_v1\\clms_global_eta-flag_300m_v1_10daily.sld",
