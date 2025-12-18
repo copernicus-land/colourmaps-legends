@@ -5,7 +5,7 @@
       <sld:FeatureTypeConstraint/>
     </sld:LayerFeatureConstraints>
     <sld:UserStyle>
-      <sld:Name>c_gls_LST10-DC-hourly_202301110900_GLOBE_GEO_V2.1.1 — MAX</sld:Name>
+      <sld:Name>c_gls_LST10-DC-hourly_202301110900_GLOBE_GEO_V3.0.1 — MAX</sld:Name>
       <sld:FeatureTypeStyle>
         <sld:Rule>
           <sld:RasterSymbolizer>
