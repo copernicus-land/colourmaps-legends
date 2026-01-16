@@ -1,4 +1,4 @@
-<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<?xml version='1.0' encoding='utf-8'?>
 <qgis maxScale="0" autoRefreshTime="0" version="3.44.3-Solothurn" minScale="1e+08" autoRefreshMode="Disabled" styleCategories="LayerConfiguration|Rendering|CustomProperties|Temporal" hasScaleBasedVisibilityFlag="0">
   <flags>
     <Identifiable>1</Identifiable>

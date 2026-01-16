@@ -1,0 +1,8 @@
+110 255 0 255 255 wet snow
+125 90 230 180 255 dry snow / no snow / patchy snow
+200 40 40 40 255 radar shadow / layover / foreshortening
+210 100 100 215 255 water
+220 25 160 35 255 forest
+230 255 190 100 255 urban area
+240 60 60 60 255 non-mountain area
+255 0 0 0 0 no data

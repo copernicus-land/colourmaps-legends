@@ -1,0 +1,115 @@
+{
+  "type" : "CIMLayerDocument",
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "colorizer" : {
+        "type" : "CIMRasterUniqueValueColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "fieldName" : "Value",
+        "groups" : [
+          {
+            "type" : "CIMRasterUniqueValueGroup",
+            "classes" : [
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "0"
+                ],
+                "label" : "cloud-free / cloud shadow-free",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "1"
+                ],
+                "label" : "high cloud",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    254,
+                    230,
+                    206,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "2"
+                ],
+                "label" : "other cloud",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    242,
+                    158,
+                    110,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "3"
+                ],
+                "label" : "cloud shadow",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    230,
+                    85,
+                    13,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "255"
+                ],
+                "label" : "no data",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                }
+              }
+            ],
+            "heading" : "Value"
+          }
+        ]
+      },
+      "attributeTable" : {
+        "type" : "CIMRasterTable",
+        "displayField" : "Value",
+        "editable" : true
+      }
+    }
+  ]
+}

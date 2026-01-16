@@ -9,7 +9,7 @@
   <temporal bandNumber="1" mode="0" enabled="0" fetchMode="0">
     <fixedRange>
       <start />
-      <end />
+      <end/>
     </fixedRange>
   </temporal>
   <customproperties>

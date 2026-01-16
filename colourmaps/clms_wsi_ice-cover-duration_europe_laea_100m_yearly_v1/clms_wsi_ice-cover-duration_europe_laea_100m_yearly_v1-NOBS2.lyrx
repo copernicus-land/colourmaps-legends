@@ -1,0 +1,6293 @@
+{
+  "type" : "CIMLayerDocument",
+
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "colorizer" : {
+        "type" : "CIMRasterUniqueValueColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "fieldName" : "Value",
+        "groups" : [
+          {
+            "type" : "CIMRasterUniqueValueGroup",
+            "classes" : [
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "0"
+                ],
+                "label" : "0 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    255,
+                    255,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "1"
+                ],
+                "label" : "1 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    254,
+                    254,
+                    253,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "2"
+                ],
+                "label" : "2 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    254,
+                    253,
+                    252,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "3"
+                ],
+                "label" : "3 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    254,
+                    252,
+                    251,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "4"
+                ],
+                "label" : "4 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    254,
+                    251,
+                    249,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "5"
+                ],
+                "label" : "5 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    253,
+                    250,
+                    248,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "6"
+                ],
+                "label" : "6 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    253,
+                    249,
+                    247,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "7"
+                ],
+                "label" : "7 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    253,
+                    248,
+                    245,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "8"
+                ],
+                "label" : "8 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    253,
+                    247,
+                    244,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "9"
+                ],
+                "label" : "9 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    252,
+                    246,
+                    243,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10"
+                ],
+                "label" : "10 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    252,
+                    245,
+                    241,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11"
+                ],
+                "label" : "11 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    252,
+                    244,
+                    240,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12"
+                ],
+                "label" : "12 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    252,
+                    243,
+                    239,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13"
+                ],
+                "label" : "13 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    251,
+                    242,
+                    237,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14"
+                ],
+                "label" : "14 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    251,
+                    241,
+                    236,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15"
+                ],
+                "label" : "15 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    251,
+                    240,
+                    235,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16"
+                ],
+                "label" : "16 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    251,
+                    239,
+                    234,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17"
+                ],
+                "label" : "17 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    250,
+                    238,
+                    232,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18"
+                ],
+                "label" : "18 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    250,
+                    237,
+                    231,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19"
+                ],
+                "label" : "19 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    250,
+                    236,
+                    230,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20"
+                ],
+                "label" : "20 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    250,
+                    235,
+                    228,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21"
+                ],
+                "label" : "21 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    249,
+                    234,
+                    227,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22"
+                ],
+                "label" : "22 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    249,
+                    233,
+                    226,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23"
+                ],
+                "label" : "23 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    249,
+                    232,
+                    224,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24"
+                ],
+                "label" : "24 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    249,
+                    231,
+                    223,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25"
+                ],
+                "label" : "25 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    248,
+                    230,
+                    222,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26"
+                ],
+                "label" : "26 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    248,
+                    229,
+                    220,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "27"
+                ],
+                "label" : "27 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    248,
+                    228,
+                    219,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "28"
+                ],
+                "label" : "28 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    248,
+                    227,
+                    218,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "29"
+                ],
+                "label" : "29 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    248,
+                    226,
+                    216,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30"
+                ],
+                "label" : "30 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    247,
+                    225,
+                    215,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "31"
+                ],
+                "label" : "31 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    247,
+                    224,
+                    214,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "32"
+                ],
+                "label" : "32 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    247,
+                    223,
+                    213,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "33"
+                ],
+                "label" : "33 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    247,
+                    222,
+                    211,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "34"
+                ],
+                "label" : "34 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    246,
+                    221,
+                    210,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "35"
+                ],
+                "label" : "35 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    246,
+                    220,
+                    209,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "36"
+                ],
+                "label" : "36 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    246,
+                    219,
+                    207,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "37"
+                ],
+                "label" : "37 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    246,
+                    219,
+                    206,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "38"
+                ],
+                "label" : "38 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    245,
+                    218,
+                    205,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "39"
+                ],
+                "label" : "39 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    245,
+                    217,
+                    203,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "40"
+                ],
+                "label" : "40 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    245,
+                    216,
+                    202,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "41"
+                ],
+                "label" : "41 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    245,
+                    215,
+                    201,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "42"
+                ],
+                "label" : "42 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    244,
+                    214,
+                    199,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "43"
+                ],
+                "label" : "43 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    244,
+                    213,
+                    198,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "44"
+                ],
+                "label" : "44 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    244,
+                    212,
+                    197,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "45"
+                ],
+                "label" : "45 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    244,
+                    211,
+                    195,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "46"
+                ],
+                "label" : "46 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    243,
+                    210,
+                    194,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "47"
+                ],
+                "label" : "47 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    243,
+                    209,
+                    193,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "48"
+                ],
+                "label" : "48 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    243,
+                    208,
+                    192,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "49"
+                ],
+                "label" : "49 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    243,
+                    207,
+                    190,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "50"
+                ],
+                "label" : "50 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    242,
+                    206,
+                    189,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "51"
+                ],
+                "label" : "51 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    242,
+                    205,
+                    188,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "52"
+                ],
+                "label" : "52 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    242,
+                    204,
+                    186,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "53"
+                ],
+                "label" : "53 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    242,
+                    203,
+                    185,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "54"
+                ],
+                "label" : "54 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    242,
+                    202,
+                    184,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "55"
+                ],
+                "label" : "55 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    241,
+                    201,
+                    182,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "56"
+                ],
+                "label" : "56 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    241,
+                    200,
+                    181,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "57"
+                ],
+                "label" : "57 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    241,
+                    199,
+                    180,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "58"
+                ],
+                "label" : "58 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    241,
+                    198,
+                    178,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "59"
+                ],
+                "label" : "59 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    240,
+                    197,
+                    177,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "60"
+                ],
+                "label" : "60 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    240,
+                    196,
+                    176,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "61"
+                ],
+                "label" : "61 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    240,
+                    195,
+                    175,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "62"
+                ],
+                "label" : "62 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    240,
+                    194,
+                    173,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "63"
+                ],
+                "label" : "63 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    239,
+                    193,
+                    172,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "64"
+                ],
+                "label" : "64 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    239,
+                    192,
+                    171,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "65"
+                ],
+                "label" : "65 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    239,
+                    191,
+                    169,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "66"
+                ],
+                "label" : "66 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    239,
+                    190,
+                    168,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "67"
+                ],
+                "label" : "67 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    238,
+                    189,
+                    167,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "68"
+                ],
+                "label" : "68 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    238,
+                    188,
+                    165,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "69"
+                ],
+                "label" : "69 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    238,
+                    187,
+                    164,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "70"
+                ],
+                "label" : "70 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    238,
+                    186,
+                    163,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "71"
+                ],
+                "label" : "71 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    237,
+                    185,
+                    161,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "72"
+                ],
+                "label" : "72 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    237,
+                    184,
+                    160,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "73"
+                ],
+                "label" : "73 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    237,
+                    183,
+                    159,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "74"
+                ],
+                "label" : "74 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    237,
+                    183,
+                    157,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "75"
+                ],
+                "label" : "75 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    236,
+                    182,
+                    156,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "76"
+                ],
+                "label" : "76 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    236,
+                    181,
+                    155,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "77"
+                ],
+                "label" : "77 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    236,
+                    180,
+                    154,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "78"
+                ],
+                "label" : "78 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    236,
+                    179,
+                    152,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "79"
+                ],
+                "label" : "79 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    236,
+                    178,
+                    151,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "80"
+                ],
+                "label" : "80 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    235,
+                    177,
+                    150,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "81"
+                ],
+                "label" : "81 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    235,
+                    176,
+                    148,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "82"
+                ],
+                "label" : "82 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    235,
+                    175,
+                    147,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "83"
+                ],
+                "label" : "83 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    235,
+                    174,
+                    146,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "84"
+                ],
+                "label" : "84 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    234,
+                    173,
+                    144,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "85"
+                ],
+                "label" : "85 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    234,
+                    172,
+                    143,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "86"
+                ],
+                "label" : "86 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    234,
+                    171,
+                    142,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "87"
+                ],
+                "label" : "87 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    234,
+                    170,
+                    140,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "88"
+                ],
+                "label" : "88 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    233,
+                    169,
+                    139,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "89"
+                ],
+                "label" : "89 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    233,
+                    168,
+                    138,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "90"
+                ],
+                "label" : "90 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    233,
+                    167,
+                    136,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "91"
+                ],
+                "label" : "91 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    233,
+                    166,
+                    135,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "92"
+                ],
+                "label" : "92 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    232,
+                    165,
+                    134,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "93"
+                ],
+                "label" : "93 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    232,
+                    164,
+                    133,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "94"
+                ],
+                "label" : "94 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    232,
+                    163,
+                    131,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "95"
+                ],
+                "label" : "95 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    232,
+                    162,
+                    130,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "96"
+                ],
+                "label" : "96 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    231,
+                    161,
+                    129,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "97"
+                ],
+                "label" : "97 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    231,
+                    160,
+                    127,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "98"
+                ],
+                "label" : "98 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    231,
+                    159,
+                    126,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "99"
+                ],
+                "label" : "99 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    231,
+                    158,
+                    125,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "100"
+                ],
+                "label" : "100 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    230,
+                    157,
+                    123,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "101"
+                ],
+                "label" : "101 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    230,
+                    156,
+                    122,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "102"
+                ],
+                "label" : "102 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    230,
+                    155,
+                    121,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "103"
+                ],
+                "label" : "103 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    230,
+                    154,
+                    119,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "104"
+                ],
+                "label" : "104 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    229,
+                    153,
+                    118,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "105"
+                ],
+                "label" : "105 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    229,
+                    152,
+                    117,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "106"
+                ],
+                "label" : "106 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    229,
+                    151,
+                    115,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "107"
+                ],
+                "label" : "107 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    229,
+                    150,
+                    114,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "108"
+                ],
+                "label" : "108 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    229,
+                    149,
+                    113,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "109"
+                ],
+                "label" : "109 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    228,
+                    148,
+                    112,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "110"
+                ],
+                "label" : "110 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    228,
+                    148,
+                    110,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "111"
+                ],
+                "label" : "111 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    228,
+                    147,
+                    109,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "112"
+                ],
+                "label" : "112 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    228,
+                    146,
+                    108,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "113"
+                ],
+                "label" : "113 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    227,
+                    145,
+                    106,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "114"
+                ],
+                "label" : "114 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    227,
+                    144,
+                    105,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "115"
+                ],
+                "label" : "115 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    227,
+                    143,
+                    104,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "116"
+                ],
+                "label" : "116 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    227,
+                    142,
+                    102,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "117"
+                ],
+                "label" : "117 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    226,
+                    141,
+                    101,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "118"
+                ],
+                "label" : "118 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    226,
+                    140,
+                    100,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "119"
+                ],
+                "label" : "119 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    226,
+                    139,
+                    98,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "120"
+                ],
+                "label" : "120 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    226,
+                    138,
+                    97,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "121"
+                ],
+                "label" : "121 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    225,
+                    137,
+                    96,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "122"
+                ],
+                "label" : "122 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    225,
+                    136,
+                    95,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "123"
+                ],
+                "label" : "123 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    225,
+                    135,
+                    93,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "124"
+                ],
+                "label" : "124 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    225,
+                    134,
+                    92,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "125"
+                ],
+                "label" : "125 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    224,
+                    133,
+                    91,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "126"
+                ],
+                "label" : "126 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    224,
+                    132,
+                    89,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "127"
+                ],
+                "label" : "127 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    224,
+                    131,
+                    88,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "128"
+                ],
+                "label" : "128 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    224,
+                    130,
+                    87,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "129"
+                ],
+                "label" : "129 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    223,
+                    129,
+                    85,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "130"
+                ],
+                "label" : "130 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    223,
+                    128,
+                    84,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "131"
+                ],
+                "label" : "131 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    223,
+                    127,
+                    83,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "132"
+                ],
+                "label" : "132 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    223,
+                    126,
+                    81,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "133"
+                ],
+                "label" : "133 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    223,
+                    125,
+                    80,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "134"
+                ],
+                "label" : "134 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    222,
+                    124,
+                    79,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "135"
+                ],
+                "label" : "135 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    222,
+                    123,
+                    77,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "136"
+                ],
+                "label" : "136 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    222,
+                    122,
+                    76,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "137"
+                ],
+                "label" : "137 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    222,
+                    121,
+                    75,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "138"
+                ],
+                "label" : "138 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    221,
+                    120,
+                    74,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "139"
+                ],
+                "label" : "139 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    221,
+                    119,
+                    72,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "140"
+                ],
+                "label" : "140 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    221,
+                    118,
+                    71,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "141"
+                ],
+                "label" : "141 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    221,
+                    117,
+                    70,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "142"
+                ],
+                "label" : "142 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    220,
+                    116,
+                    68,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "143"
+                ],
+                "label" : "143 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    220,
+                    115,
+                    67,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "144"
+                ],
+                "label" : "144 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    220,
+                    114,
+                    66,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "145"
+                ],
+                "label" : "145 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    220,
+                    113,
+                    64,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "146"
+                ],
+                "label" : "146 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    219,
+                    112,
+                    63,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "147"
+                ],
+                "label" : "147 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    219,
+                    112,
+                    62,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "148"
+                ],
+                "label" : "148 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    219,
+                    111,
+                    60,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "149"
+                ],
+                "label" : "149 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    219,
+                    110,
+                    59,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "150"
+                ],
+                "label" : "150 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    218,
+                    109,
+                    58,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "151"
+                ],
+                "label" : "151 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    218,
+                    108,
+                    56,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "152"
+                ],
+                "label" : "152 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    218,
+                    107,
+                    55,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "153"
+                ],
+                "label" : "153 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    218,
+                    106,
+                    54,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "154"
+                ],
+                "label" : "154 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    217,
+                    105,
+                    53,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "155"
+                ],
+                "label" : "155 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    217,
+                    104,
+                    51,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "156"
+                ],
+                "label" : "156 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    217,
+                    103,
+                    50,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "157"
+                ],
+                "label" : "157 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    217,
+                    102,
+                    49,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "158"
+                ],
+                "label" : "158 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    217,
+                    101,
+                    47,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "159"
+                ],
+                "label" : "159 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    216,
+                    100,
+                    46,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "160"
+                ],
+                "label" : "160 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    216,
+                    99,
+                    45,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "161"
+                ],
+                "label" : "161 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    216,
+                    98,
+                    43,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "162"
+                ],
+                "label" : "162 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    216,
+                    97,
+                    42,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "163"
+                ],
+                "label" : "163 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    215,
+                    96,
+                    41,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "164"
+                ],
+                "label" : "164 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    215,
+                    95,
+                    39,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "165"
+                ],
+                "label" : "165 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    215,
+                    94,
+                    38,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "166"
+                ],
+                "label" : "166 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    215,
+                    93,
+                    37,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "167"
+                ],
+                "label" : "167 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    214,
+                    92,
+                    35,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "168"
+                ],
+                "label" : "168 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    214,
+                    91,
+                    34,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "169"
+                ],
+                "label" : "169 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    214,
+                    90,
+                    33,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "170"
+                ],
+                "label" : "170 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    214,
+                    89,
+                    32,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "171"
+                ],
+                "label" : "171 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    213,
+                    88,
+                    30,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "172"
+                ],
+                "label" : "172 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    213,
+                    87,
+                    29,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "173"
+                ],
+                "label" : "173 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    213,
+                    86,
+                    28,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "174"
+                ],
+                "label" : "174 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    213,
+                    85,
+                    26,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "175"
+                ],
+                "label" : "175 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    212,
+                    84,
+                    25,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "176"
+                ],
+                "label" : "176 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    212,
+                    83,
+                    24,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "177"
+                ],
+                "label" : "177 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    212,
+                    82,
+                    22,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "178"
+                ],
+                "label" : "178 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    212,
+                    81,
+                    21,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "179"
+                ],
+                "label" : "179 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    80,
+                    20,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "180"
+                ],
+                "label" : "180 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    79,
+                    18,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "181"
+                ],
+                "label" : "181 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    78,
+                    17,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "182"
+                ],
+                "label" : "182 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    16,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "183"
+                ],
+                "label" : "183 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "184"
+                ],
+                "label" : "184 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "185"
+                ],
+                "label" : "185 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "186"
+                ],
+                "label" : "186 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "187"
+                ],
+                "label" : "187 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "188"
+                ],
+                "label" : "188 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "189"
+                ],
+                "label" : "189 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "190"
+                ],
+                "label" : "190 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "191"
+                ],
+                "label" : "191 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "192"
+                ],
+                "label" : "192 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "193"
+                ],
+                "label" : "193 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "194"
+                ],
+                "label" : "194 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "195"
+                ],
+                "label" : "195 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "196"
+                ],
+                "label" : "196 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "197"
+                ],
+                "label" : "197 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "198"
+                ],
+                "label" : "198 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "199"
+                ],
+                "label" : "199 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "200"
+                ],
+                "label" : "200 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "201"
+                ],
+                "label" : "201 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "202"
+                ],
+                "label" : "202 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "203"
+                ],
+                "label" : "203 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "204"
+                ],
+                "label" : "204 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "205"
+                ],
+                "label" : "205 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "206"
+                ],
+                "label" : "206 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "207"
+                ],
+                "label" : "207 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "208"
+                ],
+                "label" : "208 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "209"
+                ],
+                "label" : "209 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "210"
+                ],
+                "label" : "210 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "211"
+                ],
+                "label" : "211 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "212"
+                ],
+                "label" : "212 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "213"
+                ],
+                "label" : "213 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "214"
+                ],
+                "label" : "214 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "215"
+                ],
+                "label" : "215 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "216"
+                ],
+                "label" : "216 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "217"
+                ],
+                "label" : "217 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "218"
+                ],
+                "label" : "218 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "219"
+                ],
+                "label" : "219 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "220"
+                ],
+                "label" : "220 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "221"
+                ],
+                "label" : "221 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "222"
+                ],
+                "label" : "222 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "223"
+                ],
+                "label" : "223 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "224"
+                ],
+                "label" : "224 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "225"
+                ],
+                "label" : "225 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "226"
+                ],
+                "label" : "226 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "227"
+                ],
+                "label" : "227 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "228"
+                ],
+                "label" : "228 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "229"
+                ],
+                "label" : "229 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "230"
+                ],
+                "label" : "230 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "231"
+                ],
+                "label" : "231 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "232"
+                ],
+                "label" : "232 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "233"
+                ],
+                "label" : "233 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "234"
+                ],
+                "label" : "234 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "235"
+                ],
+                "label" : "235 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "236"
+                ],
+                "label" : "236 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "237"
+                ],
+                "label" : "237 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "238"
+                ],
+                "label" : "238 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "239"
+                ],
+                "label" : "239 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "240"
+                ],
+                "label" : "240 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "241"
+                ],
+                "label" : "241 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "242"
+                ],
+                "label" : "242 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "243"
+                ],
+                "label" : "243 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "244"
+                ],
+                "label" : "244 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "245"
+                ],
+                "label" : "245 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "246"
+                ],
+                "label" : "246 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "247"
+                ],
+                "label" : "247 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "248"
+                ],
+                "label" : "248 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "249"
+                ],
+                "label" : "249 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "250"
+                ],
+                "label" : "250 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "251"
+                ],
+                "label" : "251 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "252"
+                ],
+                "label" : "252 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "253"
+                ],
+                "label" : "253 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "254"
+                ],
+                "label" : "254 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "255"
+                ],
+                "label" : "255 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "256"
+                ],
+                "label" : "256 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "257"
+                ],
+                "label" : "257 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "258"
+                ],
+                "label" : "258 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "259"
+                ],
+                "label" : "259 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "260"
+                ],
+                "label" : "260 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "261"
+                ],
+                "label" : "261 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "262"
+                ],
+                "label" : "262 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "263"
+                ],
+                "label" : "263 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "264"
+                ],
+                "label" : "264 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "265"
+                ],
+                "label" : "265 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "266"
+                ],
+                "label" : "266 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "267"
+                ],
+                "label" : "267 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "268"
+                ],
+                "label" : "268 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "269"
+                ],
+                "label" : "269 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "270"
+                ],
+                "label" : "270 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "271"
+                ],
+                "label" : "271 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "272"
+                ],
+                "label" : "272 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "273"
+                ],
+                "label" : "273 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "274"
+                ],
+                "label" : "274 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "275"
+                ],
+                "label" : "275 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "276"
+                ],
+                "label" : "276 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "277"
+                ],
+                "label" : "277 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "278"
+                ],
+                "label" : "278 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "279"
+                ],
+                "label" : "279 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "280"
+                ],
+                "label" : "280 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "281"
+                ],
+                "label" : "281 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "282"
+                ],
+                "label" : "282 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "283"
+                ],
+                "label" : "283 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "284"
+                ],
+                "label" : "284 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "285"
+                ],
+                "label" : "285 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "286"
+                ],
+                "label" : "286 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "287"
+                ],
+                "label" : "287 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "288"
+                ],
+                "label" : "288 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "289"
+                ],
+                "label" : "289 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "290"
+                ],
+                "label" : "290 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "291"
+                ],
+                "label" : "291 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "292"
+                ],
+                "label" : "292 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "293"
+                ],
+                "label" : "293 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "294"
+                ],
+                "label" : "294 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "295"
+                ],
+                "label" : "295 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "296"
+                ],
+                "label" : "296 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "297"
+                ],
+                "label" : "297 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "298"
+                ],
+                "label" : "298 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "299"
+                ],
+                "label" : "299 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "300"
+                ],
+                "label" : "300 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "301"
+                ],
+                "label" : "301 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "302"
+                ],
+                "label" : "302 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "303"
+                ],
+                "label" : "303 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "304"
+                ],
+                "label" : "304 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "305"
+                ],
+                "label" : "305 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "306"
+                ],
+                "label" : "306 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "307"
+                ],
+                "label" : "307 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "308"
+                ],
+                "label" : "308 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "309"
+                ],
+                "label" : "309 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "310"
+                ],
+                "label" : "310 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "311"
+                ],
+                "label" : "311 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "312"
+                ],
+                "label" : "312 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "313"
+                ],
+                "label" : "313 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "314"
+                ],
+                "label" : "314 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "315"
+                ],
+                "label" : "315 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "316"
+                ],
+                "label" : "316 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "317"
+                ],
+                "label" : "317 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "318"
+                ],
+                "label" : "318 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "319"
+                ],
+                "label" : "319 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "320"
+                ],
+                "label" : "320 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "321"
+                ],
+                "label" : "321 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "322"
+                ],
+                "label" : "322 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "323"
+                ],
+                "label" : "323 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "324"
+                ],
+                "label" : "324 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "325"
+                ],
+                "label" : "325 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "326"
+                ],
+                "label" : "326 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "327"
+                ],
+                "label" : "327 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "328"
+                ],
+                "label" : "328 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "329"
+                ],
+                "label" : "329 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "330"
+                ],
+                "label" : "330 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "331"
+                ],
+                "label" : "331 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "332"
+                ],
+                "label" : "332 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "333"
+                ],
+                "label" : "333 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "334"
+                ],
+                "label" : "334 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "335"
+                ],
+                "label" : "335 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "336"
+                ],
+                "label" : "336 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "337"
+                ],
+                "label" : "337 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "338"
+                ],
+                "label" : "338 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "339"
+                ],
+                "label" : "339 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "340"
+                ],
+                "label" : "340 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "341"
+                ],
+                "label" : "341 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "342"
+                ],
+                "label" : "342 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "343"
+                ],
+                "label" : "343 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "344"
+                ],
+                "label" : "344 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "345"
+                ],
+                "label" : "345 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "346"
+                ],
+                "label" : "346 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "347"
+                ],
+                "label" : "347 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "348"
+                ],
+                "label" : "348 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "349"
+                ],
+                "label" : "349 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "350"
+                ],
+                "label" : "350 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "351"
+                ],
+                "label" : "351 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "352"
+                ],
+                "label" : "352 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "353"
+                ],
+                "label" : "353 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "354"
+                ],
+                "label" : "354 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "355"
+                ],
+                "label" : "355 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "356"
+                ],
+                "label" : "356 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "357"
+                ],
+                "label" : "357 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "358"
+                ],
+                "label" : "358 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "359"
+                ],
+                "label" : "359 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "360"
+                ],
+                "label" : "360 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "361"
+                ],
+                "label" : "361 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "362"
+                ],
+                "label" : "362 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "363"
+                ],
+                "label" : "363 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "364"
+                ],
+                "label" : "364 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "365"
+                ],
+                "label" : "365 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "366"
+                ],
+                "label" : "366 days",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    77,
+                    15,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "65535"
+                ],
+                "label" : "no data",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                "visible" : true
+              }
+            ],
+            "heading" : "Value"
+          }
+        ],
+        "isDefaultColorVisible" : true
+      },
+      "attributeTable" : {
+        "type" : "CIMRasterTable",
+        "displayField" : "Value",
+        "editable" : true
+      }
+    }
+  ]
+}

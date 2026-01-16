@@ -1,0 +1,138 @@
+{
+  "type" : "CIMLayerDocument",
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "colorizer" : {
+        "type" : "CIMRasterUniqueValueColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "fieldName" : "Value",
+        "groups" : [
+          {
+            "type" : "CIMRasterUniqueValueGroup",
+            "classes" : [
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "0"
+                ],
+                "label" : "high quality",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    93,
+                    164,
+                    0,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "1"
+                ],
+                "label" : "medium quality",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    189,
+                    189,
+                    91,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "2"
+                ],
+                "label" : "low quality",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    194,
+                    87,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "3"
+                ],
+                "label" : "minimal quality",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    70,
+                    37,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "205"
+                ],
+                "label" : "cloud or cloud shadow",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    123,
+                    123,
+                    123,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "255"
+                ],
+                "label" : "no data",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    0,
+                    0,
+                    0
+                  ]
+                },
+                "visible" : true
+              }
+            ],
+            "heading" : "Value"
+          }
+        ],
+        "isDefaultColorVisible" : true
+      },
+      "attributeTable" : {
+        "type" : "CIMRasterTable",
+        "displayField" : "Value",
+        "editable" : true
+      }
+    }
+  ]
+}

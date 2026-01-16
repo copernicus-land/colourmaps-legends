@@ -1,0 +1,138 @@
+{
+  "type" : "CIMLayerDocument",
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "colorizer" : {
+        "type" : "CIMRasterUniqueValueColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "fieldName" : "Value",
+        "groups" : [
+          {
+            "type" : "CIMRasterUniqueValueGroup",
+            "classes" : [
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "0"
+                ],
+                "label" : "dry",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    255,
+                    255,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "1"
+                ],
+                "label" : "permanent water",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    77,
+                    168,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "2"
+                ],
+                "label" : "temporary water",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    112,
+                    255,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "205"
+                ],
+                "label" : "cloud or cloud shadow",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    153,
+                    153,
+                    153,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "253"
+                ],
+                "label" : "sea water",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    237,
+                    195,
+                    100
+                  ]
+                },
+                "visible" : true
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "255"
+                ],
+                "label" : "no data",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    0,
+                    0,
+                    100
+                  ]
+                },
+                "visible" : true
+              }
+            ],
+            "heading" : "Value"
+          }
+        ],
+        "isDefaultColorVisible" : true
+      },
+      "attributeTable" : {
+        "type" : "CIMRasterTable",
+        "displayField" : "Value",
+        "editable" : true
+      }
+    }
+  ]
+}
