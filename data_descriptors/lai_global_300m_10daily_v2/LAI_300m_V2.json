@@ -1,0 +1,68 @@
+{
+  "name": "s3://eodata/CLMS/bio-geophysical/vegetation_properties/lai_global_300m_10daily_v2",
+  "browserName": "LAI 300m 10-daily V2.0",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Properties",
+  "collectionDescription": "Provides information of Leaf Area Index, defined as half the total area of green elements of the canopy per unit horizontal ground area. Every 10-days estimates are available at global scale in the spatial resolution of ~300 m from January 2014 to the present. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/leaf-area-index-v2-0-300m",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "2014",
+    "end": "present"
+  },
+  "layers": [
+    {
+      "fileName": "LAI300-LAI",
+      "layerBrowserName": "LAI",
+      "shortDescription": "Leaf Area Index (m²/m²)",
+      "longDescription": "LAI (Leaf Area Index) is defined as half the total area of green elements of the canopy per unit horizontal ground area. It is expressed in m²/m².",
+      "colourMapLink": "https://github.com/cgls/colourmaps-legends/blob/main/colourmaps/lai_global_300m_10daily_v2/clms_global_lai-lai_300m_v2_10daily.sld",
+      "legendLink": "https://github.com/cgls/colourmaps-legends/blob/main/legends/clms_global_lai-lai_300m_v2_10daily.png",
+      "display": 1
+    },
+    {
+      "fileName": "LAI300-RMSE",
+      "layerBrowserName": "RMSE on LAI",
+      "shortDescription": "Root Mean Square Error on Leaf Area Index",
+      "longDescription": "RMSE is computed between the final dekadal LAI value and the available valid instantaneous values in the compositing window. It is expressed in [m²/m²].",
+      "colourMapLink": "https://github.com/cgls/colourmaps-legends/blob/main/colourmaps/lai_global_300m_10daily_v2/clms_global_lai-rmse_300m_v2_10daily.sld",
+      "legendLink": "https://github.com/cgls/colourmaps-legends/blob/main/legends/clms_global_lai-rmse_300m_v2_10daily.png",
+      "display": 1
+    },
+    {
+      "fileName": "LAI300-NOBS",
+      "layerBrowserName": "NOBS",
+      "shortDescription": "Number of available valid instantaneous LAI",
+      "longDescription": "Number of available valid instantaneous LAI values in the compositing window. The more instantaneous values the more reliable is the LAI product.",
+      "colourMapLink": "https://github.com/cgls/colourmaps-legends/blob/main/colourmaps/lai_global_300m_10daily_v2/clms_global_lai-nobs_300m_v2_10daily.sld",
+      "legendLink": "https://github.com/cgls/colourmaps-legends/blob/main/legends/clms_global_lai-nobs_300m_v2_10daily.png",
+      "display": 1
+    },
+    {
+      "fileName": "LAI300-LBEFORE",
+      "layerBrowserName": "LENGTH_BEFORE",
+      "shortDescription": "Length of the semi-period before the date [days]",
+      "longDescription": "Length of the semi-period before the dekadal date of the compositing window [days].",
+      "colourMapLink": "https://github.com/cgls/colourmaps-legends/blob/main/colourmaps/lai_global_300m_10daily_v2/clms_global_lai-lbefore_300m_v2_10daily.sld",
+      "legendLink": "https://github.com/cgls/colourmaps-legends/blob/main/legends/clms_global_lai-lbefore_300m_v2_10daily.png",
+      "display": 1
+    },
+    {
+      "fileName": "LAI300-LAFTER",
+      "layerBrowserName": "LENGTH_AFTER",
+      "shortDescription": "Length of the semi-period after the date [days]",
+      "longDescription": "Length of the semi-period after the dekadal date of the compositing window [days].",
+      "colourMapLink": "https://github.com/cgls/colourmaps-legends/blob/main/colourmaps/lai_global_300m_10daily_v2/clms_global_lai-lafter_300m_v2_10daily.sld",
+      "legendLink": "https://github.com/cgls/colourmaps-legends/blob/main/legends/clms_global_lai-lafter_300m_v2_10daily.png",
+      "display": 1
+    },
+    {
+      "fileName": "LAI300-QFLAG",
+      "layerBrowserName": "",
+      "shortDescription": "",
+      "longDescription": "",
+      "colourMapLink": "",
+      "legendLink": "",
+      "display": 0
+    }
+  ]
+}

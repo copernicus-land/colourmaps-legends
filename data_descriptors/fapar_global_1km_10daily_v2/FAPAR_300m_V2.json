@@ -1,0 +1,59 @@
+{
+  "name": "s3://eodata/CLMS/bio-geophysical/vegetation_properties/fapar_global_300m_10daily_v2",
+  "browserName": "FAPAR 300m 10-daily V2.0",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Properties",
+  "collectionDescription": "Quantifies the fraction of the solar radiation absorbed by live plants for photosynthesis. Every 10-days estimates are available at global scale in the spatial resolution of ~ 300 m from January 2014 to the present. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/fraction-of-absorbed-photosynthetically-active-radiation-v2-0-300m",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "2014",
+    "end": "present"
+  },
+  "layers": [
+    {
+      "fileName": "FAPAR300-FAPAR",
+      "layerBrowserName": "FAPAR",
+      "shortDescription": "Fraction of Absorbed Photosynthetically Active Radiation",
+      "longDescription": "FAPAR represents the fraction of photosynthetically active radiation [0.4-0.7 μm] that is absorbed by vegetation. FAPAR is defined as the instantaneous at 10:00 local times.",
+      "colourMapLink": "https://github.com/cgls/colourmaps-legends/blob/main/colourmaps/fapar_global_300m_10daily_v2/clms_global_fapar-fapar_300m_v2_10daily.sld",
+      "legendLink": "https://github.com/cgls/colourmaps-legends/blob/main/legends/clms_global_fapar-fapar_300m_v2_10daily.png",
+      "display": 1
+    },
+    {
+      "fileName": "FAPAR300-RMSE",
+      "layerBrowserName": "RMSE on FAPAR",
+      "shortDescription": "Root Mean Square Error on FAPAR",
+      "longDescription": "RMSE is computed between the final dekadal FAPAR value and the available valid instantaneous values in the compositing window.",
+      "colourMapLink": "https://github.com/cgls/colourmaps-legends/blob/main/colourmaps/fapar_global_300m_10daily_v2/clms_global_fapar-rmse_300m_v2_10daily.sld",
+      "legendLink": "https://github.com/cgls/colourmaps-legends/blob/main/legends/clms_global_fapar-rmse_300m_v2_10daily.png",
+      "display": 1
+    },
+    {
+      "fileName": "FAPAR300-NOBS",
+      "layerBrowserName": "NOBS",
+      "shortDescription": "Number of available valid instantaneous FAPAR",
+      "longDescription": "Number of available valid instantaneous FAPAR values in the compositing window.",
+      "colourMapLink": "https://github.com/cgls/colourmaps-legends/blob/main/colourmaps/fapar_global_300m_10daily_v2/clms_global_fapar-nobs_300m_v2_10daily.sld",
+      "legendLink": "https://github.com/cgls/colourmaps-legends/blob/main/legends/clms_global_fapar-nobs_300m_v2_10daily.png",
+      "display": 1
+    },
+    {
+      "fileName": "FAPAR300-LBEFORE",
+      "layerBrowserName": "LENGTH_BEFORE",
+      "shortDescription": "Length of the semi-period before the date [days]",
+      "longDescription": "Length of the semi-period before the dekadal date of the compositing window [days].",
+      "colourMapLink": "https://github.com/cgls/colourmaps-legends/blob/main/colourmaps/fapar_global_300m_10daily_v2/clms_global_fapar-lbefore_300m_v2_10daily.sld",
+      "legendLink": "https://github.com/cgls/colourmaps-legends/blob/main/legends/clms_global_fapar-lbefore_300m_v2_10daily.png",
+      "display": 1
+    },
+    {
+      "fileName": "FAPAR300-LAFTER",
+      "layerBrowserName": "LENGTH_AFTER",
+      "shortDescription": "Length of the semi-period after the date [days]",
+      "longDescription": "Length of the semi-period after the dekadal date of the compositing window [days].",
+      "colourMapLink": "https://github.com/cgls/colourmaps-legends/blob/main/colourmaps/fapar_global_300m_10daily_v2/clms_global_fapar-lafter_300m_v2_10daily.sld",
+      "legendLink": "https://github.com/cgls/colourmaps-legends/blob/main/legends/clms_global_fapar-lafter_300m_v2_10daily.png",
+      "display": 1
+    }
+  ]
+}

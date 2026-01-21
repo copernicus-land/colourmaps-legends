@@ -1,0 +1,23 @@
+{
+  "name": "",
+  "browserName": "",
+  "browserSearchPath": "",
+  "collectionDescription": "",
+  "linkToCLMS": "",
+  "spatialCoverage": "",
+  "temporalExtent": {
+    "start": "",
+    "end": ""
+  },
+  "layers": [
+    {
+      "fileName": "",
+      "layerBrowserName": "",
+      "shortDescription": "",
+      "longDescription": "",
+      "colourMapLink": "",
+      "legendLink": "",
+      "display": 1
+    }
+  ]
+}
