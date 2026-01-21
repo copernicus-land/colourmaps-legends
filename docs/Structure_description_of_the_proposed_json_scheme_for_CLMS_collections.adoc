@@ -1,0 +1,125 @@
+= Structure description of the proposed JSON scheme for CLMS collections (Browser integration)
+
+== Full structure template
+
+[source,json]
+----
+{
+  "name": "",
+  "browserName": "",
+  "browserSearchPath": "",
+  "collectionDescription": "",
+  "linkToCLMS": "",
+  "spatialCoverage": "",
+  "temporalExtent": {
+    "start": "",
+    "end": ""
+  },
+  "layers": [
+    {
+      "fileName": "",
+      "layerBrowserName": "",
+      "shortDescription": "",
+      "longDescription": "",
+      "colourMapLink": "",
+      "legendLink": "",
+      "display": 1
+    }
+  ]
+}
+----
+
+== Description of variables and rules to observe
+
+In this section we will use the collection _ssm_europe_1km_daily_v1_ as an example.
+
+=== name
+
+The name of the collection in _eodata_.
+
+image::media/image2.png[name example]
+
+=== browserName
+
+The name that should appear in the Browser when visualising the product. This should follow the convention:
+
+----
+Product Resolution Timeliness Version
+----
+
+image::media/image7.png[browserName example, 400]
+
+=== browserSearchPath
+
+The description of the structure to be implemented in the SEARCH tab of the Copernicus Browser.
+
+image::media/image4.png[browserSearchPath example, 500]
+
+=== collectionDescription
+
+The description of the collection to be displayed when a user clicks on the information button in the VISUALISE tab.
+
+image::media/image9.png[collectionDescription example, 500]
+
+=== linkToCLMS
+
+The link to the product on the CLMS portal. The link will be inserted in the _collectionDescription_, with the text "More information here".
+
+SSM 1km Daily V1:: https://land.copernicus.eu/en/products/soil-moisture/daily-surface-soil-moisture-v1.0
+
+=== spatialCoverage
+
+The spatial coverage of the collection. This information is used to build the name of the product in the SEARCH tab of the Browser.
+
+image::media/image5.png[spatialCoverage example, 400]
+
+=== temporalExtent
+
+The temporal coverage of the collection. This variable contains 2 attributes: **start** and **end**. This information is used to build the name of the product in the SEARCH tab of the Browser.
+
+image::media/image6.png[temporalExtent example, 420]
+
+=== layers
+
+An array containing the attributes for each layer contained in the collection.
+
+==== fileName
+
+The name of the Layer contained in the path of the COG. This enables us to identify the file in the _eodata_ storage.
+
+image::media/image1.png[fileName example]
+
+==== layerBrowserName
+
+The name of the Layer to be displayed in the Browser.
+
+image::media/image3.png[layerBrowserName example, 700]
+
+==== shortDescription
+
+The description of the layer that appears under the layer name in the Browser. This description should be less than 42 characters to be displayed in full.
+
+image::media/image3.png[shortDescription example, 700]
+
+==== longDescription
+
+The description of the layer that appears when the user expands the layer.
+
+image::media/image8.png[longDescription example, 500]
+
+==== colourMapLink
+
+The link to the colourmap in the Github repository governing the display of the data in the Browser.
+
+SSM 1km Daily V1:: https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ssm_europe_1km_daily_v1/clms_global_ssm_1km_v1_daily.txt
+
+==== legendLink
+
+The link to the legend in the Github repository that will be integrated in the layer description in the Browser.
+
+SSM 1km Daily V1:: https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_ssm_1km_v1_daily.png
+
+==== display
+
+* `1` = the layer should be displayed in the Browser
+* `0` = the layer is to be omitted in the Browser
