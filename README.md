@@ -12,6 +12,8 @@ CGLS-colourmaps/
 │   │   └── *.sld              # Individual SLD files
 │   └── Legacy/                # Legacy format files
 │       └── *.txt              # QGIS generated color map export files
+├── Data_descriptors           # Metadata to be used in the CDSE browser
+│   └── *.json                 
 └── Legends/                   # Legend images for visualization
     └── *.png  
 ```
@@ -28,9 +30,16 @@ The **folder** name follows the pattern:
 The filename of the colour maps and legends follows this pattern:
 
 - **ColourMaps**: `<layer_name>.(sld|txt)`, e.g., `clms_global_ndvi_1km_v2_10daily.sld`
+- **Data_descriptors: `<dataset_name>.json`, e.g., `fapar_global_1km_10daily_v2.json`
 - **Legends**: `<layer_name>.png`, e.g., `clms_global_ndvi_1km_v2_10daily.png`
 
 NOTE: in case of multiple layers/variables names should be distint accordingly to the specific variable represented e.g. 'clms_global_NDVI300-NDVI_v2_10daily.sld, clms_global_NDVI300-NOBS_v2_10daily.sld ...'
+
+## Data Descriptors
+
+The `Data_descriptors/` folder contains JSON files that provide metadata for integrating CLMS collections into the Copernicus Browser. Each JSON file describes a single collection and its layers.
+
+For detailed documentation on how to populate these files, see [Data Descriptors Documentation](docs/data_descriptors_schema.adoc).
 
 ## Machine-to-Machine (M2M) Access
 
