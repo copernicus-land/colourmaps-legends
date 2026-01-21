@@ -35,7 +35,7 @@ The filename of the colour maps and legends follows this pattern:
 
 NOTE: in case of multiple layers/variables names should be distint accordingly to the specific variable represented e.g. 'clms_global_NDVI300-NDVI_v2_10daily.sld, clms_global_NDVI300-NOBS_v2_10daily.sld ...'
 
-## Data Descriptors
+## Data Descriptors (BETA)
 
 The `Data_descriptors/` folder contains JSON files that provide metadata for integrating CLMS collections into the Copernicus Browser. Each JSON file describes a single collection and its layers.
 
