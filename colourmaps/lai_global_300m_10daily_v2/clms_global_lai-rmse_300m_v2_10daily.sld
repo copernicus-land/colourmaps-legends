@@ -15,15 +15,15 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
                 <ColorMapEntry color="#8C5C08" quantity="0" label="0.0"/>
-                <ColorMapEntry color="#AE8D0E" quantity="6"/>
-                <ColorMapEntry color="#D1BE15" quantity="12"/>
-                <ColorMapEntry color="#F3EF1B" quantity="18"/>
-                <ColorMapEntry color="#E5EF1A" quantity="24"/>
-                <ColorMapEntry color="#BED816" quantity="30" label="1.0"/>
-                <ColorMapEntry color="#98C011" quantity="36"/>
-                <ColorMapEntry color="#72A90D" quantity="42"/>
-                <ColorMapEntry color="#4C9208" quantity="48"/>
-                <ColorMapEntry color="#267B04" quantity="54"/>
+                <ColorMapEntry color="#b49505" quantity="6"/>
+                <ColorMapEntry color="#dcce02" quantity="12"/>
+                <ColorMapEntry color="#f2fc00" quantity="18"/>
+                <ColorMapEntry color="#99e900" quantity="24"/>
+                <ColorMapEntry color="#3fd500" quantity="30" label="1.0"/>
+                <ColorMapEntry color="#00c100" quantity="36"/>
+                <ColorMapEntry color="#00aa00" quantity="42"/>
+                <ColorMapEntry color="#009200" quantity="48"/>
+                <ColorMapEntry color="#007b00" quantity="54"/>
                 <ColorMapEntry color="#006400" quantity="60" label="2.0"/>
             </ColorMap>
           </RasterSymbolizer>
