@@ -14,15 +14,17 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
-              <ColorMapEntry color="#FFFFFF" quantity="0" label="0"/>
-              <ColorMapEntry color="#FF0000" quantity="1" label="0.02"/>
-              <ColorMapEntry color="#FFA500" quantity="3000" label="60"/>
-              <ColorMapEntry color="#FFD700" quantity="6000" label="120"/>
-              <ColorMapEntry color="#FFFF00" quantity="9000" label="180"/>
-              <ColorMapEntry color="#ADFF2F" quantity="12000" label="240"/>
-              <ColorMapEntry color="#14FF14" quantity="15000" label="300"/>
-              <ColorMapEntry color="#0AC80A" quantity="18000" label="360"/>
-              <ColorMapEntry color="#008800" quantity="21000" label="420"/>
+              <ColorMapEntry color="#730000" quantity="0" label="0" />
+              <ColorMapEntry color="#DA8C00" quantity="3000" label="60"/>
+              <ColorMapEntry color="#FFB787" quantity="6000" label="120"/>
+              <ColorMapEntry color="#C3FF99" quantity="9000" label="180"/>
+              <ColorMapEntry color="#73A517" quantity="12000" label="240"/>
+              <ColorMapEntry color="#3A805F" quantity="15000" label="300"/>
+              <ColorMapEntry color="#115F88" quantity="18000" label="360"/>
+              <ColorMapEntry color="#0E4D84" quantity="21000" label="420"/>
+              <ColorMapEntry color="#0C3E81" quantity="24000" label="480"/>
+              <ColorMapEntry color="#0B357F" quantity="27000" label="540"/>
+              <ColorMapEntry color="#0A2D7D" quantity="30000" label="600"/>
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
