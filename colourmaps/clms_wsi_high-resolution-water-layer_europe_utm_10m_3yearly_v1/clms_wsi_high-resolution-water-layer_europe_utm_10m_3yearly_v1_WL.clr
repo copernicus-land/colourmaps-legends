@@ -1,0 +1,6 @@
+0 255 255 255 255 dry
+1 0 77 168 255 permanent water
+2 0 112 255 255 temporary water
+205 153 153 153 255 cloud or cloud shadow
+253 255 237 195 255 sea water
+255 0 0 0 255 no data

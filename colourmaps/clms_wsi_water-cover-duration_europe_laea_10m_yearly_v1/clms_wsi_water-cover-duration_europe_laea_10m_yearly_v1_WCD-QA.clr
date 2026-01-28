@@ -1,0 +1,7 @@
+0 93 164 0 255 high quality
+1 189 189 91 255 medium quality
+2 255 194 87 255 low quality
+3 255 70 37 255 minimal quality
+65485 153 153 153 255 cloud or cloud shadow
+65533 255 237 195 255 sea water
+65535 0 0 0 255 no data
