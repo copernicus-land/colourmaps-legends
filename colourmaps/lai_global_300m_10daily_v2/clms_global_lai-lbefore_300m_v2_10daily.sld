@@ -24,7 +24,7 @@
                 <ColorMapEntry color="#486fb2" quantity="7"/>
                 <ColorMapEntry color="#4971b3" quantity="8"/>
                 <ColorMapEntry color="#4b72b4" quantity="9"/>
-                <ColorMapEntry color="#4c74b5" quantity="10">
+                <ColorMapEntry color="#4c74b5" quantity="10"/>
                 <ColorMapEntry color="#4d76b6" quantity="11"/>
                 <ColorMapEntry color="#4f77b6" quantity="12"/>
                 <ColorMapEntry color="#5079b7" quantity="13"/>
