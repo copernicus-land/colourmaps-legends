@@ -14,6 +14,8 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="ramp">
+              <ColorMapEntry color="#FFFFFF" quantity="-2" opacity="0.0"/>
+              <ColorMapEntry color="#FFFFFF" quantity="-1" opacity="0.0"/>
               <ColorMapEntry color="#730000" quantity="0" label="0" />
               <ColorMapEntry color="#DA8C00" quantity="3000" label="3"/>
               <ColorMapEntry color="#FFB787" quantity="6000" label="6"/>
