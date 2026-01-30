@@ -1,0 +1,4 @@
+1 0 0 255 255 open water
+100 0 232 255 255 snow covered or snow-free ice
+200 40 40 40 255 radar shadow / layover / foreshortening
+255 0 0 0 0 no data

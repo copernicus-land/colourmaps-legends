@@ -1,0 +1,5 @@
+0 0 0 0 255 cloud-free / cloud shadow-free
+1 254 230 206 255 high cloud
+2 242 158 110 255 other cloud
+3 230 85 13 255 cloud shadow
+255 0 0 0 0 no data
