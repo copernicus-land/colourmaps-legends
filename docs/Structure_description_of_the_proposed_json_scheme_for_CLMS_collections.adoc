@@ -83,6 +83,8 @@ image::media/image6.png[temporalExtent example, 420]
 
 An array containing the attributes for each layer contained in the collection.
 
+IMPORTANT NOTE: The appearance order will be displayed in the CDSE browser
+
 ==== fileName
 
 The name of the Layer contained in the path of the COG. This enables us to identify the file in the _eodata_ storage.
