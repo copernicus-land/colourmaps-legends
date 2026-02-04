@@ -1,0 +1,77 @@
+{
+  "name": "s3://eodata/CLMS/bio-geophysical/snow_cover_extent/clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2",
+  "browserName": "FSC Europe 20m Daily V2",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Snow, Snow Cover Extent",
+  "collectionDescription": "The Fractional Snow Cover (FSC) product provides the fraction of the surface covered by snow at the top of canopy (FSC-TOC) and on ground (FSC-OG) per pixel as a percentage (0% – 100%). It is generated in near real-time at European scale based on optical satellite data from the Sentinel-2 constellation, with a spatial resolution of 20 m x 20 m, from 2016 to present. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover",
+  "spatialCoverage": "Europe",
+  "temporalExtent": {
+    "start": "2016",
+    "end": "present"
+  },
+  "layers": [
+    {
+      "fileName": "FSCOG",
+      "layerBrowserName": "FSC OG",
+      "shortDescription": "Snow fraction on-ground (%)",
+      "longDescription": "Fraction of the surface covered by snow (ranging from 0% to 100%). In the presence of tree cover, estimate of the fraction of snow under the canopy. The dataset has also the following classes: cloud or cloud shadow (205), inland water (210), and no data (255).",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_fractional-snow-cover/clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_fscog.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "FSCOG-QA",
+      "layerBrowserName": "FSC OG-QA",
+      "shortDescription": "Quality layer for the on-ground snow fraction (FSC OG) layer",
+      "longDescription": "Quality layer providing basic assessment of the on-ground snow fraction layer.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_fractional-snow-cover/clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_fscog-qa.sld",
+      "legendLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "FSCTOC",
+      "layerBrowserName": "FSC TOC",
+      "shortDescription": "Snow fraction on top of canopy (%)",
+      "longDescription": "Fraction of the surface covered by snow as seen above the top of the canopy, i.e. visible from space (ranging from 0% to 100%). The dataset has also the following classes: cloud or cloud shadow (205), inland water (210), and no data (255).",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_fractional-snow-cover/clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_fsctoc.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "FSCTOC-QA",
+      "layerBrowserName": "FSC TOC-QA",
+      "shortDescription": "Quality layer for the Top-of-canopy snow fraction (FSC TOC) layer",
+      "longDescription": "Quality layer providing basic assessment of the Top-of-canopy snow fraction layer.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_fractional-snow-cover/clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_fsctoc-qa.sld",
+      "legendLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "QAFLAGS",
+      "layerBrowserName": "QAFLAGS",
+      "shortDescription": "Quality flags",
+      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation displays whether the pixel is located in the hillshade, corresponding to pixels where bit 0 is activated. Other information can also be visualised. More details are available in the '</> Custom' option.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "CLD",
+      "layerBrowserName": "CLD",
+      "shortDescription": "Cloud and cloud shadow mask",
+      "longDescription": "Bitmask layer defining cloud and cloud-shadow masks derived from the input MAJA Sentinel-2 Level-2A product. The default visualisation displays all clouds except the thinnest ones, as well as all cloud shadows, corresponding to pixels where bit 0 is activated. Other information can also be visualised. More details are available in the '</> Custom' option.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "NDSI",
+      "layerBrowserName": "NDSI",
+      "shortDescription": "Normalised Difference Snow Index (%) of detected snow areas",
+      "longDescription": "Values of the spectral index Normalized Difference Snow Index for snow-covered-pixels (ranging from 0% to 100%). The index is derived from the input MAJA Sentinel-2 level 2A product. The dataset has also the following classes: cloud or cloud shadow (205), inland water (210), and no data (255).",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_fractional-snow-cover/clms_wsi_fractional-snow-cover_europe_utm_20m_daily_v2_ndsi.sld",
+      "legendLink": "",
+      "display": 1
+    }
+  ]
+}
