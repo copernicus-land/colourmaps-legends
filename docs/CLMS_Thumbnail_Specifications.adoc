@@ -218,7 +218,7 @@ CLMS thumbnails must use the official CLMS color schemes as defined in the produ
 |Same color scheme must be applied across all temporal instances of a product
 
 |Color Ramp Format
-|Available as LUT (Look-Up Table), QGIS .qml style files, or color definition files
+|Available as OGC Styled Layer Descriptor files (.sld) - available from CLMS data distribution
 |===
 
 IMPORTANT: The color ramp used for thumbnail generation must exactly match the official CLMS product color scheme. Do not create custom or alternative color schemes without explicit approval from the CLMS Technical Coordination Board.
@@ -265,49 +265,11 @@ The thumbnail should provide an accurate visual summary that helps users:
 
 === Naming Pattern
 
-Regional thumbnails::
-`{PRODUCT}_{VERSION}_{REGION}_{DATE}.png`
-
-Global thumbnails::
-`{PRODUCT}_{VERSION}_globe_{DATE}.png`
-
-=== Component Definitions
-
-[cols="1,3,2"]
-|===
-|Component |Description |Example
-
-|`{PRODUCT}`
-|Product identifier including spatial resolution
-|`CLMS_DMP300mV2`, `CLMS_NDVI300mV3`
-
-|`{VERSION}`
-|Product version (if applicable, may be included in PRODUCT)
-|`V2`, `V3`
-
-|`{REGION}`
-|Geographic region name (lowercase, no spaces)
-|`brazil`, `europe`, `africa`, `asia`
-
-|`{DATE}`
-|Temporal reference in YYYYMMDD format
-|`20250630`
-|===
-
-=== Naming Examples
-
-----
-CLMS_DMP300mV2_Brazil_20250630.png
-CLMS_DMP300mV2_globe_20250630.png
-CLMS_NDVI300mV3_Europe_20241231.png
-CLMS_NDVI300mV3_globe_20241231.png
-CLMS_FAPAR300m_Africa_20250315.png
-CLMS_LAI300m_globe_20250101.png
-----
+Naming convention must strictly follow the current dataset naming convention.
 
 IMPORTANT: Naming convention must remain consistent across all product families to enable automated processing and catalog integration.
 
 
 ---
 
-*Document Control*: This specification is maintained by the CLMS Global Operations team. Updates require review and approval by the Technical Coordination Board.
+*Document Control*: This specification is maintained by the CLMS Operations team. Updates require review and approval by the Technical Coordination Board.
