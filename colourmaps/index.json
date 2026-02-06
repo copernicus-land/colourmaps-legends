@@ -2,10 +2,75 @@
   "directoryName": "colourmaps",
   "directoryPath": "colourmaps",
   "directoryType": "colourmaps",
-  "fileCount": 261,
-  "generatedAt": "2025-12-15T16:47:37.641784",
+  "fileCount": 309,
+  "generatedAt": "2026-02-06T17:14:21.461606",
   "products": {
     "clms": [
+      {
+        "fileName": "clms_ua_land-cover-land-use_europe_V025ha_3yearly_v1_2018.sld",
+        "filePath": "colourmaps\\clms_ua_land-cover-land-use\\clms_ua_land-cover-land-use_europe_V025ha_3yearly_v1_2018.sld",
+        "fileSize": 18829,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:51.999813",
+        "md5Hash": "c588c3470fb738ab82bd358a3f50a776",
+        "productInfo": {
+          "product": "clms",
+          "variable": "land-cover-land-use",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_ua_land-cover-land-use_europe_V025ha_3yearly_v1_2021.sld",
+        "filePath": "colourmaps\\clms_ua_land-cover-land-use\\clms_ua_land-cover-land-use_europe_V025ha_3yearly_v1_2021.sld",
+        "fileSize": 21727,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:52.018500",
+        "md5Hash": "afa68988889d5762ca7fe88ed95141ed",
+        "productInfo": {
+          "product": "clms",
+          "variable": "land-cover-land-use",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_ua_land-cover-land-use-change_europe_V010ha_3yearly_v1_2018-2021.sld",
+        "filePath": "colourmaps\\clms_ua_land-cover-land-use-change\\clms_ua_land-cover-land-use-change_europe_V010ha_3yearly_v1_2018-2021.sld",
+        "fileSize": 21507,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:51.982237",
+        "md5Hash": "c3c4b3cd0e63f4c19ee1b3799a4a53ae",
+        "productInfo": {
+          "product": "clms",
+          "variable": "land-cover-land-use-change",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_ua_street-tree-layer_europe_V005ha_3yearly_v1_stl.sld",
+        "filePath": "colourmaps\\clms_ua_street-tree-layer\\clms_ua_street-tree-layer_europe_V005ha_3yearly_v1_stl.sld",
+        "fileSize": 1626,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:52.031757",
+        "md5Hash": "13c2004ff88522b6bd897a80558d88d8",
+        "productInfo": {
+          "product": "clms",
+          "variable": "street-tree-layer",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_ua_street-tree-layer_europe_V005ha_3yearly_v1_um.sld",
+        "filePath": "colourmaps\\clms_ua_street-tree-layer\\clms_ua_street-tree-layer_europe_V005ha_3yearly_v1_um.sld",
+        "fileSize": 1620,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:52.042778",
+        "md5Hash": "d4cd25f8e0272b5c6387ebd8ed1cf840",
+        "productInfo": {
+          "product": "clms",
+          "variable": "street-tree-layer",
+          "version": "unknown"
+        }
+      },
       {
         "fileName": "clms_wsi_cloud-classification_europe_utm_20m_daily_v1_CC-QA.sld",
         "filePath": "colourmaps\\clms_wsi_cloud-classification_europe_utm_20m_daily_v1\\clms_wsi_cloud-classification_europe_utm_20m_daily_v1_CC-QA.sld",
@@ -176,11 +241,11 @@
         }
       },
       {
-        "fileName": "clms_wsi_high-resolution-water-layer_europe_utm_10m_3yearly_v1-WL.sld",
-        "filePath": "colourmaps\\clms_wsi_high-resolution-water-layer_europe_utm_10m_3yearly_v1\\clms_wsi_high-resolution-water-layer_europe_utm_10m_3yearly_v1-WL.sld",
+        "fileName": "clms_wsi_high-resolution-water-layer_europe_utm_10m_3yearly_v1_WL.sld",
+        "filePath": "colourmaps\\clms_wsi_high-resolution-water-layer_europe_utm_10m_3yearly_v1\\clms_wsi_high-resolution-water-layer_europe_utm_10m_3yearly_v1_WL.sld",
         "fileSize": 1467,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.763896",
+        "lastModified": "2026-02-06T10:07:52.209320",
         "md5Hash": "80c5ea4106cb313ebf66cca180a2551d",
         "productInfo": {
           "product": "clms",
@@ -295,10 +360,10 @@
       {
         "fileName": "clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-ICD-QA.sld",
         "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-ICD-QA.sld",
-        "fileSize": 1383,
+        "fileSize": 1374,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.816361",
-        "md5Hash": "ecab75f7d3f6d72452f2aefc0df2f7ae",
+        "lastModified": "2026-02-06T10:07:52.342608",
+        "md5Hash": "48c8fee3997921a3050a34ee78090d4f",
         "productInfo": {
           "product": "clms",
           "variable": "ice-cover-duration",
@@ -308,10 +373,10 @@
       {
         "fileName": "clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-ICD.sld",
         "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-ICD.sld",
-        "fileSize": 31656,
+        "fileSize": 31647,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.820872",
-        "md5Hash": "d9702e6eb1d5b01b3f0a4185cb84c54e",
+        "lastModified": "2026-02-06T10:07:52.372475",
+        "md5Hash": "6a2bbf527a572504de324fa10fecaa78",
         "productInfo": {
           "product": "clms",
           "variable": "ice-cover-duration",
@@ -321,10 +386,10 @@
       {
         "fileName": "clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-NOBS1.sld",
         "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-NOBS1.sld",
-        "fileSize": 31658,
+        "fileSize": 31649,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.825378",
-        "md5Hash": "a47e02a17deca7d3ba8c6be617e47c08",
+        "lastModified": "2026-02-06T10:07:52.390297",
+        "md5Hash": "3aa850f2d6771687b72efe2d13e607a1",
         "productInfo": {
           "product": "clms",
           "variable": "ice-cover-duration",
@@ -334,10 +399,10 @@
       {
         "fileName": "clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-NOBS2.sld",
         "filePath": "colourmaps\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1\\clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1-NOBS2.sld",
-        "fileSize": 31658,
+        "fileSize": 31649,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.830383",
-        "md5Hash": "2b07afecb9047456678ef8d719f6f91c",
+        "lastModified": "2026-02-06T10:07:52.407369",
+        "md5Hash": "5f9e08b394ebbf0f99e0d3a0dde6111e",
         "productInfo": {
           "product": "clms",
           "variable": "ice-cover-duration",
@@ -425,10 +490,10 @@
       {
         "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCM-QA.sld",
         "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_100m_yearly_v1_SCM-QA.sld",
-        "fileSize": 31747,
+        "fileSize": 31587,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.861102",
-        "md5Hash": "7255f9df358c522c63a0182c34e81c38",
+        "lastModified": "2026-02-06T10:07:52.455064",
+        "md5Hash": "4cb33f8b756d14c79c5eaa936fcf7b76",
         "productInfo": {
           "product": "clms",
           "variable": "snow-phenology-s1-s2",
@@ -529,10 +594,10 @@
       {
         "fileName": "clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCM-QA.sld",
         "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_laea_60m_yearly_v1_SCM-QA.sld",
-        "fileSize": 31747,
+        "fileSize": 31587,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.902730",
-        "md5Hash": "3034c13a8e890eb2a0560b28c5788565",
+        "lastModified": "2026-02-06T10:07:52.752092",
+        "md5Hash": "4cb33f8b756d14c79c5eaa936fcf7b76",
         "productInfo": {
           "product": "clms",
           "variable": "snow-phenology-s1-s2",
@@ -581,10 +646,10 @@
       {
         "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_NCSO.sld",
         "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_NCSO.sld",
-        "fileSize": 31744,
+        "fileSize": 31735,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.926411",
-        "md5Hash": "d6a3b0d17eab3fc43b0d8f8f7ebfcb2b",
+        "lastModified": "2026-02-06T10:07:52.853708",
+        "md5Hash": "b8808ff9ca1a0a8ac0a223861d45383d",
         "productInfo": {
           "product": "clms",
           "variable": "snow-phenology-s1-s2",
@@ -594,10 +659,10 @@
       {
         "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_NWSO.sld",
         "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_NWSO.sld",
-        "fileSize": 31744,
+        "fileSize": 31735,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.932411",
-        "md5Hash": "87a5ec406986cbcc620e9b816a4daa1e",
+        "lastModified": "2026-02-06T10:07:52.862736",
+        "md5Hash": "abaf4b12e844ee20adb1d56bf3378c1f",
         "productInfo": {
           "product": "clms",
           "variable": "snow-phenology-s1-s2",
@@ -607,10 +672,10 @@
       {
         "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCD-QA.sld",
         "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCD-QA.sld",
-        "fileSize": 1470,
+        "fileSize": 1461,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.937957",
-        "md5Hash": "db83e21d23062e3061e8de894f519456",
+        "lastModified": "2026-02-06T10:07:52.868771",
+        "md5Hash": "ea2229b53fed4e5b61e41c6aa7ce3206",
         "productInfo": {
           "product": "clms",
           "variable": "snow-phenology-s1-s2",
@@ -620,10 +685,10 @@
       {
         "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCD.sld",
         "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCD.sld",
-        "fileSize": 31743,
+        "fileSize": 31734,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.942037",
-        "md5Hash": "12e982bc197c9d8b7df69f16247ba54b",
+        "lastModified": "2026-02-06T10:07:52.876785",
+        "md5Hash": "5e49d0ca0ca3f77786c1649e5f1cb8e2",
         "productInfo": {
           "product": "clms",
           "variable": "snow-phenology-s1-s2",
@@ -633,10 +698,10 @@
       {
         "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCM-QA.sld",
         "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCM-QA.sld",
-        "fileSize": 31746,
+        "fileSize": 31586,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.947623",
-        "md5Hash": "486ca56b30285d7e3c63d03ad1e3f101",
+        "lastModified": "2026-02-06T10:07:52.886977",
+        "md5Hash": "6390d207b2533a598f54ff569fd0497a",
         "productInfo": {
           "product": "clms",
           "variable": "snow-phenology-s1-s2",
@@ -646,10 +711,10 @@
       {
         "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCM.sld",
         "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCM.sld",
-        "fileSize": 31293,
+        "fileSize": 31284,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.953625",
-        "md5Hash": "b1d8cb26e71350e0e1fd75f90450676b",
+        "lastModified": "2026-02-06T10:07:52.897081",
+        "md5Hash": "73da106ba019de736e72ce1884086c9e",
         "productInfo": {
           "product": "clms",
           "variable": "snow-phenology-s1-s2",
@@ -659,10 +724,10 @@
       {
         "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCO-QA.sld",
         "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCO-QA.sld",
-        "fileSize": 31586,
+        "fileSize": 31577,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.960969",
-        "md5Hash": "c7b464c0323c55fbdf5186b1e6afe161",
+        "lastModified": "2026-02-06T10:07:52.909925",
+        "md5Hash": "3056a9e25100d8b95c05aaa340d30b22",
         "productInfo": {
           "product": "clms",
           "variable": "snow-phenology-s1-s2",
@@ -672,10 +737,10 @@
       {
         "fileName": "clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCO.sld",
         "filePath": "colourmaps\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1\\clms_wsi_snow-phenology-s1-s2_europe_utm_60m_yearly_v1_SCO.sld",
-        "fileSize": 31293,
+        "fileSize": 31284,
         "fileType": "sld",
-        "lastModified": "2025-12-15T15:25:52.966482",
-        "md5Hash": "b4163dbb2a5390c22194b309ba53ee8b",
+        "lastModified": "2026-02-06T10:07:52.921502",
+        "md5Hash": "d9013e041357da13201c6f266f062bf6",
         "productInfo": {
           "product": "clms",
           "variable": "snow-phenology-s1-s2",
@@ -1125,6 +1190,45 @@
         }
       },
       {
+        "fileName": "clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1_PRB.sld",
+        "filePath": "colourmaps\\clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1\\clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1_PRB.sld",
+        "fileSize": 10201,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:53.758646",
+        "md5Hash": "0fe1c063ddc9c375277132f1a0f9f6a2",
+        "productInfo": {
+          "product": "clms",
+          "variable": "water-ice-cover-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1_WIC-QA.sld",
+        "filePath": "colourmaps\\clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1\\clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1_WIC-QA.sld",
+        "fileSize": 1476,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:53.770665",
+        "md5Hash": "eb422a690c74152292da8e9d2923233a",
+        "productInfo": {
+          "product": "clms",
+          "variable": "water-ice-cover-s2",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1_WIC.sld",
+        "filePath": "colourmaps\\clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1\\clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1_WIC.sld",
+        "fileSize": 1408,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:53.782168",
+        "md5Hash": "c927f13e695e3c50b18af3fca810a3b1",
+        "productInfo": {
+          "product": "clms",
+          "variable": "water-ice-cover-s2",
+          "version": "unknown"
+        }
+      },
+      {
         "fileName": "clms_wsi_wet-dry-snow_europe_utm_60m_daily_v2_SSC-QA.sld",
         "filePath": "colourmaps\\clms_wsi_wet-dry-snow_europe_utm_60m_daily_v2\\clms_wsi_wet-dry-snow_europe_utm_60m_daily_v2_SSC-QA.sld",
         "fileSize": 1461,
@@ -1148,6 +1252,22 @@
           "product": "clms",
           "variable": "wet-dry-snow",
           "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_dmp_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\dmp_global_300m_10daily_v2\\clms_global_dmp_300m_v2_10daily.sld",
+        "fileSize": 1809,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:53.794704",
+        "md5Hash": "13b3f195bff579056304d7ac1ce03bc4",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "dmp",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
         }
       },
       {
@@ -1403,6 +1523,198 @@
         }
       },
       {
+        "fileName": "clms_global_fapar-fapar_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\fapar_global_300m_10daily_v2\\clms_global_fapar-fapar_300m_v2_10daily.sld",
+        "fileSize": 2013,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.273744",
+        "md5Hash": "dc77839c370390175783cce23fee8305",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fapar-fapar",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fapar-lafter_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\fapar_global_300m_10daily_v2\\clms_global_fapar-lafter_300m_v2_10daily.sld",
+        "fileSize": 5232,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.275774",
+        "md5Hash": "ed20c123834ecfa81929295b17d30fbc",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fapar-lafter",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fapar-lbefore_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\fapar_global_300m_10daily_v2\\clms_global_fapar-lbefore_300m_v2_10daily.sld",
+        "fileSize": 14767,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.276786",
+        "md5Hash": "4197f797d2be5cb43f13ff79740e32ea",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fapar-lbefore",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fapar-nobs_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\fapar_global_300m_10daily_v2\\clms_global_fapar-nobs_300m_v2_10daily.sld",
+        "fileSize": 5048,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.277792",
+        "md5Hash": "6df69658145e9d3f33fca0946d651083",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fapar-nobs",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fapar-rmse_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\fapar_global_300m_10daily_v2\\clms_global_fapar-rmse_300m_v2_10daily.sld",
+        "fileSize": 1865,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.278791",
+        "md5Hash": "272dd92ea55fb4244051b889223b84ec",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fapar-rmse",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fcover-fcover_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\fcover_global_300m_10daily_v2\\clms_global_fcover-fcover_300m_v2_10daily.sld",
+        "fileSize": 1894,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.279792",
+        "md5Hash": "3cd2811bf5587c28577ce3cb02eb0c2a",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fcover-fcover",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fcover-lafter_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\fcover_global_300m_10daily_v2\\clms_global_fcover-lafter_300m_v2_10daily.sld",
+        "fileSize": 5232,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.280809",
+        "md5Hash": "d870d3e2c4f47a5e8b71e6f6456089e4",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fcover-lafter",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fcover-lbefore_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\fcover_global_300m_10daily_v2\\clms_global_fcover-lbefore_300m_v2_10daily.sld",
+        "fileSize": 14770,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:53.795704",
+        "md5Hash": "7e45b30a44050085db446cb948db5301",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fcover-lbefore",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fcover-nobs_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\fcover_global_300m_10daily_v2\\clms_global_fcover-nobs_300m_v2_10daily.sld",
+        "fileSize": 5049,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.282841",
+        "md5Hash": "a97ff58f0ed0a033e09de0e8bb8f188e",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fcover-nobs",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_fcover-rmse_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\fcover_global_300m_10daily_v2\\clms_global_fcover-rmse_300m_v2_10daily.sld",
+        "fileSize": 1844,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.283902",
+        "md5Hash": "c9e6efa5fa33e1c0c5ccce9b9537fa75",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "fcover-rmse",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_gdmp_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\gdmp_global_300m_10daily_v2\\clms_global_gdmp_300m_v2_10daily.sld",
+        "fileSize": 1818,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:53.797704",
+        "md5Hash": "c5aa7c9e49ccae81d81460aa1d098b6e",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "gdmp",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_gpp_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\gpp_global_300m_10daily_v2\\clms_global_gpp_300m_v2_10daily.sld",
+        "fileSize": 1802,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:53.799207",
+        "md5Hash": "22e62c83d6dec636d57bd4fd0c0da3c1",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "gpp",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
         "fileName": "clms_global_hf-h_300m_v1_daily.sld",
         "filePath": "colourmaps\\hf_global_300m_daily_v1\\clms_global_hf-h_300m_v1_daily.sld",
         "fileSize": 1205,
@@ -1479,6 +1791,86 @@
           "variable": "lai",
           "resolution": "300m",
           "version": "1",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_lai-lafter_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\lai_global_300m_10daily_v2\\clms_global_lai-lafter_300m_v2_10daily.sld",
+        "fileSize": 5229,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.288926",
+        "md5Hash": "20b133d4755195d8daffbc80469d7265",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lai-lafter",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_lai-lai_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\lai_global_300m_10daily_v2\\clms_global_lai-lai_300m_v2_10daily.sld",
+        "fileSize": 1647,
+        "fileType": "sld",
+        "lastModified": "2026-01-26T15:08:34.725897",
+        "md5Hash": "d070a1a8b9cde0946979c75237f6938f",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lai-lai",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_lai-lbefore_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\lai_global_300m_10daily_v2\\clms_global_lai-lbefore_300m_v2_10daily.sld",
+        "fileSize": 14767,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:53.801220",
+        "md5Hash": "2687c619d5670589f9214bacfea15ed0",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lai-lbefore",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_lai-nobs_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\lai_global_300m_10daily_v2\\clms_global_lai-nobs_300m_v2_10daily.sld",
+        "fileSize": 5046,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.291442",
+        "md5Hash": "291082b598ece6008cd951b7e8106453",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lai-nobs",
+          "resolution": "300m",
+          "version": "2",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_lai-rmse_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\lai_global_300m_10daily_v2\\clms_global_lai-rmse_300m_v2_10daily.sld",
+        "fileSize": 1822,
+        "fileType": "sld",
+        "lastModified": "2026-01-26T15:08:34.730895",
+        "md5Hash": "7c193f6bef082242f26dca931bf6ebdf",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lai-rmse",
+          "resolution": "300m",
+          "version": "2",
           "temporal": "10daily"
         }
       },
@@ -1989,6 +2381,102 @@
         }
       },
       {
+        "fileName": "clms_global_lst_3km_v3_10daily-synthesis.sld",
+        "filePath": "colourmaps\\lst-daily-cycle_global_3km_10daily_v3\\clms_global_lst_3km_v3_10daily-synthesis.sld",
+        "fileSize": 1782,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.294523",
+        "md5Hash": "f56560ffe37268a81da9eda766ae870d",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "3km",
+          "version": "3",
+          "temporal": "10daily-synthesis"
+        }
+      },
+      {
+        "fileName": "clms_global_lst_3km_v3_10daily-tci.sld",
+        "filePath": "colourmaps\\lst-daily-cycle_global_3km_10daily_v3\\clms_global_lst_3km_v3_10daily-tci.sld",
+        "fileSize": 1983,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.297602",
+        "md5Hash": "7b625b9bcd91c1ecf7489318ec998a4b",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "3km",
+          "version": "3",
+          "temporal": "10daily-tci"
+        }
+      },
+      {
+        "fileName": "clms_global_lst_3km_v3_frac_valid_10daily-daily-cycle.sld",
+        "filePath": "colourmaps\\lst-daily-cycle_global_3km_10daily_v3\\clms_global_lst_3km_v3_frac_valid_10daily-daily-cycle.sld",
+        "fileSize": 2000,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.297602",
+        "md5Hash": "db221ba2d7891b778bfe02e4129ac6c6",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "3km",
+          "version": "3",
+          "temporal": "frac_valid_10daily-daily-cycle"
+        }
+      },
+      {
+        "fileName": "clms_global_lst_3km_v3_max_10daily-daily-cycle.sld",
+        "filePath": "colourmaps\\lst-daily-cycle_global_3km_10daily_v3\\clms_global_lst_3km_v3_max_10daily-daily-cycle.sld",
+        "fileSize": 1794,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.299273",
+        "md5Hash": "938fed5fbd9649839db18719a58ccd39",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "3km",
+          "version": "3",
+          "temporal": "max_10daily-daily-cycle"
+        }
+      },
+      {
+        "fileName": "clms_global_lst_3km_v3_med_10daily-daily-cycle.sld",
+        "filePath": "colourmaps\\lst-daily-cycle_global_3km_10daily_v3\\clms_global_lst_3km_v3_med_10daily-daily-cycle.sld",
+        "fileSize": 1797,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.299273",
+        "md5Hash": "e05735f41163cb61cb9e65efe470c247",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "3km",
+          "version": "3",
+          "temporal": "med_10daily-daily-cycle"
+        }
+      },
+      {
+        "fileName": "clms_global_lst_3km_v3_min_10daily-daily-cycle.sld",
+        "filePath": "colourmaps\\lst-daily-cycle_global_3km_10daily_v3\\clms_global_lst_3km_v3_min_10daily-daily-cycle.sld",
+        "fileSize": 1794,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.301405",
+        "md5Hash": "7a84c4090fe98e2412eb06c3b6bd5f41",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "3km",
+          "version": "3",
+          "temporal": "min_10daily-daily-cycle"
+        }
+      },
+      {
         "fileName": "clms_global_lst_5km_v1_10daily-synthesis.sld",
         "filePath": "colourmaps\\lst-daily-cycle_global_5km_10daily_v1\\clms_global_lst_5km_v1_10daily-synthesis.sld",
         "fileSize": 1782,
@@ -2178,6 +2666,22 @@
           "resolution": "5km",
           "version": "2",
           "temporal": "min_10daily-daily-cycle"
+        }
+      },
+      {
+        "fileName": "clms_global_lst_3km_v3_hourly.sld",
+        "filePath": "colourmaps\\lst_global_3km_hourly_v3\\clms_global_lst_3km_v3_hourly.sld",
+        "fileSize": 1782,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.303051",
+        "md5Hash": "f56560ffe37268a81da9eda766ae870d",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "3km",
+          "version": "3",
+          "temporal": "hourly"
         }
       },
       {
@@ -2389,6 +2893,84 @@
         }
       },
       {
+        "fileName": "clms_global_lwq_100m_v2.1_10daily-chla_mean.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_100m_10daily_v2.1\\clms_global_lwq_100m_v2.1_10daily-chla_mean.sld",
+        "fileSize": 2550,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.309394",
+        "md5Hash": "ea95eef6b0b53d08f2ae5215e1d6648b",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lwq",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v2.1_10daily-floating_cyanobacteria.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_100m_10daily_v2.1\\clms_global_lwq_100m_v2.1_10daily-floating_cyanobacteria.sld",
+        "fileSize": 1451,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.311422",
+        "md5Hash": "6f7dd1326d7f2129a2d71f9aeb83ab3a",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lwq",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v2.1_10daily-Rw.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_100m_10daily_v2.1\\clms_global_lwq_100m_v2.1_10daily-Rw.sld",
+        "fileSize": 1512,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.306130",
+        "md5Hash": "1a43aba33d6927d3ee5083b69de265a5",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lwq",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v2.1_10daily-trophic_state_index.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_100m_10daily_v2.1\\clms_global_lwq_100m_v2.1_10daily-trophic_state_index.sld",
+        "fileSize": 1783,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.311422",
+        "md5Hash": "62d3e519dcdce06a7412f0b1aba61c2c",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lwq",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v2.1_10daily-tsm_mean.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_100m_10daily_v2.1\\clms_global_lwq_100m_v2.1_10daily-tsm_mean.sld",
+        "fileSize": 2540,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.312517",
+        "md5Hash": "c68b0869869951dc36cf14a8c7cd426d",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lwq",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_100m_v2.1_10daily-turbidity_mean.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_100m_10daily_v2.1\\clms_global_lwq_100m_v2.1_10daily-turbidity_mean.sld",
+        "fileSize": 2540,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.314647",
+        "md5Hash": "c68b0869869951dc36cf14a8c7cd426d",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lwq",
+          "version": "unknown"
+        }
+      },
+      {
         "fileName": "clms_global_lwq_1km_v1_10daily-nrt-Rw.sld",
         "filePath": "colourmaps\\lwq-nrt_global_1km_10daily_v1\\clms_global_lwq_1km_v1_10daily-nrt-Rw.sld",
         "fileSize": 1512,
@@ -2581,6 +3163,84 @@
         }
       },
       {
+        "fileName": "clms_global_lwq_300m_v2.1_10daily-chla_mean.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_300m_10daily_v2.1\\clms_global_lwq_300m_v2.1_10daily-chla_mean.sld",
+        "fileSize": 2550,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.317016",
+        "md5Hash": "ea95eef6b0b53d08f2ae5215e1d6648b",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lwq",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v2.1_10daily-floating_cyanobacteria.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_300m_10daily_v2.1\\clms_global_lwq_300m_v2.1_10daily-floating_cyanobacteria.sld",
+        "fileSize": 1451,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.318086",
+        "md5Hash": "6f7dd1326d7f2129a2d71f9aeb83ab3a",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lwq",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v2.1_10daily-Rw.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_300m_10daily_v2.1\\clms_global_lwq_300m_v2.1_10daily-Rw.sld",
+        "fileSize": 1512,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.315896",
+        "md5Hash": "1a43aba33d6927d3ee5083b69de265a5",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lwq",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v2.1_10daily-trophic_state_index.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_300m_10daily_v2.1\\clms_global_lwq_300m_v2.1_10daily-trophic_state_index.sld",
+        "fileSize": 1783,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.319355",
+        "md5Hash": "62d3e519dcdce06a7412f0b1aba61c2c",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lwq",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v2.1_10daily-tsm_mean.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_300m_10daily_v2.1\\clms_global_lwq_300m_v2.1_10daily-tsm_mean.sld",
+        "fileSize": 2540,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.321264",
+        "md5Hash": "c68b0869869951dc36cf14a8c7cd426d",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lwq",
+          "version": "unknown"
+        }
+      },
+      {
+        "fileName": "clms_global_lwq_300m_v2.1_10daily-turbidity_mean.sld",
+        "filePath": "colourmaps\\lwq-nrt_global_300m_10daily_v2.1\\clms_global_lwq_300m_v2.1_10daily-turbidity_mean.sld",
+        "fileSize": 2540,
+        "fileType": "sld",
+        "lastModified": "2026-01-21T08:39:19.322622",
+        "md5Hash": "c68b0869869951dc36cf14a8c7cd426d",
+        "productInfo": {
+          "product": "clms",
+          "variable": "lwq",
+          "version": "unknown"
+        }
+      },
+      {
         "fileName": "clms_global_lwq_1km_v1_10daily-reproc-Rw.sld",
         "filePath": "colourmaps\\lwq-reproc_global_1km_10daily_v1\\clms_global_lwq_1km_v1_10daily-reproc-Rw.sld",
         "fileSize": 1512,
@@ -2679,16 +3339,32 @@
       {
         "fileName": "clms_global_ndvi_300m_v3_10daily.sld",
         "filePath": "colourmaps\\ndvi_global_300m_10daily_v3\\clms_global_ndvi_300m_v3_10daily.sld",
-        "fileSize": 2224,
+        "fileSize": 2172,
         "fileType": "sld",
-        "lastModified": "2025-12-10T16:39:12.103338",
-        "md5Hash": "f41185e21830c31c458550dc62e6cb06",
+        "lastModified": "2026-01-21T08:39:19.323999",
+        "md5Hash": "80542879b90365676c15eef5034232b6",
         "productInfo": {
           "product": "clms",
           "region": "global",
           "variable": "ndvi",
           "resolution": "300m",
           "version": "3",
+          "temporal": "10daily"
+        }
+      },
+      {
+        "fileName": "clms_global_npp_300m_v2_10daily.sld",
+        "filePath": "colourmaps\\npp_global_300m_10daily_v2\\clms_global_npp_300m_v2_10daily.sld",
+        "fileSize": 1807,
+        "fileType": "sld",
+        "lastModified": "2026-02-06T10:07:53.803220",
+        "md5Hash": "b8629d39491d0731723f4e5f62208582",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "npp",
+          "resolution": "300m",
+          "version": "2",
           "temporal": "10daily"
         }
       },
@@ -3472,6 +4148,22 @@
         }
       },
       {
+        "fileName": "clms_global_lst_3km_v3_10daily-synthesis.txt",
+        "filePath": "colourmaps\\lst-daily-cycle_global_3km_10daily_v3\\clms_global_lst_3km_v3_10daily-synthesis.txt",
+        "fileSize": 288,
+        "fileType": "txt",
+        "lastModified": "2026-01-21T08:39:19.296590",
+        "md5Hash": "7d8f3c373cb2abf0e62a49d571e0e8a9",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "3km",
+          "version": "3",
+          "temporal": "10daily-synthesis"
+        }
+      },
+      {
         "fileName": "clms_global_lst_5km_v1_10daily-synthesis.txt",
         "filePath": "colourmaps\\lst-daily-cycle_global_5km_10daily_v1\\clms_global_lst_5km_v1_10daily-synthesis.txt",
         "fileSize": 288,
@@ -3501,6 +4193,22 @@
           "resolution": "5km",
           "version": "2",
           "temporal": "10daily-synthesis"
+        }
+      },
+      {
+        "fileName": "clms_global_lst_3km_v3_hourly.txt",
+        "filePath": "colourmaps\\lst_global_3km_hourly_v3\\clms_global_lst_3km_v3_hourly.txt",
+        "fileSize": 288,
+        "fileType": "txt",
+        "lastModified": "2026-01-21T08:39:19.305060",
+        "md5Hash": "7d8f3c373cb2abf0e62a49d571e0e8a9",
+        "productInfo": {
+          "product": "clms",
+          "region": "global",
+          "variable": "lst",
+          "resolution": "3km",
+          "version": "3",
+          "temporal": "hourly"
         }
       },
       {
