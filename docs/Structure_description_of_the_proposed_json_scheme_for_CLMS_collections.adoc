@@ -23,7 +23,7 @@
       "longDescription": "",
       "colourMapLink": "",
       "legendLink": "",
-      "scale": "",
+      "scale": "[unit]",
       "display": 1
     }
   ]
@@ -114,7 +114,7 @@ image::media/image8.png[longDescription example, 500]
 
 The scale to be used in the layer.
 
-Note: the scale has to be a string enclosed in square brackets (e.g., "[m/km²]")
+Note: the scale must follow the pattern "[unit]" where the unit is enclosed in square brackets (e.g., "[m/km²]")
 
 ==== colourMapLink
 
