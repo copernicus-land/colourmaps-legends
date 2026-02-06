@@ -1,0 +1,313 @@
+= CLMS Thumbnail Image Specifications
+:doctype: book
+:toc: left
+:toclevels: 4
+:sectnums:
+:icons: font
+:source-highlighter: rouge
+:experimental:
+
+== Introduction
+
+This document defines the technical, cartographic, and visual specifications for generating thumbnail images for Copernicus Land Monitoring Service (CLMS) datasets. These thumbnails serve as visual previews in data catalogs, metadata records, and web interfaces.
+
+=== Document Scope
+
+This specification covers:
+
+* Technical image parameters (format, dimensions, compression)
+* Cartographic parameters (projections, extents, coordinate systems)
+* Visual styling parameters (color schemes, stretching, transparency)
+* File naming conventions
+* Quality requirements and validation criteria
+
+
+== Thumbnail Variants
+
+CLMS thumbnails are generated in two standard variants to support different use cases:
+
+[cols="1,2,3"]
+|===
+|Variant |Use Case |Characteristics
+
+|Regional
+|Dataset-specific regional views
+|Square format, focused geographic extent, higher apparent detail
+
+|Global
+|Overview visualizations, catalog browsing
+|Wide format, global extent, continental-scale patterns
+|===
+
+== Technical Specifications
+
+=== Image Format
+
+[cols="1,3"]
+|===
+|Parameter |Value
+
+|File Format
+|PNG (Portable Network Graphics)
+
+|Color Depth
+|24-bit RGB with 8-bit alpha channel (RGBA)
+
+|Compression
+|PNG adaptive filtering with deflate compression
+
+|Interlacing
+|Non-interlaced (sequential encoding)
+
+|Color Profile
+|sRGB IEC61966-2.1
+
+|Metadata
+|Minimal embedded metadata (no EXIF, XMP, or other metadata blocks)
+|===
+
+==== Rationale
+
+PNG format is selected for:
+
+* Lossless compression suitable for scientific visualization
+* Native transparency support for masking non-data areas
+* Wide browser and software compatibility
+* Predictable rendering across platforms
+
+=== Image Dimensions
+
+==== Regional Thumbnails
+
+[cols="1,3"]
+|===
+|Parameter |Value
+
+|Width
+|400 pixels
+
+|Height
+|400 pixels
+
+|Aspect Ratio
+|1:1 (square)
+
+|Total Pixels
+|160,000 pixels
+|===
+
+==== Global Thumbnails
+
+[cols="1,3"]
+|===
+|Parameter |Value
+
+|Width
+|1600 pixels (recommended)
+
+|Height
+|800 pixels (recommended)
+
+|Aspect Ratio
+|2:1 (matches equirectangular projection)
+
+|Total Pixels
+|1,280,000 pixels
+
+|Minimum Width
+|800 pixels
+
+|Maximum Width
+|2400 pixels
+|===
+
+NOTE: Global thumbnail dimensions should maintain a 2:1 aspect ratio to match the equirectangular projection geometry. Width may be adjusted based on storage and bandwidth constraints, but must remain within specified minimum/maximum bounds.
+
+=== File Size
+
+[cols="1,3"]
+|===
+|Thumbnail Type |Target Size
+
+|Regional (400×400)
+|< 200 KB
+
+|Global (1600×800)
+|< 400 KB
+
+|Global (800×400)
+|< 150 KB
+|===
+
+IMPORTANT: If compressed file size exceeds targets, consider reducing color palette depth or applying moderate quantization while preserving visual fidelity.
+
+== Cartographic Specifications
+
+NOTE: Cartographic metadata is optional for thumbnails intended solely for visual preview and catalog display. Geographic parameters (CRS, extent, projection) are not required when thumbnails are used exclusively in non-GIS contexts such as web catalogs, metadata records, or documentation.
+
+=== Coordinate Reference System (Optional)
+
+If cartographic metadata is included, thumbnails should document:
+
+==== Regional Thumbnails
+
+[cols="1,3"]
+|===
+|Parameter |Value
+
+|CRS
+|Dataset native CRS OR EPSG:4326 (WGS 84 Geographic) - optional
+
+|Datum
+|WGS 84 (when EPSG:4326 used) - optional
+
+|Projection
+|As per source dataset or Geographic - optional
+|===
+
+==== Global Thumbnails
+
+[cols="1,3"]
+|===
+|Parameter |Value
+
+|CRS
+|EPSG:4326 (WGS 84 Geographic) - optional
+
+|Projection
+|Geographic / Plate Carrée / Equirectangular - optional
+
+|Datum
+|WGS 84 - optional
+|===
+
+==== Global Thumbnails
+
+Global thumbnails typically show:
+
+* Longitude: -180° to +180° (full global coverage)
+* Latitude: -60° to +75° (excludes extreme polar regions)
+
+NOTE: Polar regions may be excluded due to projection distortion and limited data coverage in CLMS Global products.
+
+=== Spatial Resolution and Resampling
+
+==== Source Data Resolution
+
+CLMS Global products are provided at 300m spatial resolution in their native coordinate system. Thumbnail generation requires significant downsampling from this native resolution.
+
+== Visual Specifications
+
+=== Color Scheme
+
+==== Color Ramp Definition
+
+CLMS thumbnails must use the official CLMS color schemes as defined in the product-specific visualization guidelines. Each product family has a designated color ramp that ensures consistency across the service and maintains visual recognition.
+
+[cols="1,3"]
+|===
+|Parameter |Value
+
+|Color Scheme Source
+|Official CLMS Product Visualization Guidelines
+
+|Product-Specific Ramps
+|Mandatory use of designated color ramps per product
+
+|Consistency Requirement
+|Same color scheme must be applied across all temporal instances of a product
+
+|Color Ramp Format
+|Available as LUT (Look-Up Table), QGIS .qml style files, or color definition files
+|===
+
+IMPORTANT: The color ramp used for thumbnail generation must exactly match the official CLMS product color scheme. Do not create custom or alternative color schemes without explicit approval from the CLMS Technical Coordination Board.
+
+==== Color Scheme Availability
+
+Official CLMS color schemes are provided through:
+
+* Product User Manuals (PUM) - color ramp specifications
+* OGC Styled Layer Descriptor files (.sld) - available from CLMS data distribution
+
+
+* Accurate geographic proportions (no distortion beyond projection effects)
+* Smooth color transitions in continuous data
+* Clear land/water boundaries
+* Recognizable continental outlines
+
+==== Aesthetic Guidelines
+
+* Clean, professional appearance suitable for public-facing portals
+* No embedded text, legends, scales, or annotations
+* No borders or frames (data fills entire image)
+* Consistent visual style across product family
+
+==== Data Representativeness
+
+Thumbnails must be representative of the dataset content and enable visual recognition:
+
+* **Characteristic Patterns**: Show typical spatial patterns and value distributions present in the dataset
+* **Visual Recognition**: Enable users to quickly identify the product type and temporal characteristics from the thumbnail alone
+* **Geographic Coverage**: Accurately reflect the dataset's geographic extent and data availability
+* **Value Range**: Display the full dynamic range of the dataset, avoiding saturation or clipping that would misrepresent data distribution
+* **Temporal Representativeness**: For time-series products, select representative temporal instances that show typical conditions rather than extreme outliers (unless outliers are the focus)
+
+The thumbnail should provide an accurate visual summary that helps users:
+
+* Understand what type of data the product contains
+* Recognize geographic patterns and spatial distribution
+* Assess data quality and completeness at a glance
+* Distinguish between different products in the CLMS portfolio
+* Make informed decisions about dataset relevance for their applications
+
+== File Naming Convention
+
+=== Naming Pattern
+
+Regional thumbnails::
+`{PRODUCT}_{VERSION}_{REGION}_{DATE}.png`
+
+Global thumbnails::
+`{PRODUCT}_{VERSION}_globe_{DATE}.png`
+
+=== Component Definitions
+
+[cols="1,3,2"]
+|===
+|Component |Description |Example
+
+|`{PRODUCT}`
+|Product identifier including spatial resolution
+|`CLMS_DMP300mV2`, `CLMS_NDVI300mV3`
+
+|`{VERSION}`
+|Product version (if applicable, may be included in PRODUCT)
+|`V2`, `V3`
+
+|`{REGION}`
+|Geographic region name (lowercase, no spaces)
+|`brazil`, `europe`, `africa`, `asia`
+
+|`{DATE}`
+|Temporal reference in YYYYMMDD format
+|`20250630`
+|===
+
+=== Naming Examples
+
+----
+CLMS_DMP300mV2_Brazil_20250630.png
+CLMS_DMP300mV2_globe_20250630.png
+CLMS_NDVI300mV3_Europe_20241231.png
+CLMS_NDVI300mV3_globe_20241231.png
+CLMS_FAPAR300m_Africa_20250315.png
+CLMS_LAI300m_globe_20250101.png
+----
+
+IMPORTANT: Naming convention must remain consistent across all product families to enable automated processing and catalog integration.
+
+
+---
+
+*Document Control*: This specification is maintained by the CLMS Global Operations team. Updates require review and approval by the Technical Coordination Board.
