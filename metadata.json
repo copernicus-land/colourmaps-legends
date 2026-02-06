@@ -4,7 +4,7 @@
     "description": "Colour maps and legends for the Copernicus Land Monitoring Service (CLMS)",
     "url": "https://github.com/your-org/CLMS-colourmaps",
     "version": "1.0.0",
-    "lastUpdated": "2025-12-15T16:47:37.655175"
+    "lastUpdated": "2026-02-06T17:14:21.504233"
   },
   "contents": {
     "colourmaps": {
@@ -17,6 +17,36 @@
         "colourmaps/index.json"
       ]
     },
+    "data_descriptors": {
+      "description": "Colour maps for CLMS data products",
+      "formats": [
+        "SLD",
+        "TXT"
+      ],
+      "indexPaths": [
+        "data_descriptors/index.json"
+      ]
+    },
+    "docs": {
+      "description": "Colour maps for CLMS data products",
+      "formats": [
+        "SLD",
+        "TXT"
+      ],
+      "indexPaths": [
+        "docs/index.json"
+      ]
+    },
+    "images": {
+      "description": "Colour maps for CLMS data products",
+      "formats": [
+        "SLD",
+        "TXT"
+      ],
+      "indexPaths": [
+        "images/index.json"
+      ]
+    },
     "legends": {
       "description": "Colour maps for CLMS data products",
       "formats": [
@@ -25,6 +55,16 @@
       ],
       "indexPaths": [
         "legends/index.json"
+      ]
+    },
+    "thumbnails": {
+      "description": "Colour maps for CLMS data products",
+      "formats": [
+        "SLD",
+        "TXT"
+      ],
+      "indexPaths": [
+        "thumbnails/index.json"
       ]
     }
   },
