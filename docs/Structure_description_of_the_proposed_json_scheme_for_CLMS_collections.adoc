@@ -23,6 +23,7 @@
       "longDescription": "",
       "colourMapLink": "",
       "legendLink": "",
+      "scale": "",
       "display": 1
     }
   ]
@@ -109,6 +110,12 @@ The description of the layer that appears when the user expands the layer.
 
 image::media/image8.png[longDescription example, 500]
 
+==== scale
+
+The scale to be used in the layer.
+
+Note: the scale has to be a string enclosed in square brackets (e.g., "[m/km²]")
+
 ==== colourMapLink
 
 The link to the colourmap in the Github repository governing the display of the data in the Browser.
@@ -120,6 +127,7 @@ SSM 1km Daily V1:: https://github.com/copernicus-land/colourmaps-legends/blob/ma
 The link to the legend in the Github repository that will be integrated in the layer description in the Browser.
 
 SSM 1km Daily V1:: https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_ssm_1km_v1_daily.png
+
 
 ==== display
 
