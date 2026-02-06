@@ -13,7 +13,8 @@
   "spatialCoverage": "",
   "temporalExtent": {
     "start": "",
-    "end": ""
+    "end": "",
+  "thumbnailLink": "",
   },
   "layers": [
     {
@@ -79,6 +80,14 @@ image::media/image5.png[spatialCoverage example, 400]
 The temporal coverage of the collection. This variable contains 2 attributes: **start** and **end**. This information is used to build the name of the product in the SEARCH tab of the Browser.
 
 image::media/image6.png[temporalExtent example, 420]
+
+==== thumbnailLink
+
+The link to the thumbnail image in the CLMS git repository.
+
+Note: the link must point to the dedicated folder in the CLMS git repository.
+
+dmp global 300m 10daily v2:: https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/dmp_global_300m_10daily_v2/thumbnails/dmp_global_300m_10daily_v2/CLMS_DMP300mV2_Brazil_20250630.png
 
 === layers
 
