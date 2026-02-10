@@ -48,10 +48,10 @@ CLMS thumbnails are generated in two standard variants to support different use 
 |Parameter |Value
 
 |File Format
-|PNG (Portable Network Graphics)
+|JPEG (JPG)
 
 |Color Depth
-|24-bit RGB with 8-bit alpha channel (RGBA)
+|8 bits per channel (24-bit total)
 
 |Compression
 |PNG adaptive filtering with deflate compression
