@@ -54,10 +54,10 @@ CLMS thumbnails are generated in two standard variants to support different use 
 |8 bits per channel (24-bit total)
 
 |Compression
-|PNG adaptive filtering with deflate compression
+|Lossy JPEG compression (DCT-based)
 
-|Interlacing
-|Non-interlaced (sequential encoding)
+|Encoding Mode
+|Baseline (sequential) JPEG
 
 |Color Profile
 |sRGB IEC61966-2.1
