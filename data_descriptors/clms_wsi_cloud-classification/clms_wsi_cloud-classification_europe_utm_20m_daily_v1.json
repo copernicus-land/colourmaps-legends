@@ -1,0 +1,41 @@
+{
+  "name": "s3://eodata/CLMS/bio-geophysical/cloud_mask/clms_wsi_cloud-classification_europe_utm_20m_daily_v1",
+  "browserName": "Sentinel-2 CC Europe 20m Daily V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Auxiliary data, Cloud Mask",
+  "collectionDescription": "The Cloud Classification (CC) product provides information on the extent of clouds and cloud shadows derived from optical satellite data acquired by the Sentinel-2 constellation. It is generated in near real-time at European scale, with a pixel spacing of 20 m x 20 m. Cloud detection is performed at a 120m spatial resolution. It is available for the period from 2016 to the present and used to produce the CLMS High-Resolution Water, Snow and Ice datasets (HR-WSI), which rely on Sentinel-2 imagery. More information in the products documentation here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover",
+  "spatialCoverage": "Europe",
+  "temporalExtent": {
+    "start": "2016",
+    "end": "present"
+  },
+  "layers": [
+    {
+      "fileName": "CC",
+      "layerBrowserName": "CC",
+      "shortDescription": "Cloud and cloud shadow classification of the Sentinel-2 image",
+      "longDescription": " Classification of the Sentinel-2 image using the MAJA cloud screening and atmospheric correction software, developed by CNES and CESBIO with contributions from DLR. Cloud detection is performed at a spatial resolution of 120 m.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_cloud-classification/clms_wsi_cloud-classification_europe_utm_20m_daily_v1_cc.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "CC-QA",
+      "layerBrowserName": "CC-QA",
+      "shortDescription": "Quality layer for the cloud and cloud shadow classification (CC) layer",
+      "longDescription": "Quality layer providing basic assessment of the cloud and cloud shadow classification layer.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_cloud-classification/clms_wsi_cloud-classification_europe_utm_20m_daily_v1_cc-qa.sld",
+      "legendLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "QAFLAGS",
+      "layerBrowserName": "QAFLAGS",
+      "shortDescription": "Quality flags",
+      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation highlights pixels where clouds have been detected using a single-scene, threshold-based approach. These pixels correspond to locations where bit 0 is set. Other information can also be visualised. More details are available in the '</> Custom' option.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "display": 1
+    }
+  ]
+}

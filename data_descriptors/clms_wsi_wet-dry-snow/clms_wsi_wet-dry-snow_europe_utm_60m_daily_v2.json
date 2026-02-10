@@ -1,0 +1,32 @@
+{
+  "name": "s3://eodata/CLMS/bio-geophysical/snow_state/clms_wsi_wet-dry-snow_europe_utm_60m_daily_v2",
+  "browserName": "WDS Europe 60m Daily V2",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Snow, Snow State",
+  "collectionDescription": "The Wet / Dry Snow (WDS) product provides information on the snow state (wet or dry) by combining Sentinel-1 radar-based wet snow maps within the snow cover extent derived from Sentinel-2 optical data. It is generated in near real-time at European scale, with a spatial resolution of 60 m x 60 m in areas where Sentinel-1 and Sentinel-2 observation tracks overlap. It is available for the period from 2016 to the present. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/snow/high-resolution-wet-dry-snow",
+  "spatialCoverage": "Europe",
+  "temporalExtent": {
+    "start": "2016",
+    "end": "present"
+  },
+  "layers": [
+    {
+      "fileName": "SSC",
+      "layerBrowserName": "SSC",
+      "shortDescription": "Snow State Classification",
+      "longDescription": "Snow State Classification (SSC) within the Sentinel-2 snow cover map derived from the CLMS FSC product - top-of canopy FSC layer (FSCTOC). It provides binary discrimination of wet (110) and dry (115) snow and identifies patchy snow or snow-free areas (120). The dataset has also the following classes: radar shadow, layover, foreshortening (200), shadow, and clouds and cloud shadow (205) from the aggregated FSCTOC layer, water (210), forest (220), urban areas (230), and no data (255).",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_wet-dry-snow/clms_wsi_wet-dry-snow_europe_utm_60m_daily_v2_ssc.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "SSC-QA",
+      "layerBrowserName": "SSC-QA",
+      "shortDescription": "Quality layer for the snow state classification (SSC) layer",
+      "longDescription": "Quality layer providing basic assessment of the wet snow state classification.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_wet-dry-snow/clms_wsi_wet-dry-snow_europe_utm_60m_daily_v2_ssc-qa.sld",
+      "legendLink": "",
+      "display": 1
+    }
+  ]
+}
