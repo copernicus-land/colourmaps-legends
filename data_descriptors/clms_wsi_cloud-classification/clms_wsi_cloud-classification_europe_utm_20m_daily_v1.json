@@ -32,7 +32,7 @@
       "fileName": "QAFLAGS",
       "layerBrowserName": "QAFLAGS",
       "shortDescription": "Quality flags",
-      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation highlights pixels where clouds have been detected using a single-scene, threshold-based approach. These pixels correspond to locations where bit 0 is set. Other information can also be visualised. More details are available in the '</> Custom' option.",
+      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation highlights pixels where clouds have been detected using a single-scene, threshold-based approach. These correspond to pixels where bit 0 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
       "colourMapLink": "",
       "legendLink": "",
       "display": 1

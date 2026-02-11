@@ -50,7 +50,7 @@
       "fileName": "QAFLAGS",
       "layerBrowserName": "QAFLAGS",
       "shortDescription": "Quality flags",
-      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation displays whether the pixel is located in the hillshade, corresponding to pixels where bit 0 is activated. Other information can also be visualised. More details are available in the '</> Custom' option.",
+      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation displays whether the pixel is located in the hillshade. These correspond to pixels where bit 0 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
       "colourMapLink": "",
       "legendLink": "",
       "display": 1
@@ -59,7 +59,7 @@
       "fileName": "CLD",
       "layerBrowserName": "CLD",
       "shortDescription": "Cloud and cloud shadow mask",
-      "longDescription": "Bitmask layer defining cloud and cloud-shadow masks derived from the input MAJA Sentinel-2 Level-2A product. The default visualisation displays all clouds except the thinnest ones, as well as all cloud shadows, corresponding to pixels where bit 0 is activated. Other information can also be visualised. More details are available in the '</> Custom' option.",
+      "longDescription": "Bitmask layer defining cloud and cloud-shadow masks derived from the input MAJA Sentinel-2 Level-2A product. The default visualisation displays all clouds except the thinnest ones, as well as all cloud shadows. These correspond to pixels where bit 0 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
       "colourMapLink": "",
       "legendLink": "",
       "display": 1
