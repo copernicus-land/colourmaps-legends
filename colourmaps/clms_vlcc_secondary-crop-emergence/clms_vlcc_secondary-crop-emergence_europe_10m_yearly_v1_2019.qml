@@ -1,0 +1,62 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis maxScale="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" version="3.8.2-Zanzibar" minScale="1e+08">
+  <flags>
+    <Identifiable>1</Identifiable>
+    <Removable>1</Removable>
+    <Searchable>1</Searchable>
+  </flags>
+  <customproperties>
+    <property key="WMSBackgroundLayer" value="false"/>
+    <property key="WMSPublishDataSourceUrl" value="false"/>
+    <property key="embeddedWidgets/count" value="0"/>
+    <property key="identify/format" value="Value"/>
+  </customproperties>
+  <pipe>
+    <rasterrenderer classificationMin="0" band="1" type="singlebandpseudocolor" alphaBand="-1" classificationMax="65535" opacity="1">
+      <rasterTransparency/>
+      <minMaxOrigin>
+        <limits>None</limits>
+        <extent>WholeRaster</extent>
+        <statAccuracy>Estimated</statAccuracy>
+        <cumulativeCutLower>0.02</cumulativeCutLower>
+        <cumulativeCutUpper>0.98</cumulativeCutUpper>
+        <stdDevFactor>2</stdDevFactor>
+      </minMaxOrigin>
+      <rastershader>
+        <colorrampshader classificationMode="2" clip="0" colorRampType="INTERPOLATED">
+          <colorramp type="gradient" name="[source]">
+            <prop k="color1" v="202,0,32,255"/>
+            <prop k="color2" v="5,113,176,255"/>
+            <prop k="discrete" v="0"/>
+            <prop k="rampType" v="gradient"/>
+            <prop k="stops" v="0.25;244,165,130,255:0.5;247,247,247,255:0.75;146,197,222,255"/>
+          </colorramp>
+          <item label="No annual cropland" color="#f0f0f0" value="0" alpha="255"/>
+          <item label="Jan 2019" color="#9f7fff" value="18366" alpha="255"/>
+          <item label="Feb 2019" color="#dd7fff" value="19031" alpha="255"/>
+          <item label="Mar 2019" color="#ff7fdf" value="19059" alpha="255"/>
+          <item label="Apr 2019" color="#ff7fa1" value="19090" alpha="255"/>
+          <item label="May 2019" color="#ffb07f" value="19120" alpha="255"/>
+          <item label="Jun 2019" color="#ffdf80" value="19151" alpha="255"/>
+          <item label="Jul 2019" color="#dfff80" value="19181" alpha="255"/>
+          <item label="Aug 2019" color="#9fff80" value="19212" alpha="255"/>
+          <item label="Sep 2019" color="#6ddc8d" value="19243" alpha="255"/>
+          <item label="Oct 2019" color="#80ffdf" value="19273" alpha="255"/>
+          <item label="Nov 2019" color="#80dfff" value="19304" alpha="255"/>
+          <item label="Dec 2019" color="#7fbdff" value="19334" alpha="255"/>
+          <item label="65526" color="#e1e1e1" value="65526" alpha="255"/>
+          <item label="65527" color="#c8c8c8" value="65527" alpha="255"/>
+          <item label="65530" color="#7d7d7d" value="65530" alpha="255"/>
+          <item label="65531" color="#646464" value="65531" alpha="255"/>
+          <item label="65532" color="#4b4b4b" value="65532" alpha="255"/>
+          <item label="65533" color="#7e346b" value="65533" alpha="255"/>
+          <item label="Outside area" color="#000000" value="65535" alpha="255"/>
+        </colorrampshader>
+      </rastershader>
+    </rasterrenderer>
+    <brightnesscontrast contrast="0" brightness="0"/>
+    <huesaturation colorizeBlue="128" colorizeRed="255" grayscaleMode="0" colorizeStrength="100" saturation="0" colorizeGreen="128" colorizeOn="0"/>
+    <rasterresampler maxOversampling="2"/>
+  </pipe>
+  <blendMode>0</blendMode>
+</qgis>
