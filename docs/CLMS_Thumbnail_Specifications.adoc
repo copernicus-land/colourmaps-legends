@@ -22,23 +22,6 @@ This specification covers:
 * Quality requirements and validation criteria
 
 
-== Thumbnail Variants
-
-CLMS thumbnails are generated in two standard variants to support different use cases:
-
-[cols="1,2,3"]
-|===
-|Variant |Use Case |Characteristics
-
-|Regional
-|Dataset-specific regional views
-|Square format, focused geographic extent, higher apparent detail
-
-|Global
-|Overview visualizations, catalog browsing
-|Wide format, global extent, continental-scale patterns
-|===
-
 == Technical Specifications
 
 === Image Format
@@ -77,8 +60,6 @@ PNG format is selected for:
 
 === Image Dimensions
 
-==== Regional Thumbnails
-
 [cols="1,3"]
 |===
 |Parameter |Value
@@ -96,47 +77,14 @@ PNG format is selected for:
 |160,000 pixels
 |===
 
-==== Global Thumbnails
-
-[cols="1,3"]
-|===
-|Parameter |Value
-
-|Width
-|1600 pixels (recommended)
-
-|Height
-|800 pixels (recommended)
-
-|Aspect Ratio
-|2:1 (matches equirectangular projection)
-
-|Total Pixels
-|1,280,000 pixels
-
-|Minimum Width
-|800 pixels
-
-|Maximum Width
-|2400 pixels
-|===
-
-NOTE: Global thumbnail dimensions should maintain a 2:1 aspect ratio to match the equirectangular projection geometry. Width may be adjusted based on storage and bandwidth constraints, but must remain within specified minimum/maximum bounds.
-
 === File Size
 
 [cols="1,3"]
 |===
-|Thumbnail Type |Target Size
+|Parameter |Target Size
 
-|Regional (400×400)
+|Thumbnail (400×400)
 |< 200 KB
-
-|Global (1600×800)
-|< 400 KB
-
-|Global (800×400)
-|< 150 KB
 |===
 
 IMPORTANT: If compressed file size exceeds targets, consider reducing color palette depth or applying moderate quantization while preserving visual fidelity.
@@ -148,8 +96,6 @@ NOTE: Cartographic metadata is optional for thumbnails intended solely for visua
 === Coordinate Reference System (Optional)
 
 If cartographic metadata is included, thumbnails should document:
-
-==== Regional Thumbnails
 
 [cols="1,3"]
 |===
@@ -165,36 +111,11 @@ If cartographic metadata is included, thumbnails should document:
 |As per source dataset or Geographic - optional
 |===
 
-==== Global Thumbnails
-
-[cols="1,3"]
-|===
-|Parameter |Value
-
-|CRS
-|EPSG:4326 (WGS 84 Geographic) - optional
-
-|Projection
-|Geographic / Plate Carrée / Equirectangular - optional
-
-|Datum
-|WGS 84 - optional
-|===
-
-==== Global Thumbnails
-
-Global thumbnails typically show:
-
-* Longitude: -180° to +180° (full global coverage)
-* Latitude: -60° to +75° (excludes extreme polar regions)
-
-NOTE: Polar regions may be excluded due to projection distortion and limited data coverage in CLMS Global products.
-
 === Spatial Resolution and Resampling
 
 ==== Source Data Resolution
 
-CLMS Global products are provided at 300m spatial resolution in their native coordinate system. Thumbnail generation requires significant downsampling from this native resolution.
+CLMS products are provided at various spatial resolutions in their native coordinate system. Thumbnail generation may require significant downsampling from the native resolution.
 
 == Visual Specifications
 
