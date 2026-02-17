@@ -1,0 +1,86 @@
+{
+  "name": "s3://eodata/CLMS/bio-geophysical/snow_phenology/clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1",
+  "browserName": "SP S2 Europe 20m Yearly V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Snow, Snow Phenology",
+  "collectionDescription": "The Sentinel-2 Snow Phenology (SP S2) product characterizes the timing and duration of the snow season. For each pixel and for a given hydrological year, it provides the number of days with snow cover, as well as the first and last day of the longest continuous snow period. The hydrological year starts on 1 September. The product is generated at the European scale with a spatial resolution of 20 m × 20 m, consistent with the input snow cover maps derived from optical satellite data acquired by the Sentinel-2 constellation (Fractional Snow Cover – FSC). It is available for the period from 2016 to the present and can be downloaded in multiple projections and pixel spacings. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/snow/high-resolution-snow-phenology",
+  "spatialCoverage": "Europe",
+  "temporalExtent": {
+    "start": "2016",
+    "end": "present"
+  },
+  "layers": [
+    {
+      "fileName": "SCD",
+      "layerBrowserName": "SCD",
+      "shortDescription": "Snow cover duration (in days)",
+      "longDescription": "Number of days of snow cover over the hydrological year",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_snow-phenology/clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1_scd.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "SCO",
+      "layerBrowserName": "SCO",
+      "shortDescription": "Snow cover onset date defined as the first day of the longest snow cover period",
+      "longDescription": "Snow cover onset date, expressed as the number of days from the beginning of the hydrological year (1st September = day 0). Note that SCO is not given when the snow cover duration SCD is less than 60 days.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_snow-phenology/clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1_sco.sld",
+      "legendLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "SCM",
+      "layerBrowserName": "SCM",
+      "shortDescription": "Snow cover melt out date defined as the last day of the longest snow cover period",
+      "longDescription": "Snow cover melt out date, expressed as the number of days from the beginning of the hydrological year (1st September = day 0). Note that SCM is not given when the snow cover duration SCD is less than 60 days.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_snow-phenology/clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1_scm.sld",
+      "legendLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "NOBS",
+      "layerBrowserName": "NOBS",
+      "shortDescription": "Number of days with clear sky observations within the hydrological year",
+      "longDescription": "Number of days with clear sky observations used in the interpolation of the snow cover time series within the hydrological year.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_snow-phenology/clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1_nobs.sld",
+      "legendLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "QAFLAGS",
+      "layerBrowserName": "QAFLAGS",
+      "shortDescription": "Quality flags",
+      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation displays areas where the snow cover duration is less than 60 days. These correspond to pixels where bit 4 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "SCD-QA",
+      "layerBrowserName": "SCD-QA",
+      "shortDescription": "Quality layer for the snow cover duration (SCD) layer",
+      "longDescription": "Quality layer providing a basic assessment of the snow cover duration layer.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_snow-phenology/clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1_scd-qa.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "SCO-QA",
+      "layerBrowserName": "SCO-QA",
+      "shortDescription": "Quality layer for the snow cover onset date (SCO) layer",
+      "longDescription": "Number of days between the estimated snow onset date and the closest snow observation date.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_snow-phenology/clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1_sco-qa.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "SCM-QA",
+      "layerBrowserName": "SCM-QA",
+      "shortDescription": "Quality layer for the snow cover melt out date (SCM) layer",
+      "longDescription": "Number of days between the estimated snow melt out date and the closest snow observation date.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_snow-phenology/clms_wsi_snow-phenology-s2_europe_utm_20m_yearly_v1_scm-qa.sld",
+      "legendLink": "",
+      "display": 1
+    } 
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "s3://eodata/CLMS/bio-geophysical/water_and_ice_cover/clms_wsi_water-ice-cover-s1-s2_europe_utm_20m_daily_v1 ",
+  "browserName": "WIC S1+S2 Europe 20m Daily V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Water and Ice Cover",
+  "collectionDescription": "The Water and Ice Cover by Sentinel-1 and Sentinel-2 (WIC S1+S2) product shows which river and lake areas are covered by ice, with or without snow. It combines data from two types of instruments acquired on the same day to increase coverage and reduce missing information. It uses water/ice cover information derived from Sentinel-2 optical images (WIC S2), and from Sentinel-1 radar data (WIC S1). The product is generated in near real-time at European scale, with a spatial resolution of 20 m x 20 m. It is available for the period from 2016 to the present. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/water-and-ice-cover-raster-20-m-60-m-europe-daily",
+  "spatialCoverage": "Europe",
+  "temporalExtent": {
+    "start": "2016",
+    "end": "present"
+  },
+  "layers": [
+    {
+      "fileName": "WIC",
+      "layerBrowserName": "WIC",
+      "shortDescription": "Water/Ice Cover",
+      "longDescription": "Water and ice cover classification from Sentinel-2 (optical) or Sentinel-1 (radar) imagery within water bodies defined by the input water mask. The primary classes are open water (1), snow-covered or snow-free ice (100), and other features (254), which include land, vegetation, salt seas, and other surface types. When classification is not possible, specific values indicate radar-related limitations (shadow, layover, foreshortening - 200), cloud or cloud shadow in optical images (205), or no data (255).",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_water-ice-cover/clms_wsi_water-ice-cover-s1-s2_europe_utm_20m_daily_v1_wic.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "WIC-QA",
+      "layerBrowserName": "WIC-QA",
+      "shortDescription": "Quality layer for the Water/Ice Cover (WIC) layer",
+      "longDescription": "Quality layer providing basic assessment of the Water/Ice Cover layer.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_water-ice-cover/clms_wsi_water-ice-cover-s1-s2_europe_utm_20m_daily_v1_wic-qa.sld",
+      "legendLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "QAFLAGS",
+      "layerBrowserName": "QAFLAGS",
+      "shortDescription": "Quality flags",
+      "longDescription": "The default visualisation indicates whether the classification comes from from radar imagery; these correspond to pixels where bit 9 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "display": 1
+    }
+  ]
+}

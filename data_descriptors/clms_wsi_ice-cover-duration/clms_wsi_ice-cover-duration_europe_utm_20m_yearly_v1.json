@@ -1,0 +1,50 @@
+{
+  "name": "s3://eodata/CLMS/bio-geophysical/ice_phenology/clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1",
+  "browserName": "ICD Europe 20m Yearly V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Ice Phenology",
+  "collectionDescription": "The Ice Cover Duration (ICD) product describes how long inland waters are covered by ice. For each pixel and for a given hydrological year, it provides the number of days with ice cover. The hydrological year starts on 1 September. The product is generated at the European scale with a spatial resolution of 20 m × 20 m. It is based on ice cover maps derived from Sentinel-2 optical data (Water/Ice Cover WIC S2) and Sentinel-1 C-band Synthetic Aperture Radar data (Water/Ice Cover WIC S1). It is available for the period from 2016 to the present and can be downloaded in multiple projections and pixel spacings. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/high-resolution-ice-cover-duration",
+  "spatialCoverage": "Europe",
+  "temporalExtent": {
+    "start": "2016",
+    "end": "present"
+  },
+  "layers": [
+    {
+      "fileName": "ICD",
+      "layerBrowserName": "ICD",
+      "shortDescription": "Ice cover duration (in days)",
+      "longDescription": "Number of days of ice cover on water during the hydrological year.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_ice-cover-duration/clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1_icd.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "ICD-QA",
+      "layerBrowserName": "ICD-QA",
+      "shortDescription": "Quality layer for the ice cover duration (ICD) layer",
+      "longDescription": "Quality layer providing a basic assessment of the ice cover duration layer.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_ice-cover-duration/clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1_icd-qa.sld",
+      "legendLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "NOBS1",
+      "layerBrowserName": "NOBS1",
+      "shortDescription": "Number of days with Sentinel-1 based observations during the hydrological year",
+      "longDescription": "Number of days with Sentinel-1 based observations used in the interpolation of the ice cover time series within the hydrological year.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_ice-cover-duration/clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1_nobs1.sld",
+      "legendLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "NOBS2",
+      "layerBrowserName": "NOBS2",
+      "shortDescription": "Number of days with Sentinel-2 based observations during the hydrological year",
+      "longDescription": "Number of days with Sentinel-2 based observations used in the interpolation of the ice cover time series within the hydrological year.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_ice-cover-duration/clms_wsi_ice-cover-duration_europe_utm_20m_yearly_v1_nobs2.sld",
+      "legendLink": "",
+      "display": 1
+    }   
+  ]
+}
