@@ -1,0 +1,32 @@
+{
+  "name": "s3://eodata/CLMS/bio-geophysical/snow_state/clms_wsi_sar-wet-snow_europe_utm_60m_daily_v2",
+  "browserName": "SWS Europe (high mountains) 60m Daily V2",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Snow, Snow State",
+  "collectionDescription": "The SAR Wet Snow (SWS) product provides the wet snow extent for high mountain areas with a spatial resolution of 60 m x 60 m. It is generated in near real-time for selected high mountain areas at European scale based on C-band Synthetic Aperture Radar satellite data from the Sentinel-1 constellation. It is available for the period from 2016 to the present. More information here.", 
+  "linkToCLMS": "https://land.copernicus.eu/en/products/snow/high-resolution-sar-wet-snow",
+  "spatialCoverage": "Europe (high mountains)",
+  "temporalExtent": {
+    "start": "2016",
+    "end": "present"
+  },
+  "layers": [
+    {
+      "fileName": "WSM",
+      "layerBrowserName": "WSM",
+      "shortDescription": "Wet Snow classification in high Mountains areas",
+      "longDescription": "Wet Snow classification performed in high Mountains areas as described in the documentation. The possible values are wet snow (110), and Dry snow or snow-free or patchy snow (125). The dataset is also masked with the following classes: radar Shadow, layover, or foreshortening (200), water (210), forest (220), urban areas (230), non-mountain areas (240) and no data (255).",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_sar-wet-snow/clms_wsi_sar-wet-snow_europe_utm_60m_daily_v2_wsm.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "WSM-QA",
+      "layerBrowserName": "WSM-QA",
+      "shortDescription": "Quality layer for the wet snow classification (WSM) layer",
+      "longDescription": "Quality layer providing basic assessment of the wet snow classification layer.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_sar-wet-snow/clms_wsi_sar-wet-snow_europe_utm_60m_daily_v2_wsm-qa.sld",
+      "legendLink": "",
+      "display": 1
+    }
+  ]
+}
