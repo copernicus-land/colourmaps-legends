@@ -33,6 +33,8 @@
 ----
 https://github.com/copernicus-land/colourmaps-legends/tree/main/schemas/data_descriptors[source: data_descriptors schema]
 
+IMPORTANT NOTE: Comments are not allowed in the file.
+
 == Description of variables and rules to observe
 
 In this section we will use the collection _ssm_europe_1km_daily_v1_ as an example.
