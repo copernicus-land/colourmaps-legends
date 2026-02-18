@@ -5,6 +5,7 @@
 [source,json]
 ----
 {
+  "schemaVersion": "M.m.p",
   "name": "",
   "browserName": "",
   "browserSearchPath": "",
@@ -14,7 +15,7 @@
   "temporalExtent": {
     "start": "",
     "end": "",
-  "thumbnailLink": "",
+  "thumbnailLink": ""
   },
   "layers": [
     {
