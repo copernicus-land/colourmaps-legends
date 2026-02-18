@@ -37,11 +37,13 @@ https://github.com/copernicus-land/colourmaps-legends/tree/main/schemas/data_des
 
 In this section we will use the collection _ssm_europe_1km_daily_v1_ as an example.
 
-=== name
+=== eodataPath
 
-The name of the collection in _eodata_.
+The path of the dataset in _eodata_.
 
 image::media/image2.png[name example]
+
+NOTE: the path has always to start with "s3://eodata/CLMS/.."
 
 === browserName
 
