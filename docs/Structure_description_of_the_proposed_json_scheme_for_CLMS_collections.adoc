@@ -113,11 +113,15 @@ image::media/image3.png[layerBrowserName example, 700]
 
 The description of the layer that appears under the layer name in the Browser. This description should be less than 42 characters to be displayed in full.
 
+NOTE: no unit has to be added into the shortDescription
+
 image::media/image3.png[shortDescription example, 700]
 
 ==== longDescription
 
-The description of the layer that appears when the user expands the layer.
+The description of the layer that appears when the user expands the layer. Units
+
+NOTE: units can be added following the convention described in the units paragraph
 
 image::media/image8.png[longDescription example, 500]
 
@@ -126,7 +130,7 @@ image::media/image8.png[longDescription example, 500]
 The unit of measure to be used in the layer.
 
 Note 1: the unit must be enclosed in square brackets (e.g., "[m/km²]", "[%]") 
-Note 2: as the ultimate goal is to represent this information in a human readable format, the convention to follow isn't the CF one (e.g., m km-2 → m/km²)
+Note 2: as the ultimate goal is to represent this information in a human-readable format, the convention to follow isn't the CF one (e.g., m km-2 → m/km²)
 
 ==== colourMapLink
 
