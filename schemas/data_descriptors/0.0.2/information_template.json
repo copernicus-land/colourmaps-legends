@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "M.m.p",
+  "schemaVersion": "0.0.2",
   "eodataPath": "",
   "browserName": "",
   "browserSearchPath": "",
@@ -9,7 +9,7 @@
   "temporalExtent": {
     "start": "",
     "end": "",
-  "thumbnailLink": "",
+  "thumbnailLink": ""
   },
   "layers": [
     {
