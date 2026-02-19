@@ -45,7 +45,7 @@
         <paletteEntry color="#0000ff" alpha="255" value="1" label="open water" />
         <paletteEntry color="#00e8ff" alpha="255" value="100" label="snow covered or snow-free ice" />
         <paletteEntry color="#282828" alpha="255" value="200" label="radar shadow / layover / foreshortening" />
-        <paletteEntry color="#000000" alpha="0" value="255" label="no data" />
+        <paletteEntry color="#d2d2d2" alpha="255" value="255" label="no data" />
       </colorPalette>
       <colorramp name="[source]" type="randomcolors">
         <Option />

@@ -18,7 +18,7 @@
               <sld:ColorMapEntry color="#0000ff" label="open water" quantity="1"/>
               <sld:ColorMapEntry color="#00e8ff" label="snow covered or snow-free ice" quantity="100"/>
               <sld:ColorMapEntry color="#282828" label="radar shadow / layover / foreshortening" quantity="200"/>
-              <sld:ColorMapEntry opacity="0" color="#000000" label="no data" quantity="255"/>
+              <sld:ColorMapEntry color="#d2d2d2" label="no data" quantity="255"/>
             </sld:ColorMap>
           </sld:RasterSymbolizer>
         </sld:Rule>

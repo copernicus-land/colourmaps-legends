@@ -2,6 +2,6 @@
 1 189 189 91 255 medium quality
 2 255 194 87 255 low quality
 3 255 70 37 255 minimal quality
-200 0 0 0 255 radar shadow / layover / foreshortening
+200 40 40 40 255 radar shadow / layover / foreshortening
 205 123 123 123 255 cloud or cloud shadow
-255 0 0 0 0 no data
+255 210 210 210 255 no data
