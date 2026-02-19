@@ -21,7 +21,7 @@
               <sld:ColorMapEntry color="#ff4625" label="minimal quality" quantity="3"/>
               <sld:ColorMapEntry color="#000000" label="radar shadow / layover / foreshortening" quantity="200"/>
               <sld:ColorMapEntry color="#7b7b7b" label="cloud or cloud shadow" quantity="205"/>
-              <sld:ColorMapEntry opacity="0" color="#000000" label="no data" quantity="255"/>
+              <sld:ColorMapEntry color="#d2d2d2" label="no data" quantity="255"/>
             </sld:ColorMap>
           </sld:RasterSymbolizer>
         </sld:Rule>
