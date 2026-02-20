@@ -1,0 +1,32 @@
+{
+  "name": "s3://eodata/CLMS/bio-geophysical/duration/clms_wsi_water-cover-duration_europe_utm_10m_yearly_v1",
+  "browserName": "WCD Europe 10m Yearly V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Duration",
+  "collectionDescription": "The Water Cover Duration (WCD) product estimates the number of days land is covered by water. For each pixel and for a given hydrological year,  it indicates how frequently water is present. The hydrological year starts on 1 September. The product is generated at the European scale with a spatial resolution of 10 m × 10 m. It is based on water masks derived from Sentinel-1 radar and Sentinel-2 optical data, combined with Water/Ice Cover data from Sentinel-2 (WIC S2). It is available for the period from 2016 to the present and can be downloaded in multiple projections and pixel spacings. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/high-resolution-water-cover-duration",
+  "spatialCoverage": "Europe",
+  "temporalExtent": {
+    "start": "2016",
+    "end": "present"
+  },
+  "layers": [
+    {
+      "fileName": "WCD",
+      "layerBrowserName": "WCD",
+      "shortDescription": "Water presence frequency in a hydrological year (in days)",
+      "longDescription": "Water presence frequency in a hydrological year expressed in number of days (between 0 and 366). The dataset can also have the following values: cloud or cloud shadow (65485), sea water (65533), or no data (65535)",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_water-cover-duration/clms_wsi_water-cover-duration_europe_utm_10m_yearly_v1_wcd.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "WCD-QA",
+      "layerBrowserName": "WCD-QA",
+      "shortDescription": "Quality layer for the water cover duration (WCD) layer",
+      "longDescription": "Quality layer providing a basic assessment of the water cover duration layer.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_water-cover-duration/clms_wsi_water-cover-duration_europe_utm_10m_yearly_v1_wcd-qa.sld",
+      "legendLink": "",
+      "display": 1
+    }
+  ]
+}

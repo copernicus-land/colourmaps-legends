@@ -1,0 +1,6011 @@
+{
+  "type" : "CIMLayerDocument",
+  "version" : "3.5.0",
+  "build" : 57366,
+  "layers" : [
+    "CIMPATH=Map/CLMS_HRLVLCC_GRAMD1_S2021_R10m_E32N34_03035_V01_R00_tif3.json"
+  ],
+  "layerDefinitions" : [
+    {
+      "type" : "CIMRasterLayer",
+      "name" : "CLMS_HRLVLCC_GRAMD1_S2021_R10m_E32N34_03035_V01_R00.tif",
+      "uRI" : "CIMPATH=Map/CLMS_HRLVLCC_GRAMD1_S2021_R10m_E32N34_03035_V01_R00_tif3.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "CLMS_HRLVLCC_GRAMD1_S2021_R10m_E32N34_03035_V01_R00.tif",
+      "layerElevation" : {
+        "type" : "CIMLayerElevationSurface",
+        "elevationSurfaceLayerURI" : "CIMPATH=Map/616288122f574e8b9453d92cf1bf3bec.json"
+      },
+      "expanded" : true,
+      "layerType" : "Operational",
+      "showLegends" : true,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "dataConnection" : {
+        "type" : "CIMStandardDataConnection",
+        "workspaceConnectionString" : "DATABASE=.",
+        "workspaceFactory" : "Raster",
+        "dataset" : "CLMS_HRLVLCC_GRAMD1_S2021_R10m_E32N34_03035_V01_R00.tif",
+        "datasetType" : "esriDTRasterDataset"
+      },
+      "colorizer" : {
+        "type" : "CIMRasterUniqueValueColorizer",
+        "resamplingType" : "NearestNeighbor",
+        "noDataColor" : {
+          "type" : "CIMRGBColor",
+          "values" : [
+            255,
+            255,
+            255,
+            0
+          ]
+        },
+        "fieldName" : "class_name",
+        "groups" : [
+          {
+            "type" : "CIMRasterUniqueValueGroup",
+            "classes" : [
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "no mowing detected"
+                ],
+                "label" : "no mowing detected",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    240,
+                    240,
+                    240,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "01 Jan"
+                ],
+                "label" : "01 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    237,
+                    195,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "02 Jan"
+                ],
+                "label" : "02 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    255,
+                    236,
+                    194,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "03 Jan"
+                ],
+                "label" : "03 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    254,
+                    235,
+                    193,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "04 Jan"
+                ],
+                "label" : "04 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    254,
+                    234,
+                    193,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "05 Jan"
+                ],
+                "label" : "05 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    253,
+                    233,
+                    192,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "06 Jan"
+                ],
+                "label" : "06 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    253,
+                    232,
+                    191,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "07 Jan"
+                ],
+                "label" : "07 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    252,
+                    232,
+                    190,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "08 Jan"
+                ],
+                "label" : "08 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    252,
+                    231,
+                    189,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "09 Jan"
+                ],
+                "label" : "09 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    251,
+                    230,
+                    189,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10 Jan"
+                ],
+                "label" : "10 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    251,
+                    229,
+                    188,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11 Jan"
+                ],
+                "label" : "11 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    251,
+                    228,
+                    187,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12 Jan"
+                ],
+                "label" : "12 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    250,
+                    227,
+                    186,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13 Jan"
+                ],
+                "label" : "13 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    250,
+                    226,
+                    185,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14 Jan"
+                ],
+                "label" : "14 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    249,
+                    225,
+                    185,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15 Jan"
+                ],
+                "label" : "15 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    249,
+                    224,
+                    184,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16 Jan"
+                ],
+                "label" : "16 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    248,
+                    223,
+                    183,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17 Jan"
+                ],
+                "label" : "17 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    248,
+                    223,
+                    182,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18 Jan"
+                ],
+                "label" : "18 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    247,
+                    222,
+                    181,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19 Jan"
+                ],
+                "label" : "19 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    247,
+                    221,
+                    181,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20 Jan"
+                ],
+                "label" : "20 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    247,
+                    220,
+                    180,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21 Jan"
+                ],
+                "label" : "21 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    246,
+                    219,
+                    179,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22 Jan"
+                ],
+                "label" : "22 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    246,
+                    218,
+                    178,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23 Jan"
+                ],
+                "label" : "23 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    245,
+                    217,
+                    177,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24 Jan"
+                ],
+                "label" : "24 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    245,
+                    216,
+                    177,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25 Jan"
+                ],
+                "label" : "25 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    244,
+                    215,
+                    176,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26 Jan"
+                ],
+                "label" : "26 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    244,
+                    214,
+                    175,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "27 Jan"
+                ],
+                "label" : "27 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    244,
+                    214,
+                    174,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "28 Jan"
+                ],
+                "label" : "28 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    243,
+                    213,
+                    174,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "29 Jan"
+                ],
+                "label" : "29 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    243,
+                    212,
+                    173,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30 Jan"
+                ],
+                "label" : "30 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    242,
+                    211,
+                    172,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "31 Jan"
+                ],
+                "label" : "31 Jan",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    242,
+                    210,
+                    171,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "01 Feb"
+                ],
+                "label" : "01 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    241,
+                    209,
+                    170,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "02 Feb"
+                ],
+                "label" : "02 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    241,
+                    208,
+                    170,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "03 Feb"
+                ],
+                "label" : "03 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    240,
+                    207,
+                    169,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "04 Feb"
+                ],
+                "label" : "04 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    240,
+                    206,
+                    168,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "05 Feb"
+                ],
+                "label" : "05 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    240,
+                    205,
+                    167,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "06 Feb"
+                ],
+                "label" : "06 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    239,
+                    205,
+                    166,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "07 Feb"
+                ],
+                "label" : "07 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    239,
+                    204,
+                    166,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "08 Feb"
+                ],
+                "label" : "08 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    238,
+                    203,
+                    165,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "09 Feb"
+                ],
+                "label" : "09 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    238,
+                    202,
+                    164,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10 Feb"
+                ],
+                "label" : "10 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    237,
+                    201,
+                    163,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11 Feb"
+                ],
+                "label" : "11 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    237,
+                    200,
+                    162,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12 Feb"
+                ],
+                "label" : "12 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    236,
+                    199,
+                    162,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13 Feb"
+                ],
+                "label" : "13 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    236,
+                    198,
+                    161,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14 Feb"
+                ],
+                "label" : "14 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    236,
+                    197,
+                    160,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15 Feb"
+                ],
+                "label" : "15 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    235,
+                    196,
+                    159,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16 Feb"
+                ],
+                "label" : "16 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    235,
+                    196,
+                    158,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17 Feb"
+                ],
+                "label" : "17 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    234,
+                    195,
+                    158,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18 Feb"
+                ],
+                "label" : "18 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    234,
+                    194,
+                    157,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19 Feb"
+                ],
+                "label" : "19 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    233,
+                    193,
+                    156,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20 Feb"
+                ],
+                "label" : "20 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    233,
+                    192,
+                    155,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21 Feb"
+                ],
+                "label" : "21 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    232,
+                    191,
+                    154,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22 Feb"
+                ],
+                "label" : "22 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    232,
+                    190,
+                    154,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23 Feb"
+                ],
+                "label" : "23 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    232,
+                    189,
+                    153,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24 Feb"
+                ],
+                "label" : "24 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    231,
+                    188,
+                    152,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25 Feb"
+                ],
+                "label" : "25 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    231,
+                    187,
+                    151,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26 Feb"
+                ],
+                "label" : "26 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    230,
+                    187,
+                    150,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "27 Feb"
+                ],
+                "label" : "27 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    230,
+                    186,
+                    150,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "28 Feb"
+                ],
+                "label" : "28 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    229,
+                    185,
+                    149,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "29 Feb"
+                ],
+                "label" : "29 Feb",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    229,
+                    184,
+                    148,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "01 Mar"
+                ],
+                "label" : "01 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    228,
+                    183,
+                    147,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "02 Mar"
+                ],
+                "label" : "02 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    228,
+                    182,
+                    146,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "03 Mar"
+                ],
+                "label" : "03 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    228,
+                    181,
+                    146,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "04 Mar"
+                ],
+                "label" : "04 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    227,
+                    180,
+                    145,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "05 Mar"
+                ],
+                "label" : "05 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    227,
+                    179,
+                    144,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "06 Mar"
+                ],
+                "label" : "06 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    226,
+                    178,
+                    143,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "07 Mar"
+                ],
+                "label" : "07 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    226,
+                    178,
+                    142,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "08 Mar"
+                ],
+                "label" : "08 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    225,
+                    177,
+                    142,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "09 Mar"
+                ],
+                "label" : "09 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    225,
+                    176,
+                    141,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10 Mar"
+                ],
+                "label" : "10 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    225,
+                    175,
+                    140,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11 Mar"
+                ],
+                "label" : "11 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    224,
+                    174,
+                    139,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12 Mar"
+                ],
+                "label" : "12 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    224,
+                    173,
+                    139,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13 Mar"
+                ],
+                "label" : "13 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    223,
+                    172,
+                    138,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14 Mar"
+                ],
+                "label" : "14 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    223,
+                    171,
+                    137,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15 Mar"
+                ],
+                "label" : "15 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    222,
+                    170,
+                    136,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16 Mar"
+                ],
+                "label" : "16 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    222,
+                    169,
+                    135,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17 Mar"
+                ],
+                "label" : "17 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    221,
+                    169,
+                    135,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18 Mar"
+                ],
+                "label" : "18 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    221,
+                    168,
+                    134,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19 Mar"
+                ],
+                "label" : "19 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    221,
+                    167,
+                    133,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20 Mar"
+                ],
+                "label" : "20 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    220,
+                    166,
+                    132,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21 Mar"
+                ],
+                "label" : "21 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    220,
+                    165,
+                    131,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22 Mar"
+                ],
+                "label" : "22 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    219,
+                    164,
+                    131,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23 Mar"
+                ],
+                "label" : "23 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    219,
+                    163,
+                    130,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24 Mar"
+                ],
+                "label" : "24 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    218,
+                    162,
+                    129,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25 Mar"
+                ],
+                "label" : "25 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    218,
+                    161,
+                    128,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26 Mar"
+                ],
+                "label" : "26 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    217,
+                    160,
+                    127,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "27 Mar"
+                ],
+                "label" : "27 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    217,
+                    160,
+                    127,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "28 Mar"
+                ],
+                "label" : "28 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    217,
+                    159,
+                    126,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "29 Mar"
+                ],
+                "label" : "29 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    216,
+                    158,
+                    125,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30 Mar"
+                ],
+                "label" : "30 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    216,
+                    157,
+                    124,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "31 Mar"
+                ],
+                "label" : "31 Mar",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    215,
+                    156,
+                    123,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "01 Apr"
+                ],
+                "label" : "01 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    215,
+                    155,
+                    123,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "02 Apr"
+                ],
+                "label" : "02 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    214,
+                    154,
+                    122,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "03 Apr"
+                ],
+                "label" : "03 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    214,
+                    153,
+                    121,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "04 Apr"
+                ],
+                "label" : "04 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    213,
+                    152,
+                    120,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "05 Apr"
+                ],
+                "label" : "05 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    213,
+                    151,
+                    119,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "06 Apr"
+                ],
+                "label" : "06 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    213,
+                    151,
+                    119,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "07 Apr"
+                ],
+                "label" : "07 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    212,
+                    150,
+                    118,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "08 Apr"
+                ],
+                "label" : "08 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    212,
+                    149,
+                    117,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "09 Apr"
+                ],
+                "label" : "09 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    148,
+                    116,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10 Apr"
+                ],
+                "label" : "10 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    211,
+                    147,
+                    115,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11 Apr"
+                ],
+                "label" : "11 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    210,
+                    146,
+                    115,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12 Apr"
+                ],
+                "label" : "12 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    210,
+                    145,
+                    114,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13 Apr"
+                ],
+                "label" : "13 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    209,
+                    144,
+                    113,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14 Apr"
+                ],
+                "label" : "14 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    209,
+                    143,
+                    112,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15 Apr"
+                ],
+                "label" : "15 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    209,
+                    142,
+                    111,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16 Apr"
+                ],
+                "label" : "16 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    208,
+                    142,
+                    111,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17 Apr"
+                ],
+                "label" : "17 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    208,
+                    141,
+                    110,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18 Apr"
+                ],
+                "label" : "18 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    207,
+                    140,
+                    109,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19 Apr"
+                ],
+                "label" : "19 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    207,
+                    139,
+                    108,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20 Apr"
+                ],
+                "label" : "20 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    206,
+                    138,
+                    107,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21 Apr"
+                ],
+                "label" : "21 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    206,
+                    137,
+                    107,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22 Apr"
+                ],
+                "label" : "22 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    205,
+                    136,
+                    106,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23 Apr"
+                ],
+                "label" : "23 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    205,
+                    135,
+                    105,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24 Apr"
+                ],
+                "label" : "24 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    205,
+                    134,
+                    104,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25 Apr"
+                ],
+                "label" : "25 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    204,
+                    133,
+                    104,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26 Apr"
+                ],
+                "label" : "26 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    204,
+                    133,
+                    103,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "27 Apr"
+                ],
+                "label" : "27 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    203,
+                    132,
+                    102,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "28 Apr"
+                ],
+                "label" : "28 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    203,
+                    131,
+                    101,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "29 Apr"
+                ],
+                "label" : "29 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    202,
+                    130,
+                    100,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30 Apr"
+                ],
+                "label" : "30 Apr",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    202,
+                    129,
+                    100,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "01 May"
+                ],
+                "label" : "01 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    202,
+                    128,
+                    99,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "02 May"
+                ],
+                "label" : "02 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    201,
+                    127,
+                    98,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "03 May"
+                ],
+                "label" : "03 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    201,
+                    126,
+                    97,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "04 May"
+                ],
+                "label" : "04 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    200,
+                    125,
+                    96,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "05 May"
+                ],
+                "label" : "05 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    200,
+                    124,
+                    96,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "06 May"
+                ],
+                "label" : "06 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    199,
+                    124,
+                    95,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "07 May"
+                ],
+                "label" : "07 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    199,
+                    123,
+                    94,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "08 May"
+                ],
+                "label" : "08 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    198,
+                    122,
+                    93,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "09 May"
+                ],
+                "label" : "09 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    198,
+                    121,
+                    92,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10 May"
+                ],
+                "label" : "10 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    198,
+                    120,
+                    92,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11 May"
+                ],
+                "label" : "11 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    197,
+                    119,
+                    91,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12 May"
+                ],
+                "label" : "12 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    197,
+                    118,
+                    90,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13 May"
+                ],
+                "label" : "13 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    196,
+                    117,
+                    89,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14 May"
+                ],
+                "label" : "14 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    196,
+                    116,
+                    88,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15 May"
+                ],
+                "label" : "15 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    195,
+                    115,
+                    88,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16 May"
+                ],
+                "label" : "16 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    195,
+                    115,
+                    87,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17 May"
+                ],
+                "label" : "17 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    194,
+                    114,
+                    86,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18 May"
+                ],
+                "label" : "18 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    194,
+                    113,
+                    85,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19 May"
+                ],
+                "label" : "19 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    194,
+                    112,
+                    84,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20 May"
+                ],
+                "label" : "20 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    193,
+                    111,
+                    84,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21 May"
+                ],
+                "label" : "21 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    193,
+                    110,
+                    83,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22 May"
+                ],
+                "label" : "22 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    192,
+                    109,
+                    82,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23 May"
+                ],
+                "label" : "23 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    192,
+                    108,
+                    81,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24 May"
+                ],
+                "label" : "24 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    191,
+                    107,
+                    80,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25 May"
+                ],
+                "label" : "25 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    191,
+                    106,
+                    80,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26 May"
+                ],
+                "label" : "26 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    190,
+                    106,
+                    79,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "27 May"
+                ],
+                "label" : "27 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    190,
+                    105,
+                    78,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "28 May"
+                ],
+                "label" : "28 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    190,
+                    104,
+                    77,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "29 May"
+                ],
+                "label" : "29 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    189,
+                    103,
+                    76,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30 May"
+                ],
+                "label" : "30 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    189,
+                    102,
+                    76,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "31 May"
+                ],
+                "label" : "31 May",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    188,
+                    101,
+                    75,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "01 Jun"
+                ],
+                "label" : "01 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    188,
+                    100,
+                    74,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "02 Jun"
+                ],
+                "label" : "02 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    187,
+                    99,
+                    73,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "03 Jun"
+                ],
+                "label" : "03 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    187,
+                    98,
+                    72,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "04 Jun"
+                ],
+                "label" : "04 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    186,
+                    97,
+                    72,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "05 Jun"
+                ],
+                "label" : "05 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    186,
+                    97,
+                    71,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "06 Jun"
+                ],
+                "label" : "06 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    186,
+                    96,
+                    70,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "07 Jun"
+                ],
+                "label" : "07 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    185,
+                    95,
+                    69,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "08 Jun"
+                ],
+                "label" : "08 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    185,
+                    94,
+                    69,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "09 Jun"
+                ],
+                "label" : "09 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    184,
+                    93,
+                    68,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10 Jun"
+                ],
+                "label" : "10 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    184,
+                    92,
+                    67,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11 Jun"
+                ],
+                "label" : "11 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    183,
+                    91,
+                    66,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12 Jun"
+                ],
+                "label" : "12 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    183,
+                    90,
+                    65,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13 Jun"
+                ],
+                "label" : "13 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    183,
+                    89,
+                    65,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14 Jun"
+                ],
+                "label" : "14 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    182,
+                    88,
+                    64,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15 Jun"
+                ],
+                "label" : "15 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    182,
+                    88,
+                    63,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16 Jun"
+                ],
+                "label" : "16 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    181,
+                    87,
+                    62,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17 Jun"
+                ],
+                "label" : "17 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    181,
+                    86,
+                    61,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18 Jun"
+                ],
+                "label" : "18 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    180,
+                    85,
+                    61,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19 Jun"
+                ],
+                "label" : "19 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    180,
+                    84,
+                    60,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20 Jun"
+                ],
+                "label" : "20 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    179,
+                    83,
+                    59,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21 Jun"
+                ],
+                "label" : "21 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    179,
+                    82,
+                    58,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22 Jun"
+                ],
+                "label" : "22 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    179,
+                    81,
+                    57,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23 Jun"
+                ],
+                "label" : "23 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    178,
+                    80,
+                    57,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24 Jun"
+                ],
+                "label" : "24 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    178,
+                    79,
+                    56,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25 Jun"
+                ],
+                "label" : "25 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    177,
+                    79,
+                    55,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26 Jun"
+                ],
+                "label" : "26 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    177,
+                    78,
+                    54,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "27 Jun"
+                ],
+                "label" : "27 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    176,
+                    77,
+                    53,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "28 Jun"
+                ],
+                "label" : "28 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    176,
+                    76,
+                    53,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "29 Jun"
+                ],
+                "label" : "29 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    175,
+                    75,
+                    52,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30 Jun"
+                ],
+                "label" : "30 Jun",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    175,
+                    74,
+                    51,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "01 Jul"
+                ],
+                "label" : "01 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    175,
+                    74,
+                    51,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "02 Jul"
+                ],
+                "label" : "02 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    174,
+                    73,
+                    50,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "03 Jul"
+                ],
+                "label" : "03 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    174,
+                    73,
+                    50,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "04 Jul"
+                ],
+                "label" : "04 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    174,
+                    73,
+                    50,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "05 Jul"
+                ],
+                "label" : "05 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    173,
+                    72,
+                    50,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "06 Jul"
+                ],
+                "label" : "06 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    173,
+                    72,
+                    49,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "07 Jul"
+                ],
+                "label" : "07 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    173,
+                    72,
+                    49,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "08 Jul"
+                ],
+                "label" : "08 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    172,
+                    71,
+                    49,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "09 Jul"
+                ],
+                "label" : "09 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    172,
+                    71,
+                    49,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10 Jul"
+                ],
+                "label" : "10 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    172,
+                    71,
+                    48,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11 Jul"
+                ],
+                "label" : "11 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    171,
+                    70,
+                    48,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12 Jul"
+                ],
+                "label" : "12 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    171,
+                    70,
+                    48,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13 Jul"
+                ],
+                "label" : "13 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    171,
+                    70,
+                    48,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14 Jul"
+                ],
+                "label" : "14 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    170,
+                    69,
+                    47,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15 Jul"
+                ],
+                "label" : "15 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    170,
+                    69,
+                    47,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16 Jul"
+                ],
+                "label" : "16 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    170,
+                    69,
+                    47,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17 Jul"
+                ],
+                "label" : "17 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    169,
+                    68,
+                    46,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18 Jul"
+                ],
+                "label" : "18 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    169,
+                    68,
+                    46,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19 Jul"
+                ],
+                "label" : "19 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    169,
+                    68,
+                    46,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20 Jul"
+                ],
+                "label" : "20 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    168,
+                    67,
+                    46,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21 Jul"
+                ],
+                "label" : "21 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    168,
+                    67,
+                    45,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22 Jul"
+                ],
+                "label" : "22 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    168,
+                    67,
+                    45,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23 Jul"
+                ],
+                "label" : "23 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    167,
+                    66,
+                    45,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24 Jul"
+                ],
+                "label" : "24 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    167,
+                    66,
+                    45,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25 Jul"
+                ],
+                "label" : "25 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    167,
+                    66,
+                    44,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26 Jul"
+                ],
+                "label" : "26 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    166,
+                    65,
+                    44,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "27 Jul"
+                ],
+                "label" : "27 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    166,
+                    65,
+                    44,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "28 Jul"
+                ],
+                "label" : "28 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    166,
+                    65,
+                    44,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "29 Jul"
+                ],
+                "label" : "29 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    165,
+                    64,
+                    43,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30 Jul"
+                ],
+                "label" : "30 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    165,
+                    64,
+                    43,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "31 Jul"
+                ],
+                "label" : "31 Jul",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    164,
+                    63,
+                    43,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "01 Aug"
+                ],
+                "label" : "01 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    164,
+                    63,
+                    42,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "02 Aug"
+                ],
+                "label" : "02 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    164,
+                    63,
+                    42,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "03 Aug"
+                ],
+                "label" : "03 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    163,
+                    62,
+                    42,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "04 Aug"
+                ],
+                "label" : "04 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    163,
+                    62,
+                    42,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "05 Aug"
+                ],
+                "label" : "05 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    163,
+                    62,
+                    41,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "06 Aug"
+                ],
+                "label" : "06 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    162,
+                    61,
+                    41,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "07 Aug"
+                ],
+                "label" : "07 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    162,
+                    61,
+                    41,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "08 Aug"
+                ],
+                "label" : "08 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    162,
+                    61,
+                    41,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "09 Aug"
+                ],
+                "label" : "09 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    161,
+                    60,
+                    40,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10 Aug"
+                ],
+                "label" : "10 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    161,
+                    60,
+                    40,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11 Aug"
+                ],
+                "label" : "11 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    161,
+                    60,
+                    40,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12 Aug"
+                ],
+                "label" : "12 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    160,
+                    59,
+                    39,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13 Aug"
+                ],
+                "label" : "13 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    160,
+                    59,
+                    39,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14 Aug"
+                ],
+                "label" : "14 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    160,
+                    59,
+                    39,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15 Aug"
+                ],
+                "label" : "15 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    159,
+                    58,
+                    39,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16 Aug"
+                ],
+                "label" : "16 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    159,
+                    58,
+                    38,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17 Aug"
+                ],
+                "label" : "17 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    159,
+                    58,
+                    38,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18 Aug"
+                ],
+                "label" : "18 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    158,
+                    57,
+                    38,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19 Aug"
+                ],
+                "label" : "19 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    158,
+                    57,
+                    38,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20 Aug"
+                ],
+                "label" : "20 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    158,
+                    57,
+                    37,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21 Aug"
+                ],
+                "label" : "21 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    157,
+                    56,
+                    37,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22 Aug"
+                ],
+                "label" : "22 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    157,
+                    56,
+                    37,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23 Aug"
+                ],
+                "label" : "23 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    157,
+                    56,
+                    37,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24 Aug"
+                ],
+                "label" : "24 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    156,
+                    55,
+                    36,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25 Aug"
+                ],
+                "label" : "25 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    156,
+                    55,
+                    36,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26 Aug"
+                ],
+                "label" : "26 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    156,
+                    55,
+                    36,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "27 Aug"
+                ],
+                "label" : "27 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    155,
+                    54,
+                    35,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "28 Aug"
+                ],
+                "label" : "28 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    155,
+                    54,
+                    35,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "29 Aug"
+                ],
+                "label" : "29 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    155,
+                    54,
+                    35,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30 Aug"
+                ],
+                "label" : "30 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    154,
+                    53,
+                    35,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "31 Aug"
+                ],
+                "label" : "31 Aug",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    154,
+                    53,
+                    34,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "01 Sep"
+                ],
+                "label" : "01 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    154,
+                    53,
+                    34,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "02 Sep"
+                ],
+                "label" : "02 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    153,
+                    52,
+                    34,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "03 Sep"
+                ],
+                "label" : "03 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    153,
+                    52,
+                    34,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "04 Sep"
+                ],
+                "label" : "04 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    153,
+                    52,
+                    33,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "05 Sep"
+                ],
+                "label" : "05 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    152,
+                    51,
+                    33,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "06 Sep"
+                ],
+                "label" : "06 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    152,
+                    51,
+                    33,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "07 Sep"
+                ],
+                "label" : "07 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    152,
+                    51,
+                    33,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "08 Sep"
+                ],
+                "label" : "08 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    151,
+                    50,
+                    32,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "09 Sep"
+                ],
+                "label" : "09 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    151,
+                    50,
+                    32,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10 Sep"
+                ],
+                "label" : "10 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    151,
+                    50,
+                    32,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11 Sep"
+                ],
+                "label" : "11 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    150,
+                    49,
+                    31,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12 Sep"
+                ],
+                "label" : "12 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    150,
+                    49,
+                    31,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13 Sep"
+                ],
+                "label" : "13 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    150,
+                    49,
+                    31,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14 Sep"
+                ],
+                "label" : "14 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    149,
+                    48,
+                    31,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15 Sep"
+                ],
+                "label" : "15 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    149,
+                    48,
+                    30,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16 Sep"
+                ],
+                "label" : "16 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    149,
+                    48,
+                    30,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17 Sep"
+                ],
+                "label" : "17 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    148,
+                    47,
+                    30,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18 Sep"
+                ],
+                "label" : "18 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    148,
+                    47,
+                    30,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19 Sep"
+                ],
+                "label" : "19 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    148,
+                    47,
+                    29,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20 Sep"
+                ],
+                "label" : "20 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    147,
+                    46,
+                    29,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21 Sep"
+                ],
+                "label" : "21 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    147,
+                    46,
+                    29,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22 Sep"
+                ],
+                "label" : "22 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    147,
+                    46,
+                    29,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23 Sep"
+                ],
+                "label" : "23 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    146,
+                    45,
+                    28,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24 Sep"
+                ],
+                "label" : "24 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    146,
+                    45,
+                    28,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25 Sep"
+                ],
+                "label" : "25 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    146,
+                    45,
+                    28,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26 Sep"
+                ],
+                "label" : "26 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    145,
+                    44,
+                    27,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "27 Sep"
+                ],
+                "label" : "27 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    145,
+                    44,
+                    27,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "28 Sep"
+                ],
+                "label" : "28 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    145,
+                    44,
+                    27,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "29 Sep"
+                ],
+                "label" : "29 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    144,
+                    43,
+                    27,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30 Sep"
+                ],
+                "label" : "30 Sep",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    144,
+                    43,
+                    26,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "01 Oct"
+                ],
+                "label" : "01 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    143,
+                    42,
+                    26,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "02 Oct"
+                ],
+                "label" : "02 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    143,
+                    42,
+                    26,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "03 Oct"
+                ],
+                "label" : "03 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    143,
+                    42,
+                    26,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "04 Oct"
+                ],
+                "label" : "04 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    142,
+                    41,
+                    25,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "05 Oct"
+                ],
+                "label" : "05 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    142,
+                    41,
+                    25,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "06 Oct"
+                ],
+                "label" : "06 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    142,
+                    41,
+                    25,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "07 Oct"
+                ],
+                "label" : "07 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    141,
+                    40,
+                    24,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "08 Oct"
+                ],
+                "label" : "08 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    141,
+                    40,
+                    24,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "09 Oct"
+                ],
+                "label" : "09 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    141,
+                    40,
+                    24,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10 Oct"
+                ],
+                "label" : "10 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    140,
+                    39,
+                    24,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11 Oct"
+                ],
+                "label" : "11 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    140,
+                    39,
+                    23,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12 Oct"
+                ],
+                "label" : "12 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    140,
+                    39,
+                    23,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13 Oct"
+                ],
+                "label" : "13 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    139,
+                    38,
+                    23,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14 Oct"
+                ],
+                "label" : "14 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    139,
+                    38,
+                    23,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15 Oct"
+                ],
+                "label" : "15 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    139,
+                    38,
+                    22,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16 Oct"
+                ],
+                "label" : "16 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    138,
+                    37,
+                    22,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17 Oct"
+                ],
+                "label" : "17 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    138,
+                    37,
+                    22,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18 Oct"
+                ],
+                "label" : "18 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    138,
+                    37,
+                    22,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19 Oct"
+                ],
+                "label" : "19 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    137,
+                    36,
+                    21,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20 Oct"
+                ],
+                "label" : "20 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    137,
+                    36,
+                    21,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21 Oct"
+                ],
+                "label" : "21 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    137,
+                    36,
+                    21,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22 Oct"
+                ],
+                "label" : "22 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    136,
+                    35,
+                    20,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23 Oct"
+                ],
+                "label" : "23 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    136,
+                    35,
+                    20,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24 Oct"
+                ],
+                "label" : "24 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    136,
+                    35,
+                    20,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25 Oct"
+                ],
+                "label" : "25 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    135,
+                    34,
+                    20,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26 Oct"
+                ],
+                "label" : "26 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    135,
+                    34,
+                    19,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "27 Oct"
+                ],
+                "label" : "27 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    135,
+                    34,
+                    19,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "28 Oct"
+                ],
+                "label" : "28 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    134,
+                    33,
+                    19,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "29 Oct"
+                ],
+                "label" : "29 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    134,
+                    33,
+                    19,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30 Oct"
+                ],
+                "label" : "30 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    134,
+                    33,
+                    18,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "31 Oct"
+                ],
+                "label" : "31 Oct",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    133,
+                    32,
+                    18,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "01 Nov"
+                ],
+                "label" : "01 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    133,
+                    32,
+                    18,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "02 Nov"
+                ],
+                "label" : "02 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    133,
+                    32,
+                    18,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "03 Nov"
+                ],
+                "label" : "03 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    132,
+                    31,
+                    17,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "04 Nov"
+                ],
+                "label" : "04 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    132,
+                    31,
+                    17,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "05 Nov"
+                ],
+                "label" : "05 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    132,
+                    31,
+                    17,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "06 Nov"
+                ],
+                "label" : "06 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    131,
+                    30,
+                    16,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "07 Nov"
+                ],
+                "label" : "07 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    131,
+                    30,
+                    16,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "08 Nov"
+                ],
+                "label" : "08 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    131,
+                    30,
+                    16,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "09 Nov"
+                ],
+                "label" : "09 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    130,
+                    29,
+                    16,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10 Nov"
+                ],
+                "label" : "10 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    130,
+                    29,
+                    15,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11 Nov"
+                ],
+                "label" : "11 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    130,
+                    29,
+                    15,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12 Nov"
+                ],
+                "label" : "12 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    129,
+                    28,
+                    15,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13 Nov"
+                ],
+                "label" : "13 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    129,
+                    28,
+                    15,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14 Nov"
+                ],
+                "label" : "14 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    129,
+                    28,
+                    14,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15 Nov"
+                ],
+                "label" : "15 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    128,
+                    27,
+                    14,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16 Nov"
+                ],
+                "label" : "16 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    128,
+                    27,
+                    14,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17 Nov"
+                ],
+                "label" : "17 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    128,
+                    27,
+                    14,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18 Nov"
+                ],
+                "label" : "18 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    127,
+                    26,
+                    13,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19 Nov"
+                ],
+                "label" : "19 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    127,
+                    26,
+                    13,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20 Nov"
+                ],
+                "label" : "20 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    127,
+                    26,
+                    13,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21 Nov"
+                ],
+                "label" : "21 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    126,
+                    25,
+                    12,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22 Nov"
+                ],
+                "label" : "22 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    126,
+                    25,
+                    12,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23 Nov"
+                ],
+                "label" : "23 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    126,
+                    25,
+                    12,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24 Nov"
+                ],
+                "label" : "24 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    125,
+                    24,
+                    12,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25 Nov"
+                ],
+                "label" : "25 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    125,
+                    24,
+                    11,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26 Nov"
+                ],
+                "label" : "26 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    125,
+                    24,
+                    11,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "27 Nov"
+                ],
+                "label" : "27 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    124,
+                    23,
+                    11,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "28 Nov"
+                ],
+                "label" : "28 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    124,
+                    23,
+                    11,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "29 Nov"
+                ],
+                "label" : "29 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    124,
+                    23,
+                    10,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30 Nov"
+                ],
+                "label" : "30 Nov",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    123,
+                    22,
+                    10,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "01 Dec"
+                ],
+                "label" : "01 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    123,
+                    22,
+                    10,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "02 Dec"
+                ],
+                "label" : "02 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    122,
+                    21,
+                    9,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "03 Dec"
+                ],
+                "label" : "03 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    122,
+                    21,
+                    9,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "04 Dec"
+                ],
+                "label" : "04 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    122,
+                    21,
+                    9,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "05 Dec"
+                ],
+                "label" : "05 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    121,
+                    20,
+                    9,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "06 Dec"
+                ],
+                "label" : "06 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    121,
+                    20,
+                    8,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "07 Dec"
+                ],
+                "label" : "07 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    121,
+                    20,
+                    8,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "08 Dec"
+                ],
+                "label" : "08 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    120,
+                    19,
+                    8,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "09 Dec"
+                ],
+                "label" : "09 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    120,
+                    19,
+                    8,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "10 Dec"
+                ],
+                "label" : "10 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    120,
+                    19,
+                    7,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "11 Dec"
+                ],
+                "label" : "11 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    119,
+                    18,
+                    7,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "12 Dec"
+                ],
+                "label" : "12 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    119,
+                    18,
+                    7,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "13 Dec"
+                ],
+                "label" : "13 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    119,
+                    18,
+                    7,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "14 Dec"
+                ],
+                "label" : "14 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    118,
+                    17,
+                    6,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "15 Dec"
+                ],
+                "label" : "15 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    118,
+                    17,
+                    6,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "16 Dec"
+                ],
+                "label" : "16 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    118,
+                    17,
+                    6,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "17 Dec"
+                ],
+                "label" : "17 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    117,
+                    16,
+                    5,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "18 Dec"
+                ],
+                "label" : "18 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    117,
+                    16,
+                    5,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "19 Dec"
+                ],
+                "label" : "19 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    117,
+                    16,
+                    5,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "20 Dec"
+                ],
+                "label" : "20 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    116,
+                    15,
+                    5,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "21 Dec"
+                ],
+                "label" : "21 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    116,
+                    15,
+                    4,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "22 Dec"
+                ],
+                "label" : "22 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    116,
+                    15,
+                    4,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "23 Dec"
+                ],
+                "label" : "23 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    115,
+                    14,
+                    4,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "24 Dec"
+                ],
+                "label" : "24 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    115,
+                    14,
+                    4,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "25 Dec"
+                ],
+                "label" : "25 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    115,
+                    14,
+                    3,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "26 Dec"
+                ],
+                "label" : "26 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    114,
+                    13,
+                    3,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "27 Dec"
+                ],
+                "label" : "27 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    114,
+                    13,
+                    3,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "28 Dec"
+                ],
+                "label" : "28 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    114,
+                    13,
+                    3,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "29 Dec"
+                ],
+                "label" : "29 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    113,
+                    12,
+                    2,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "30 Dec"
+                ],
+                "label" : "30 Dec",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    113,
+                    12,
+                    2,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "All non-herbaceous areas"
+                ],
+                "label" : "All non-herbaceous areas",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    240,
+                    240,
+                    240,
+                    100
+                  ]
+                }
+              },
+              {
+                "type" : "CIMRasterUniqueValueClass",
+                "values" : [
+                  "Outside area"
+                ],
+                "label" : "Outside area",
+                "color" : {
+                  "type" : "CIMRGBColor",
+                  "values" : [
+                    0,
+                    0,
+                    0,
+                    100
+                  ]
+                }
+              }
+            ],
+            "heading" : "class_name"
+          }
+        ]
+      },
+      "attributeTable" : {
+        "type" : "CIMRasterTable",
+        "displayField" : "class_name",
+        "editable" : true
+      }
+    }
+  ],
+  "rGBColorProfile" : "sRGB IEC61966-2.1",
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2",
+  "elevationSurfaceLayerDefinitions" : [
+    {
+      "type" : "CIMElevationSurfaceLayer",
+      "name" : "Ground",
+      "uRI" : "CIMPATH=Map/616288122f574e8b9453d92cf1bf3bec.json",
+      "sourceModifiedTime" : {
+        "type" : "TimeInstant"
+      },
+      "useSourceMetadata" : true,
+      "description" : "Ground",
+      "expanded" : true,
+      "layer3DProperties" : {
+        "type" : "CIM3DLayerProperties",
+        "castShadows" : true,
+        "isLayerLit" : true,
+        "layerFaceCulling" : "None",
+        "preloadTextureCutoffHigh" : 0.29999999999999999,
+        "preloadTextureCutoffLow" : 0.59999999999999998,
+        "textureCutoffHigh" : 0.29999999999999999,
+        "textureCutoffLow" : 0.59999999999999998,
+        "useCompressedTextures" : true,
+        "verticalExaggeration" : 1,
+        "exaggerationMode" : "ScaleZ",
+        "lighting" : "OneSideDataNormal",
+        "optimizeMarkerTransparency" : true
+      },
+      "layerType" : "Operational",
+      "showLegends" : false,
+      "visibility" : true,
+      "displayCacheType" : "Permanent",
+      "maxDisplayCacheAge" : 5,
+      "showPopups" : true,
+      "serviceLayerID" : -1,
+      "refreshRate" : -1,
+      "refreshRateUnit" : "esriTimeUnitsSeconds",
+      "blendingMode" : "Alpha",
+      "allowDrapingOnIntegratedMesh" : true,
+      "elevationMode" : "BaseGlobeSurface",
+      "verticalExaggeration" : 1,
+      "color" : {
+        "type" : "CIMRGBColor",
+        "values" : [
+          255,
+          255,
+          255,
+          100
+        ]
+      },
+      "surfaceTINShadingMode" : "Smooth"
+    }
+  ]
+}

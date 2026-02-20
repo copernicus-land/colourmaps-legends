@@ -1,0 +1,50 @@
+{
+  "name": "s3://eodata/CLMS/bio-geophysical/water_and_ice_cover/clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1",
+  "browserName": "WIC S2 Europe 20m Daily V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Water and Ice Cover",
+  "collectionDescription": "The Water and Ice Cover by Sentinel-2 (WICS2) product provides the water and ice extent over land. A water mask is used to differentiate between snow on ice-covered water areas and snow on land. It is generated in near real-time at European scale based on optical satellite data from the Sentinel-2 constellation, with a spatial resolution of 20 m x 20 m. It is available for the period from 2016 to the present. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/water-and-ice-cover-raster-20-m-60-m-europe-daily",
+  "spatialCoverage": "Europe",
+  "temporalExtent": {
+    "start": "2016",
+    "end": "present"
+  },
+  "layers": [
+    {
+      "fileName": "WIC",
+      "layerBrowserName": "WIC",
+      "shortDescription": "Water/Ice Cover",
+      "longDescription": "Extent of open-water and ice across the continent derived from Sentinel-2 optical imagery. A water mask is applied to distinguish snow on ice-covered water bodies from snow on land. The primary classes are open water (1), snow-covered or snow-free ice (100), and other features (254), which include land, vegetation, salt seas, and other surface types. The dataset has also the following classes for areas where water/ice classification cannot be determined from Sentinel-2 optical imagery: cloud or cloud shadow (205), and no data (255).",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_water-ice-cover/clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1_wic.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "WIC-QA",
+      "layerBrowserName": "WIC-QA",
+      "shortDescription": "Quality layer for the Water/Ice Cover (WIC) layer",
+      "longDescription": "Quality layer providing basic assessment of the Water/Ice Cover layer.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_water-ice-cover/clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1_wic-qa.sld",
+      "legendLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "QAFLAGS",
+      "layerBrowserName": "QAFLAGS",
+      "shortDescription": "Quality flags",
+      "longDescription": "The default visualisation indicates whether a pixel is located in the hillshade; these correspond to pixels where bit 0 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "PRB",
+      "layerBrowserName": "PRB",
+      "shortDescription": "Probability of the class indicated by the Water/Ice Cover (WIC) layer",
+      "longDescription": "Confidence level of the Random Forest classifier for the class assigned in the WIC layer (0-100%).",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_water-ice-cover/clms_wsi_water-ice-cover-s2_europe_utm_20m_daily_v1_prb.sld",
+      "legendLink": "",
+      "display": 1
+    }
+  ]
+}

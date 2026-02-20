@@ -1,0 +1,41 @@
+{
+  "name": "s3://eodata/CLMS/bio-geophysical/extent/clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1",
+  "browserName": "HRWL Europe 10m 3-yearly V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Extent",
+  "collectionDescription": "The High Resolution Water Layer (HRWL) product provides classified maps showing permanent water, temporary water, dry areas, and sea water. It is a multi-annual product, typically covering a 7-year period, and is updated every 3 years. The product is generated at the European scale with a spatial resolution of 10 m × 10 m. It is based on the annual Water Cover Duration (WCD) production, which combines water masks from Sentinel-1 radar and Sentinel-2 optical imagery with Water/Ice Cover data from Sentinel-2 (WIC S2). HRWL is available for the reference years 2021 and 2024 and can be downloaded in multiple projections and pixel spacings. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/high-resolution-water-layer",
+  "spatialCoverage": "Europe",
+  "temporalExtent": {
+    "start": "2016",
+    "end": "present"
+  },
+  "layers": [
+    {
+      "fileName": "WL",
+      "layerBrowserName": "WL",
+      "shortDescription": "Water classification",
+      "longDescription": "Classified layer, differentiating the classes of permanent water (1), temporary water (2), and dry areas (0). The dataset can also have the following values: cloud or cloud shadow (205), sea water (253), or no data (255)",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_high-resolution-water-layer/clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1_wl.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "WPI",
+      "layerBrowserName": "WPI",
+      "shortDescription": "Water probability index",
+      "longDescription": "Occurrence of water areas throughout the entire observation period (between 0 and 100).",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_high-resolution-water-layer/clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1_wpi.sld",
+      "legendLink": "",
+      "display": 1
+    }, 
+    {
+      "fileName": "WCL",
+      "layerBrowserName": "WCL",
+      "shortDescription": "Water confidence layer",
+      "longDescription": "Quality layer providing an assessment of the water layer (WL) quality (between 0 and 100).",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_wsi_high-resolution-water-layer/clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1_wcl.sld",
+      "legendLink": "",
+      "display": 1
+    }
+  ]
+}
