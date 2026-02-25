@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StyledLayerDescriptor xmlns="http://www.opengis.net/sld" version="1.1.0" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:xlink="http://www.w3.org/1999/xlink">
   <NamedLayer>
-    <se:Name>clms_ua_stl</se:Name>
+    <se:Name>clms_ua_street-tree-layer_europe_V005ha_3yearly_v1_stl</se:Name>
     <UserStyle>
-      <se:Name>clms_ua_stl</se:Name>
+      <se:Name>clms_ua_street-tree-layer_europe_V005ha_3yearly_v1_stl</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
           <se:Name>1: Street tree layer</se:Name>
