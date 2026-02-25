@@ -114,10 +114,10 @@
                 "color" : {
                   "type" : "CIMRGBColor",
                   "values" : [
-                    0,
-                    0,
-                    0,
-                    0
+                    210,
+                    210,
+                    210,
+                    100
                   ]
                 },
                 "visible" : true

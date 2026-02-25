@@ -47,7 +47,7 @@
         <paletteEntry color="#282828" alpha="255" value="200" label="radar shadow / layover / foreshortening" />
         <paletteEntry color="#7b7b7b" alpha="255" value="205" label="cloud or cloud shadow" />
         <paletteEntry color="#ff0000" alpha="255" value="254" label="other features" />
-        <paletteEntry color="#000000" alpha="0" value="255" label="no data" />
+        <paletteEntry color="#d2d2d2" alpha="255" value="255" label="no data" />
       </colorPalette>
       <colorramp name="[source]" type="randomcolors">
         <Option />
