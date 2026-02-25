@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:se="http://www.opengis.net/se" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogc="http://www.opengis.net/ogc" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1.0">
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.1.0" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd">
   <NamedLayer>
-    <se:Name>clms_ua_lcuc_2018-2021</se:Name>
+    <se:Name>clms_ua_land-cover-land-use-change_europe_V010ha_3yearly_v1_2018-2021</se:Name>
     <UserStyle>
-      <se:Name>clms_ua_lcuc_2018-2021</se:Name>
+      <se:Name>clms_ua_land-cover-land-use-change_europe_V010ha_3yearly_v1_2018-2021</se:Name>
       <se:FeatureTypeStyle>
         <se:Rule>
-          <se:Name>11100: Continuous urban fabric (S.L.: > 80%)</se:Name>
+          <se:Name>11100: Continuous urban fabric (S.L. : > 80%)</se:Name>
           <se:Description>
-            <se:Title>11100: Continuous urban fabric (S.L.: > 80%)</se:Title>
+            <se:Title>11100: Continuous urban fabric (S.L. : > 80%)</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -23,9 +23,9 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>11210: Discontinuous dense urban fabric (S.L.: 50% - 80%)</se:Name>
+          <se:Name>11210: Discontinuous dense urban fabric (S.L. : 50% - 80%)</se:Name>
           <se:Description>
-            <se:Title>11210: Discontinuous dense urban fabric (S.L.: 50% - 80%)</se:Title>
+            <se:Title>11210: Discontinuous dense urban fabric (S.L. : 50% - 80%)</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -40,9 +40,9 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>11220: Discontinuous medium density urban fabric (S.L.: 30% - 50%)</se:Name>
+          <se:Name>11220: Discontinuous medium density urban fabric (S.L. : 30% - 50%)</se:Name>
           <se:Description>
-            <se:Title>11220: Discontinuous medium density urban fabric (S.L.: 30% - 50%)</se:Title>
+            <se:Title>11220: Discontinuous medium density urban fabric (S.L. : 30% - 50%)</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -57,9 +57,9 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>11230: Discontinuous low density urban fabric (S.L.: 10% - 30%)</se:Name>
+          <se:Name>11230: Discontinuous low density urban fabric (S.L. : 10% - 30%)</se:Name>
           <se:Description>
-            <se:Title>11230: Discontinuous low density urban fabric (S.L.: 10% - 30%)</se:Title>
+            <se:Title>11230: Discontinuous low density urban fabric (S.L. : 10% - 30%)</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -74,9 +74,9 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>11240: Discontinuous very low density urban fabric (S.L.: &lt; 10%)</se:Name>
+          <se:Name>11240: Discontinuous very low density urban fabric (S.L. : &lt; 10%)</se:Name>
           <se:Description>
-            <se:Title>11240: Discontinuous very low density urban fabric (S.L.: &lt; 10%)</se:Title>
+            <se:Title>11240: Discontinuous very low density urban fabric (S.L. : &lt; 10%)</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -346,9 +346,9 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>22000: Permanent crops</se:Name>
+          <se:Name>22000: Permanent crops (vineyards, fruit trees, olive groves)</se:Name>
           <se:Description>
-            <se:Title>22000: Permanent crops</se:Title>
+            <se:Title>22000: Permanent crops (vineyards, fruit trees, olive groves)</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -414,9 +414,9 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>32000: Herbaceous vegetation associations</se:Name>
+          <se:Name>32000: Herbaceous vegetation associations (natural grassland, moors...)</se:Name>
           <se:Description>
-            <se:Title>32000: Herbaceous vegetation associations</se:Title>
+            <se:Title>32000: Herbaceous vegetation associations (natural grassland, moors...)</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -431,9 +431,9 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>33000: Open spaces with little or no vegetation</se:Name>
+          <se:Name>33000: Open spaces with little or no vegetation (beaches, dunes, bare rocks, glaciers)</se:Name>
           <se:Description>
-            <se:Title>33000: Open spaces with little or no vegetation</se:Title>
+            <se:Title>33000: Open spaces with little or no vegetation (beaches, dunes, bare rocks, glaciers)</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
