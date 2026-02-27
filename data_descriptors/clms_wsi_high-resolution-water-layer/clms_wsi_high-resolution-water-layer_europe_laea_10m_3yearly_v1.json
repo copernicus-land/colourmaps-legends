@@ -1,7 +1,7 @@
 {
-  "name": "s3://eodata/CLMS/bio-geophysical/extent/clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1",
+  "name": "s3://eodata/CLMS/bio-geophysical/water_extent/clms_wsi_high-resolution-water-layer_europe_laea_10m_3yearly_v1",
   "browserName": "HRWL Europe 10m 3-yearly V1",
-  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Extent",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Water Extent",
   "collectionDescription": "The High Resolution Water Layer (HRWL) product provides classified maps showing permanent water, temporary water, dry areas, and sea water. It is a multi-annual product, typically covering a 7-year period, and is updated every 3 years. The product is generated at the European scale with a spatial resolution of 10 m × 10 m. It is based on the annual Water Cover Duration (WCD) production, which combines water masks from Sentinel-1 radar and Sentinel-2 optical imagery with Water/Ice Cover data from Sentinel-2 (WIC S2). HRWL is available for the reference years 2021 and 2024 and can be downloaded in multiple projections and pixel spacings. More information here.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/high-resolution-water-layer",
   "spatialCoverage": "Europe",

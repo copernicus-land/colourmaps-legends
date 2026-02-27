@@ -1,5 +1,5 @@
 {
-  "name": "s3://eodata/CLMS/bio-geophysical/water_and_ice_cover/clms_wsi_water-ice-cover-s1_europe_utm_60m_daily_v1",
+  "name": "s3://eodata/CLMS/bio-geophysical/river_and_lake_ice_extent/clms_wsi_water-ice-cover-s1_europe_utm_60m_daily_v1",
   "browserName": "WIC S1 Europe 60m Daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Water and Ice Cover",
   "collectionDescription": "The Water and Ice Cover by Sentinel-1 (WICS1) product provides information about river and lake areas covered by snow-covered or snow-free ice. It is generated in near real-time at European scale, based on synthetic aperture radar data from the Sentinel-1 constellation, with a spatial resolution of 60 m x 60 m. It is available for the period from 2016 to the present. More information here.",
