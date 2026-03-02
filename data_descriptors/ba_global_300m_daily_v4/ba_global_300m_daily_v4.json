@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/burnt_area/ba_global_300m_daily_v4",
+  "browserName": "BA 300m daily V4",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Burnt Area",
+  "collectionDescription": "Provides daily Burnt Area estimates at global scale, at a spatial resolution of ~300 m. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/burnt-area-v4-daily-300m",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "2025",
+    "end": "present",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/ba_global_300m_daily_v4/ba_global_300m_daily_v4.jpg"
+  },
+  "layers": [
+    {
+      "fileName": "BA300-BF",
+      "layerBrowserName": "Burn Fraction",
+      "shortDescription": "Fraction of burned area within pixel",
+      "longDescription": "Fraction of the pixel area that has been burned.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[%]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "BA300-CP",
+      "layerBrowserName": "Confidence",
+      "shortDescription": "Confidence of burn detection",
+      "longDescription": "Confidence level associated with the burn detection.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[%]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "BA300-DOB",
+      "layerBrowserName": "Burnt Area",
+      "shortDescription": "Day of burn detection",
+      "longDescription": "Burnt area detection layer indicating the day of year when burn was detected.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[day of year]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "BA300-LFP",
+      "layerBrowserName": "Land Fire Probability",
+      "shortDescription": "Land fire probability",
+      "longDescription": "Probability of land fire occurrence.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[%]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}
