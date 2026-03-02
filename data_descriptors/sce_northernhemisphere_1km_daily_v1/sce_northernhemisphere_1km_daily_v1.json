@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/snow_cover_extent/sce_northernhemisphere_1km_daily_v1",
+  "browserName": "SCE 1km daily V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Snow, Snow Cover Extent",
+  "collectionDescription": "Provides daily Snow Cover Extent for Northern Hemisphere, at a spatial resolution of ~1km. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/snow/snow-cover-extent-northern-hemisphere-v1-0-1km",
+  "spatialCoverage": "Northern Hemisphere",
+  "temporalExtent": {
+    "start": "2018",
+    "end": "2026",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/sce_northernhemisphere_1km_daily_v1/sce_northernhemisphere_1km_daily_v1.jpg"
+  },
+  "layers": [
+    {
+      "fileName": "SCE",
+      "layerBrowserName": "Snow Cover Extent",
+      "shortDescription": "Snow Cover Extent (%)",
+      "longDescription": "Fractional Snow Cover Extent, indicating the percentage of ground covered by snow.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/sce_northernhemisphere_1km_daily_v1/clms_nhemi_sce_1km_v1_daily.txt",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_nhemi_sce_1km_v1_daily.png",
+      "units": "[%]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}

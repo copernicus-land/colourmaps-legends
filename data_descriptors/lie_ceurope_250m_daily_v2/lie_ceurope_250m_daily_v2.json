@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/river_and_lake_ice_extent/lie_europe_250m_daily_v2",
+  "browserName": "LIE 250m daily V2",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, River and Lake Ice Extent",
+  "collectionDescription": "Provides daily Lake Ice Extent for Central Europe, at a spatial resolution of ~250m. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/lake-ice-extent-europe-v2-250m",
+  "spatialCoverage": "Europe",
+  "temporalExtent": {
+    "start": "2024",
+    "end": "present",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lie_ceurope_250m_daily_v2/lie_ceurope_250m_daily_v2.jpg"
+  },
+  "layers": [
+    {
+      "fileName": "LIE250-LIE",
+      "layerBrowserName": "Lake Ice Extent",
+      "shortDescription": "Lake Ice Extent classification",
+      "longDescription": "Classification of lake ice conditions: open water, ice-free, snow-covered ice, thick ice.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lie_ceurope_250m_daily_v2/clms_ceuro_lie_250m_v2_daily.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_ceuro_lie_250m_v2_daily.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}

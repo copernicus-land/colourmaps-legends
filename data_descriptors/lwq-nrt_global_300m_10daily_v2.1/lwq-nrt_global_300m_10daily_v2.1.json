@@ -1,0 +1,88 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/lake_water_quality/lwq-nrt_global_300m_10daily_v2.1",
+  "browserName": "LWQ NRT 300m 10-daily V2.1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Lake Water Quality",
+  "collectionDescription": "Provides 10-daily Lake Water Quality (NRT) parameters at global scale, at a spatial resolution of ~300m. More information here.",
+  "linkToCLMS": "",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "",
+    "end": "present",
+    "thumbnailLink": ""
+  },
+  "layers": [
+    {
+      "fileName": "turbidity_mean",
+      "layerBrowserName": "Turbidity",
+      "shortDescription": "Mean Turbidity",
+      "longDescription": "",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-turbidity_mean.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_100m_v2.1_10daily-turbidity_mean.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "chla_mean",
+      "layerBrowserName": "Chlorophyll-a",
+      "shortDescription": "Mean Chlorophyll-a",
+      "longDescription": "",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-chla_mean.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_100m_v2.1_10daily-chla_mean.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "tsm_mean",
+      "layerBrowserName": "TSM",
+      "shortDescription": "Mean TSM",
+      "longDescription": "",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-tsm_mean.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_100m_v2.1_10daily-tsm_mean.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "trophic_state_index",
+      "layerBrowserName": "TSI",
+      "shortDescription": "Mean TSI",
+      "longDescription": "",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-trophic_state_index.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_100m_v1_10daily-trophic_state_index.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "floating_cyanobacteria",
+      "layerBrowserName": "Floating Cyanobacteria",
+      "shortDescription": "Mean Floating Cyanobacteria",
+      "longDescription": "",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-floating_cyanobacteria.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_100m_v2.1_10daily-floating_cyanobacteria.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "Rw",
+      "layerBrowserName": "Rw",
+      "shortDescription": "Mean Rw",
+      "longDescription": "",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_100m_v1_10daily-Rw.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}

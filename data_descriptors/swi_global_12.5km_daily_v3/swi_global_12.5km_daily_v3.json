@@ -1,0 +1,124 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/soil_water_index/swi_global_12.5km_daily_v3",
+  "browserName": "SWI 12.5km daily V3",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Soil Moisture, Soil Water Index",
+  "collectionDescription": "Provides Soil Water Index at global scale, at a spatial resolution of ~12.5 km, with different T-values representing different soil depth integration times. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/soil-moisture/daily-soil-water-index-global-12-5km-v3",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "2007",
+    "end": "2025",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/swi_global_12.5km_daily_v3/swi_global_12.5km_daily_v3.jpg"
+  },
+  "layers": [
+    {
+      "fileName": "SWI_001",
+      "layerBrowserName": "SWI T=1",
+      "shortDescription": "Soil Water Index (T=1 days)",
+      "longDescription": "Soil Water Index with characteristic time length T=1 days, expressed as degree of saturation (%).",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/swi_global_12.5km_daily_v3/clms_global_swi_12.5km_v3_daily.txt",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_swi_12.5km_v3_10daily.png",
+      "units": "[%]",
+      "scale": "0.5",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "SWI_005",
+      "layerBrowserName": "SWI T=5",
+      "shortDescription": "Soil Water Index (T=5 days)",
+      "longDescription": "Soil Water Index with characteristic time length T=5 days, expressed as degree of saturation (%).",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[%]",
+      "scale": "0.5",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "SWI_010",
+      "layerBrowserName": "SWI T=10",
+      "shortDescription": "Soil Water Index (T=10 days)",
+      "longDescription": "Soil Water Index with characteristic time length T=10 days, expressed as degree of saturation (%).",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[%]",
+      "scale": "0.5",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "SWI_015",
+      "layerBrowserName": "SWI T=15",
+      "shortDescription": "Soil Water Index (T=15 days)",
+      "longDescription": "Soil Water Index with characteristic time length T=15 days, expressed as degree of saturation (%).",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[%]",
+      "scale": "0.5",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "SWI_020",
+      "layerBrowserName": "SWI T=20",
+      "shortDescription": "Soil Water Index (T=20 days)",
+      "longDescription": "Soil Water Index with characteristic time length T=20 days, expressed as degree of saturation (%).",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[%]",
+      "scale": "0.5",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "SWI_040",
+      "layerBrowserName": "SWI T=40",
+      "shortDescription": "Soil Water Index (T=40 days)",
+      "longDescription": "Soil Water Index with characteristic time length T=40 days, expressed as degree of saturation (%).",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[%]",
+      "scale": "0.5",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "SWI_060",
+      "layerBrowserName": "SWI T=60",
+      "shortDescription": "Soil Water Index (T=60 days)",
+      "longDescription": "Soil Water Index with characteristic time length T=60 days, expressed as degree of saturation (%).",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[%]",
+      "scale": "0.5",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "SWI_100",
+      "layerBrowserName": "SWI T=100",
+      "shortDescription": "Soil Water Index (T=100 days)",
+      "longDescription": "Soil Water Index with characteristic time length T=100 days, expressed as degree of saturation (%).",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[%]",
+      "scale": "0.5",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "SSF",
+      "layerBrowserName": "Surface State Flag",
+      "shortDescription": "Surface State Flag",
+      "longDescription": "Surface State Flag indicating frozen or snow-covered conditions.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}

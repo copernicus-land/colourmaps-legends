@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/lake_water_quality/lwq-reproc_global_1km_10daily_v1",
+  "browserName": "LWQ Reprocessed 1km 10-daily V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Lake Water Quality",
+  "collectionDescription": "Provides 10-daily Lake Water Quality (Reprocessed) parameters at global scale, at a spatial resolution of ~1km. More information here.",
+  "linkToCLMS": "",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "",
+    "end": "present",
+    "thumbnailLink": ""
+  },
+  "layers": [
+    {
+      "fileName": "LWQ1km-TMEAN",
+      "layerBrowserName": "Turbidity",
+      "shortDescription": "Mean Turbidity",
+      "longDescription": "",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-reproc_global_1km_10daily_v1/clms_global_lwq_1km_v1_10daily-reproc-turbidity_mean.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_100m_v2.1_10daily-turbidity_mean.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "LWQ1km-TSI",
+      "layerBrowserName": "TSI",
+      "shortDescription": "Mean TSI",
+      "longDescription": "",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-reproc_global_1km_10daily_v1/clms_global_lwq_1km_v1_10daily-reproc-trophic_state_mean.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_1km_v1_10daily-nrt-trophic_state_mean.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "LWQ1km-RW",
+      "layerBrowserName": "Rw",
+      "shortDescription": "Mean Rw",
+      "longDescription": "",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-reproc_global_1km_10daily_v1/clms_global_lwq_1km_v1_10daily-reproc-Rw.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_100m_v1_10daily-Rw.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}

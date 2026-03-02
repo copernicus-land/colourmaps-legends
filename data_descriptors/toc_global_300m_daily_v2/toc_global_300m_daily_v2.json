@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/top-of-canopy_reflectances/toc_global_300m_daily_v2",
+  "browserName": "TOC 300m daily V2",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Top-of-Canopy Reflectances",
+  "collectionDescription": "Provides daily Top of Canopy Reflectance at global scale, at a spatial resolution of ~300 m. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/temperature-and-reflectance/surface-reflectance-2018-present-raster-300m-global-daily-version-2.3",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "",
+    "end": "",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/toc_global_300m_daily_v2/.gitkeep"
+  },
+  "layers": [
+    {
+      "fileName": "TOC_REFL",
+      "layerBrowserName": "TOC Reflectance",
+      "shortDescription": "Top of Canopy Reflectance",
+      "longDescription": "Top of Canopy Reflectance derived from Sentinel-3 OLCI observations.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/toc_global_300m_daily_v2/clms_global_toc_300m_v2_daily.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_toc_300m_v2_daily.png",
+      "units": "",
+      "scale": "0.0001",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_indices/ndvi_global_1km_10daily_v3",
+  "browserName": "NDVI 1km 10-daily V3",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Indices",
+  "collectionDescription": "Provides information on the Normalized Difference Vegetation Index, a spectral index quantifying the amount and vigour of vegetation. Every 10-days, estimates are available at global scale, at a spatial resolution of ~1km. More information here.",
+  "linkToCLMS": "",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "",
+    "end": "",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/ndvi_global_1km_10daily_v3/ndvi_global_1km_10daily_v3.jpg"
+  },
+  "layers": [
+    {
+      "fileName": "NDVI-NDVI",
+      "layerBrowserName": "NDVI",
+      "shortDescription": "Normalized Difference Vegetation Index",
+      "longDescription": "Normalized Difference Vegetation Index, a spectral index indicating the amount and vigour of vegetation.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ndvi_global_1km_10daily_v3/clms_global_ndvi_1km_v3_10daily.txt",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_ndvi_1km_v3_10daily.png",
+      "units": "",
+      "scale": "0.004",
+      "offSet": "-0.08",
+      "display": 1
+    },
+    {
+      "fileName": "NDVI-NOBS",
+      "layerBrowserName": "NOBS",
+      "shortDescription": "Number of observations",
+      "longDescription": "Number of observations used in the compositing.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "NDVI-QFLAG",
+      "layerBrowserName": "",
+      "shortDescription": "",
+      "longDescription": "",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "",
+      "scale": "",
+      "offSet": "",
+      "display": 0
+    }
+  ]
+}

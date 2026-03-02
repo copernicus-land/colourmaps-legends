@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/river_and_lake_ice_extent/lie_northernhemisphere_500m_daily_v1",
+  "browserName": "LIE 500m daily V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, River and Lake Ice Extent",
+  "collectionDescription": "Provides daily Lake Ice Extent for Northern Hemisphere, at a spatial resolution of ~500m. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/lake-ice-extent-northern-hemisphere-500m",
+  "spatialCoverage": "Northern Hemisphere",
+  "temporalExtent": {
+    "start": "2021",
+    "end": "2025",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lie_northernhemisphere_500m_daily_v1/lie_northernhemisphere_500m_daily_v1.jpg"
+  },
+  "layers": [
+    {
+      "fileName": "LIE-NH-LIE",
+      "layerBrowserName": "Lake Ice Extent",
+      "shortDescription": "Lake Ice Extent classification",
+      "longDescription": "Classification of lake ice conditions: open water, ice-free, snow-covered ice, thick ice.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lie_northernhemisphere_500m_daily_v1/clms_nhemi_lie_500m_lie_v1_daily.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_nhemi_lie_500m_lie_v1_daily.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "LIE-NH-P",
+      "layerBrowserName": "Statistical Probability",
+      "shortDescription": "Statistical probability of ice",
+      "longDescription": "Statistical probability of lake ice presence.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lie_northernhemisphere_500m_daily_v1/clms_nhemi_lie_500m_statistical_probability_v1_daily.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_nhemi_lie_500m_statistical_probability_v1_daily.png",
+      "units": "[%]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}

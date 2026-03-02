@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/river_and_lake_ice_extent/lie_baltic_250m_daily_v1",
+  "browserName": "LIE 250m daily V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, River and Lake Ice Extent",
+  "collectionDescription": "Provides daily Lake Ice Extent for Baltic, at a spatial resolution of ~250m. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/lake-ice-extent-baltic-v1-250m",
+  "spatialCoverage": "Baltic",
+  "temporalExtent": {
+    "start": "2017",
+    "end": "2024",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lie_baltic_250m_daily_v1/lie_baltic_250m_daily_v1.jpg"
+  },
+  "layers": [
+    {
+      "fileName": "LIE250-LIE",
+      "layerBrowserName": "Lake Ice Extent",
+      "shortDescription": "Lake Ice Extent classification",
+      "longDescription": "Classification of lake ice conditions: open water, ice-free, snow-covered ice, thick ice.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lie_baltic_250m_daily_v1/clms_baltic_lie_250m_v1_daily.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_baltic_lie_250m_v1_daily.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}

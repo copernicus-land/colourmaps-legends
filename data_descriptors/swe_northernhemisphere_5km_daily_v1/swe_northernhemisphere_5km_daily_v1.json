@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/snow_water_equivalent/swe_northernhemisphere_5km_daily_v1",
+  "browserName": "SWE 5km daily V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Snow, Snow Water Equivalent",
+  "collectionDescription": "Provides daily Snow Water Equivalent estimates for the Northern Hemisphere, at a spatial resolution of ~5 km. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/snow/snow-water-equivalent-v1-0-5km",
+  "spatialCoverage": "Northern Hemisphere",
+  "temporalExtent": {
+    "start": "2006",
+    "end": "2024",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/swe_northernhemisphere_5km_daily_v1/swe_northernhemisphere_5km_daily_v1.jpg"
+  },
+  "layers": [
+    {
+      "fileName": "SWE5K-SWE",
+      "layerBrowserName": "SWE",
+      "shortDescription": "Snow Water Equivalent (mm)",
+      "longDescription": "Snow Water Equivalent represents the amount of water contained in the snowpack. It is expressed in mm.",
+      "colourMapLink": "",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_nhemi_swe_5km_v2_daily.png",
+      "units": "[mm]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}

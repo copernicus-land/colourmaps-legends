@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/land_surface_temperature/lst-daily-cycle_global_3km_10daily_v3",
+  "browserName": "LST Daily Cycle 3km 10-daily V3",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Land Surface Temperature",
+  "collectionDescription": "Provides Land Surface Temperature estimates at global scale, at a spatial resolution of ~3 km. More information here.",
+  "linkToCLMS": "",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "",
+    "end": "present",
+    "thumbnailLink": ""
+  },
+  "layers": [
+    {
+      "fileName": "LST10-DC-MIN",
+      "layerBrowserName": "LST Min",
+      "shortDescription": "Minimum LST (K)",
+      "longDescription": "Minimum LST (K)",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-daily-cycle_global_3km_10daily_v3/clms_global_lst_3km_v3_min_10daily-daily-cycle.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_3km_v3_min_10daily-daily-cycle.png",
+      "units": "[K]",
+      "scale": "0.01",
+      "offSet": "273.15",
+      "display": 1
+    },
+    {
+      "fileName": "LST10-DC-MAX",
+      "layerBrowserName": "LST Max",
+      "shortDescription": "Maximum LST (K)",
+      "longDescription": "Maximum LST (K)",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-daily-cycle_global_3km_10daily_v3/clms_global_lst_3km_v3_max_10daily-daily-cycle.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_3km_v3_max_10daily-daily-cycle.png",
+      "units": "[K]",
+      "scale": "0.01",
+      "offSet": "273.15",
+      "display": 1
+    },
+    {
+      "fileName": "LST10-DC-MEDIAN",
+      "layerBrowserName": "LST Median",
+      "shortDescription": "Median LST (K)",
+      "longDescription": "Median LST (K)",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-daily-cycle_global_3km_10daily_v3/clms_global_lst_3km_v3_med_10daily-daily-cycle.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_3km_v3_med_10daily-daily-cycle.png",
+      "units": "[K]",
+      "scale": "0.01",
+      "offSet": "273.15",
+      "display": 1
+    },
+    {
+      "fileName": "LST10-DC-FOBS",
+      "layerBrowserName": "Fraction Valid",
+      "shortDescription": "Fraction of valid obs",
+      "longDescription": "Fraction of valid obs",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-daily-cycle_global_3km_10daily_v3/clms_global_lst_3km_v3_frac_valid_10daily-daily-cycle.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_3km_v3_frac_valid_10daily-daily-cycle.png",
+      "units": "[%]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}

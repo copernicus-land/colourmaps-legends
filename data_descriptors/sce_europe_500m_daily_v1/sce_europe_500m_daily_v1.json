@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/snow_cover_extent/sce_europe_500m_daily_v1",
+  "browserName": "SCE 500m daily V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Snow, Snow Cover Extent",
+  "collectionDescription": "Provides daily Snow Cover Extent for Europe, at a spatial resolution of ~500m. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/snow/snow-cover-extent-europe-v1-0-500m",
+  "spatialCoverage": "Europe",
+  "temporalExtent": {
+    "start": "2017",
+    "end": "present",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/sce_europe_500m_daily_v1/sce_europe_500m_daily_v1.jpg"
+  },
+  "layers": [
+    {
+      "fileName": "SCE",
+      "layerBrowserName": "Snow Cover Extent",
+      "shortDescription": "Snow Cover Extent (%)",
+      "longDescription": "Fractional Snow Cover Extent, indicating the percentage of ground covered by snow.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/sce_europe_500m_daily_v1/clms_ceuro_sce_500m_v1_daily.txt",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_ceuro_sce_500m_v1_daily.png",
+      "units": "[%]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}

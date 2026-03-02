@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/river_and_lake_water_level/wl-rivers_global_vector_daily_v2",
+  "browserName": "WL Rivers  daily V2",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, River and Lake Water Level",
+  "collectionDescription": "Provides daily rivers water level estimates at global scale, as vector data. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/water-level-rivers-near-real-time-v2.0",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "2002",
+    "end": "present",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/wl-rivers_global_vector_daily_v2/wl-rivers_global_vector_daily_v2.jpg"
+  },
+  "layers": [
+    {
+      "fileName": "WL",
+      "layerBrowserName": "Water Level (Rivers)",
+      "shortDescription": "Rivers water level anomaly (m)",
+      "longDescription": "Water level anomaly for rivers, relative to a reference level, expressed in meters.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[m]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}

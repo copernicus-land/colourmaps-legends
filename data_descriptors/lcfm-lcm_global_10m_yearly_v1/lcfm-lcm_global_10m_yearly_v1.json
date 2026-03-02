@@ -1,0 +1,28 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/landcover_landuse/dynamic_land_cover/lcm_global_10m_yearly_v1",
+  "browserName": "LCM 10m yearly V1",
+  "browserSearchPath": "CLMS Land Cover/Land Use, Dynamic Land Cover",
+  "collectionDescription": "Provides yearly global land cover classification at 10 m resolution with 11 land cover classes. More information here.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/land-cover-2020-raster-10-m-global-annual",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "",
+    "end": "",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lcfm-lcm_global_10m_yearly_v1/lcfm-lcm_global_10m_yearly_v1.jpg"
+  },
+  "layers": [
+    {
+      "fileName": "LCM",
+      "layerBrowserName": "Land Cover Map",
+      "shortDescription": "Discrete land cover classification",
+      "longDescription": "Discrete land cover classification with 11 land cover classes at 10 m resolution.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lcfm-lcm_global_10m_yearly_v1/lcfm-lcm_global_10m_yearly_v1.txt",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lcfm-lcm_global_10m_yearly_v1.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_properties/lai_global_1km_10daily_v1",
+  "browserName": "LAI 1km 10-daily V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Properties",
+  "collectionDescription": "Provides information on Leaf Area Index, at a spatial resolution of ~1 km. More information here.",
+  "linkToCLMS": "",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "1999",
+    "end": "2020",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lai_global_1km_10daily_v1/.gitkeep"
+  },
+  "layers": [
+    {
+      "fileName": "LAI1KM-LAI",
+      "layerBrowserName": "LAI",
+      "shortDescription": "Leaf Area Index (m²/m²)",
+      "longDescription": "LAI (Leaf Area Index) is defined as half the total area of green elements of the canopy per unit horizontal ground area. It is expressed in m²/m².",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lai_global_1km_10daily_v1/clms_global_lai_1km_v1_10daily.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lai_1km_v1_10daily.png",
+      "units": "[m²/m²]",
+      "scale": "0.033333",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "LAI1KM-QFLAG",
+      "layerBrowserName": "",
+      "shortDescription": "",
+      "longDescription": "",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "",
+      "scale": "",
+      "offSet": "",
+      "display": 0
+    }
+  ]
+}

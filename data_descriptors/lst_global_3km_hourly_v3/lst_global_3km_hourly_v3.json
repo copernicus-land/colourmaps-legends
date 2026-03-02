@@ -1,0 +1,52 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/land_surface_temperature/lst_global_3km_hourly_v3",
+  "browserName": "LST 3km hourly V3",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Land Surface Temperature",
+  "collectionDescription": "Provides Land Surface Temperature estimates at global scale, at a spatial resolution of ~3 km. More information here.",
+  "linkToCLMS": "",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "",
+    "end": "present",
+    "thumbnailLink": ""
+  },
+  "layers": [
+    {
+      "fileName": "LST-LST",
+      "layerBrowserName": "LST",
+      "shortDescription": "Land Surface Temperature (K)",
+      "longDescription": "Land Surface Temperature in Kelvin.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst_global_3km_hourly_v3/clms_global_lst_3km_v3_hourly.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_3km_v3_hourly.png",
+      "units": "[K]",
+      "scale": "0.01",
+      "offSet": "273.15",
+      "display": 1
+    },
+    {
+      "fileName": "LST-ERRORBAR",
+      "layerBrowserName": "LST Error",
+      "shortDescription": "Error bar for LST (K)",
+      "longDescription": "Pixel-by-pixel uncertainty estimate for LST.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[K]",
+      "scale": "0.01",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "LST-QFLAG",
+      "layerBrowserName": "",
+      "shortDescription": "",
+      "longDescription": "",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "",
+      "scale": "",
+      "offSet": "",
+      "display": 0
+    }
+  ]
+}

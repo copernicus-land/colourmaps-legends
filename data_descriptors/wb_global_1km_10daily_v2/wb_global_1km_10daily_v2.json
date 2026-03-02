@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "0.0.3",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/water_bodies/wb_global_1km_10daily_v2",
+  "browserName": "WB 1km 10-daily V2",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies",
+  "collectionDescription": "Provides 10-daily Water Bodies detection at global scale, at a spatial resolution of ~1km. More information here.",
+  "linkToCLMS": "",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "",
+    "end": "",
+    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/wb_global_1km_10daily_v2/.gitkeep"
+  },
+  "layers": [
+    {
+      "fileName": "WB",
+      "layerBrowserName": "Water Bodies",
+      "shortDescription": "Water Bodies detection",
+      "longDescription": "Water Bodies detection layer indicating the presence of water.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "QUAL",
+      "layerBrowserName": "Quality/Occurrence",
+      "shortDescription": "Water occurrence and quality",
+      "longDescription": "Water Bodies occurrence indicating how often water is detected at a given location.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}
