@@ -14,9 +14,11 @@
   "spatialCoverage": "",
   "temporalExtent": {
     "start": "",
-    "end": "",
-  "thumbnailLink": ""
+    "end": ""
   },
+  "nominalSpatialResolution": "",
+  "frequency": "",
+  "thumbnailLink": "",
   "layers": [
     {
       "fileName": "",
@@ -26,6 +28,8 @@
       "colourMapLink": "",
       "legendLink": "",
       "units": "[unit]",
+      "scale": "",
+      "offSet": "",
       "display": 1
     }
   ]
@@ -87,7 +91,15 @@ The temporal coverage of the collection. This variable contains 2 attributes: **
 
 image::media/image6.png[temporalExtent example, 420]
 
-==== thumbnailLink
+=== nominalSpatialResolution
+
+The nominal spatial resolution of the dataset (e.g., "300m", "1km", "12.5km", "vector").
+
+=== frequency
+
+The temporal frequency of the dataset (e.g., "daily", "10daily", "hourly", "monthly", "yearly").
+
+=== thumbnailLink
 
 The link to the thumbnail image in the CLMS git repository.
 
@@ -129,11 +141,11 @@ NOTE: units can be added following the convention described in the units paragra
 
 image::media/image8.png[longDescription example, 500]
 
-==== units 
+==== units
 
 The unit of measure to be used in the layer.
 
-Note 1: the unit must be enclosed in square brackets (e.g., "[m/km²]", "[%]") 
+Note 1: the unit must be enclosed in square brackets (e.g., "[m/km²]", "[%]")
 Note 2: as the ultimate goal is to represent this information in a human-readable format, the convention to follow isn't the CF one (e.g., m km-2 → m/km²)
 
 ==== colourMapLink
@@ -148,6 +160,13 @@ The link to the legend in the Github repository that will be integrated in the l
 
 SSM 1km Daily V1:: https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_ssm_1km_v1_daily.png
 
+==== scale
+
+The scaling factor for converting digital values to physical values. The physical value is computed as: `physical = digital * scale + offSet`.
+
+==== offSet
+
+The offset for converting digital values to physical values. The physical value is computed as: `physical = digital * scale + offSet`.
 
 ==== display
 
