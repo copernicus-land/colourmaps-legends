@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_properties/lai_global_1km_10daily_v2",
   "browserName": "LAI 1km 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Properties",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "1999",
-    "end": "2020",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lai_global_1km_10daily_v2/lai_global_1km_10daily_v2.jpg"
+    "end": "2020"
   },
+  "nominalSpatialResolution": "1km",
+  "frequency": "10daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lai_global_1km_10daily_v2/lai_global_1km_10daily_v2.jpg",
   "layers": [
     {
       "fileName": "LAI1KM-LAI",

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/top-of-canopy_reflectances/toc_global_300m_daily_v2",
   "browserName": "TOC 300m daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Top-of-Canopy Reflectances",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "",
-    "end": "",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/toc_global_300m_daily_v2/.gitkeep"
+    "end": ""
   },
+  "nominalSpatialResolution": "300m",
+  "frequency": "daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/toc_global_300m_daily_v2/.gitkeep",
   "layers": [
     {
       "fileName": "TOC_REFL",

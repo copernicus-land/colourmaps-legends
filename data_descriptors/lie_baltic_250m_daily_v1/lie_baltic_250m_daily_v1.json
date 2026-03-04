@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/river_and_lake_ice_extent/lie_baltic_250m_daily_v1",
   "browserName": "LIE 250m daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, River and Lake Ice Extent",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Baltic",
   "temporalExtent": {
     "start": "2017",
-    "end": "2024",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lie_baltic_250m_daily_v1/lie_baltic_250m_daily_v1.jpg"
+    "end": "2024"
   },
+  "nominalSpatialResolution": "250m",
+  "frequency": "daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lie_baltic_250m_daily_v1/lie_baltic_250m_daily_v1.jpg",
   "layers": [
     {
       "fileName": "LIE250-LIE",

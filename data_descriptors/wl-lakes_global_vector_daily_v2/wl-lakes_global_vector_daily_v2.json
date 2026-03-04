@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/river_and_lake_water_level/wl-lakes_global_vector_daily_v2",
   "browserName": "WL Lakes  daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, River and Lake Water Level",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "1992",
-    "end": "present",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/wl-lakes_global_vector_daily_v2/wl-lakes_global_vector_daily_v2.jpg"
+    "end": "present"
   },
+  "nominalSpatialResolution": "vector",
+  "frequency": "daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/wl-lakes_global_vector_daily_v2/wl-lakes_global_vector_daily_v2.jpg",
   "layers": [
     {
       "fileName": "WL",

@@ -8,9 +8,8 @@
   "spatialCoverage": "",
   "temporalExtent": {
     "start": "",
-    "end": "",
-  "thumbnailLink": ""
-  },
+    "end": ""},
+  "thumbnailLink": "",
   "layers": [
     {
       "fileName": "",

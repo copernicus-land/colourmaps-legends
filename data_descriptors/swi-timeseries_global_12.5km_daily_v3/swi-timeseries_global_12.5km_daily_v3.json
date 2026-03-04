@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/soil_water_index/swi-timeseries_global_12.5km_daily_v3",
   "browserName": "SWI Timeseries 12.5km daily V3",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Soil Moisture, Soil Water Index",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2007",
-    "end": "present",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/swi-timeseries_global_12.5km_daily_v3/.gitkeep"
+    "end": "present"
   },
+  "nominalSpatialResolution": "12.5km",
+  "frequency": "daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/swi-timeseries_global_12.5km_daily_v3/.gitkeep",
   "layers": [
     {
       "fileName": "SWI_TS",

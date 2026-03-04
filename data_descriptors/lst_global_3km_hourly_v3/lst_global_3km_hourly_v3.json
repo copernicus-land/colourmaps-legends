@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/land_surface_temperature/lst_global_3km_hourly_v3",
   "browserName": "LST 3km hourly V3",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Land Surface Temperature",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "",
-    "end": "present",
-    "thumbnailLink": ""
+    "end": "present"
   },
+  "nominalSpatialResolution": "3km",
+  "frequency": "hourly",
+  "thumbnailLink": "",
   "layers": [
     {
       "fileName": "LST-LST",

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_indices/ndvi_global_1km_10daily_v2",
   "browserName": "NDVI 1km 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Indices",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "1999",
-    "end": "2020",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/ndvi_global_1km_10daily_v2/.gitkeep"
+    "end": "2020"
   },
+  "nominalSpatialResolution": "1km",
+  "frequency": "10daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/ndvi_global_1km_10daily_v2/.gitkeep",
   "layers": [
     {
       "fileName": "NDVI-NDVI",

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/land_surface_temperature/lst-daily-cycle_global_5km_10daily_v1",
   "browserName": "LST Daily Cycle 5km 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Land Surface Temperature",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2017",
-    "end": "2021",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lst-daily-cycle_global_5km_10daily_v1/.gitkeep"
+    "end": "2021"
   },
+  "nominalSpatialResolution": "5km",
+  "frequency": "10daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lst-daily-cycle_global_5km_10daily_v1/.gitkeep",
   "layers": [
     {
       "fileName": "LST10-DC-MIN",

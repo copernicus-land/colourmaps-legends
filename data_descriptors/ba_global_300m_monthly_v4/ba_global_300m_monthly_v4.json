@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/burnt_area/ba_global_300m_monthly_v4",
   "browserName": "BA 300m monthly V4",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Burnt Area",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2018",
-    "end": "present",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/ba_global_300m_monthly_v4/ba_global_300m_monthly_v4.jpg"
+    "end": "present"
   },
+  "nominalSpatialResolution": "300m",
+  "frequency": "monthly",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/ba_global_300m_monthly_v4/ba_global_300m_monthly_v4.jpg",
   "layers": [
     {
       "fileName": "BA300-BF",

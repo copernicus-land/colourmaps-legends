@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/lake_water_quality/lwq-nrt_global_100m_10daily_v2.1",
   "browserName": "LWQ NRT 100m 10-daily V2.1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Lake Water Quality",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "",
-    "end": "present",
-    "thumbnailLink": ""
+    "end": "present"
   },
+  "nominalSpatialResolution": "100m",
+  "frequency": "10daily",
+  "thumbnailLink": "",
   "layers": [
     {
       "fileName": "turbidity_mean",

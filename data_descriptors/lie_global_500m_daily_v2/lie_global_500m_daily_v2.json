@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/river_and_lake_ice_extent/lie_global_500m_daily_v2",
   "browserName": "LIE 500m daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, River and Lake Ice Extent",
@@ -8,8 +8,10 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2025",
-    "end": "present",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lie_global_500m_daily_v2/lie_global_500m_daily_v2.jpg"
+    "end": "present"
   },
+  "nominalSpatialResolution": "500m",
+  "frequency": "daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lie_global_500m_daily_v2/lie_global_500m_daily_v2.jpg",
   "layers": []
 }

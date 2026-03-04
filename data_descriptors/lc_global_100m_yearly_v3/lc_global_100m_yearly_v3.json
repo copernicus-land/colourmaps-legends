@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/landcover_landuse/dynamic_land_cover/lc_global_100m_yearly_v3",
   "browserName": "LC 100m yearly V3",
   "browserSearchPath": "CLMS Land Cover/Land Use, Dynamic Land Cover",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2015",
-    "end": "2019",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lc_global_100m_yearly_v3/lc_global_100m_yearly_v3.jpg"
+    "end": "2019"
   },
+  "nominalSpatialResolution": "100m",
+  "frequency": "yearly",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lc_global_100m_yearly_v3/lc_global_100m_yearly_v3.jpg",
   "layers": [
     {
       "fileName": "Discrete-Classification-map",

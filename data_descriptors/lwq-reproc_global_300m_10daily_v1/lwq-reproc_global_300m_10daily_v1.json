@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/lake_water_quality/lwq-reproc_global_300m_10daily_v1",
   "browserName": "LWQ Reproc 300m 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Lake Water Quality",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2002",
-    "end": "2012",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lwq-reproc_global_300m_10daily_v1/lwq-reproc_global_300m_10daily_v1.jpg"
+    "end": "2012"
   },
+  "nominalSpatialResolution": "300m",
+  "frequency": "10daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lwq-reproc_global_300m_10daily_v1/lwq-reproc_global_300m_10daily_v1.jpg",
   "layers": [
     {
       "fileName": "LWQ300-TMEAN",

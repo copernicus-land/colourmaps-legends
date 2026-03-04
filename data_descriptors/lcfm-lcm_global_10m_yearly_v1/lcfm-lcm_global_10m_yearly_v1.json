@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/landcover_landuse/dynamic_land_cover/lcm_global_10m_yearly_v1",
   "browserName": "LCM 10m yearly V1",
   "browserSearchPath": "CLMS Land Cover/Land Use, Dynamic Land Cover",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "",
-    "end": "",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lcfm-lcm_global_10m_yearly_v1/lcfm-lcm_global_10m_yearly_v1.jpg"
+    "end": ""
   },
+  "nominalSpatialResolution": "10m",
+  "frequency": "yearly",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lcfm-lcm_global_10m_yearly_v1/lcfm-lcm_global_10m_yearly_v1.jpg",
   "layers": [
     {
       "fileName": "LCM",

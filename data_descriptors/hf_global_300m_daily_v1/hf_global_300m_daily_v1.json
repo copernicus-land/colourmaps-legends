@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/evapotranspiration/hf_global_300m_daily_v1",
   "browserName": "HF 300m daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Evapotranspiration",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2025",
-    "end": "present",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/hf_global_300m_daily_v1/hf_global_300m_daily_v1.jpg"
+    "end": "present"
   },
+  "nominalSpatialResolution": "300m",
+  "frequency": "daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/hf_global_300m_daily_v1/hf_global_300m_daily_v1.jpg",
   "layers": [
     {
       "fileName": "H-TSEBPT",

@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/river_and_lake_ice_extent/lie_europe_250m_daily_v2",
   "browserName": "LIE 250m daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, River and Lake Ice Extent",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Europe",
   "temporalExtent": {
     "start": "2024",
-    "end": "present",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lie_ceurope_250m_daily_v2/lie_ceurope_250m_daily_v2.jpg"
+    "end": "present"
   },
+  "nominalSpatialResolution": "250m",
+  "frequency": "daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lie_ceurope_250m_daily_v2/lie_ceurope_250m_daily_v2.jpg",
   "layers": [
     {
       "fileName": "LIE250-LIE",

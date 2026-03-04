@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_phenology_and_productivity_parameters/lsp_global_300m_yearly_v2",
   "browserName": "LSP 300m yearly V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Phenology and Productivity Parameters",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2014",
-    "end": "present",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lsp_global_300m_yearly_v2/lsp_global_300m_yearly_v2.jpg"
+    "end": "present"
   },
+  "nominalSpatialResolution": "300m",
+  "frequency": "yearly",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lsp_global_300m_yearly_v2/lsp_global_300m_yearly_v2.jpg",
   "layers": [
     {
       "fileName": "LSP300-SOSD-S1",

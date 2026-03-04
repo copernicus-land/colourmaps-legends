@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/snow_water_equivalent/swe_northernhemisphere_5km_daily_v2",
   "browserName": "SWE 5km daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Snow, Snow Water Equivalent",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Northern Hemisphere",
   "temporalExtent": {
     "start": "2024",
-    "end": "present",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/swe_northernhemisphere_5km_daily_v2/swe_northernhemisphere_5km_daily_v2.jpg"
+    "end": "present"
   },
+  "nominalSpatialResolution": "5km",
+  "frequency": "daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/swe_northernhemisphere_5km_daily_v2/swe_northernhemisphere_5km_daily_v2.jpg",
   "layers": [
     {
       "fileName": "SWE5K-SWE",

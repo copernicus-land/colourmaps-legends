@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/net-gross_primary_production/gpp_global_300m_10daily_v1",
   "browserName": "GPP 300m 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Net/Gross Primary Production",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2023",
-    "end": "2026",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/gpp_global_300m_10daily_v1/gpp_global_300m_10daily_v1.jpg"
+    "end": "2026"
   },
+  "nominalSpatialResolution": "300m",
+  "frequency": "10daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/gpp_global_300m_10daily_v1/gpp_global_300m_10daily_v1.jpg",
   "layers": [
     {
       "fileName": "GPP300-GPP",

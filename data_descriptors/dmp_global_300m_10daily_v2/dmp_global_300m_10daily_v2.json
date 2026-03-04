@@ -1,5 +1,5 @@
 {
-  "schemaVersion": "0.0.3",
+  "schemaVersion": "0.0.4",
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/dry-gross_dry_matter_productivity/dmp_global_300m_10daily_v2",
   "browserName": "DMP 300m 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Dry/Gross Dry Matter Productivity",
@@ -8,9 +8,11 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2014",
-    "end": "present",
-    "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/dmp_global_300m_10daily_v2/CLMS_DMP300mV2_Brazil_20250630.png"
+    "end": "present"
   },
+  "nominalSpatialResolution": "300m",
+  "frequency": "10daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/dmp_global_300m_10daily_v2/CLMS_DMP300mV2_Brazil_20250630.png",
   "layers": [
     {
       "fileName": "DMP300-DMP",
