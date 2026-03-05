@@ -15,11 +15,11 @@
           <RasterSymbolizer>
             <ColorMap type="ramp">
               <ColorMapEntry color="#C25E3C" quantity="0" label="0.0" />
-              <ColorMapEntry color="#EDEA13" quantity="1000" label="1.0" />
-              <ColorMapEntry color="#80FF00" quantity="2000" label="2.0" />
-              <ColorMapEntry color="#00DBDB" quantity="3000" label="3.0" />
-              <ColorMapEntry color="#20998F" quantity="4000" label="4.0" />
-              <ColorMapEntry color="#0B2C7A" quantity="5000" label="5.0" />
+              <ColorMapEntry color="#EDEA13" quantity="200" label="0.2" />
+              <ColorMapEntry color="#80FF00" quantity="400" label="0.4" />
+              <ColorMapEntry color="#00DBDB" quantity="600" label="0.6" />
+              <ColorMapEntry color="#20998F" quantity="800" label="0.8" />
+              <ColorMapEntry color="#0B2C7A" quantity="1000" label="1.0" />
             </ColorMap>
           </RasterSymbolizer>
         </Rule>

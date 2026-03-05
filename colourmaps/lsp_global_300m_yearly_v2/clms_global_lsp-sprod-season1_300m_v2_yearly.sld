@@ -23,8 +23,6 @@
               <ColorMapEntry color="#115F88" quantity="300" label="300"/>
               <ColorMapEntry color="#0E4D84" quantity="350" label="350"/>
               <ColorMapEntry color="#0C3E81" quantity="400" label="400"/>
-              <ColorMapEntry color="#0B357F" quantity="450" label="450"/>
-              <ColorMapEntry color="#0A2D7D" quantity="500" label="500"/>
             </ColorMap>
           </RasterSymbolizer>
         </Rule>
@@ -32,4 +30,3 @@
     </UserStyle>
   </NamedLayer>
 </StyledLayerDescriptor>
-
