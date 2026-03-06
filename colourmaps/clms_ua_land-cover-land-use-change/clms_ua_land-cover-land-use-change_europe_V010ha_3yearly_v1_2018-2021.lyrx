@@ -26,7 +26,7 @@
       "displayCacheType" : "Permanent",
       "maxDisplayCacheAge" : 5,
       "showPopups" : true,
-      "serviceLayerID" : 2,
+      "serviceLayerID" : -1,
       "refreshRate" : -1,
       "refreshRateUnit" : "esriTimeUnitsSeconds",
       "blendingMode" : "Alpha",
@@ -150,7 +150,7 @@
         "timeDefinition" : {
           "type" : "CIMTimeDataDefinition",
           "hasLiveData" : true,
-          "applyTimeReferenceToAllFields" : false
+          "applyTimeReferenceToAllFields" : true
         },
         "timeDisplayDefinition" : {
           "type" : "CIMTimeDisplayDefinition",
@@ -160,10 +160,11 @@
         },
         "dataConnection" : {
           "type" : "CIMSqlQueryDataConnection",
-          "workspaceConnectionString" : "AUTHENTICATION_MODE=OSA;DATABASE=",
+          "workspaceConnectionString" : "AUTHENTICATION_MODE=OSA;DATABASE=..",
           "workspaceFactory" : "Sql",
-          "dataset" : "",
+          "dataset" : "main.%CLMS_UA_LCU_S2021_V025ha_NO003L1_TRONDHEIM_03035_V01_R02_20251208",
           "datasetType" : "esriDTFeatureClass",
+          "sqlQuery" : "select fid,geom,country,fua_name,fua_code,code_2021,class_2021,prod_date,identifier,perimeter,area,comment from ",
           "srid" : "3035",
           "spatialReference" : {
             "wkid" : 3035,
@@ -631,7 +632,7 @@
             "classes" : [
               {
                 "type" : "CIMUniqueValueClass",
-                "label" : "11100: Continuous urban fabric (S.L. > 80%)",
+                "label" : "11100: Continuous Urban fabric (S.L. : > 80%)",
                 "patch" : "Default",
                 "symbol" : {
                   "type" : "CIMSymbolReference",
@@ -667,7 +668,7 @@
               },
               {
                 "type" : "CIMUniqueValueClass",
-                "label" : "11210: Discontinuous dense urban fabric (S.L.: 50% - 80%)",
+                "label" : "11210: Discontinuous Dense Urban Fabric (S.L. : 50% - 80%)",
                 "patch" : "Default",
                 "symbol" : {
                   "type" : "CIMSymbolReference",
@@ -703,7 +704,7 @@
               },
               {
                 "type" : "CIMUniqueValueClass",
-                "label" : "11220: Discontinuous medium density urban fabric (S.L.: 30% - 50%)",
+                "label" : "11220: Discontinuous Medium Density Urban Fabric (S.L. : 30% - 50%)",
                 "patch" : "Default",
                 "symbol" : {
                   "type" : "CIMSymbolReference",
@@ -739,7 +740,7 @@
               },
               {
                 "type" : "CIMUniqueValueClass",
-                "label" : "11230: Discontinuous low density urban fabric (S.L.: 10% - 30%)",
+                "label" : "11230: Discontinuous Low Density Urban Fabric (S.L. : 10% - 30%)",
                 "patch" : "Default",
                 "symbol" : {
                   "type" : "CIMSymbolReference",
@@ -775,7 +776,7 @@
               },
               {
                 "type" : "CIMUniqueValueClass",
-                "label" : "11240: Discontinuous very low density urban fabric (S.L. < 10%)",
+                "label" : "11240: Discontinuous very low density urban fabric (S.L. : < 10%)",
                 "patch" : "Default",
                 "symbol" : {
                   "type" : "CIMSymbolReference",
@@ -811,7 +812,7 @@
               },
               {
                 "type" : "CIMUniqueValueClass",
-                "label" : "11300: Isolated structures",
+                "label" : "11300: Isolated Structures",
                 "patch" : "Default",
                 "symbol" : {
                   "type" : "CIMSymbolReference",
@@ -1351,7 +1352,7 @@
               },
               {
                 "type" : "CIMUniqueValueClass",
-                "label" : "22000: Permanent crops",
+                "label" : "22000: Permanent crops (vineyards, fruit trees, olive groves)",
                 "patch" : "Default",
                 "symbol" : {
                   "type" : "CIMSymbolReference",
@@ -1495,7 +1496,7 @@
               },
               {
                 "type" : "CIMUniqueValueClass",
-                "label" : "32000: Herbaceous vegetation associations",
+                "label" : "32000: Herbaceous vegetation associations (natural grassland, moors...)",
                 "patch" : "Default",
                 "symbol" : {
                   "type" : "CIMSymbolReference",
@@ -1531,7 +1532,7 @@
               },
               {
                 "type" : "CIMUniqueValueClass",
-                "label" : "33000: Open spaces with little or no vegetations",
+                "label" : "33000: Open spaces with little or no vegetations (beaches, dunes, bare rocks, glaciers)",
                 "patch" : "Default",
                 "symbol" : {
                   "type" : "CIMSymbolReference",
@@ -1720,56 +1721,5 @@
     }
   ],
   "rGBColorProfile" : "sRGB IEC61966-2.1",
-  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2",
-  "elevationSurfaceLayerDefinitions" : [
-    {
-      "type" : "CIMElevationSurfaceLayer",
-      "name" : "Ground",
-      "uRI" : "CIMPATH=",
-      "sourceModifiedTime" : {
-        "type" : "TimeInstant"
-      },
-      "useSourceMetadata" : true,
-      "description" : "Ground",
-      "expanded" : true,
-      "layer3DProperties" : {
-        "type" : "CIM3DLayerProperties",
-        "castShadows" : true,
-        "isLayerLit" : true,
-        "layerFaceCulling" : "None",
-        "preloadTextureCutoffHigh" : 0.29999999999999999,
-        "preloadTextureCutoffLow" : 0.59999999999999998,
-        "textureCutoffHigh" : 0.29999999999999999,
-        "textureCutoffLow" : 0.59999999999999998,
-        "useCompressedTextures" : true,
-        "verticalExaggeration" : 1,
-        "exaggerationMode" : "ScaleZ",
-        "lighting" : "OneSideDataNormal",
-        "optimizeMarkerTransparency" : true
-      },
-      "layerType" : "Operational",
-      "showLegends" : false,
-      "visibility" : true,
-      "displayCacheType" : "Permanent",
-      "maxDisplayCacheAge" : 5,
-      "showPopups" : true,
-      "serviceLayerID" : -1,
-      "refreshRate" : -1,
-      "refreshRateUnit" : "esriTimeUnitsSeconds",
-      "blendingMode" : "Alpha",
-      "allowDrapingOnIntegratedMesh" : true,
-      "elevationMode" : "BaseGlobeSurface",
-      "verticalExaggeration" : 1,
-      "color" : {
-        "type" : "CIMRGBColor",
-        "values" : [
-          255,
-          255,
-          255,
-          100
-        ]
-      },
-      "surfaceTINShadingMode" : "Smooth"
-    }
-  ]
+  "cMYKColorProfile" : "U.S. Web Coated (SWOP) v2"
 }
