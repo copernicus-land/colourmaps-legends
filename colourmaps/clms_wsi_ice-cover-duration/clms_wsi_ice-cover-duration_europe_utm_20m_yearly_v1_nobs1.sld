@@ -382,7 +382,7 @@
               <sld:ColorMapEntry color="#d34d0f" label="364 days" quantity="364"/>
               <sld:ColorMapEntry color="#d34d0f" label="365 days" quantity="365"/>
               <sld:ColorMapEntry color="#d34d0f" label="366 days" quantity="366"/>
-              <sld:ColorMapEntry color="#000000" label="no data" quantity="65535"/>
+              <sld:ColorMapEntry color="#d2d2d2" label="no data" quantity="65535"/>
             </sld:ColorMap>
           </sld:RasterSymbolizer>
         </sld:Rule>
