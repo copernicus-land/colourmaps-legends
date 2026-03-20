@@ -21,7 +21,7 @@
               <sld:ColorMapEntry color="#ff4625" label="minimal quality" quantity="3"/>
               <sld:ColorMapEntry color="#999999" label="cloud or cloud shadow" quantity="205"/>
               <sld:ColorMapEntry color="#ffedc3" label="sea water" quantity="253"/>
-              <sld:ColorMapEntry color="#000000" label="no data" quantity="255"/>
+              <sld:ColorMapEntry color="#000000" opacity="0" label="no data" quantity="255"/>
             </sld:ColorMap>
           </sld:RasterSymbolizer>
         </sld:Rule>

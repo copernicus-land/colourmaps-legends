@@ -410,7 +410,7 @@
         <paletteEntry color="#ff4baa" alpha="255" value="365" label="365 days" />
         <paletteEntry color="#ff4baa" alpha="255" value="366" label="366 days" />
         <paletteEntry color="#6464d7" alpha="255" value="420" label="inland water" />
-        <paletteEntry color="#000000" alpha="255" value="65535" label="no data" />
+        <paletteEntry color="#000000" alpha="0" value="65535" label="no data" />
       </colorPalette>
       <colorramp name="[source]" type="randomcolors">
         <Option />

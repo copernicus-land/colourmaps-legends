@@ -48,7 +48,7 @@
         <paletteEntry color="#ff4625" alpha="255" value="3" label="minimal quality"/>
         <paletteEntry color="#999999" alpha="255" value="205" label="cloud or cloud shadow"/>
         <paletteEntry color="#ffedc3" alpha="255" value="253" label="sea water"/>
-        <paletteEntry color="#000000" alpha="255" value="255" label="no data"/>
+        <paletteEntry color="#000000" alpha="0" value="255" label="no data"/>
       </colorPalette>
       <colorramp name="[source]" type="randomcolors">
         <Option/>

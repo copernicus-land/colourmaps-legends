@@ -20,7 +20,7 @@
               <sld:ColorMapEntry color="#ffc257" label="low quality" quantity="2"/>
               <sld:ColorMapEntry color="#ff4625" label="minimal quality" quantity="3"/>
               <sld:ColorMapEntry color="#6464d7" label="inland water" quantity="420"/>
-              <sld:ColorMapEntry color="#000000" label="no data" quantity="65535"/>
+              <sld:ColorMapEntry color="#000000" opacity="0" label="no data" quantity="65535"/>
             </sld:ColorMap>
           </sld:RasterSymbolizer>
         </sld:Rule>

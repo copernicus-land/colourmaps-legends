@@ -47,7 +47,7 @@
         <paletteEntry color="#ffc257" alpha="255" value="2" label="low quality"/>
         <paletteEntry color="#ff4625" alpha="255" value="3" label="minimal quality"/>
         <paletteEntry color="#6464d7" alpha="255" value="420" label="inland water"/>
-        <paletteEntry color="#000000" alpha="255" value="65535" label="no data"/>
+        <paletteEntry color="#000000" alpha="0" value="65535" label="no data"/>
       </colorPalette>
       <colorramp name="[source]" type="randomcolors">
         <Option/>

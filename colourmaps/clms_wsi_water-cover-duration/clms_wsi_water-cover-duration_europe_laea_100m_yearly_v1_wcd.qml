@@ -411,7 +411,7 @@
         <paletteEntry color="#0a3c8f" alpha="255" value="366" label="366 days" />
         <paletteEntry color="#999999" alpha="255" value="65485" label="cloud or cloud shadow" />
         <paletteEntry color="#ffedc3" alpha="255" value="65533" label="sea water" />
-        <paletteEntry color="#000000" alpha="255" value="65535" label="no data" />
+        <paletteEntry color="#000000" alpha="0" value="65535" label="no data" />
       </colorPalette>
       <colorramp name="[source]" type="randomcolors">
         <Option />
