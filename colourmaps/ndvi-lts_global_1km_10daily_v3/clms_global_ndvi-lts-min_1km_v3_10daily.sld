@@ -8,8 +8,8 @@
   <NamedLayer>
     <Name>Color gradient</Name>
     <UserStyle>
-      <Title>clms_global_ndvi_300m_v3_10daily</Title>
-      <Abstract>Dekadal normalized difference vegitation index</Abstract>
+      <Title>clms_global_ndvi-lts_min_1km_v3_10daily</Title>
+      <Abstract>Minimum Normalized Difference Vegetation Index over time period</Abstract>
       <FeatureTypeStyle>
         <Rule>
           <RasterSymbolizer>
@@ -31,9 +31,7 @@
         <Rule>
           <RasterSymbolizer>
             <ColorMap type="values">
-              <ColorMapEntry color="#DDDDDD" quantity="252" label="unknown" opacity="0.0"/>
-              <ColorMapEntry color="#DDDDDD" quantity="253" label="snow" opacity="0.0"/>
-              <ColorMapEntry color="#DDDDDD" quantity="254" label="water" opacity="0.0"/>
+              <ColorMapEntry color="#DDDDDD" quantity="254" label="sea" opacity="0.0"/>
               <ColorMapEntry color="#DDDDDD" quantity="255" label="missing" opacity="0.0"/>
             </ColorMap>
           </RasterSymbolizer>
