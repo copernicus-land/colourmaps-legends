@@ -1,0 +1,29 @@
+11 91 12 1 255 11: S Burnt areas
+12 191 2 40 255 12: S Settlements
+13 244 38 54 255 13: S Green urban areas
+14 255 107 33 255 14: S Other settlements
+21 16 29 16 255 21: FL Burnt areas
+22 1 42 15 255 22: FL Transitional woodland
+23 2 62 22 255 23: FL Deciduous
+24 4 85 31 255 24: FL Coniferous/Evergreen
+25 5 117 42 255 25: FL Other forestland
+31 126 124 17 255 31: CL Burnt areas
+32 196 122 70 255 32: CL Annual crops
+33 249 158 89 255 33: CL Perennial crops
+34 249 208 89 255 34: CL Other cropland
+41 189 255 26 255 41: GL Burnt areas
+42 17 164 6 255 42: GL Pastures
+43 22 193 6 255 43: GL Shrubs
+44 27 237 8 255 44: GL Natural grassland
+45 128 237 8 255 45: GL Other grassland
+51 12 178 255 255 51: WL Wetland managed
+52 10 152 217 255 52: WL Wetland unmanaged
+53 0 98 252 255 53: WL Water managed
+54 1 5 205 255 54: WL Water unmanaged
+55 33 96 162 255 55: WL Burnt areas
+61 89 88 88 255 61: OL Bare soil and rocks
+62 130 129 129 255 62: OL Permanent snow and ice
+63 168 167 167 255 63: OL Lichens and mosses
+64 204 205 205 255 64: OL Other land
+254 247 247 247 255 254: Unclassified
+255 255 255 255 0 255: No data
