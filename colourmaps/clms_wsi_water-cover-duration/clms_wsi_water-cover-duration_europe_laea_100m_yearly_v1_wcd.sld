@@ -384,7 +384,7 @@
               <sld:ColorMapEntry color="#0a3c8f" label="366 days" quantity="366"/>
               <sld:ColorMapEntry color="#999999" label="cloud or cloud shadow" quantity="65485"/>
               <sld:ColorMapEntry color="#ffedc3" label="sea water" quantity="65533"/>
-              <sld:ColorMapEntry color="#000000" label="no data" quantity="65535"/>
+              <sld:ColorMapEntry color="#000000" opacity="0" label="no data" quantity="65535"/>
             </sld:ColorMap>
           </sld:RasterSymbolizer>
         </sld:Rule>

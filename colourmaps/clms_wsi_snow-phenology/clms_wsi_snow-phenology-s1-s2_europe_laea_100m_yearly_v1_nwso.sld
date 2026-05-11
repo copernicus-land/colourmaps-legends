@@ -383,7 +383,7 @@
               <sld:ColorMapEntry color="#d34d10" label="365 days" quantity="365"/>
               <sld:ColorMapEntry color="#d34d0f" label="366 days" quantity="366"/>
               <sld:ColorMapEntry color="#6464d7" label="inland water" quantity="420"/>
-              <sld:ColorMapEntry color="#000000" label="no data" quantity="65535"/>
+              <sld:ColorMapEntry color="#000000" opacity="0" label="no data" quantity="65535"/>
             </sld:ColorMap>
           </sld:RasterSymbolizer>
         </sld:Rule>

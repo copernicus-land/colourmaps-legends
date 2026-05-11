@@ -91,7 +91,7 @@
               {
                 "type" : "CIMRasterUniqueValueClass",
                 "values" : [
-                  "65485"
+                  "205"
                 ],
                 "label" : "cloud or cloud shadow",
                 "color" : {
@@ -107,7 +107,7 @@
               },
               {
                 "type" : "CIMRasterUniqueValueClass",
-                "values" : [
+                "253" : [
                   "65533"
                 ],
                 "label" : "sea water",
@@ -125,7 +125,7 @@
               {
                 "type" : "CIMRasterUniqueValueClass",
                 "values" : [
-                  "65535"
+                  "255"
                 ],
                 "label" : "no data",
                 "color" : {
@@ -134,7 +134,7 @@
                     0,
                     0,
                     0,
-                    100
+                    0
                   ]
                 },
                 "visible" : true
