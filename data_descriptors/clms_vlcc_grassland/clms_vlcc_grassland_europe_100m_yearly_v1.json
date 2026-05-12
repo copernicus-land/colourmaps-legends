@@ -13,8 +13,8 @@
         {
             "fileName": "CLMS_HRLVLCC_GRA",
             "layerBrowserName": "Grassland",
-            "shortDescription": "Classification of grassland / non-grassland ",
-            "longDescription": "Provides at pan-European level in the spatial resolution of 100 m a basic land cover classification with two thematic classes (grassland / non-grassland).",
+            "shortDescription": "Grassland presence and percentage coverage",
+            "longDescription": "Provides at pan-European level in the spatial resolution of 100 m the percentage of grassland coverage within each 100 m cell.",
             "colourMapLink": "colourmaps/clms_vlcc_grassland/clms_vlcc_grassland_europe_100m_yearly_v1.sld",
             "legendLink": "",
             "odataLink": "CLMS/landcover_landuse/grassland_and_herbaceous/clms_vlcc_grassland_europe_100m_yearly_v1",
