@@ -116,7 +116,7 @@
               <sld:ColorMapEntry quantity="98" color="#176900" label="98% classification confidence"/>
               <sld:ColorMapEntry quantity="99" color="#0f6600" label="99% classification confidence"/>
               <sld:ColorMapEntry quantity="100" color="#086300" label="100% classification confidence"/>
-              <sld:ColorMapEntry quantity="253" color="#f0f0f0" label="all non-tree covered areas "opacity="0.0"/>
+              <sld:ColorMapEntry quantity="253" color="#f0f0f0" label="all non-tree covered areas" opacity="0.0"/>
               <sld:ColorMapEntry quantity="255" color="#000000" label="outside area" opacity="0.0"/>
             </sld:ColorMap>
           </sld:RasterSymbolizer>

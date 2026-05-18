@@ -18,7 +18,7 @@
       "fileName": "LIE250-LIE",
       "layerBrowserName": "Lake Ice Extent",
       "shortDescription": "Lake Ice Extent classification",
-      "longDescription": "Classification of lake ice conditions: open water, ice-free, snow-covered ice, thick ice.",
+      "longDescription": "Classification of lake ice conditions: 1) Fully snow-covered ice, 2) Partially snow-covered or snow-free ice, 3) Open water.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lie_baltic_250m_daily_v1/clms_baltic_lie_250m_v1_daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_baltic_lie_250m_v1_daily.png",
       "units": "",

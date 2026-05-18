@@ -1,0 +1,8 @@
+INTERPOLATION:DISCRETE
+10,255,255,255,255,Fully snow-covered ice
+20,171,217,233,255,Partially snow-covered or snow-free ice
+30,69,117,180,255,Open water
+40,254,224,144,255,Cloud
+50,100,100,100,255,No data
+60,1,102,94,255,Sea
+70,173,154,142,255,Land

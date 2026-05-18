@@ -1,6 +1,6 @@
 {
     "name": "clms_vlcc_main-crop-harvest_europe_10m_yearly_v1",
-    "browserName": "CPMCH 10m Yearly ",
+    "browserName": "CPMCH 10m Yearly (2017-present)",
     "browserSearchPath": "CLMS Land Cover and Land Use Mapping/Croplands/Cropping Patterns/Main Crop Harvest",
     "collectionDescription": "The High Resolution Layer Cropping Patterns - Main Crop Harvest (CPMCH) raster product provides the harvest date of the main (annual) crop expressed in days of the year (DOY). The harvest is considered as the time of removal of most of the biomass. YYDOY where YY = last 2 digits of the year (e.g. 19 for 2019) and DOY is the day of the year (1-365)\n\nThis dataset is provided annually starting in 2017 with 10 meter rasters (fully conformant with the EEA reference grid) in 100 x 100 km tiles covering the EEA38 countries.\n\nHigh Resolution Layer Croplands product is part of the European Union\u2019s Copernicus Land Monitoring Service. Confidence layer available for the dataset.\n\nThis dataset includes data from the French Overseas Territories (DOMs)",
     "linkToCLMS": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands",

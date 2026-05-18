@@ -13,5 +13,30 @@
   "nominalSpatialResolution": "500m",
   "frequency": "daily",
   "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lie_global_500m_daily_v2/lie_global_500m_daily_v2.jpg",
-  "layers": []
+  "layers": [
+    {
+      "fileName": "LIE-GLOBAL-LIE",
+      "layerBrowserName": "Lake Ice Extent",
+      "shortDescription": "Lake Ice Extent classification",
+      "longDescription": "Classification of lake ice conditions: 1) Snow-covered ice, 2) Partially snow-covered or snow-free ice, 3) Open water, and 4) Cloud.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lie_global_500m_daily_v2/clms_global_lie_500m_lie_v2_daily.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lie_global_500m_daily_v2/clms_global_lie_500m_lie_v2_daily.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "LIE-GLOBAL-P",
+      "layerBrowserName": "Statistical Probability",
+      "shortDescription": "Statistical probability of ice",
+      "longDescription": "Statistical probability of lake ice classification.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lie_global_500m_daily_v2/clms_global_lie_500m_statistical_probability_v2_daily.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lie_global_500m_daily_v2/clms_global_lie_500m_statistical_probability_v2_daily.png",
+      "units": "[%]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
 }

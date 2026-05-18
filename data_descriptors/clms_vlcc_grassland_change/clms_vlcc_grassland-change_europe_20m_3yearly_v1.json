@@ -1,6 +1,6 @@
 {
     "name": "clms_vlcc_grassland-change_europe_20m_3yearly_v1",
-    "browserName": "GRAC 20m 3yearly ",
+    "browserName": "GRAC 20m 3-yearly (2018-2021)",
     "browserSearchPath": "CLMS Land Cover and Land Use Mapping/Grasslands/Grassland and Herbaceous/Grassland Change",
     "collectionDescription": "The High Resolution Layer Grassland Change (GRAC) 2018-2021 raster product at 20m resolution provides information on changes in grassland vegetation cover between the reference years 2018 and 2021. The thematic classes indicate all non-grassland areas, grassland gain and grassland loss, unchanged grassland in both years and unverified grassland gain and loss areas.\n\n\n\nThis dataset is provided in 20 meter rasters (fully conformant with the EEA reference grid) in 100 x 100 km tiles covering the EEA38 countries.\n\n\n\nHigh Resolution Layer Grasslands product is part of the European Union\u2019s Copernicus Land Monitoring Service. Confidence layer available for the dataset.\n\n\n\nThis dataset includes data from the French Overseas Territories (DOMs)",
     "linkToCLMS": "https://land.copernicus.eu/en/products/high-resolution-layer-grasslands",

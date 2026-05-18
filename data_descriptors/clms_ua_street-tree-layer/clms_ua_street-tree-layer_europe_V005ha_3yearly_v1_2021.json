@@ -1,7 +1,7 @@
 {
   "name": "/EODATA/CLMS/land_cover_use_in_priority_areas/urban_atlas/clms_ua_street-tree-layer_europe_V005ha_3yearly_v1/2021",
-  "browserName": "UA STL 3Yearly 2021",
-  "browserSearchPath": "CLMS Land Cover & Use in Priority Areas/Urban Atlas/Street Tree Layer",
+  "browserName": "UA STL 3-yearly 2021",
+  "browserSearchPath": "CLMS Land Cover and Use in Priority Areas/Urban Atlas/Street Tree Layer",
   "collectionDescription": "Urban Atlas Street Tree Layer 2021 provides information about presence of trees within Functional Urban Areas (FUA).",
   "linkToCLMS": "https://land.copernicus.eu/en/products/urban-atlas ",
   "spatialCoverage": "Europe",
@@ -12,7 +12,7 @@
   "layers": [
     {
       "fileName": "CLMS_UA_STL_S2021",
-      "layerBrowserName": "Street Tree Layer, 3Yearly, 2021",
+      "layerBrowserName": "Street Tree Layer, 3-yearly, 2021",
       "shortDescription": "Urban Atlas 2021 tree cover ≥500 m²",
       "longDescription": "Provides a separate layer of Urban Atlas 2021 showing contiguous rows or patches of trees covering 500 m² or more and with a Minimum Mapping Width (MMW) of 10 m over \"Artificial surfaces\" (nomenclature class 1) inside each Functional Urban Area (FUA). The dataset is available as vector data.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_ua_street-tree-layer/clms_ua_street-tree-layer_europe_V005ha_3yearly_v1_stl.sld",
@@ -21,7 +21,7 @@
     },
     {
       "fileName": "CLMS_UA_UM_S2021",
-      "layerBrowserName": "Urban Mask, 3Yearly, 2021",
+      "layerBrowserName": "Urban Mask, 3-yearly, 2021",
       "shortDescription": "Street tree layer urban mask 2021",
       "longDescription": "Provides the Urban Atlas 2021 urban mask for the Street Tree Layer.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_ua_street-tree-layer/clms_ua_street-tree-layer_europe_V005ha_3yearly_v1_um.sld",

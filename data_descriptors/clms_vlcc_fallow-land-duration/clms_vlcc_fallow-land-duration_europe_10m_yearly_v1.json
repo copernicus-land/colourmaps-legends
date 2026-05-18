@@ -1,13 +1,13 @@
 {
     "name": "clms_vlcc_fallow-land-duration_europe_10m_yearly_v1",
-    "browserName": "CPFLD 10m Yearly ",
+    "browserName": "CPFLD 10m Yearly (2017-present)",
     "browserSearchPath": "CLMS Land Cover and Land Use Mapping/Croplands/Cropping Patterns/Fallow Land Duration",
-    "collectionDescription": "The High Resolution Layer Cropping Patterns - Fallow Land Duration (CPFLD) raster product provides the total fallow land duration (in days) over the complete period 2017-2021.\n\nThis dataset is provided annually starting in 2017 with 10 meter rasters (fully conformant with the EEA reference grid) in 100 x 100 km tiles covering the EEA38 countries.\n\nHigh Resolution Layer Croplands product is part of the European Union\u2019s Copernicus Land Monitoring Service. Confidence layer available for the dataset.\n\nThis dataset includes data from the French Overseas Territories (DOMs)",
+    "collectionDescription": "The High Resolution Layer Cropping Patterns - Fallow Land Duration (CPFLD) raster product provides information on the duration of fallow land periods, expressed in days, over a five-year period.\n\nThis dataset is provided annually starting in 2017 with 10 meter rasters (fully conformant with the EEA reference grid) in 100 x 100 km tiles covering the EEA38 countries.\n\nHigh Resolution Layer Croplands product is part of the European Union\u2019s Copernicus Land Monitoring Service. Confidence layer available for the dataset.\n\nThis dataset includes data from the French Overseas Territories (DOMs)",
     "linkToCLMS": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands",
     "spatialCoverage": "Europe",
     "temporalExtent": {
         "start": 2017,
-        "end": "2021"
+        "end": "present"
     },
     "layers": [
         {

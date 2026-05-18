@@ -1,8 +1,8 @@
 {
   "schemaVersion": "0.0.4",
-  "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_phenology_and_productivity_parameters/lsp_global_300m_yearly_v2/",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_phenology_and_productivity_parameters/lsp_global_300m_yearly_v2",
   "browserName": "LSP 300m Yearly V2",
-  "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Phenology and Productivity Parameters.",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Phenology and Productivity Parameters",
   "collectionDescription": "Describes the seasonal growth patterns of vegetated land surface. Provides 13 phenology metrics for up to two growing seasons per year.  Annual estimates are available globally at a spatial resolution of about 300 m, from 2014 to the present. More information here.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/land-surface-phenology-2014-present-raster-300m-global-yearly-version-2",
   "spatialCoverage": "Global",

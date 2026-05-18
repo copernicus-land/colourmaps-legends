@@ -12,18 +12,18 @@
             <sld:ChannelSelection>
               <sld:GrayChannel>
                 <sld:SourceChannelName>1</sld:SourceChannelName>
-                <sld:ContrastEnhancement>
-                  <sld:Normalize>
-                    <sld:VendorOption name="algorithm">StretchToMinimumMaximum</sld:VendorOption>
-                    <sld:VendorOption name="minValue">0.001</sld:VendorOption>
-                    <sld:VendorOption name="maxValue">0.2</sld:VendorOption>
-                  </sld:Normalize>
-                </sld:ContrastEnhancement>
               </sld:GrayChannel>
             </sld:ChannelSelection>
-            <sld:ColorMap>
-              <sld:ColorMapEntry color="#000000" quantity="0"/>
-              <sld:ColorMapEntry color="#ffffff" quantity="255"/>
+            <sld:ColorMap type="ramp">
+              <sld:ColorMapEntry label="0.000" color="#000000" quantity="0.000"/>
+              <sld:ColorMapEntry label="0.025" color="#202020" quantity="0.025"/>
+              <sld:ColorMapEntry label="0.050" color="#404040" quantity="0.050"/>
+              <sld:ColorMapEntry label="0.075" color="#606060" quantity="0.075"/>
+              <sld:ColorMapEntry label="0.100" color="#808080" quantity="0.100"/>
+              <sld:ColorMapEntry label="0.125" color="#9f9f9f" quantity="0.125"/>
+              <sld:ColorMapEntry label="0.150" color="#bfbfbf" quantity="0.150"/>
+              <sld:ColorMapEntry label="0.175" color="#dfdfdf" quantity="0.175"/>
+              <sld:ColorMapEntry label="0.200" color="#ffffff" quantity="0.200"/>
             </sld:ColorMap>
           </sld:RasterSymbolizer>
         </sld:Rule>

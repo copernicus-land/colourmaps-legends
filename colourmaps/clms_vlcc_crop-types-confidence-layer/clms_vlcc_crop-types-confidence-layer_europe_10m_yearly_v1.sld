@@ -116,7 +116,7 @@
               <sld:ColorMapEntry color="#106900" label="98%" quantity="98"/>
               <sld:ColorMapEntry color="#0b6600" label="99%" quantity="99"/>
               <sld:ColorMapEntry color="#086300" label="100%" quantity="100"/>
-              <sld:ColorMapEntry color="#f0f0f0" label="No Cropland" quantity="254" opacity="0.0"/>
+              <sld:ColorMapEntry color="#f0f0f0" label="No Cropland" quantity="253" opacity="0.0"/>
               <sld:ColorMapEntry color="#000000" label="Outside area" quantity="255" opacity="0.0"/>
             </sld:ColorMap>
           </sld:RasterSymbolizer>

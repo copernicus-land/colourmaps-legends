@@ -19,7 +19,7 @@
               <sld:ColorMapEntry color="#bdbd5b" label="medium quality" quantity="1"/>
               <sld:ColorMapEntry color="#ffc257" label="low quality" quantity="2"/>
               <sld:ColorMapEntry color="#ff4625" label="minimal quality" quantity="3"/>
-              <sld:ColorMapEntry color="#000000" label="no data" quantity="65535"/>
+              <sld:ColorMapEntry color="#d2d2d2" label="no data" quantity="65535"/>
             </sld:ColorMap>
           </sld:RasterSymbolizer>
         </sld:Rule>

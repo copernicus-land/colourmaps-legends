@@ -1,6 +1,6 @@
 {
     "name": "clms_vlcc_fallow-land-presence_europe_10m_yearly_v1",
-    "browserName": "CPFLP 10m Yearly ",
+    "browserName": "CPFLP 10m Yearly (2017-present)",
     "browserSearchPath": "CLMS Land Cover and Land Use Mapping/Croplands/Cropping Patterns/Fallow Land Presence",
     "collectionDescription": "The High Resolution Layer Cropping Patterns - Fallow Land Presence (CPFLP) raster product provides the yearly fallow land classification indicating if arable land has been left fallow in the respective calendar year.\nThis dataset is provided annually starting in 2017 with 10 meter rasters (fully conformant with the EEA reference grid) in 100 x 100 km tiles covering the EEA38 countries.\nHigh Resolution Layer Croplands product is part of the European Union\u2019s Copernicus Land Monitoring Service. Confidence layer available for the dataset.\nThis dataset includes data from the French Overseas Territories (DOMs)",
     "linkToCLMS": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands",

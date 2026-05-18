@@ -1,22 +1,42 @@
-# CGLS Colourmaps and Legends
+# CLMS Colourmaps and Legends
 
-This repository contains the colour maps and legends for the Copernicus Global Land Service (CGLS). These resources define the visualization styles for CGLS data products.
+This repository contains the colour maps, legends, thumbnails, and data descriptors for the Copernicus Land Monitoring Service (CLMS). These resources define the visualization styles and metadata for CLMS data products, covering both the Copernicus Global Land Service (CGLS) and pan-European/local components such as the Vegetation Land Cover and Change (VLCC), Urban Atlas (UA), and Water and Snow/Ice (WSI) product families.
 
 ## Repository Structure
 ```
-CGLS-colourmaps/
+colourmaps-legends/
 ├── README.md                  # This documentation file
 ├── LICENSE                    # License information for this repository
-├── ColourMaps/                # Colour maps for CGLS data products
-│   ├── SLD/                   # Style Layer Descriptor XML format files
-│   │   └── *.sld              # Individual SLD files
-│   └── Legacy/                # Legacy format files
-│       └── *.txt              # QGIS generated color map export files
-├── Data_descriptors           # Metadata to be used in the CDSE browser
-│   └── *.json                 
-└── Legends/                   # Legend images for visualization
-    └── *.png  
+├── colourmaps/                # Colour maps for CLMS data products
+│   ├── <dataset_name>/        # One folder per dataset
+│   │   ├── *.sld              # Style Layer Descriptor XML format files
+│   │   └── *.txt              # Legacy QGIS colour map export files
+├── legends/                   # Legend images for visualization
+│   └── <dataset_name>/
+│       └── *.png
+├── thumbnails/                # Thumbnail images for dataset preview
+│   └── <dataset_name>/
+│       └── *.jpg
+├── data_descriptors/          # JSON metadata for Copernicus Browser integration
+│   └── <dataset_name>/
+│       └── *.json
+├── schemas/                   # JSON schema templates and versioning
+│   └── data_descriptors/
+│       └── <version>/
+│           └── information_template.json
+└── docs/                      # Documentation
+    ├── Structure_description_of_the_proposed_json_scheme_for_CLMS_collections.adoc
+    └── CLMS_Thumbnail_Specifications.adoc
 ```
+
+## Product Families
+
+This repository covers the following CLMS product families:
+
+- **CGLS (Copernicus Global Land Service)**: Global bio-geophysical products (NDVI, LAI, FCOVER, FAPAR, DMP, GDMP, SSM, SWI, LST, BA, LSP, etc.)
+- **VLCC (Vegetation Land Cover and Change)**: Pan-European land cover, forest type, grassland, tree cover density, crop types, and related products
+- **UA (Urban Atlas)**: Urban land cover/land use, building height, and street tree layer
+- **WSI (Water and Snow/Ice)**: Snow cover, snow water equivalent, lake/river water level, water quality, water bodies, and related products
 
 ## Standard Format
 
@@ -25,38 +45,29 @@ SLD (Style Layer Descriptor) is the standard format used for colour maps. TXT fi
 ## Naming Convention
 
 The **folder** name follows the pattern:
-- `<dataset_short_name>_<coveragearea>_<nominal_resolution>_<temporal_sampling>_<Major_version>`, e.g., `ndvi_global_1km_10daily_V2`
+- CGLS products: `<dataset_short_name>_<coverage_area>_<nominal_resolution>_<temporal_sampling>_<version>`, e.g., `ndvi_global_300m_10daily_v2`
+- VLCC/UA/WSI products: `clms_<family>_<product_name>`, e.g., `clms_vlcc_crop-types`, `clms_ua_building-height`, `clms_wsi_fractional-snow-cover`
 
 The filename of the colour maps and legends follows this pattern:
 
-- **ColourMaps**: `<layer_name>.(sld|txt)`, e.g., `clms_global_ndvi_1km_v2_10daily.sld`
-- **Data_descriptors: `<dataset_name>.json`, e.g., `fapar_global_1km_10daily_v2.json`
+- **Colourmaps**: `<layer_name>.(sld|txt)`, e.g., `clms_global_ndvi_1km_v2_10daily.sld`
+- **Data descriptors**: `<dataset_name>.json`, e.g., `fapar_global_1km_10daily_v2.json`
 - **Legends**: `<layer_name>.png`, e.g., `clms_global_ndvi_1km_v2_10daily.png`
 
-NOTE: in case of multiple layers/variables names should be distint accordingly to the specific variable represented e.g. 'clms_global_NDVI300-NDVI_v2_10daily.sld, clms_global_NDVI300-NOBS_v2_10daily.sld ...'
+NOTE: in case of multiple layers/variables names should be distinct accordingly to the specific variable represented e.g. `clms_global_NDVI300-NDVI_v2_10daily.sld`, `clms_global_NDVI300-NOBS_v2_10daily.sld` ...
 
-## Data Descriptors (BETA)
+## Data Descriptors
 
-The `Data_descriptors/` folder contains JSON files that provide metadata for integrating CLMS collections into the Copernicus Browser. Each JSON file describes a single collection and its layers.
+The `data_descriptors/` folder contains JSON files that provide metadata for integrating CLMS collections into the Copernicus Browser. Each JSON file describes a single collection and its layers.
 
-For detailed documentation on how to populate these files, see [Data Descriptors Documentation](docs/data_descriptors_schema.adoc).
+For detailed documentation on how to populate these files, see [Data Descriptors Documentation](docs/Structure_description_of_the_proposed_json_scheme_for_CLMS_collections.adoc).
 
-## Machine-to-Machine (M2M) Access
+Schema templates for each version are available under `schemas/data_descriptors/`.
 
-This repository is designed for machine-to-machine access with these features:
+## Thumbnails
 
-1. **index.json files**: Each directory contains an index.json file that lists all resources with metadata
-2. **metadata.json**: Repository-level metadata for automated discovery
-3. **Structured filenames**: Consistent naming pattern for programmatic parsing
-
-## Usage
-
-These colour maps and legends are used to standardize the visual representation of CGLS data products across various applications and platforms.
-
-## Legacy Information
-
-Previously, these colour maps were primarily used in the CGLS WMTS service (Web Map Tile Service), but this is no longer the primary distribution method.
+The `thumbnails/` folder contains preview images for each dataset, used in the Copernicus Browser. For specifications, see [Thumbnail Specifications](docs/CLMS_Thumbnail_Specifications.adoc).
 
 ## Contact
 
-For questions or additional information about these resources, please contact the Copernicus Global Land Service team.
+For questions or additional information about these resources, please contact the Copernicus Land Monitoring Service team.

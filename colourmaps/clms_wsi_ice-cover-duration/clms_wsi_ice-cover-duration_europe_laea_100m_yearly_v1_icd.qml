@@ -409,7 +409,7 @@
         <paletteEntry color="#ecf2fc" alpha="255" value="364" label="364 days" />
         <paletteEntry color="#eef5fd" alpha="255" value="365" label="365 days" />
         <paletteEntry color="#f0f8ff" alpha="255" value="366" label="366 days" />
-        <paletteEntry color="#000000" alpha="255" value="65535" label="no data" />
+        <paletteEntry color="#d2d2d2" alpha="255" value="65535" label="no data" />
       </colorPalette>
       <colorramp name="[source]" type="randomcolors">
         <Option />

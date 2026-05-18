@@ -1,6 +1,6 @@
 {
     "name": "clms_vlcc_grassland_europe_100m_yearly_v1",
-    "browserName": "GRA 100m Yearly ",
+    "browserName": "GRA 100m Yearly (2017-present)",
     "browserSearchPath": "CLMS Land Cover and Land Use Mapping/Grasslands/Grassland and Herbaceous/Grassland",
     "collectionDescription": "The High Resolution Layer Grassland (GRA) raster product provides a binary status layer of grassland/non-grassland mask. This grassy and non-woody vegetation baseline product includes all kinds of grasslands: managed grassland, semi-natural grassland and natural grassy vegetation. It does not include temporary grasslands, which are masked out using the corresponding Ploughing indicator (PLOUGH), indicating on the number of years since a pixel was last ploughed. In the 100 meter raster product, the number of Grassland pixels are counted and the percentages stored in each 100 meter cell. The class 255 = outside area is predefined by the 100m boundary layer and remains unchanged.\n\nThis dataset is provided annually starting in 2017 with 100 meter rasters (fully conformant with the EEA reference grid) in 100 x 100 km tiles covering the EEA38 countries.\n\nHigh Resolution Layer Grasslands product is part of the European Union\u2019s Copernicus Land Monitoring Service.\n\nThis dataset includes data from the French Overseas Territories (DOMs)",
     "linkToCLMS": "https://land.copernicus.eu/en/products/high-resolution-layer-grasslands",
@@ -13,8 +13,8 @@
         {
             "fileName": "CLMS_HRLVLCC_GRA",
             "layerBrowserName": "Grassland",
-            "shortDescription": "Classification of grassland / non-grassland ",
-            "longDescription": "Provides at pan-European level in the spatial resolution of 100 m a basic land cover classification with two thematic classes (grassland / non-grassland).",
+            "shortDescription": "Grassland presence and percentage coverage",
+            "longDescription": "Provides at pan-European level in the spatial resolution of 100 m the percentage of grassland coverage within each 100 m cell.",
             "colourMapLink": "colourmaps/clms_vlcc_grassland/clms_vlcc_grassland_europe_100m_yearly_v1.sld",
             "legendLink": "",
             "odataLink": "CLMS/landcover_landuse/grassland_and_herbaceous/clms_vlcc_grassland_europe_100m_yearly_v1",

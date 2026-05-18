@@ -1,6 +1,6 @@
 {
     "name": "clms_vlcc_tree-cover-density_europe_100m_yearly_v1",
-    "browserName": "TCD 100m Yearly ",
+    "browserName": "TCD 100m Yearly (2018-present)",
     "browserSearchPath": "CLMS Land Cover and Land Use Mapping/Tree Cover and Forests/Tree Cover Density/Tree Cover Density",
     "collectionDescription": "The High Resolution Layer Tree Cover Density (TCD) dataset provides information on the proportional crown coverage per pixel at 100 meter spatial resolution and ranges from 0% (all non-tree covered areas) to 100%, whereby Tree Cover Density is defined as the \"vertical projection of tree crowns to a horizontal earth\u2019s surface\u201c. This product is an aggregation of its corresponding high resolution dataset.\n\nThis dataset is provided annually starting with 2018 in 100 meter rasters (fully conformant with the EEA reference grid) in 100 x 100 km tiles covering the EEA38 countries.\n\nHigh Resolution Layer Tree Cover and Forest product is part of the European Union\u2019s Copernicus Land Monitoring Service.",
     "linkToCLMS": "https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover",

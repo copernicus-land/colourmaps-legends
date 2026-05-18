@@ -46,7 +46,7 @@
         <paletteEntry color="#bdbd5b" alpha="255" value="1" label="medium quality"/>
         <paletteEntry color="#ffc257" alpha="255" value="2" label="low quality"/>
         <paletteEntry color="#ff4625" alpha="255" value="3" label="minimal quality"/>
-        <paletteEntry color="#000000" alpha="255" value="65535" label="no data"/>
+        <paletteEntry color="#d2d2d2" alpha="255" value="65535" label="no data"/>
       </colorPalette>
       <colorramp name="[source]" type="randomcolors">
         <Option/>

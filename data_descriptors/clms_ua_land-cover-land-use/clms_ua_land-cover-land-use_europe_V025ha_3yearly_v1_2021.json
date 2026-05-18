@@ -1,7 +1,7 @@
 {
   "name": "/EODATA/CLMS/land_cover_use_in_priority_areas/urban_atlas/clms_ua_land-cover-land-use_europe_V025ha_3yearly_v1/2021",
-  "browserName": "UA LCU 3Yearly 2021",
-  "browserSearchPath": "CLMS Land Cover & Use in Priority Areas/Urban Atlas/\"Land Cover/Land Use\"",
+  "browserName": "UA LCU 3-yearly 2021",
+  "browserSearchPath": "CLMS Land Cover and Use in Priority Areas/Urban Atlas/Land Cover and Land Use",
   "collectionDescription": "Urban Atlas Land Cover/Land Use 2021 provides reliable, inter-comparable, high-resolution land use and land cover data for 790 Functional Urban Areas (FUA) with more than 50,000 inhabitants for the 2021 reference year in EEA38 countries (EU, EFTA, Western Balkans countries, as well as Türkiye) and the United Kingdom.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/urban-atlas ",
   "spatialCoverage": "Europe",
@@ -12,7 +12,7 @@
   "layers": [
     {
       "fileName": "CLMS_UA_LCU_S2021",
-      "layerBrowserName": "Land Cover/Land Use, 3Yearly, 2021",
+      "layerBrowserName": "Land Cover and Land Use, 3-yearly, 2021",
       "shortDescription": "UA 2021 LCLU (MMU 0.25/1 ha)",
       "longDescription": "Provides land cover and land use data in 790 Functional Urban Areas (FUA) with more than 50,000 inhabitants in EEA38 countries and the United Kingdom for the 2021 reference year. The dataset maps land cover and land use for 19 urban classes with the Minimum Mapping Unit (MMU) of 0.25 ha and for 9 rural classes with the MMU of 1 ha and is available as vector data.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_ua_land-cover-land-use/clms_ua_land-cover-land-use_europe_V025ha_3yearly_v1_2021.sld",

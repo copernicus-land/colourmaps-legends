@@ -124,7 +124,7 @@
         <paletteEntry color="#106900" label="98%" value="98" alpha="255"/>
         <paletteEntry color="#0b6600" label="99%" value="99" alpha="255"/>
         <paletteEntry color="#086300" label="100%" value="100" alpha="255"/>
-        <paletteEntry color="#f0f0f0" label="No Cropland" value="254" alpha="255"/>
+        <paletteEntry color="#f0f0f0" label="No Cropland" value="253" alpha="255"/>
         <paletteEntry color="#000000" label="Outside area" value="255" alpha="255"/>
       </colorPalette>
       <colorramp type="randomcolors" name="[source]"/>

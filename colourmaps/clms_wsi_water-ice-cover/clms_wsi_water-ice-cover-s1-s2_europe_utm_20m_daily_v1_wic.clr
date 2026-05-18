@@ -3,4 +3,4 @@
 200 40 40 40 255 radar shadow / layover / foreshortening
 205 123 123 123 255 cloud or cloud shadow
 254 255 0 0 255 other features
-255 0 0 0 0 no data
+255 210 210 210 255 no data

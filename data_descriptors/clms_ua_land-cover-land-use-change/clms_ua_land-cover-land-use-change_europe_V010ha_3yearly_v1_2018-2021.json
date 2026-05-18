@@ -1,7 +1,7 @@
 {
   "name": "/EODATA/CLMS/land_cover_use_in_priority_areas/urban_atlas/clms_ua_land-cover-land-use-change_europe_V010ha_3yearly_v1/2021",
-  "browserName": "UA LCUC 3Yearly 2018-2021",
-  "browserSearchPath": "CLMS Land Cover & Use in Priority Areas/Urban Atlas/\"Land Cover/Land Use Change\"",
+  "browserName": "UA LCUC 3-yearly 2018-2021",
+  "browserSearchPath": "CLMS Land Cover and Use in Priority Areas/Urban Atlas/Land Cover and Land Use Change",
   "collectionDescription": "Urban Atlas Land Cover/Land Use Change 2018-2021 provides reliable, inter-comparable, high-resolution land use and land cover change data for 764 Functional Urban Areas (FUA) with more than 50,000 inhabitants for the 2021 reference year in EEA38 countries (EU, EFTA, Western Balkans countries, as well as Türkiye) and the United Kingdom.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/urban-atlas ",
   "spatialCoverage": "Europe",
@@ -12,7 +12,7 @@
   "layers": [
     {
       "fileName": "CLMS_UA_LCUC_C2018-2021",
-      "layerBrowserName": "Land Cover/Land Use Change, 3Yearly, 2018-2021 ",
+      "layerBrowserName": "Land Cover and Land Use Change, 3-yearly, 2018-2021 ",
       "shortDescription": "UA 2018–2021 LCLU Change (MMU 0.1–0.25 ha)",
       "longDescription": "Provides land cover and land use change data between the 2018 and 2021 Urban Atlas layers. The Minimum Mapping Unit (MMU) varies from 0.1 ha to 0.25 ha depending on the class. The Minimum Mapping Width (MMW) is 10 m, and the dataset is available as vector data.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_ua_land-cover-land-use-change/clms_ua_land-cover-land-use-change_europe_V010ha_3yearly_v1_2018-2021.sld ",

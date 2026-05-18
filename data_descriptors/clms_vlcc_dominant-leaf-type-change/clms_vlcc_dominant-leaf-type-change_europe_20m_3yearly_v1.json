@@ -1,6 +1,6 @@
 {
     "name": "clms_vlcc_dominant-leaf-type-change_europe_20m_3yearly_v1",
-    "browserName": "DLTC 20m 3yearly ",
+    "browserName": "DLTC 20m 3-yearly (2018-2021)",
     "browserSearchPath": "CLMS Land Cover and Land Use Mapping/Tree Cover and Forests/Dominant Leaf Type/Dominant Leaf Type Change",
     "collectionDescription": "The High Resolution Layer Dominant Leaf Type Change (DLTC) 2018-2021 raster product provides information on the change between the reference years 2018 and 2021 and consists of 7 thematic classes (unchanged areas with no tree cover / new broadleaved cover / new coniferous cover / loss of broadleaved cover / loss of coniferous cover / unchanged areas with tree cover / potential change among dominant leaf types).\n\nThis dataset is provided in 20 meter rasters (fully conformant with the EEA reference grid) in 100 x 100 km tiles covering the EEA38 countries.\n\nThe production of the high resolution forest layers was coordinated by the European Environment Agency (EEA) in the frame of the EU Copernicus programme.\n\nThis dataset includes data from the French Overseas Territories (DOMs)",
     "linkToCLMS": "https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover",

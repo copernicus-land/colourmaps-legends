@@ -1,6 +1,6 @@
 {
     "name": "clms_vlcc_cropping-seasons-types_europe_10m_yearly_v1",
-    "browserName": "CPCST 10m Yearly ",
+    "browserName": "CPCST 10m Yearly (2017-present)",
     "browserSearchPath": "CLMS Land Cover and Land Use Mapping/Croplands/Cropping Patterns/Cropping Seasons Types",
     "collectionDescription": "The High Resolution Layer Cropping Patterns - Cropping Seasons Types (CPCSY) raster product provides the number of different crop types grown in a 3-year period [0-3] (excluding cover crops).\n\nThis dataset is provided annually starting in 2017 with 10 meter rasters (fully conformant with the EEA reference grid) in 100 x 100 km tiles covering the EEA38 countries.\n\nHigh Resolution Layer Croplands product is part of the European Union\u2019s Copernicus Land Monitoring Service.\n\nThis dataset includes data from the French Overseas Territories (DOMs)",
     "linkToCLMS": "https://land.copernicus.eu/en/products/high-resolution-layer-croplands",
