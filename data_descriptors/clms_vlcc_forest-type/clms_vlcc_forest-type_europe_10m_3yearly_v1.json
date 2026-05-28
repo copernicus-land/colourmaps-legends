@@ -1,20 +1,20 @@
 {
     "name": "clms_vlcc_forest-type_europe_10m_3yearly_v1",
-    "browserName": "FTY 10m 3-yearly (2018-2021)",
+    "browserName": "FTY 10m 3-yearly (2018-present)",
     "browserSearchPath": "CLMS Land Cover and Land Use Mapping/Tree Cover and Forests/Forest Type/Forest Type",
     "collectionDescription": "The High Resolution Layer Forest Type (FTY) provides a forest classification with 3 thematic classes (all non-forest areas / broadleaved forest / coniferous forest) at 10m spatial resolution and with a Minimum Mapping Unit (MMU) of 0.5 ha. This raster layer is largely following the FAO (Food and Agriculture Organisation of the United Nations) forest definition with tree covered areas in agricultural and urban context excluded using the respective Forest Additional Support Layer (FADSL).\n\nThis dataset is provided on a 3-yearly frequency in 10 meter rasters (fully conformant with the EEA reference grid) in 100 x 100 km tiles covering the EEA38 countries.\n\nHigh Resolution Layer Tree Cover and Forest product is part of the European Union\u2019s Copernicus Land Monitoring Service.\n\nThis dataset includes data from the French Overseas Territories (DOMs)",
     "linkToCLMS": "https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover",
     "spatialCoverage": "Europe",
     "temporalExtent": {
         "start": 2018,
-        "end": "2021"
+        "end": "present"
     },
     "layers": [
         {
             "fileName": "CLMS_HRLVLCC_FTY",
             "layerBrowserName": "Forest Type over 3years",
             "shortDescription": "Forest Type over 3 years (10m)",
-            "longDescription": "Provides at pan-European level in the spatial resolution of 10 m and 100 m a forest classification for three thematic classes (all non-forest areas / broadleaved forest / coniferous forest) with the agricultural/urban trees removed for the 2018 reference year.",
+            "longDescription": "Provides at pan-European level in the spatial resolution of 10 m a forest classification with 3 thematic classes (all non-forest areas / broadleaved forest / coniferous forest).",
             "colourMapLink": "colourmaps/clms_vlcc_forest-type/clms_vlcc_forest-type_europe_10m_3yearly_v1.sld",
             "legendLink": "",
             "odataLink": "CLMS/landcover_landuse/forest_type/clms_vlcc_forest-type_europe_10m_3yearly_v1",
