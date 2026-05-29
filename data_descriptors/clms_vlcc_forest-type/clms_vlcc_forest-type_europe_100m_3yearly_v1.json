@@ -12,7 +12,7 @@
     "layers": [
         {
             "fileName": "CLMS_HRLVLCC_FTY",
-            "layerBrowserName": "Forest Type over 3-years",
+            "layerBrowserName": "Forest Type",
             "shortDescription": "Forest Type over 3 years (100m)",
             "longDescription": "Provides at a pan-European level the Forest Type estimation at 100 meter spatial resolution.",
             "colourMapLink": "colourmaps/clms_vlcc_forest-type/clms_vlcc_forest-type_europe_100m_3yearly_v1.sld",
