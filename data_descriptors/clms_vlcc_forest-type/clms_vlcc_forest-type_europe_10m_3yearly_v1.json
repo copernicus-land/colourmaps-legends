@@ -12,7 +12,7 @@
     "layers": [
         {
             "fileName": "CLMS_HRLVLCC_FTY",
-            "layerBrowserName": "Forest Type over 3years",
+            "layerBrowserName": "Forest Type",
             "shortDescription": "Forest Type over 3 years (10m)",
             "longDescription": "Provides at pan-European level in the spatial resolution of 10 m a forest classification with 3 thematic classes (all non-forest areas / broadleaved forest / coniferous forest).",
             "colourMapLink": "colourmaps/clms_vlcc_forest-type/clms_vlcc_forest-type_europe_10m_3yearly_v1.sld",
