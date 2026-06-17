@@ -91,7 +91,7 @@
       "layerBrowserName": "QAFLAGS",
       "layerBrowserNameSearchTab": "",
       "shortDescription": "Quality flags",
-      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation displays areas where the snow cover duration is less than 60 days. These correspond to pixels where bit 4 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
+      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation displays the areas where wet snow detection is performed (high elevation, non-forested, non-urban, non-water areas). These correspond to pixels where bit 7 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
       "colourMapLink": "",
       "legendLink": "",
       "units": "",
