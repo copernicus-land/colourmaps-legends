@@ -49,7 +49,7 @@
       "layerBrowserName": "QAFLAGS",
       "layerBrowserNameSearchTab": "",
       "shortDescription": "Quality flags",
-      "longDescription": "The default visualisation indicates whether the classification comes from from radar imagery; these correspond to pixels where bit 9 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
+      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation displays the satellite sensor type used for the classification (optical=0 in blue, radar=1 in pink). These correspond to pixels where bit 7 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
       "colourMapLink": "",
       "legendLink": "",
       "units": "",

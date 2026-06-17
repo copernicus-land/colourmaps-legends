@@ -49,7 +49,7 @@
       "layerBrowserName": "QAFLAGS",
       "layerBrowserNameSearchTab": "",
       "shortDescription": "Quality flags",
-      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation displays the sensor type of the satellite data (optical=0, radar=1). These correspond to pixels where bit 7 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
+      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation displays the sensor type of the satellite data (optical=0 in blue, radar=1 in pink). These correspond to pixels where bit 7 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
       "colourMapLink": "",
       "legendLink": "",
       "units": "",
