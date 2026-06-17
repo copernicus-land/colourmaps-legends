@@ -5,7 +5,13 @@
   "browserNameSearchTab": "Cloud Classification, Sentinel-2, Europe, Daily, 20m, (2016-present), V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Auxiliary data, Cloud Mask",
   "multiCollectionName": "",
-  "collectionDescription": "The Cloud Classification (CC) product provides information on the extent of clouds and cloud shadows derived from optical satellite data acquired by the Sentinel-2 constellation. It is generated in near real-time at European scale, with a pixel spacing of 20 m x 20 m. Cloud detection is performed at a 120m spatial resolution. It is available for the period from 2016 to the present and used to produce the CLMS High-Resolution Water, Snow and Ice datasets (HR-WSI), which rely on Sentinel-2 imagery. More information in the products documentation here.",
+  "collectionDescription": "The Cloud Classification (CC) product provides information on the extent of clouds and cloud shadows derived from optical satellite data acquired by the **Sentinel-2** constellation. Cloud detection is performed at a **120m** spatial resolution using the [MAJA software](https://gitlab.orfeo-toolbox.org/maja/maja/).
+  
+  It is generated in near real-time at European scale, with a pixel spacing of 20 m x 20 m. It used to produce the CLMS High-Resolution Water, Snow and Ice datasets (HR-WSI), which rely on Sentinel-2 imagery.
+  
+  **Data availability**: from 2016 to the present. No product is generated for a Sentinel-2 tile when cloud cover exceeds 90%. 
+
+  More information in the products documentation [here](https://land.copernicus.eu/en/products/snow/fractional-snow-cover).",
   "linkToCLMS": "https://land.copernicus.eu/en/products/snow/fractional-snow-cover",
   "spatialCoverage": "Europe",
   "temporalExtent": {
