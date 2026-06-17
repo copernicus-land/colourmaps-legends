@@ -5,7 +5,13 @@
   "browserNameSearchTab": "Water Ice Cover, Europe, Daily, 20m/60m, (2016-present), V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Water and Ice Cover",
   "multiCollectionName": "",
-  "collectionDescription": "The Water and Ice Cover by Sentinel-1 and Sentinel-2 (WIC S1+S2) product shows which river and lake areas are covered by ice, with or without snow. It combines data from two types of instruments acquired on the same day to increase coverage and reduce missing information. It uses water/ice cover information derived from Sentinel-2 optical images (WIC S2), and from Sentinel-1 radar data (WIC S1). The product is generated in near real-time at European scale, with a spatial resolution of 20 m x 20 m. It is available for the period from 2016 to the present. More information here.",
+  "collectionDescription": "The **Water and Ice Cover by Sentinel-1 and Sentinel-2 (WIC S1+S2)** product shows which river and lake areas are covered by ice, with or without snow. It combines data from two types of instruments acquired on the same day to increase coverage and reduce missing information. It uses water/ice cover information derived from **Sentinel-2** optical images (WIC S2), and from **Sentinel-1** radar data (WIC S1).
+  
+  The product is generated in near real-time at European scale, with a spatial resolution of **20 m x 20 m**. 
+  
+  **Data availability**: from 2016 to the present.
+  
+  More information [here](https://land.copernicus.eu/en/products/water-bodies/water-and-ice-cover-raster-20-m-60-m-europe-daily).",
   "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/water-and-ice-cover-raster-20-m-60-m-europe-daily",
   "spatialCoverage": "Europe",
   "temporalExtent": {
