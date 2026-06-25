@@ -5,13 +5,7 @@
   "browserNameSearchTab": "Ice Cover Duration, Europe, Yearly,  20m/100m, (2016-present), V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Water and Ice Cover",
   "multiCollectionName": "",
-  "collectionDescription": "The **Ice Cover Duration (ICD)** product describes how long inland waters are covered by ice. For each pixel and for a given hydrological year, it provides the number of days with ice cover. The hydrological year starts on 1 September. It is based on ice cover maps derived from **Sentinel-2** optical data (Water/Ice Cover WIC S2) and **Sentinel-1** C-band Synthetic Aperture Radar data (Water/Ice Cover WIC S1). 
-  
-  The product is generated at the European scale with a spatial resolution of **20 m × 20 m**. 
-    
-  **Data availability**: from 2016 to the present. The data can be downloaded in multiple projections and pixel spacings. 
-
-  More information [here](https://land.copernicus.eu/en/products/water-bodies/high-resolution-ice-cover-duration).",
+  "collectionDescription": "The **Ice Cover Duration (ICD)** product describes how long inland waters are covered by ice. For each pixel and for a given hydrological year, it provides the number of days with ice cover. The hydrological year starts on 1 September. It is based on ice cover maps derived from **Sentinel-2** optical data (Water/Ice Cover WIC S2) and **Sentinel-1** C-band Synthetic Aperture Radar data (Water/Ice Cover WIC S1).<br><br>The product is generated at the European scale with a spatial resolution of **20 m × 20 m**.<br><br>**Data availability**: from 2016 to the present. The data can be downloaded in multiple projections and pixel spacings.<br><br>More information [here](https://land.copernicus.eu/en/products/water-bodies/high-resolution-ice-cover-duration).",
   "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/high-resolution-ice-cover-duration",
   "spatialCoverage": "Europe",
   "temporalExtent": {

@@ -5,13 +5,7 @@
   "browserNameSearchTab": "SAR Wet Snow, Europe (high mountains), Daily, 60m, (2016-present), V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Snow, Snow State",
   "multiCollectionName": "",
-  "collectionDescription": "The **SAR Wet Snow (SWS)** product provides the wet snow extent for high mountain areas, based on C-band Synthetic Aperture Radar satellite data from the **Sentinel-1** constellation.
-   
-  It is generated in near real-time for selected high mountain areas at European scale with a spatial resolution of **60 m x 60 m**.
-  
-  **Data availability**: from 2016 to the present.
-  
-  More information [here](https://land.copernicus.eu/en/products/snow/high-resolution-sar-wet-snow).", 
+  "collectionDescription": "The **SAR Wet Snow (SWS)** product provides the wet snow extent for high mountain areas, based on C-band Synthetic Aperture Radar satellite data from the **Sentinel-1** constellation.<br><br>It is generated in near real-time for selected high mountain areas at European scale with a spatial resolution of **60 m x 60 m**.<br><br>**Data availability**: from 2016 to the present.<br><br>More information [here](https://land.copernicus.eu/en/products/snow/high-resolution-sar-wet-snow).", 
   "linkToCLMS": "https://land.copernicus.eu/en/products/snow/high-resolution-sar-wet-snow",
   "spatialCoverage": "Europe (high mountains)",
   "temporalExtent": {

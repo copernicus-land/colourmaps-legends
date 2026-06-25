@@ -1,17 +1,11 @@
 {
   "schemaVersion": "1.0.0",
-  "eodataPath": "s3://eodata/CLMS/bio-geophysical/river_and_lake_ice_extent/clms_wsi_water-ice-cover-s1-s2_europe_utm_20m_daily_v1 ",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/river_and_lake_ice_extent/clms_wsi_water-ice-cover-s1-s2_europe_utm_20m_daily_v1",
   "browserNameVisualiseTab": "WIC S1+S2 Europe 20m Daily V1",
   "browserNameSearchTab": "Water Ice Cover, Europe, Daily, 20m/60m, (2016-present), V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Water and Ice Cover",
   "multiCollectionName": "",
-  "collectionDescription": "The **Water and Ice Cover by Sentinel-1 and Sentinel-2 (WIC S1+S2)** product shows which river and lake areas are covered by ice, with or without snow. It combines data from two types of instruments acquired on the same day to increase coverage and reduce missing information. It uses water/ice cover information derived from **Sentinel-2** optical images (WIC S2), and from **Sentinel-1** radar data (WIC S1).
-  
-  The product is generated in near real-time at European scale, with a spatial resolution of **20 m x 20 m**. 
-  
-  **Data availability**: from 2016 to the present.
-  
-  More information [here](https://land.copernicus.eu/en/products/water-bodies/water-and-ice-cover-raster-20-m-60-m-europe-daily).",
+  "collectionDescription": "The **Water and Ice Cover by Sentinel-1 and Sentinel-2 (WIC S1+S2)** product shows which river and lake areas are covered by ice, with or without snow. It combines data from two types of instruments acquired on the same day to increase coverage and reduce missing information. It uses water/ice cover information derived from **Sentinel-2** optical images (WIC S2), and from **Sentinel-1** radar data (WIC S1).<br><br>The product is generated in near real-time at European scale, with a spatial resolution of **20 m x 20 m**.<br><br>**Data availability**: from 2016 to the present.<br><br>More information [here](https://land.copernicus.eu/en/products/water-bodies/water-and-ice-cover-raster-20-m-60-m-europe-daily).",
   "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/water-and-ice-cover-raster-20-m-60-m-europe-daily",
   "spatialCoverage": "Europe",
   "temporalExtent": {
@@ -55,7 +49,7 @@
       "layerBrowserName": "QAFLAGS",
       "layerBrowserNameSearchTab": "",
       "shortDescription": "Quality flags",
-      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation displays the satellite sensor type used for the classification (optical=0 in blue, radar=1 in pink). These correspond to pixels where bit 7 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
+      "longDescription": "Bitmask layer with pixel quality flags. The default visualisation displays the satellite sensor type used for the classification (optical=0 in blue, radar=1 in pink). These correspond to pixels where bit 9 is activated. Additional information can also be visualised by selecting other bits. More details are available in the </> Custom option.",
       "colourMapLink": "",
       "legendLink": "",
       "units": "",
