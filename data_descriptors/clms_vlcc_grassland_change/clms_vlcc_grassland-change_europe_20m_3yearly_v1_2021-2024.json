@@ -1,0 +1,34 @@
+{
+    "name": "clms_vlcc_grassland-change_europe_20m_3yearly_v1",
+    "browserName": "GRAC 20m 3-yearly (2021-2024)",
+    "browserSearchPath": "CLMS Land Cover and Land Use Mapping/Grasslands/Grassland and Herbaceous/Grassland Change",
+    "collectionDescription": "The High Resolution Layer Grassland Change (GRAC) 2021-2024 raster product at 20m resolution provides information on changes in grassland vegetation cover between the reference years 2021 and 2024. The thematic classes indicate all non-grassland areas, grassland gain and grassland loss, unchanged grassland in both years and unverified grassland gain and loss areas.\n\n\n\nThis dataset is provided in 20 meter rasters (fully conformant with the EEA reference grid) in 100 x 100 km tiles covering the EEA38 countries.\n\n\n\nHigh Resolution Layer Grasslands product is part of the European Union\u2019s Copernicus Land Monitoring Service. Confidence layer available for the dataset.\n\n\n\nThis dataset includes data from the French Overseas Territories (DOMs)",
+    "linkToCLMS": "https://land.copernicus.eu/en/products/high-resolution-layer-grasslands",
+    "spatialCoverage": "Europe",
+    "temporalExtent": {
+        "start": 2021,
+        "end": "2024"
+    },
+    "layers": [
+        {
+            "fileName": "CLMS_HRLVLCC_GRAC",
+            "layerBrowserName": "Grassland Change",
+            "shortDescription": "Grassland Change (20m)",
+            "longDescription": "Provides at pan-European level in the spatial resolution of 20 m information on changes in grassland vegetation cover between the 2021 and 2024 reference years.",
+            "colourMapLink": "colourmaps/clms_vlcc_grassland-change/clms_vlcc_grassland-change_europe_20m_3yearly_v1.sld",
+            "legendLink": "",
+            "odataLink": "CLMS/landcover_landuse/grassland_and_herbaceous/clms_vlcc_grassland-change_europe_20m_3yearly_v1",
+            "display": 1
+        },
+        {
+            "fileName": "CLMS_HRLVLCC_GRACCL",
+            "layerBrowserName": "Grassland Change Confidence Layer",
+            "shortDescription": "Confidence of grassland change",
+            "longDescription": "Confidence layer - a quality indicator for grassland change.",
+            "colourMapLink": "colourmaps/clms_vlcc_grassland-change-confidence-layer/clms_vlcc_grassland-change-confidence-layer_europe_20m_3yearly_v1.sld",
+            "legendLink": "",
+            "odataLink": "CLMS/landcover_landuse/grassland_and_herbaceous/clms_vlcc_grassland-change-confidence-layer_europe_20m_3yearly_v1",
+            "display": 1
+        }
+    ]
+}

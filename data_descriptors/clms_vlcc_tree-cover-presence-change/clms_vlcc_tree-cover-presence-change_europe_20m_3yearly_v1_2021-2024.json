@@ -1,0 +1,34 @@
+{
+    "name": "clms_vlcc_tree-cover-presence-change_europe_20m_3yearly_v1",
+    "browserName": "TCPC 20m 3-yearly (2021-2024)",
+    "browserSearchPath": "CLMS Land Cover and Land Use Mapping/Tree Cover and Forests/Tree Cover Density/Tree Cover Presence Change",
+    "collectionDescription": "The Copernicus High Resolution Layer Tree Cover Precense Change (TCPC) 2021-2024 raster product provides information on the change between the reference years 2021 and 2024 and consists of 4 thematic classes (unchanged areas with no tree cover / new tree cover / loss of tree cover / unchanged areas with tree cover). The class 255 = outside area is predefined by the 100m boundary layer and remains unchanged. This layer for previous reference year compraissions is called Tree Cover Change Mask (TCCM).\n\n\n\nThis dataset is provided in 20 meter rasters (fully conformant with the EEA reference grid) in 100 x 100 km tiles covering the EEA38 countries.\n\n\n\nThe production of the high resolution forest layers was coordinated by the European Environment Agency (EEA) in the frame of the EU Copernicus programme.\n\nConfidence layer available for the dataset.\n\n\n\nThis dataset includes data from the French Overseas Territories (DOMs)",
+    "linkToCLMS": "https://land.copernicus.eu/en/products/high-resolution-layer-forests-and-tree-cover",
+    "spatialCoverage": "Europe",
+    "temporalExtent": {
+        "start": 2021,
+        "end": "2024"
+    },
+    "layers": [
+        {
+            "fileName": "CLMS_HRLVLCC_TCPC",
+            "layerBrowserName": "Tree Cover Presence Change",
+            "shortDescription": "Tree cover extent change",
+            "longDescription": "Provides at pan-European level in the spatial resolution of 20 m information on tree cover extend changes in three thematic classes (unchanged areas with no tree cover/ new tree cover/ loss of tree cover).",
+            "colourMapLink": "colourmaps/clms_vlcc_tree-cover-presence-change/clms_vlcc_tree-cover-presence-change_europe_20m_3yearly_v1.sld",
+            "legendLink": "",
+            "odataLink": "CLMS/landcover_landuse/tree_cover_density/clms_vlcc_tree-cover-presence-change_europe_20m_3yearly_v1",
+            "display": 1
+        },
+        {
+            "fileName": "CLMS_HRLVLCC_TCPCCL",
+            "layerBrowserName": "Tree Cover Presence Change Confidence Layer",
+            "shortDescription": "Confidence of tree cover change",
+            "longDescription": "Confidence layer - a quality indicator for tree cover presence change.",
+            "colourMapLink": "colourmaps/clms_vlcc_tree-cover-presence-change-confidence-layer/clms_vlcc_tree-cover-presence-change-confidence-layer_europe_20m_3yearly_v1.sld",
+            "legendLink": "",
+            "odataLink": "CLMS/landcover_landuse/tree_cover_density/clms_vlcc_tree-cover-presence-change-confidence-layer_europe_20m_3yearly_v1",
+            "display": 1
+        }
+    ]
+}
