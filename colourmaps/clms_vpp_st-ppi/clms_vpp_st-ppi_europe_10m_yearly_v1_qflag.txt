@@ -1,0 +1,8 @@
+# QGIS Generated Color Map Export File
+INTERPOLATION:DISCRETE
+0,255,255,255,255,No data
+1,166,217,106,255,Extrapolated
+2,166,217,106,255,Interpolated
+3,26,150,65,255,Low
+4,26,150,65,255,Medium
+5,26,150,65,255,High
