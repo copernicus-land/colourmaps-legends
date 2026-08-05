@@ -15,7 +15,7 @@
               </sld:GrayChannel>
             </sld:ChannelSelection>
             <sld:ColorMap type="ramp">
-              <sld:ColorMapEntry label="No annual cropland" color="#f0f0f0" quantity="0"/>
+              <sld:ColorMapEntry label="No annual cropland" color="#f0f0f0" quantity="0" opacity="0.0"/>
               <sld:ColorMapEntry label="Jan 2024" color="#9f7fff" quantity="23366"/>
               <sld:ColorMapEntry label="Feb 2024" color="#dd7fff" quantity="24031"/>
               <sld:ColorMapEntry label="Mar 2024" color="#ff7fdf" quantity="24059"/>
@@ -34,7 +34,7 @@
               <sld:ColorMapEntry label="65531" color="#646464" quantity="65531"/>
               <sld:ColorMapEntry label="65532" color="#4b4b4b" quantity="65532"/>
               <sld:ColorMapEntry label="65533" color="#7e346b" quantity="65533"/>
-              <sld:ColorMapEntry label="Outside area" color="#000000" quantity="65535"/>
+              <sld:ColorMapEntry label="Outside area" color="#000000" quantity="65535" opacity="0.0"/>
             </sld:ColorMap>
           </sld:RasterSymbolizer>
         </sld:Rule>
