@@ -17,7 +17,7 @@
             "longDescription": "Provides at pan-European level in the spatial resolution of 20 m information on changes in grassland vegetation cover between the 2021 and 2024 reference years.",
             "colourMapLink": "colourmaps/clms_vlcc_grassland-change/clms_vlcc_grassland-change_europe_20m_3yearly_v1.sld",
             "legendLink": "",
-            "odataLink": "CLMS/landcover_landuse/grassland_and_herbaceous/clms_vlcc_grassland-change_europe_20m_3yearly_v1",
+            "odataLink": "CLMS/landcover_landuse/grassland_and_herbaceous/clms_vlcc_grassland-change_europe_20m_3yearly_v1/2024",
             "display": 1
         },
         {
