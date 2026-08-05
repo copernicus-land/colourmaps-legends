@@ -17,7 +17,7 @@
             "longDescription": "Provides at pan-European level in the spatial resolution of 20 m information on tree cover extend changes in three thematic classes (unchanged areas with no tree cover/ new tree cover/ loss of tree cover).",
             "colourMapLink": "colourmaps/clms_vlcc_tree-cover-presence-change/clms_vlcc_tree-cover-presence-change_europe_20m_3yearly_v1.sld",
             "legendLink": "",
-            "odataLink": "CLMS/landcover_landuse/tree_cover_density/clms_vlcc_tree-cover-presence-change_europe_20m_3yearly_v1",
+            "odataLink": "CLMS/landcover_landuse/tree_cover_density/clms_vlcc_tree-cover-presence-change_europe_20m_3yearly_v1/2024",
             "display": 1
         },
         {
