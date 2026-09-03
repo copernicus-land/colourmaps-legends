@@ -27,7 +27,7 @@
             "longDescription": "Confidence layer - a quality indicator for tree cover presence change.",
             "colourMapLink": "colourmaps/clms_vlcc_tree-cover-presence-change-confidence-layer/clms_vlcc_tree-cover-presence-change-confidence-layer_europe_20m_3yearly_v1.sld",
             "legendLink": "",
-            "odataLink": "CLMS/landcover_landuse/tree_cover_density/clms_vlcc_tree-cover-presence-change-confidence-layer_europe_20m_3yearly_v1",
+            "odataLink": "CLMS/landcover_landuse/tree_cover_density/clms_vlcc_tree-cover-presence-change-confidence-layer_europe_20m_3yearly_v1/2024",
             "display": 1
         }
     ]
