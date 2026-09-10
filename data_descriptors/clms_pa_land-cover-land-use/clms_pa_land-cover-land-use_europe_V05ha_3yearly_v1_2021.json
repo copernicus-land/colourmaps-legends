@@ -1,0 +1,23 @@
+{
+  "name": "/EODATA/CLMS/land_cover_use_in_priority_areas/protected_areas/clms_pa_land-cover-land-use_europe_V05ha_3yearly_v1/2021",
+  "browserName": "PA LCU 3-yearly 2021",
+  "browserSearchPath": "CLMS Land Cover and Use in Priority Areas/Protected Areas/Land Cover and Land Use",
+  "collectionDescription": "Protected Areas 2021 provides reliable, high-resolution land use and land cover data for 25,011 terrestrial Natura 2000 and Emerald sites for the 2021 reference year in EEA32 countries (EU, EFTA) and the United Kingdom, covering a total of 821,000 km2 of land surface across Europe.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/n2k",
+  "spatialCoverage": "Europe",
+  "temporalExtent": {
+    "start": 2021,
+    "end": 2021
+  },
+  "layers": [
+    {
+      "fileName": "CLMS_PA_LCU_S2021",
+      "layerBrowserName": "Land Cover and Land Use, 3-yearly, 2021",
+      "shortDescription": "PA 2021 LCLU (MMU 0.5 ha)",
+      "longDescription": "Provides detailed land cover and land use information for 59 thematic classes in selected Natura2000 and Emerald sites for the 2021 reference year. The dataset has a Minimum Mapping Unit (MMU) of 0.5 ha and a Minimum Mapping Width (MMW) of 10 m and is available as vector data.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_ua_land-cover-land-use/clms_pa_land-cover-land-use_europe_V05ha_3yearly_v1_2021.sld",
+      "legendLink": "",
+      "display": 1
+    }
+  ]
+}
