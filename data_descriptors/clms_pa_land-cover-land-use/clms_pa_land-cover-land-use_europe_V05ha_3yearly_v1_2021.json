@@ -15,7 +15,7 @@
       "layerBrowserName": "Land Cover and Land Use, 3-yearly, 2021",
       "shortDescription": "PA 2021 LCLU (MMU 0.5 ha)",
       "longDescription": "Provides detailed land cover and land use information for 59 thematic classes in selected Natura2000 and Emerald sites for the 2021 reference year. The dataset has a Minimum Mapping Unit (MMU) of 0.5 ha and a Minimum Mapping Width (MMW) of 10 m and is available as vector data.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_ua_land-cover-land-use/clms_pa_land-cover-land-use_europe_V05ha_3yearly_v1_2021.sld",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_pa_land-cover-land-use/clms_pa_land-use-land-change_europe_v05ha_3yearly_v1.sld",
       "legendLink": "",
       "display": 1
     }
