@@ -1,4 +1,4 @@
-<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<!DOCTYPE qgis PUBLIC "http://mrcc.com/qgis.dtd" "SYSTEM">
 <qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" simplifyLocal="1" maxScale="0" simplifyDrawingHints="1" autoRefreshMode="Disabled" simplifyDrawingTol="1" minScale="0" simplifyMaxScale="1" autoRefreshTime="0" readOnly="0" symbologyReferenceScale="-1" labelsEnabled="1" version="3.42.3-Münster">
   <flags>
     <Identifiable>1</Identifiable>
@@ -8,8 +8,8 @@
   </flags>
   <temporal endExpression="" endField="" startField="" accumulate="0" startExpression="" durationField="OBJECTID" enabled="0" durationUnit="min" mode="0" fixedDuration="0" limitMode="0">
     <fixedRange>
-      <start></start>
-      <end></end>
+      <start/>
+      <end/>
     </fixedRange>
   </temporal>
   <elevation customToleranceEnabled="0" extrusion="0" extrusionEnabled="0" clamping="Terrain" respectLayerSymbol="1" showMarkerSymbolInSurfacePlots="0" type="IndividualFeatures" zoffset="0" symbology="Line" binding="Centroid" zscale="1">
@@ -146,68 +146,66 @@
   </elevation>
   <renderer-v2 attr="CODE_4_21" symbollevels="0" forceraster="0" enableorderby="0" type="categorizedSymbol" referencescale="-1">
     <categories>
-      <category symbol="0" uuid="{0aaddaaa-b3de-495f-803c-3e7a3012ebbf}" type="string" value="1110" render="true" label="1110 Urban fabric (predominantly public and private units) "/>
-      <category symbol="1" uuid="{24913d2f-fee6-42de-acca-25c5c0983a17}" type="string" value="1120" render="true" label="1120 Industrial, commercial and military units"/>
-      <category symbol="2" uuid="{ef001e8b-03ee-4660-af55-1ec1bdce233b}" type="string" value="1210" render="true" label="1210 Road networks and associated land"/>
-      <category symbol="3" uuid="{53855790-7f59-4656-a165-722560f7954f}" type="string" value="1220" render="true" label="1220 Railways and associated land"/>
-      <category symbol="4" uuid="{a1d95baa-db6b-4252-b24c-0ddd71aec4e3}" type="string" value="1230" render="true" label="1230 Port areas and associated land"/>
-      <category symbol="5" uuid="{92eb9ae9-f661-438e-b8dd-9b4ed7961fb0}" type="string" value="1240" render="true" label="1240 Airports and associated land"/>
-      <category symbol="6" uuid="{04a50708-9680-4919-8d05-772b1a5d3fa7}" type="string" value="1310" render="true" label="1310 Mineral extraction, dump and construction sites"/>
-      <category symbol="7" uuid="{b4ecfcf8-7588-446b-9565-e904b9963c2b}" type="string" value="1320" render="true" label="1320 Land without current use"/>
-      <category symbol="8" uuid="{057b4aa0-27ee-4f2b-a9d0-74086b5834f1}" type="string" value="1400" render="true" label="1400 Green urban, sports and leisure facilities"/>
-      <category symbol="9" uuid="{1d6eb472-ea12-471c-a1fd-4f09bc269ee1}" type="string" value="2110" render="true" label="2110 Arable irrigated and non-irrigated land"/>
-      <category symbol="10" uuid="{c50a789e-7a90-4783-ae98-fefe88efd4e5}" type="string" value="2120" render="true" label="2120 Greenhouses"/>
-      <category symbol="11" uuid="{0afebec6-b110-444b-aa06-9e8411ccf1b1}" type="string" value="2210" render="true" label="2210 Vineyards, fruit trees and berry plantations"/>
-      <category symbol="12" uuid="{4562d8d7-b6a1-45c3-9c6a-76bf2b7515d9}" type="string" value="2220" render="true" label="2220 Olive groves"/>
-      <category symbol="13" uuid="{f7b7ff9b-0b3e-489e-a5ea-792443c58ddb}" type="string" value="2310" render="true" label="2310 Annual crops associated with permanent crops"/>
-      <category symbol="14" uuid="{62ed06c6-562b-455e-af0e-a8fb51332068}" type="string" value="2320" render="true" label="2320 Complex cultivation patterns"/>
-      <category symbol="15" uuid="{4a32e0d4-e009-477f-a407-15b14b698902}" type="string" value="2330" render="true" label="2330 Land principally occupied by agriculture with significant areas of natural vegetation"/>
-      <category symbol="16" uuid="{1b89489c-50f8-4e83-9870-1645f1d21f02}" type="string" value="2340" render="true" label="2340 Agro-forestry "/>
-      <category symbol="17" uuid="{9d2b8f30-9c87-423c-accb-9541321a819a}" type="string" value="3110" render="true" label="3110 Natural &amp; semi-natural broadleaved forest"/>
-      <category symbol="18" uuid="{83e1664b-65a9-4b3f-af29-0e0358752665}" type="string" value="3120" render="true" label="3120 Highly artificial broadleaved plantations"/>
-      <category symbol="19" uuid="{c68282d7-b4f9-4e93-b9b2-6ef38fb1c674}" type="string" value="3210" render="true" label="3210 Natural &amp; semi natural coniferous forest"/>
-      <category symbol="20" uuid="{30b1265b-5a8f-4926-81ff-702e52831a47}" type="string" value="3220" render="true" label="3220 Highly artificial coniferous plantations"/>
-      <category symbol="21" uuid="{62f654de-b050-4808-aa08-925378095b90}" type="string" value="3310" render="true" label="3310 Natural &amp; semi natural mixed forest"/>
-      <category symbol="22" uuid="{859ed254-c792-4b66-81f3-db95479eb47f}" type="string" value="3320" render="true" label="3320 Highly artificial mixed plantations"/>
-      <category symbol="23" uuid="{a65a24f0-e5d2-4240-8812-f20e4131fb9b}" type="string" value="3400" render="true" label="3400 Transitional woodland and scrub"/>
-      <category symbol="24" uuid="{0dad0335-d488-481a-8d54-1cb06a450bd6}" type="string" value="3500" render="true" label="3500 Lines of trees and scrub"/>
-      <category symbol="25" uuid="{f824a880-5ec0-45db-9f27-218e07d218d6}" type="string" value="3600" render="true" label="3600 Damaged forest"/>
-      <category symbol="26" uuid="{53202693-2129-4e20-9b65-e450efb47042}" type="string" value="4100" render="true" label="4110 Managed grassland"/>
-      <category symbol="27" uuid="{bc203bcb-8619-4c2a-a92f-0d0852008a65}" type="string" value="4211" render="true" label="4211 Semi-natural grassland with woody plants (C.C.D. ≥ 30 %)"/>
-      <category symbol="28" uuid="{bbfd453c-b3a9-488a-82cb-bd525b57e7a8}" type="string" value="4212" render="true" label="4212 Semi-natural grassland without woody plants (C.C.D. &lt; 30%)"/>
-      <category symbol="29" uuid="{7be07f55-9880-4d9e-96ed-df60f4ce6a08}" type="string" value="4220" render="true" label="4220 Alpine and sub-alpine natural grassland "/>
-      <category symbol="30" uuid="{cd649716-302a-4686-9e16-3aed4791ab3b}" type="string" value="5100" render="true" label="5100 Heathland and moorland"/>
-      <category symbol="31" uuid="{c60c8551-be4e-4671-8f16-e340c4274ad6}" type="string" value="5200" render="true" label="5200 Alpine scrub land"/>
-      <category symbol="32" uuid="{544864f5-dd91-4da8-80d3-ee393664e999}" type="string" value="5300" render="true" label="5300 Sclerophyllous scrubs"/>
-      <category symbol="33" uuid="{56846918-062f-4eac-80a3-268bda8c4804}" type="string" value="6100" render="true" label="6100 Sparsely vegetated areas"/>
-      <category symbol="34" uuid="{29c215fd-ba4c-4128-9e9f-8a96cd22c653}" type="string" value="6210" render="true" label="6210 Beaches and dunes"/>
-      <category symbol="35" uuid="{d565a652-53be-402a-b904-0d1b0878d5c5}" type="string" value="6220" render="true" label="6220 River banks"/>
-      <category symbol="36" uuid="{29f96216-d8e8-4b0c-ba76-09fb902ab129}" type="string" value="6310" render="true" label="6310 Bare rocks, outcrops, cliffs"/>
-      <category symbol="37" uuid="{0d5e7209-4497-4b4a-a6e3-5c74d7ddb7c5}" type="string" value="6311" render="true" label="6311 Bare rocks, outcrops, cliffs"/>
-      <category symbol="38" uuid="{7f6174fd-aaac-4f9c-a198-d52296e45ba4}" type="string" value="6312" render="true" label="6312 Scree"/>
-      <category symbol="39" uuid="{b7ad342e-0b2a-4986-9a25-4dd9f22a951d}" type="string" value="6320" render="true" label="6320 Burnt areas (except burnt forest)"/>
-      <category symbol="40" uuid="{ebcf8602-d9e6-43a9-a134-b9de65700e2f}" type="string" value="6330" render="true" label="6330 Glaciers and perpetual snow"/>
-      <category symbol="41" uuid="{40e43ac3-dd00-4fab-82c1-a3596d02db4b}" type="string" value="6331" render="true" label="6331 Glaciers"/>
-      <category symbol="42" uuid="{1bbbc54a-1964-467c-a4ee-612e8b490d14}" type="string" value="6332" render="true" label="6332 Perpetual snow"/>
-      <category symbol="43" uuid="{f428b613-c967-4bfc-8e3d-69ed0e26a9aa}" type="string" value="7110" render="true" label="7110 Inland marshes "/>
-      <category symbol="44" uuid="{200f9e0e-26f9-4d92-b7ae-84876135f62e}" type="string" value="7121" render="true" label="7121 Exploited peat bogs"/>
-      <category symbol="45" uuid="{d87b57d5-d354-4c6b-b8df-d63f62faf0f9}" type="string" value="7122" render="true" label="7122 Unexploited peat bogs"/>
-      <category symbol="46" uuid="{7a8e29f9-8a2e-4b72-82ba-a6ed6fb82b7a}" type="string" value="7210" render="true" label="7210 Salt marshes "/>
-      <category symbol="47" uuid="{82100dfb-d213-4bb1-9b72-5a557b8e7997}" type="string" value="7220" render="true" label="7220 Salines"/>
-      <category symbol="48" uuid="{82ff9e51-078c-4032-8b65-e6864c608da1}" type="string" value="7230" render="true" label="7230 Intertidal flats"/>
-      <category symbol="49" uuid="{7e860c6e-7053-486f-8526-7ae1c58a03f8}" type="string" value="8110" render="true" label="8110 Natural &amp; semi-natural water coursess"/>
-      <category symbol="50" uuid="{7821382c-8c62-4f75-b97d-b2d1b6f9efd0}" type="string" value="8120" render="true" label="8120 Highly modified water courses and canals"/>
-      <category symbol="51" uuid="{7820215f-7ec4-4f6f-b3f7-0a3ba7421c89}" type="string" value="8130" render="true" label="8130 Seasonally connected water courses (oxbows)"/>
-      <category symbol="52" uuid="{268eb834-5167-4b8f-b9d4-153b01e7290c}" type="string" value="8210" render="true" label="8210 Natural lakes"/>
-      <category symbol="53" uuid="{2e64233a-8f54-46ad-85b9-49d29499e8a8}" type="string" value="8220" render="true" label="8220 Reservoirs"/>
-      <category symbol="54" uuid="{afb74058-6520-47a0-be2e-deb977114fd4}" type="string" value="8230" render="true" label="8230 Aquaculture ponds"/>
-      <category symbol="55" uuid="{733e32c0-8f41-4071-a523-458ecc3578f5}" type="string" value="8240" render="true" label="8240 Standing water bodies of extractive industrial sites"/>
-      <category symbol="56" uuid="{5a91b4b3-583f-4901-8703-ba9c69ec7326}" type="string" value="8310" render="true" label="8310 Lagoons"/>
-      <category symbol="57" uuid="{eadd45f7-326c-4d9a-951b-17268f29884f}" type="string" value="8320" render="true" label="8320 Estuaries"/>
-      <category symbol="58" uuid="{4449f5ab-53ef-4d1c-8c5d-9f9802496577}" type="string" value="8330" render="true" label="8330 Marine inlets and fjords"/>
-      <category symbol="59" uuid="{0fcf0f77-0981-46f4-8f31-bde150f7d941}" type="string" value="8410" render="true" label="8410 Open sea"/>
-      <category symbol="60" uuid="{b9398ff0-3a2b-4966-a906-861d7cdb957c}" type="string" value="8420" render="true" label="8420 Coastal waters"/>
-      <category symbol="61" uuid="{72e28e8d-a5c2-4bfe-9b0c-dfab23bcc475}" type="NULL" value="NULL" render="false" label="&lt;all other values>"/>
+      <category symbol="0" uuid="{0aaddaaa-b3de-495f-803c-3e7a3012ebbf}" type="long" value="1110" render="true" label="1110 Urban fabric (predominantly public and private units) "/>
+      <category symbol="1" uuid="{24913d2f-fee6-42de-acca-25c5c0983a17}" type="long" value="1120" render="true" label="1120 Industrial, commercial and military units"/>
+      <category symbol="2" uuid="{ef001e8b-03ee-4660-af55-1ec1bdce233b}" type="long" value="1210" render="true" label="1210 Road networks and associated land"/>
+      <category symbol="3" uuid="{53855790-7f59-4656-a165-722560f7954f}" type="long" value="1220" render="true" label="1220 Railways and associated land"/>
+      <category symbol="4" uuid="{a1d95baa-db6b-4252-b24c-0ddd71aec4e3}" type="long" value="1230" render="true" label="1230 Port areas and associated land"/>
+      <category symbol="5" uuid="{92eb9ae9-f661-438e-b8dd-9b4ed7961fb0}" type="long" value="1240" render="true" label="1240 Airports and associated land"/>
+      <category symbol="6" uuid="{04a50708-9680-4919-8d05-772b1a5d3fa7}" type="long" value="1310" render="true" label="1310 Mineral extraction, dump and construction sites"/>
+      <category symbol="7" uuid="{b4ecfcf8-7588-446b-9565-e904b9963c2b}" type="long" value="1320" render="true" label="1320 Land without current use"/>
+      <category symbol="8" uuid="{057b4aa0-27ee-4f2b-a9d0-74086b5834f1}" type="long" value="1400" render="true" label="1400 Green urban, sports and leisure facilities"/>
+      <category symbol="9" uuid="{1d6eb472-ea12-471c-a1fd-4f09bc269ee1}" type="long" value="2110" render="true" label="2110 Arable irrigated and non-irrigated land"/>
+      <category symbol="10" uuid="{c50a789e-7a90-4783-ae98-fefe88efd4e5}" type="long" value="2120" render="true" label="2120 Greenhouses"/>
+      <category symbol="11" uuid="{0afebec6-b110-444b-aa06-9e8411ccf1b1}" type="long" value="2210" render="true" label="2210 Vineyards, fruit trees and berry plantations"/>
+      <category symbol="12" uuid="{4562d8d7-b6a1-45c3-9c6a-76bf2b7515d9}" type="long" value="2220" render="true" label="2220 Olive groves"/>
+      <category symbol="13" uuid="{f7b7ff9b-0b3e-489e-a5ea-792443c58ddb}" type="long" value="2310" render="true" label="2310 Annual crops associated with permanent crops"/>
+      <category symbol="14" uuid="{62ed06c6-562b-455e-af0e-a8fb51332068}" type="long" value="2320" render="true" label="2320 Complex cultivation patterns"/>
+      <category symbol="15" uuid="{4a32e0d4-e009-477f-a407-15b14b698902}" type="long" value="2330" render="true" label="2330 Land principally occupied by agriculture with significant areas of natural vegetation"/>
+      <category symbol="16" uuid="{1b89489c-50f8-4e83-9870-1645f1d21f02}" type="long" value="2340" render="true" label="2340 Agro-forestry "/>
+      <category symbol="17" uuid="{9d2b8f30-9c87-423c-accb-9541321a819a}" type="long" value="3110" render="true" label="3110 Natural &amp; semi-natural broadleaved forest"/>
+      <category symbol="18" uuid="{83e1664b-65a9-4b3f-af29-0e0358752665}" type="long" value="3120" render="true" label="3120 Highly artificial broadleaved plantations"/>
+      <category symbol="19" uuid="{c68282d7-b4f9-4e93-b9b2-6ef38fb1c674}" type="long" value="3210" render="true" label="3210 Natural &amp; semi natural coniferous forest"/>
+      <category symbol="20" uuid="{30b1265b-5a8f-4926-81ff-702e52831a47}" type="long" value="3220" render="true" label="3220 Highly artificial coniferous plantations"/>
+      <category symbol="21" uuid="{62f654de-b050-4808-aa08-925378095b90}" type="long" value="3310" render="true" label="3310 Natural &amp; semi natural mixed forest"/>
+      <category symbol="22" uuid="{859ed254-c792-4b66-81f3-db95479eb47f}" type="long" value="3320" render="true" label="3320 Highly artificial mixed plantations"/>
+      <category symbol="23" uuid="{a65a24f0-e5d2-4240-8812-f20e4131fb9b}" type="long" value="3400" render="true" label="3400 Transitional woodland and scrub"/>
+      <category symbol="24" uuid="{0dad0335-d488-481a-8d54-1cb06a450bd6}" type="long" value="3500" render="true" label="3500 Lines of trees and scrub"/>
+      <category symbol="25" uuid="{f824a880-5ec0-45db-9f27-218e07d218d6}" type="long" value="3600" render="true" label="3600 Damaged forest"/>
+      <category symbol="26" uuid="{53202693-2129-4e20-9b65-e450efb47042}" type="long" value="4100" render="true" label="4100 Managed grassland"/>
+      <category symbol="27" uuid="{bc203bcb-8619-4c2a-a92f-0d0852008a65}" type="long" value="4211" render="true" label="4211 Semi-natural grassland with woody plants (C.C.D. ≥ 30 %)"/>
+      <category symbol="28" uuid="{bbfd453c-b3a9-488a-82cb-bd525b57e7a8}" type="long" value="4212" render="true" label="4212 Semi-natural grassland without woody plants (C.C.D. &lt; 30%)"/>
+      <category symbol="29" uuid="{7be07f55-9880-4d9e-96ed-df60f4ce6a08}" type="long" value="4220" render="true" label="4220 Alpine and sub-alpine natural grassland "/>
+      <category symbol="30" uuid="{cd649716-302a-4686-9e16-3aed4791ab3b}" type="long" value="5100" render="true" label="5100 Heathland and moorland"/>
+      <category symbol="31" uuid="{c60c8551-be4e-4671-8f16-e340c4274ad6}" type="long" value="5200" render="true" label="5200 Alpine scrub land"/>
+      <category symbol="32" uuid="{544864f5-dd91-4da8-80d3-ee393664e999}" type="long" value="5300" render="true" label="5300 Sclerophyllous scrubs"/>
+      <category symbol="33" uuid="{56846918-062f-4eac-80a3-268bda8c4804}" type="long" value="6100" render="true" label="6100 Sparsely vegetated areas"/>
+      <category symbol="34" uuid="{29c215fd-ba4c-4128-9e9f-8a96cd22c653}" type="long" value="6210" render="true" label="6210 Beaches and dunes"/>
+      <category symbol="35" uuid="{d565a652-53be-402a-b904-0d1b0878d5c5}" type="long" value="6220" render="true" label="6220 River banks"/>
+      <category symbol="37" uuid="{0d5e7209-4497-4b4a-a6e3-5c74d7ddb7c5}" type="long" value="6311" render="true" label="6311 Bare rocks, outcrops, cliffs"/>
+      <category symbol="38" uuid="{7f6174fd-aaac-4f9c-a198-d52296e45ba4}" type="long" value="6312" render="true" label="6312 Scree"/>
+      <category symbol="39" uuid="{b7ad342e-0b2a-4986-9a25-4dd9f22a951d}" type="long" value="6320" render="true" label="6320 Burnt areas (except burnt forest)"/>
+      <category symbol="41" uuid="{40e43ac3-dd00-4fab-82c1-a3596d02db4b}" type="long" value="6331" render="true" label="6331 Glaciers"/>
+      <category symbol="42" uuid="{1bbbc54a-1964-467c-a4ee-612e8b490d14}" type="long" value="6332" render="true" label="6332 Perpetual snow"/>
+      <category symbol="43" uuid="{f428b613-c967-4bfc-8e3d-69ed0e26a9aa}" type="long" value="7110" render="true" label="7110 Inland marshes "/>
+      <category symbol="44" uuid="{200f9e0e-26f9-4d92-b7ae-84876135f62e}" type="long" value="7121" render="true" label="7121 Exploited peat bogs"/>
+      <category symbol="45" uuid="{d87b57d5-d354-4c6b-b8df-d63f62faf0f9}" type="long" value="7122" render="true" label="7122 Unexploited peat bogs"/>
+      <category symbol="46" uuid="{7a8e29f9-8a2e-4b72-82ba-a6ed6fb82b7a}" type="long" value="7210" render="true" label="7210 Salt marshes "/>
+      <category symbol="47" uuid="{82100dfb-d213-4bb1-9b72-5a557b8e7997}" type="long" value="7220" render="true" label="7220 Salines"/>
+      <category symbol="48" uuid="{82ff9e51-078c-4032-8b65-e6864c608da1}" type="long" value="7230" render="true" label="7230 Intertidal flats"/>
+      <category symbol="49" uuid="{7e860c6e-7053-486f-8526-7ae1c58a03f8}" type="long" value="8110" render="true" label="8110 Natural &amp; semi-natural water courses"/>
+      <category symbol="50" uuid="{7821382c-8c62-4f75-b97d-b2d1b6f9efd0}" type="long" value="8120" render="true" label="8120 Highly modified water courses and canals"/>
+      <category symbol="51" uuid="{7820215f-7ec4-4f6f-b3f7-0a3ba7421c89}" type="long" value="8130" render="true" label="8130 Seasonally connected water courses (oxbows)"/>
+      <category symbol="52" uuid="{268eb834-5167-4b8f-b9d4-153b01e7290c}" type="long" value="8210" render="true" label="8210 Natural lakes"/>
+      <category symbol="53" uuid="{2e64233a-8f54-46ad-85b9-49d29499e8a8}" type="long" value="8220" render="true" label="8220 Reservoirs"/>
+      <category symbol="54" uuid="{afb74058-6520-47a0-be2e-deb977114fd4}" type="long" value="8230" render="true" label="8230 Aquaculture ponds"/>
+      <category symbol="55" uuid="{733e32c0-8f41-4071-a523-458ecc3578f5}" type="long" value="8240" render="true" label="8240 Standing water bodies of extractive industrial sites"/>
+      <category symbol="56" uuid="{5a91b4b3-583f-4901-8703-ba9c69ec7326}" type="long" value="8310" render="true" label="8310 Lagoons"/>
+      <category symbol="57" uuid="{eadd45f7-326c-4d9a-951b-17268f29884f}" type="long" value="8320" render="true" label="8320 Estuaries"/>
+      <category symbol="58" uuid="{4449f5ab-53ef-4d1c-8c5d-9f9802496577}" type="long" value="8330" render="true" label="8330 Marine inlets and fjords"/>
+      <category symbol="59" uuid="{0fcf0f77-0981-46f4-8f31-bde150f7d941}" type="long" value="8410" render="true" label="8410 Open sea"/>
+      <category symbol="60" uuid="{b9398ff0-3a2b-4966-a906-861d7cdb957c}" type="long" value="8420" render="true" label="8420 Coastal waters"/>
+      <category symbol="61" uuid="{72e28e8d-a5c2-4bfe-9b0c-dfab23bcc475}" type="NULL" value="NULL" render="false" label="&lt;all other values&gt;"/>
     </categories>
     <symbols>
       <symbol alpha="1" is_animated="0" force_rhr="0" type="fill" frame_rate="10" clip_to_extent="1" name="0">
@@ -1140,37 +1138,6 @@
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol alpha="1" is_animated="0" force_rhr="0" type="fill" frame_rate="10" clip_to_extent="1" name="36">
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" value="" name="name"/>
-            <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
-          </Option>
-        </data_defined_properties>
-        <layer id="{ea181745-13d6-4b3e-8dcd-b9743d7f268f}" enabled="1" pass="0" class="SimpleFill" locked="0">
-          <Option type="Map">
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="200,210,200,255,rgb:0.78431372549019607,0.82352941176470584,0.78431372549019607,1" name="color"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="0,0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="240,240,240,0,rgb:0.94117647058823528,0.94117647058823528,0.94117647058823528,0" name="outline_color"/>
-            <Option type="QString" value="no" name="outline_style"/>
-            <Option type="QString" value="0" name="outline_width"/>
-            <Option type="QString" value="Point" name="outline_width_unit"/>
-            <Option type="QString" value="solid" name="style"/>
-          </Option>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" value="" name="name"/>
-              <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
       <symbol alpha="1" is_animated="0" force_rhr="0" type="fill" frame_rate="10" clip_to_extent="1" name="37">
         <data_defined_properties>
           <Option type="Map">
@@ -1276,37 +1243,6 @@
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
             <Option type="QString" value="230,204,204,255,rgb:0.90196078431372551,0.80000000000000004,0.80000000000000004,1" name="color"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="0,0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="240,240,240,0,rgb:0.94117647058823528,0.94117647058823528,0.94117647058823528,0" name="outline_color"/>
-            <Option type="QString" value="no" name="outline_style"/>
-            <Option type="QString" value="0" name="outline_width"/>
-            <Option type="QString" value="Point" name="outline_width_unit"/>
-            <Option type="QString" value="solid" name="style"/>
-          </Option>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" value="" name="name"/>
-              <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol alpha="1" is_animated="0" force_rhr="0" type="fill" frame_rate="10" clip_to_extent="1" name="40">
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" value="" name="name"/>
-            <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
-          </Option>
-        </data_defined_properties>
-        <layer id="{0fd78beb-2c97-4775-8bcb-ca66f6f0ef54}" enabled="1" pass="0" class="SimpleFill" locked="0">
-          <Option type="Map">
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="160,170,160,255,rgb:0.62745098039215685,0.66666666666666663,0.62745098039215685,1" name="color"/>
             <Option type="QString" value="bevel" name="joinstyle"/>
             <Option type="QString" value="0,0" name="offset"/>
             <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
@@ -2181,7 +2117,7 @@
   </selection>
   <labeling type="simple">
     <settings calloutType="simple">
-      <text-style namedStyle="Normal" forcedBold="0" blendMode="0" tabStopDistanceUnit="Percentage" fontFamily="Arial" fontLetterSpacing="0" textOrientation="horizontal" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" isExpression="1" forcedItalic="0" fieldName="&quot;CODE_4_18&quot;" textOpacity="1" capitalization="0" fontSize="8" textColor="0,0,0,255,rgb:0,0,0,1" tabStopDistance="6" fontStrikeout="0" stretchFactor="100" multilineHeight="1" fontWeight="50" fontWordSpacing="0" allowHtml="0" fontSizeUnit="Point" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" legendString="Aa" multilineHeightUnit="Percentage" fontUnderline="0" fontItalic="0" fontKerning="1">
+      <text-style namedStyle="Normal" forcedBold="0" blendMode="0" tabStopDistanceUnit="Percentage" fontFamily="Arial" fontLetterSpacing="0" textOrientation="horizontal" useSubstitutions="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" isExpression="1" forcedItalic="0" fieldName="&quot;CODE_4_21&quot;" textOpacity="1" capitalization="0" fontSize="8" textColor="0,0,0,255,rgb:0,0,0,1" tabStopDistance="6" fontStrikeout="0" stretchFactor="100" multilineHeight="1" fontWeight="50" fontWordSpacing="0" allowHtml="0" fontSizeUnit="Point" previewBkgrdColor="255,255,255,255,rgb:1,1,1,1" tabStopDistanceMapUnitScale="3x:0,0,0,0,0,0" legendString="Aa" multilineHeightUnit="Percentage" fontUnderline="0" fontItalic="0" fontKerning="1">
         <families/>
         <text-buffer bufferNoFill="1" bufferJoinStyle="128" bufferSize="1" bufferOpacity="1" bufferDraw="1" bufferSizeUnits="Point" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferColor="255,255,255,255,rgb:1,1,1,1" bufferBlendMode="0"/>
         <text-mask maskEnabled="0" maskType="0" maskSize2="1.5" maskOpacity="1" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskedSymbolLayers="" maskSize="1.5" maskJoinStyle="128" maskSizeUnits="MM"/>
@@ -2267,7 +2203,7 @@
         </dd_properties>
         <substitutions/>
       </text-style>
-      <text-format autoWrapLength="0" addDirectionSymbol="0" reverseDirectionSymbol="0" rightDirectionSymbol=">" placeDirectionSymbol="0" multilineAlign="1" plussign="0" useMaxLineLengthForAutoWrap="1" decimals="3" wrapChar="" leftDirectionSymbol="&lt;" formatNumbers="0"/>
+      <text-format autoWrapLength="0" addDirectionSymbol="0" reverseDirectionSymbol="0" rightDirectionSymbol="&gt;" placeDirectionSymbol="0" multilineAlign="1" plussign="0" useMaxLineLengthForAutoWrap="1" decimals="3" wrapChar="" leftDirectionSymbol="&lt;" formatNumbers="0"/>
       <placement rotationUnit="AngleDegrees" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" priority="10" geometryGeneratorType="PointGeometry" lineAnchorClipping="0" geometryGenerator="" allowDegraded="0" lineAnchorTextPoint="FollowPlacement" quadOffset="4" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" placement="4" offsetUnits="MM" geometryGeneratorEnabled="0" offsetType="1" distMapUnitScale="3x:0,0,0,0,0,0" lineAnchorType="0" prioritization="PreferCloser" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" yOffset="0" overrunDistanceMapUnitScale="3x:0,0,0,0,0,0" preserveRotation="1" overlapHandling="PreventOverlap" placementFlags="10" overrunDistanceUnit="MM" rotationAngle="0" centroidInside="0" maximumDistanceUnit="MM" repeatDistanceUnits="MM" distUnits="Point" maxCurvedCharAngleOut="-25" xOffset="0" lineAnchorPercent="0.5" centroidWhole="0" maximumDistanceMapUnitScale="3x:0,0,0,0,0,0" fitInPolygonOnly="0" layerType="PolygonGeometry" maximumDistance="0" maxCurvedCharAngleIn="25" repeatDistance="0" polygonPlacementFlags="2" overrunDistance="0" dist="0"/>
       <rendering upsidedownLabels="0" obstacleType="1" fontLimitPixelSize="0" drawLabels="1" fontMinPixelSize="3" scaleVisibility="0" scaleMin="0" mergeLines="0" labelPerPart="1" limitNumLabels="0" fontMaxPixelSize="10000" obstacle="0" maxNumLabels="2000" unplacedVisibility="0" zIndex="0" minFeatureSize="0" obstacleFactor="0" scaleMax="0"/>
       <dd_properties>
@@ -2289,7 +2225,7 @@
           <Option type="bool" value="false" name="drawToAllParts"/>
           <Option type="QString" value="0" name="enabled"/>
           <Option type="QString" value="point_on_exterior" name="labelAnchorPoint"/>
-          <Option type="QString" value="&lt;symbol alpha=&quot;1&quot; is_animated=&quot;0&quot; force_rhr=&quot;0&quot; type=&quot;line&quot; frame_rate=&quot;10&quot; clip_to_extent=&quot;1&quot; name=&quot;symbol&quot;>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;layer id=&quot;{6baba869-4618-4dd7-b9e8-2e498c803a23}&quot; enabled=&quot;1&quot; pass=&quot;0&quot; class=&quot;SimpleLine&quot; locked=&quot;0&quot;>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;align_dash_pattern&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;square&quot; name=&quot;capstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;5;2&quot; name=&quot;customdash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;customdash_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;customdash_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;dash_pattern_offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;dash_pattern_offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;dash_pattern_offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;draw_inside_polygon&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;bevel&quot; name=&quot;joinstyle&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;60,60,60,255,rgb:0.23529411764705882,0.23529411764705882,0.23529411764705882,1&quot; name=&quot;line_color&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;solid&quot; name=&quot;line_style&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0.3&quot; name=&quot;line_width&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;line_width_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;offset&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;offset_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;offset_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;ring_filter&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_end&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_end_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_end_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_start&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_start_map_unit_scale&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_start_unit&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;tweak_dash_pattern_on_corners&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;use_custom_dash&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;width_map_unit_scale&quot;/>&lt;/Option>&lt;data_defined_properties>&lt;Option type=&quot;Map&quot;>&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/>&lt;Option name=&quot;properties&quot;/>&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/>&lt;/Option>&lt;/data_defined_properties>&lt;/layer>&lt;/symbol>" name="lineSymbol"/>
+          <Option type="QString" value="&lt;symbol alpha=&quot;1&quot; is_animated=&quot;0&quot; force_rhr=&quot;0&quot; type=&quot;line&quot; frame_rate=&quot;10&quot; clip_to_extent=&quot;1&quot; name=&quot;symbol&quot;&gt;&lt;data_defined_properties&gt;&lt;Option type=&quot;Map&quot;&gt;&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/&gt;&lt;Option name=&quot;properties&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/&gt;&lt;/Option&gt;&lt;/data_defined_properties&gt;&lt;layer id=&quot;{6baba869-4618-4dd7-b9e8-2e498c803a23}&quot; enabled=&quot;1&quot; pass=&quot;0&quot; class=&quot;SimpleLine&quot; locked=&quot;0&quot;&gt;&lt;Option type=&quot;Map&quot;&gt;&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;align_dash_pattern&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;square&quot; name=&quot;capstyle&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;5;2&quot; name=&quot;customdash&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;customdash_map_unit_scale&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;customdash_unit&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;dash_pattern_offset&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;dash_pattern_offset_map_unit_scale&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;dash_pattern_offset_unit&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;draw_inside_polygon&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;bevel&quot; name=&quot;joinstyle&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;60,60,60,255,rgb:0.23529411764705882,0.23529411764705882,0.23529411764705882,1&quot; name=&quot;line_color&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;solid&quot; name=&quot;line_style&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;0.3&quot; name=&quot;line_width&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;line_width_unit&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;offset&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;offset_map_unit_scale&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;offset_unit&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;ring_filter&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_end&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_end_map_unit_scale&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_end_unit&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;trim_distance_start&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;trim_distance_start_map_unit_scale&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;MM&quot; name=&quot;trim_distance_start_unit&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;tweak_dash_pattern_on_corners&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;0&quot; name=&quot;use_custom_dash&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;3x:0,0,0,0,0,0&quot; name=&quot;width_map_unit_scale&quot;/&gt;&lt;/Option&gt;&lt;data_defined_properties&gt;&lt;Option type=&quot;Map&quot;&gt;&lt;Option type=&quot;QString&quot; value=&quot;&quot; name=&quot;name&quot;/&gt;&lt;Option name=&quot;properties&quot;/&gt;&lt;Option type=&quot;QString&quot; value=&quot;collection&quot; name=&quot;type&quot;/&gt;&lt;/Option&gt;&lt;/data_defined_properties&gt;&lt;/layer&gt;&lt;/symbol&gt;" name="lineSymbol"/>
           <Option type="double" value="0" name="minLength"/>
           <Option type="QString" value="3x:0,0,0,0,0,0" name="minLengthMapUnitScale"/>
           <Option type="QString" value="MM" name="minLengthUnit"/>
@@ -2521,11 +2457,11 @@
     <fieldstyles/>
   </conditionalstyles>
   <storedexpressions/>
-  <editform tolerant="1"></editform>
+  <editform tolerant="1"/>
   <editforminit/>
   <editforminitcodesource>0</editforminitcodesource>
-  <editforminitfilepath></editforminitfilepath>
-  <editforminitcode><![CDATA[QGISQGIS# -*- coding: utf-8 -*-
+  <editforminitfilepath/>
+  <editforminitcode>QGISQGIS# -*- coding: utf-8 -*-
 """
 Los formularios QGIS pueden tener una función de Python a la que se llama cuando el formulario es abierto.
 
@@ -2539,7 +2475,7 @@ from qgis.PyQt.QtWidgets import QWidget
 def my_form_open(dialog, layer, feature):
     geom = feature.geometry()
     control = dialog.findChild(QWidget, "MyLineEdit")
-]]></editforminitcode>
+</editforminitcode>
   <featformsuppress>0</featformsuppress>
   <editorlayout>generatedlayout</editorlayout>
   <editable>
@@ -2587,6 +2523,6 @@ def my_form_open(dialog, layer, feature):
   <dataDefinedFieldProperties/>
   <widgets/>
   <previewExpression>"UID"</previewExpression>
-  <mapTip enabled="1"></mapTip>
+  <mapTip enabled="1"/>
   <layerGeometryType>2</layerGeometryType>
 </qgis>

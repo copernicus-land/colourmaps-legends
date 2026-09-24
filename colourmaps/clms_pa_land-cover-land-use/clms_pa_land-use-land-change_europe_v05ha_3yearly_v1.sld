@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogc="http://www.opengis.net/ogc" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" xmlns:se="http://www.opengis.net/se" version="1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink">
+<?xml version='1.0' encoding='UTF-8'?>
+<StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/StyledLayerDescriptor.xsd" version="1.1.0">
   <NamedLayer>
     <se:Name>CLMS_PA_LCUC_S2021_DU0001_ALPALPS_V05ha_EU27_03035_V01_R01_20260227</se:Name>
     <UserStyle>
@@ -448,9 +448,9 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>4110 Managed grassland</se:Name>
+          <se:Name>4100 Managed grassland</se:Name>
           <se:Description>
-            <se:Title>4110 Managed grassland</se:Title>
+            <se:Title>4100 Managed grassland</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -618,23 +618,6 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>6310 Bare rocks, outcrops, cliffs</se:Name>
-          <se:Description>
-            <se:Title>6310 Bare rocks, outcrops, cliffs</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CODE_4_21</ogc:PropertyName>
-              <ogc:Literal>6310</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#c8d2c8</se:SvgParameter>
-            </se:Fill>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
           <se:Name>6311 Bare rocks, outcrops, cliffs</se:Name>
           <se:Description>
             <se:Title>6311 Bare rocks, outcrops, cliffs</se:Title>
@@ -682,23 +665,6 @@
           <se:PolygonSymbolizer>
             <se:Fill>
               <se:SvgParameter name="fill">#b4beb4</se:SvgParameter>
-            </se:Fill>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:Name>6330 Glaciers and perpetual snow</se:Name>
-          <se:Description>
-            <se:Title>6330 Glaciers and perpetual snow</se:Title>
-          </se:Description>
-          <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
-            <ogc:PropertyIsEqualTo>
-              <ogc:PropertyName>CODE_4_21</ogc:PropertyName>
-              <ogc:Literal>6330</ogc:Literal>
-            </ogc:PropertyIsEqualTo>
-          </ogc:Filter>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#a0aaa0</se:SvgParameter>
             </se:Fill>
           </se:PolygonSymbolizer>
         </se:Rule>
@@ -839,9 +805,9 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>8110 Natural &amp; semi-natural water coursess</se:Name>
+          <se:Name>8110 Natural &amp; semi-natural water courses</se:Name>
           <se:Description>
-            <se:Title>8110 Natural &amp; semi-natural water coursess</se:Title>
+            <se:Title>8110 Natural &amp; semi-natural water courses</se:Title>
           </se:Description>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:PropertyIsEqualTo>
@@ -1043,9 +1009,9 @@
           </se:PolygonSymbolizer>
         </se:Rule>
         <se:Rule>
-          <se:Name>&lt;all other values></se:Name>
+          <se:Name>&lt;all other values&gt;</se:Name>
           <se:Description>
-            <se:Title>&lt;all other values></se:Title>
+            <se:Title>&lt;all other values&gt;</se:Title>
           </se:Description>
           <se:ElseFilter xmlns:se="http://www.opengis.net/se"/>
           <se:PolygonSymbolizer>
@@ -1057,7 +1023,7 @@
         <se:Rule>
           <se:TextSymbolizer>
             <se:Label>
-              <!--SE Export for CODE_4_18 not implemented yet-->Placeholder</se:Label>
+              <!--SE Export for CODE_4_21 not implemented yet-->Placeholder</se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">Arial</se:SvgParameter>
               <se:SvgParameter name="font-size">10</se:SvgParameter>
