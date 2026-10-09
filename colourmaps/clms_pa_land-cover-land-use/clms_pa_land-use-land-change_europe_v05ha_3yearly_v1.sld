@@ -1008,46 +1008,8 @@
             </se:Fill>
           </se:PolygonSymbolizer>
         </se:Rule>
-        <se:Rule>
-          <se:Name>&lt;all other values&gt;</se:Name>
-          <se:Description>
-            <se:Title>&lt;all other values&gt;</se:Title>
-          </se:Description>
-          <se:ElseFilter xmlns:se="http://www.opengis.net/se"/>
-          <se:PolygonSymbolizer>
-            <se:Fill>
-              <se:SvgParameter name="fill">#cddbfa</se:SvgParameter>
-            </se:Fill>
-          </se:PolygonSymbolizer>
-        </se:Rule>
-        <se:Rule>
-          <se:TextSymbolizer>
-            <se:Label>
-              <!--SE Export for CODE_4_21 not implemented yet-->Placeholder</se:Label>
-            <se:Font>
-              <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-              <se:SvgParameter name="font-size">10</se:SvgParameter>
-            </se:Font>
-            <se:LabelPlacement>
-              <se:PointPlacement>
-                <se:AnchorPoint>
-                  <se:AnchorPointX>0.5</se:AnchorPointX>
-                  <se:AnchorPointY>0.5</se:AnchorPointY>
-                </se:AnchorPoint>
-              </se:PointPlacement>
-            </se:LabelPlacement>
-            <se:Halo>
-              <se:Radius>0.5</se:Radius>
-              <se:Fill>
-                <se:SvgParameter name="fill">#ffffff</se:SvgParameter>
-              </se:Fill>
-            </se:Halo>
-            <se:Fill>
-              <se:SvgParameter name="fill">#000000</se:SvgParameter>
-            </se:Fill>
-            <se:Priority>1000</se:Priority>
-          </se:TextSymbolizer>
-        </se:Rule>
+        
+        
       </se:FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

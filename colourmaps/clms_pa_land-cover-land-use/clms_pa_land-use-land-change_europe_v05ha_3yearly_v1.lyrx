@@ -8,7 +8,7 @@
   "layerDefinitions": [
     {
       "type": "CIMFeatureLayer",
-      "name": "PA2021 Symbology — CODE_4_21 (Pro 3.5 compatible)",
+      "name": "PA2021 Symbology — CODE_4_21",
       "uRI": "CIMPATH=map/PA2021_Symbology_CODE_4_21.xml",
       "sourceModifiedTime": {
         "type": "TimeInstant"
@@ -69,28 +69,9 @@
       "labelClasses": [],
       "renderer": {
         "type": "CIMUniqueValueRenderer",
-        "defaultLabel": "No data / other values",
-        "defaultSymbol": {
-          "type": "CIMSymbolReference",
-          "symbol": {
-            "type": "CIMPolygonSymbol",
-            "symbolLayers": [
-              {
-                "type": "CIMSolidFill",
-                "enable": true,
-                "color": {
-                  "type": "CIMRGBColor",
-                  "values": [
-                    0,
-                    0,
-                    0,
-                    0
-                  ]
-                }
-              }
-            ]
-          }
-        },
+        "fields": [
+          "CODE_4_21"
+        ],
         "groups": [
           {
             "type": "CIMUniqueValueGroup",
@@ -2165,12 +2146,7 @@
           }
         ],
         "useDefaultSymbol": true,
-        "valueExpressionInfo": {
-          "type": "CIMExpressionInfo",
-          "title": "CODE_4_21 (Long / Big Integer compatible)",
-          "expression": "return Text($feature.CODE_4_21, '0000');",
-          "returnType": "String"
-        }
+        "isDefaultSymbolVisible": false
       },
       "scaleSymbols": true,
       "snappable": true

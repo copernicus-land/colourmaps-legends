@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC "http://mrcc.com/qgis.dtd" "SYSTEM">
-<qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" simplifyLocal="1" maxScale="0" simplifyDrawingHints="1" autoRefreshMode="Disabled" simplifyDrawingTol="1" minScale="0" simplifyMaxScale="1" autoRefreshTime="0" readOnly="0" symbologyReferenceScale="-1" labelsEnabled="1" version="3.42.3-Münster">
+<qgis hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyAlgorithm="0" simplifyLocal="1" maxScale="0" simplifyDrawingHints="1" autoRefreshMode="Disabled" simplifyDrawingTol="1" minScale="0" simplifyMaxScale="1" autoRefreshTime="0" readOnly="0" symbologyReferenceScale="-1" labelsEnabled="0" version="3.42.3-Münster">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
@@ -205,7 +205,6 @@
       <category symbol="58" uuid="{4449f5ab-53ef-4d1c-8c5d-9f9802496577}" type="long" value="8330" render="true" label="8330 Marine inlets and fjords"/>
       <category symbol="59" uuid="{0fcf0f77-0981-46f4-8f31-bde150f7d941}" type="long" value="8410" render="true" label="8410 Open sea"/>
       <category symbol="60" uuid="{b9398ff0-3a2b-4966-a906-861d7cdb957c}" type="long" value="8420" render="true" label="8420 Coastal waters"/>
-      <category symbol="61" uuid="{72e28e8d-a5c2-4bfe-9b0c-dfab23bcc475}" type="NULL" value="NULL" render="false" label="&lt;all other values&gt;"/>
     </categories>
     <symbols>
       <symbol alpha="1" is_animated="0" force_rhr="0" type="fill" frame_rate="10" clip_to_extent="1" name="0">
@@ -1925,37 +1924,6 @@
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
             <Option type="QString" value="210,230,235,255,rgb:0.82352941176470584,0.90196078431372551,0.92156862745098034,1" name="color"/>
-            <Option type="QString" value="bevel" name="joinstyle"/>
-            <Option type="QString" value="0,0" name="offset"/>
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
-            <Option type="QString" value="MM" name="offset_unit"/>
-            <Option type="QString" value="240,240,240,0,rgb:0.94117647058823528,0.94117647058823528,0.94117647058823528,0" name="outline_color"/>
-            <Option type="QString" value="no" name="outline_style"/>
-            <Option type="QString" value="0" name="outline_width"/>
-            <Option type="QString" value="Point" name="outline_width_unit"/>
-            <Option type="QString" value="solid" name="style"/>
-          </Option>
-          <data_defined_properties>
-            <Option type="Map">
-              <Option type="QString" value="" name="name"/>
-              <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
-            </Option>
-          </data_defined_properties>
-        </layer>
-      </symbol>
-      <symbol alpha="1" is_animated="0" force_rhr="0" type="fill" frame_rate="10" clip_to_extent="1" name="61">
-        <data_defined_properties>
-          <Option type="Map">
-            <Option type="QString" value="" name="name"/>
-            <Option name="properties"/>
-            <Option type="QString" value="collection" name="type"/>
-          </Option>
-        </data_defined_properties>
-        <layer id="{35305e70-5a3b-4f53-807b-cf13f70901cb}" enabled="1" pass="0" class="SimpleFill" locked="0">
-          <Option type="Map">
-            <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
-            <Option type="QString" value="205,219,250,255,rgb:0.80392156862745101,0.85882352941176465,0.98039215686274506,1" name="color"/>
             <Option type="QString" value="bevel" name="joinstyle"/>
             <Option type="QString" value="0,0" name="offset"/>
             <Option type="QString" value="3x:0,0,0,0,0,0" name="offset_map_unit_scale"/>
