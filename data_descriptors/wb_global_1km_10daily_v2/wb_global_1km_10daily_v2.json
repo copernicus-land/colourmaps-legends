@@ -7,8 +7,8 @@
   "linkToCLMS": "",
   "spatialCoverage": "Global",
   "temporalExtent": {
-    "start": "",
-    "end": ""
+    "start": "1998",
+    "end": "present"
   },
   "nominalSpatialResolution": "1km",
   "frequency": "10daily",
