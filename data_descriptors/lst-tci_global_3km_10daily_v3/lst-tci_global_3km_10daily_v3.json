@@ -7,7 +7,7 @@
   "linkToCLMS": "",
   "spatialCoverage": "Global",
   "temporalExtent": {
-    "start": "",
+    "start": "2018",
     "end": "present"
   },
   "nominalSpatialResolution": "3km",
