@@ -8,7 +8,7 @@
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2021",
-    "end": "present"
+    "end": "2026"
   },
   "nominalSpatialResolution": "5km",
   "frequency": "10daily",
