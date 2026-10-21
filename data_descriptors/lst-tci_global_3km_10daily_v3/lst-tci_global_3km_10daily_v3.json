@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/land_surface_temperature/lst-tci_global_3km_10daily_v3",
   "browserName": "LST TCI 3km 10-daily V3",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Land Surface Temperature",
-  "collectionDescription": "Provides Land Surface Temperature estimates at global scale, at a spatial resolution of ~3 km. More information here.",
+  "collectionDescription": "Provides 10-daily Land Surface Temperature Synthesis and Thermal Condition Index at global scale, at a spatial resolution of ~3km. More information here",
   "linkToCLMS": "",
   "spatialCoverage": "Global",
   "temporalExtent": {
