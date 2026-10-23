@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/snow_cover_extent/sce_europe_500m_daily_v1",
   "browserName": "SCE 500m daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Snow, Snow Cover Extent",
-  "collectionDescription": "Provides daily Snow Cover Extent for Europe, at a spatial resolution of ~500m.",
+  "collectionDescription": "Provides daily Snow Cover Extent for Europe, at a spatial resolution of ~500 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/snow/snow-cover-extent-europe-v1-0-500m",
   "spatialCoverage": "Europe",
   "temporalExtent": {

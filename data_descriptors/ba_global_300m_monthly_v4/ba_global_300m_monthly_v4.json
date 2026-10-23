@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/burnt_area/ba_global_300m_monthly_v4",
   "browserName": "BA 300m monthly V4",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Burnt Area",
-  "collectionDescription": "Identify burn scars at global scale, at a spatial resolution of ~300m, on a monthly basis. In addition to the date of burn, the burnt fraction of the pixel is also provided; both are associated with quality indicators.",
+  "collectionDescription": "Identify burn scars at global scale, at a spatial resolution of ~300 m, on a monthly basis. In addition to the date of burn, the burnt fraction of the pixel is also provided; both are associated with quality indicators.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/burnt-area-v4-monthly-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

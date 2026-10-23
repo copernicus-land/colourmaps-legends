@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_indices/ndvi-lts_global_1km_10daily_v3",
   "browserName": "NDVI LTS 1km 10-daily V3",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Indices, NDVI LTS 1km 10-daily V3",
-  "collectionDescription": "Provides the Long-Term Statistics of the Normalized Difference Vegetation Index. Every 10-days, minimum, median, maximum and mean are available at global scale, at a spatial resolution of ~1km over the 21-years period 1999-2019.",
+  "collectionDescription": "Provides the Long-Term Statistics of the Normalized Difference Vegetation Index. Every 10-days, minimum, median, maximum and mean are available at global scale, at a spatial resolution of ~1 km over the 21-years period 1999-2019.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/normalised-difference-vegetation-long-term-statistics-v3-0-1km",
   "spatialCoverage": "Global",
   "temporalExtent": {

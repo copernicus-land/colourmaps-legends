@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/land_surface_temperature/lst_global_5km_hourly_v2",
   "browserName": "LST 5km hourly V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Land Surface Temperature",
-  "collectionDescription": "Provides hourly Land Surface Temperature estimates at global scale, at a spatial resolution of ~5km.",
+  "collectionDescription": "Provides hourly Land Surface Temperature estimates at global scale, at a spatial resolution of ~5 km.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/temperature-and-reflectance/hourly-land-surface-temperature-global-v2-0-5km",
   "spatialCoverage": "Global",
   "temporalExtent": {
