@@ -28,7 +28,7 @@
     },
     {
       "fileName": "LWQ300-TSI",
-      "layerBrowserName": "TSI",
+      "layerBrowserName": "Trophic State Index",
       "shortDescription": "Trophic State Index",
       "longDescription": "Trophic State Index of lake water.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-reproc_global_300m_10daily_v1/clms_global_lwq_300m_v1_10daily-reproc-trophic_state_index.sld",
@@ -40,7 +40,7 @@
     },
     {
       "fileName": "LWQ300-RW",
-      "layerBrowserName": "Rw",
+      "layerBrowserName": "Water-leaving Reflectance",
       "shortDescription": "Water-leaving reflectance",
       "longDescription": "Water-leaving reflectance at representative wavelengths.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-reproc_global_300m_10daily_v1/clms_global_lwq_300m_v1_10daily-reproc-Rw.sld",

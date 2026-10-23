@@ -17,7 +17,7 @@
     {
       "fileName": "FAPAR1KM-FAPAR",
       "layerBrowserName": "FAPAR",
-      "shortDescription": "Fraction of Absorbed PAR",
+      "shortDescription": "Fraction of Absorbed Photosynthetically Active Radiation",
       "longDescription": "FAPAR quantifies the fraction of the solar radiation absorbed by live leaves for photosynthesis.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fapar_global_1km_10daily_v2/clms_global_fapar_1km_v2_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_fapar_1km_v2_10daily.png",
@@ -28,7 +28,7 @@
     },
     {
       "fileName": "FAPAR1KM-QFLAG",
-      "layerBrowserName": "",
+      "layerBrowserName": "Quality Flag",
       "shortDescription": "",
       "longDescription": "",
       "colourMapLink": "",

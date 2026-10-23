@@ -28,7 +28,7 @@
     },
     {
       "fileName": "NDVI-NOBS",
-      "layerBrowserName": "NOBS",
+      "layerBrowserName": "Number of Observations",
       "shortDescription": "Number of observations",
       "longDescription": "Number of observations used in the compositing.",
       "colourMapLink": "",
@@ -40,7 +40,7 @@
     },
     {
       "fileName": "NDVI-QFLAG",
-      "layerBrowserName": "",
+      "layerBrowserName": "Quality Flag",
       "shortDescription": "",
       "longDescription": "",
       "colourMapLink": "",

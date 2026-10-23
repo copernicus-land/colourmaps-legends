@@ -40,7 +40,7 @@
     },
     {
       "fileName": "NDVI300-NOBS",
-      "layerBrowserName": "NOBS",
+      "layerBrowserName": "Number of Observations",
       "shortDescription": "Number of clear-sky surface reflectance in the dekad time window.",
       "longDescription": "Number of clear-sky surface reflectance used for the inversion of the bidirectional reflectance distribution function.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ndvi_global_300m_10daily_v2/clms_global_ndvi-nobs_300m_v2_10daily.sld",
@@ -52,7 +52,7 @@
     },
     {
       "fileName": "NDVI300-QFLAG",
-      "layerBrowserName": "QFLAG",
+      "layerBrowserName": "Quality Flag",
       "shortDescription": "Quality flag associated to NDVI",
       "longDescription": "Quality flag associated to NDVI, describing the quality of the inversion of the bidirectional reflectance distribution function.",
       "colourMapLink": "",

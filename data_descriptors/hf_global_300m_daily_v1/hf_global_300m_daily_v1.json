@@ -40,7 +40,7 @@
     },
     {
       "fileName": "HF-OT",
-      "layerBrowserName": "HF-OT",
+      "layerBrowserName": "Overpass Time",
       "shortDescription": "Thermal image acquisition overpass time",
       "longDescription": "Per-pixel timestamp, in UTC, at which the Sentinel-3 SLSTR thermal image was acquired on a given day. This is also the time of day for which the instantaneous sensible (H) and latent (LE) heat fluxes are modelled by the TSEB-PT model, since TSEB-PT produces instantaneous fluxes at the moment of thermal image acquisition.",
       "colourMapLink": "",

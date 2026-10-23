@@ -196,7 +196,7 @@
     },
     {
       "fileName": "S1_an_toc",
-      "layerBrowserName": "Surface Reflectance S1_an",
+      "layerBrowserName": "Surface Reflectance S1",
       "shortDescription": "Surface Reflectance Sentinel-3 SLSTR band S1",
       "longDescription": "Atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S1 (555 nm, A stripe, nadir view).",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/toc_global_300m_daily_v2/clms_global_toc_300m_v2_daily.sld",
@@ -208,7 +208,7 @@
     },
     {
       "fileName": "S2_an_toc",
-      "layerBrowserName": "Surface Reflectance S2_an",
+      "layerBrowserName": "Surface Reflectance S2",
       "shortDescription": "Surface Reflectance Sentinel-3 SLSTR band S2",
       "longDescription": "Atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S2 (659 nm, A stripe, nadir view).",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/toc_global_300m_daily_v2/clms_global_toc_300m_v2_daily.sld",
@@ -220,7 +220,7 @@
     },
     {
       "fileName": "S3_an_toc",
-      "layerBrowserName": "Surface Reflectance S3_an",
+      "layerBrowserName": "Surface Reflectance S3",
       "shortDescription": "Surface Reflectance Sentinel-3 SLSTR band S3",
       "longDescription": "Atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S3 (865 nm, A stripe, nadir view).",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/toc_global_300m_daily_v2/clms_global_toc_300m_v2_daily.sld",
@@ -232,7 +232,7 @@
     },
     {
       "fileName": "S5_an_toc",
-      "layerBrowserName": "Surface Reflectance S5_an",
+      "layerBrowserName": "Surface Reflectance S5",
       "shortDescription": "Surface Reflectance Sentinel-3 SLSTR band S5",
       "longDescription": "Atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S5 (1610 nm, A stripe, nadir view).",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/toc_global_300m_daily_v2/clms_global_toc_300m_v2_daily.sld",
@@ -244,7 +244,7 @@
     },
     {
       "fileName": "S6_an_toc",
-      "layerBrowserName": "Surface Reflectance S6_an",
+      "layerBrowserName": "Surface Reflectance S6",
       "shortDescription": "Surface Reflectance Sentinel-3 SLSTR band S6",
       "longDescription": "Atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S6 (2250 nm, A stripe, nadir view).",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/toc_global_300m_daily_v2/clms_global_toc_300m_v2_daily.sld",
@@ -436,7 +436,7 @@
     },
     {
       "fileName": "S1_an_toc_error",
-      "layerBrowserName": "Uncertainties of Surface Reflectance S1_an",
+      "layerBrowserName": "Uncertainties of Surface Reflectance S1",
       "shortDescription": "Uncertainties of Surface Reflectance Sentinel-3 SLSTR band S1",
       "longDescription": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S1 (555 nm, A stripe, nadir view).",
       "colourMapLink": "",
@@ -448,7 +448,7 @@
     },
     {
       "fileName": "S2_an_toc_error",
-      "layerBrowserName": "Uncertainties of Surface Reflectance S2_an",
+      "layerBrowserName": "Uncertainties of Surface Reflectance S2",
       "shortDescription": "Uncertainties of Surface Reflectance Sentinel-3 SLSTR band S2",
       "longDescription": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S2 (659 nm, A stripe, nadir view).",
       "colourMapLink": "",
@@ -460,7 +460,7 @@
     },
     {
       "fileName": "S3_an_toc_error",
-      "layerBrowserName": "Uncertainties of Surface Reflectance S3_an",
+      "layerBrowserName": "Uncertainties of Surface Reflectance S3",
       "shortDescription": "Uncertainties of Surface Reflectance Sentinel-3 SLSTR band S3",
       "longDescription": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S3 (865 nm, A stripe, nadir view).",
       "colourMapLink": "",
@@ -472,7 +472,7 @@
     },
     {
       "fileName": "S5_an_toc_error",
-      "layerBrowserName": "Uncertainties of Surface Reflectance S5_an",
+      "layerBrowserName": "Uncertainties of Surface Reflectance S5",
       "shortDescription": "Uncertainties of Surface Reflectance Sentinel-3 SLSTR band S5",
       "longDescription": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S5 (1610 nm, A stripe, nadir view).",
       "colourMapLink": "",
@@ -484,7 +484,7 @@
     },
     {
       "fileName": "S6_an_toc_error",
-      "layerBrowserName": "Uncertainties of Surface Reflectance S6_an",
+      "layerBrowserName": "Uncertainties of Surface Reflectance S6",
       "shortDescription": "Uncertainties of Surface Reflectance Sentinel-3 SLSTR band S6",
       "longDescription": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S6 (2250 nm, A stripe, nadir view).",
       "colourMapLink": "",

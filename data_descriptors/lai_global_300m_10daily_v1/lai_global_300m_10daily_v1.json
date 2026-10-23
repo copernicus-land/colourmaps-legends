@@ -40,7 +40,7 @@
     },
     {
       "fileName": "LAI300-NOBS",
-      "layerBrowserName": "NOBS",
+      "layerBrowserName": "Number of Observations",
       "shortDescription": "Number of valid instantaneous LAI values",
       "longDescription": "Number of available valid instantaneous LAI values in the compositing window.",
       "colourMapLink": "",
@@ -52,7 +52,7 @@
     },
     {
       "fileName": "LAI300-LBEFORE",
-      "layerBrowserName": "LENGTH_BEFORE",
+      "layerBrowserName": "Semi-period Length Before",
       "shortDescription": "Length of semi-period before the date",
       "longDescription": "Length in days of the semi-period before the dekadal date of the compositing window [days].",
       "colourMapLink": "",
@@ -64,7 +64,7 @@
     },
     {
       "fileName": "LAI300-LAFTER",
-      "layerBrowserName": "LENGTH_AFTER",
+      "layerBrowserName": "Semi-period Length After",
       "shortDescription": "Length of semi-period after the date",
       "longDescription": "Length in days of the semi-period after the dekadal date of the compositing window [days].",
       "colourMapLink": "",
@@ -76,7 +76,7 @@
     },
     {
       "fileName": "LAI300-QFLAG",
-      "layerBrowserName": "",
+      "layerBrowserName": "Quality Flag",
       "shortDescription": "",
       "longDescription": "",
       "colourMapLink": "",

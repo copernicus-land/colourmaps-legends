@@ -16,8 +16,8 @@
   "layers": [
     {
       "fileName": "RwDayNum_rep",
-      "layerBrowserName": "RwDayNum_rep",
-      "shortDescription": "",
+      "layerBrowserName": "Representative Reflectance Day",
+      "shortDescription": "Age in days, after the start of the 10-daily period, of the most representative water-leaving reflectance spectrum.",
       "longDescription": "",
       "colourMapLink": "",
       "legendLink": "",
@@ -28,8 +28,8 @@
     },
     {
       "fileName": "Rw_relative_uncertainy",
-      "layerBrowserName": "Rw_relative_uncertainy",
-      "shortDescription": "",
+      "layerBrowserName": "Reflectance Relative Uncertainty",
+      "shortDescription": "Relative uncertainty of the fully normalised water-leaving reflectance at the reflectance peak.",
       "longDescription": "",
       "colourMapLink": "",
       "legendLink": "",
@@ -40,8 +40,8 @@
     },
     {
       "fileName": "Rw_relative_uncertainy_unbiased",
-      "layerBrowserName": "Rw_relative_uncertainy_unbiased",
-      "shortDescription": "",
+      "layerBrowserName": "Reflectance Relative Uncertainty (unbiased)",
+      "shortDescription": "Relative unbiased uncertainty of the fully normalised water-leaving reflectance at the reflectance peak.",
       "longDescription": "",
       "colourMapLink": "",
       "legendLink": "",
@@ -64,8 +64,8 @@
     },
     {
       "fileName": "chla_uncertainty",
-      "layerBrowserName": "chla_uncertainty",
-      "shortDescription": "",
+      "layerBrowserName": "Chlorophyll-a Uncertainty",
+      "shortDescription": "Mean relative uncertainty of the chlorophyll-a concentration in the 10-daily period.",
       "longDescription": "",
       "colourMapLink": "",
       "legendLink": "",
@@ -76,8 +76,8 @@
     },
     {
       "fileName": "first_obs",
-      "layerBrowserName": "first_obs",
-      "shortDescription": "",
+      "layerBrowserName": "First Observation",
+      "shortDescription": "Age in days, after the start of the 10-daily period, of the first observation.",
       "longDescription": "",
       "colourMapLink": "",
       "legendLink": "",
@@ -100,8 +100,8 @@
     },
     {
       "fileName": "last_obs",
-      "layerBrowserName": "last_obs",
-      "shortDescription": "",
+      "layerBrowserName": "Last Observation",
+      "shortDescription": "Age in days, after the start of the 10-daily period, of the last observation.",
       "longDescription": "",
       "colourMapLink": "",
       "legendLink": "",
@@ -112,8 +112,8 @@
     },
     {
       "fileName": "num_obs",
-      "layerBrowserName": "num_obs",
-      "shortDescription": "",
+      "layerBrowserName": "Number of Observations",
+      "shortDescription": "Number of observations in the 10-daily period (including masked and invalid observations).",
       "longDescription": "",
       "colourMapLink": "",
       "legendLink": "",
@@ -124,8 +124,8 @@
     },
     {
       "fileName": "quality_flags",
-      "layerBrowserName": "quality_flags",
-      "shortDescription": "",
+      "layerBrowserName": "Quality Flags",
+      "shortDescription": "Flag band showing why input observations to a pixel have been excluded.",
       "longDescription": "",
       "colourMapLink": "",
       "legendLink": "",
@@ -136,7 +136,7 @@
     },
     {
       "fileName": "Rw400_rep",
-      "layerBrowserName": "Rw400_rep",
+      "layerBrowserName": "Water-leaving Reflectance 400 nm",
       "shortDescription": "Representative Rw at 400nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 400nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -148,7 +148,7 @@
     },
     {
       "fileName": "Rw412_rep",
-      "layerBrowserName": "Rw412_rep",
+      "layerBrowserName": "Water-leaving Reflectance 412 nm",
       "shortDescription": "Representative Rw at 412nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 412nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -160,7 +160,7 @@
     },
     {
       "fileName": "Rw443_rep",
-      "layerBrowserName": "Rw443_rep",
+      "layerBrowserName": "Water-leaving Reflectance 443 nm",
       "shortDescription": "Representative Rw at 443nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 443nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -172,7 +172,7 @@
     },
     {
       "fileName": "Rw490_rep",
-      "layerBrowserName": "Rw490_rep",
+      "layerBrowserName": "Water-leaving Reflectance 490 nm",
       "shortDescription": "Representative Rw at 490nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 490nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -184,7 +184,7 @@
     },
     {
       "fileName": "Rw510_rep",
-      "layerBrowserName": "Rw510_rep",
+      "layerBrowserName": "Water-leaving Reflectance 510 nm",
       "shortDescription": "Representative Rw at 510nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 510nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -196,7 +196,7 @@
     },
     {
       "fileName": "Rw560_rep",
-      "layerBrowserName": "Rw560_rep",
+      "layerBrowserName": "Water-leaving Reflectance 560 nm",
       "shortDescription": "Representative Rw at 560nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 560nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -208,7 +208,7 @@
     },
     {
       "fileName": "Rw620_rep",
-      "layerBrowserName": "Rw620_rep",
+      "layerBrowserName": "Water-leaving Reflectance 620 nm",
       "shortDescription": "Representative Rw at 620nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 620nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -220,7 +220,7 @@
     },
     {
       "fileName": "Rw665_rep",
-      "layerBrowserName": "Rw665_rep",
+      "layerBrowserName": "Water-leaving Reflectance 665 nm",
       "shortDescription": "Representative Rw at 665nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 665nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -232,7 +232,7 @@
     },
     {
       "fileName": "Rw674_rep",
-      "layerBrowserName": "Rw674_rep",
+      "layerBrowserName": "Water-leaving Reflectance 674 nm",
       "shortDescription": "Representative Rw at 674nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 674nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -244,7 +244,7 @@
     },
     {
       "fileName": "Rw681_rep",
-      "layerBrowserName": "Rw681_rep",
+      "layerBrowserName": "Water-leaving Reflectance 681 nm",
       "shortDescription": "Representative Rw at 681nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 681nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -256,7 +256,7 @@
     },
     {
       "fileName": "Rw709_rep",
-      "layerBrowserName": "Rw709_rep",
+      "layerBrowserName": "Water-leaving Reflectance 709 nm",
       "shortDescription": "Representative Rw at 709nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 709nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -268,7 +268,7 @@
     },
     {
       "fileName": "Rw754_rep",
-      "layerBrowserName": "Rw754_rep",
+      "layerBrowserName": "Water-leaving Reflectance 754 nm",
       "shortDescription": "Representative Rw at 754nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 754nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -280,7 +280,7 @@
     },
     {
       "fileName": "Rw779_rep",
-      "layerBrowserName": "Rw779_rep",
+      "layerBrowserName": "Water-leaving Reflectance 779 nm",
       "shortDescription": "Representative Rw at 779nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 779nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -292,7 +292,7 @@
     },
     {
       "fileName": "Rw885_rep",
-      "layerBrowserName": "Rw885_rep",
+      "layerBrowserName": "Water-leaving Reflectance 885 nm",
       "shortDescription": "Representative Rw at 885nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 885nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -304,7 +304,7 @@
     },
     {
       "fileName": "Rw900_rep",
-      "layerBrowserName": "Rw900_rep",
+      "layerBrowserName": "Water-leaving Reflectance 900 nm",
       "shortDescription": "Representative Rw at 900nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 900nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -316,7 +316,7 @@
     },
     {
       "fileName": "Rw1020_rep",
-      "layerBrowserName": "Rw1020_rep",
+      "layerBrowserName": "Water-leaving Reflectance 1020 nm",
       "shortDescription": "Representative Rw at 1020nm.",
       "longDescription": "Representative spectrum of fully normalised water-leaving reflectance at 1020nm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_300m_10daily_v2.1/clms_global_lwq_300m_v2.1_10daily-Rw.sld",
@@ -352,8 +352,8 @@
     },
     {
       "fileName": "tsm_uncertainy",
-      "layerBrowserName": "tsm_uncertainty",
-      "shortDescription": "",
+      "layerBrowserName": "Total Suspended Matter Uncertainty",
+      "shortDescription": "Mean relative uncertainty of the total suspended matter concentration in the 10-daily period.",
       "longDescription": "",
       "colourMapLink": "",
       "legendLink": "",

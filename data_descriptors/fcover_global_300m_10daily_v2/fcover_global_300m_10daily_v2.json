@@ -40,7 +40,7 @@
     },
     {
       "fileName": "FCOVER300-NOBS",
-      "layerBrowserName": "NOBS",
+      "layerBrowserName": "Number of Observations",
       "shortDescription": "Number of valid instantaneous FCOVER values",
       "longDescription": "This quality indicator gives the number of valid FCOVER observations available in the compositing window: the higher the count, the more robust the resulting dekadal estimate generally is.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fcover_global_300m_10daily_v2/clms_global_fcover-nobs_300m_v2_10daily.sld",
@@ -52,7 +52,7 @@
     },
     {
       "fileName": "FCOVER300-LBEFORE",
-      "layerBrowserName": "LENGTH_BEFORE",
+      "layerBrowserName": "Semi-period Length Before",
       "shortDescription": "Length of semi-period before the date",
       "longDescription": "Length in days of the semi-period before the dekadal date of the compositing window [days].",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fcover_global_300m_10daily_v2/clms_global_fcover-lbefore_300m_v2_10daily.sld",
@@ -64,7 +64,7 @@
     },
     {
       "fileName": "FCOVER300-LAFTER",
-      "layerBrowserName": "LENGTH_AFTER",
+      "layerBrowserName": "Semi-period Length After",
       "shortDescription": "Length of semi-period after the date",
       "longDescription": "Length in days of the semi-period after the dekadal date of the compositing window [days].",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fcover_global_300m_10daily_v2/clms_global_fcover-lafter_300m_v2_10daily.sld",
@@ -76,7 +76,7 @@
     },
     {
       "fileName": "FCOVER300-QFLAG",
-      "layerBrowserName": "QFLAG",
+      "layerBrowserName": "Quality Flag",
       "shortDescription": "Quality flag of FCOVER",
       "longDescription": "The quality flag (QFLAG) summarises, for each pixel, the status of the FCOVER estimate — for instance whether the value is valid, was derived from a sufficient number of observations, or comes from the backup algorithm — allowing users to filter the dataset according to their quality requirements.",
       "colourMapLink": "",

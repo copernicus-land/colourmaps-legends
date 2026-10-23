@@ -49,10 +49,10 @@
       "scale": "0",
       "offSet": "0",
       "display": 0
-    },    
+    },
     {
       "fileName": "LST-QFLAG",
-      "layerBrowserName": "",
+      "layerBrowserName": "Quality Flag",
       "shortDescription": "",
       "longDescription": "",
       "colourMapLink": "",
