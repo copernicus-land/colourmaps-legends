@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_phenology_and_productivity_parameters/lsp_global_300m_yearly_v1",
   "browserName": "LSP 300m yearly V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Phenology and Productivity Parameters",
-  "collectionDescription": "Provides yearly Land Surface Phenology parameters at global scale, at a spatial resolution of ~300 m, including season start/end dates, amplitudes, and productivity measures. More information here.",
+  "collectionDescription": "Provides yearly Land Surface Phenology parameters at global scale, at a spatial resolution of ~300 m, including season start/end dates, amplitudes, and productivity measures.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/land-surface-phenology-2023-present-raster-300m-global-yearly-version-1",
   "spatialCoverage": "Global",
   "temporalExtent": {

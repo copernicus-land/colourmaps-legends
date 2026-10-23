@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/dry-gross_dry_matter_productivity/dmp_global_1km_10daily_v2",
   "browserName": "DMP 1km 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Dry/Gross Dry Matter Productivity",
-  "collectionDescription": "Provides information about the overall growth rate, or net dry biomass increase, of the vegetation. It is equivalent to Net Primary Production but expressed in kg of dry matter per hectare and per day. Every 10-days, estimates are available at global scale, at a spatial resolution of ~1km. More information here.",
+  "collectionDescription": "Provides information about the overall growth rate, or net dry biomass increase, of the vegetation. It is equivalent to Net Primary Production but expressed in kg of dry matter per hectare and per day. Every 10-days, estimates are available at global scale, at a spatial resolution of ~1km.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/dry-matter-productivity-v2-0-1km",
   "spatialCoverage": "Global",
   "temporalExtent": {

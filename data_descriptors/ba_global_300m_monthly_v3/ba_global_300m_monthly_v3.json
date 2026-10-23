@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/burnt_area/ba_global_300m_monthly_v3",
   "browserName": "BA 300m monthly V3",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Burnt Area",
-  "collectionDescription": "Provides monthly Burnt Area estimates at global scale, at a spatial resolution of ~300 m. More information here.",
+  "collectionDescription": "Provides monthly Burnt Area estimates at global scale, at a spatial resolution of ~300 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/burnt-area-v3-1-monthly-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

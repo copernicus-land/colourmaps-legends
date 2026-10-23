@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/top-of-canopy_reflectances/toc_global_300m_daily_v2",
   "browserName": "TOC 300m daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Top-of-Canopy Reflectances",
-  "collectionDescription": "Provides daily Top of Canopy Reflectance at global scale, at a spatial resolution of ~300 m. More information here.",
+  "collectionDescription": "Provides daily Top of Canopy Reflectance at global scale, at a spatial resolution of ~300 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/temperature-and-reflectance/surface-reflectance-2018-present-raster-300m-global-daily-version-2.3",
   "spatialCoverage": "Global",
   "temporalExtent": {

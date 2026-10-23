@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_properties/fcover_global_300m_10daily_v2",
   "browserName": "FCOVER 300m 10-daily V2.0",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Properties",
-  "collectionDescription": "Provides information on the Fraction of green Vegetation Cover, the fraction of ground covered by green vegetation. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m, from January 2014 to the present. More information here.",
+  "collectionDescription": "Provides information on the Fraction of green Vegetation Cover, the fraction of ground covered by green vegetation. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m, from January 2014 to the present.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/fraction-of-green-vegetation-cover-v2-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/evapotranspiration/eta_global_300m_10daily_v1",
   "browserName": "ETA 300m 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Evapotranspiration",
-  "collectionDescription": "Provides information about actual evapotranspiration, the sum of plant transpiration and evaporation from land surface to atmosphere. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m. More information here.",
+  "collectionDescription": "Provides information about actual evapotranspiration, the sum of plant transpiration and evaporation from land surface to atmosphere. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/evapotranspiration/evapotranspiration-2025-present-raster-300m-global-10-daily-version-1",
   "spatialCoverage": "Global",
   "temporalExtent": {

@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/net-gross_primary_production/gpp_global_300m_10daily_v1",
   "browserName": "GPP 300m 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Net/Gross Primary Production",
-  "collectionDescription": "Provides information about the Gross Primary Production, the total amount of carbon fixed by plants through photosynthesis per unit area and time. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m. More information here.",
+  "collectionDescription": "Provides information about the Gross Primary Production, the total amount of carbon fixed by plants through photosynthesis per unit area and time. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/gross-primary-production-v1-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

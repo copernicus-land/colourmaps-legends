@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/snow_water_equivalent/swe_northernhemisphere_5km_daily_v1",
   "browserName": "SWE 5km daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Snow, Snow Water Equivalent",
-  "collectionDescription": "Provides daily Snow Water Equivalent estimates for the Northern Hemisphere, at a spatial resolution of ~5 km. More information here.",
+  "collectionDescription": "Provides daily Snow Water Equivalent estimates for the Northern Hemisphere, at a spatial resolution of ~5 km.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/snow/snow-water-equivalent-v1-0-5km",
   "spatialCoverage": "Northern Hemisphere",
   "temporalExtent": {

@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/water_bodies/wb_global_300m_10daily_v1",
   "browserName": "WB 300m 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies",
-  "collectionDescription": "Provides 10-daily Water Bodies detection at global scale, at a spatial resolution of ~300m. More information here.",
+  "collectionDescription": "Provides 10-daily Water Bodies detection at global scale, at a spatial resolution of ~300m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/water-bodies-global-v1-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

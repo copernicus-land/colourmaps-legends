@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/land_surface_temperature/lst-daily-cycle_global_3km_10daily_v3",
   "browserName": "LST Daily Cycle 3km 10-daily V3",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Land Surface Temperature",
-  "collectionDescription": "Provides Land Surface Temperature estimates at global scale, at a spatial resolution of ~3 km. More information here.",
+  "collectionDescription": "Provides Land Surface Temperature estimates at global scale, at a spatial resolution of ~3 km.",
   "linkToCLMS": "",
   "spatialCoverage": "Global",
   "temporalExtent": {

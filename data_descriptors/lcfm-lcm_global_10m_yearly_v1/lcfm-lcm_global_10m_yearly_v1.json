@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/landcover_landuse/dynamic_land_cover/lcm_global_10m_yearly_v1",
   "browserName": "LCM 10m yearly V1",
   "browserSearchPath": "CLMS Land Cover/Land Use, Dynamic Land Cover",
-  "collectionDescription": "Provides yearly global land cover classification at 10 m resolution with 11 land cover classes. More information here.",
+  "collectionDescription": "Provides yearly global land cover classification at 10 m resolution with 11 land cover classes.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/land-cover-2020-raster-10-m-global-annual",
   "spatialCoverage": "Global",
   "temporalExtent": {

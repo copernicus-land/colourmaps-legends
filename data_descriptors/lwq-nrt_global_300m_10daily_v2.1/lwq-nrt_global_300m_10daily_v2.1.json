@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/lake_water_quality/lwq-nrt_global_300m_10daily_v2.1",
   "browserName": "LWQ NRT 300m 10-daily V2.1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Lake Water Quality",
-  "collectionDescription": "Provides 10-daily Lake Water Quality (NRT) parameters at global scale, at a spatial resolution of ~300m. More information here.",
+  "collectionDescription": "Provides 10-daily Lake Water Quality (NRT) parameters at global scale, at a spatial resolution of ~300m.",
   "linkToCLMS": "",
   "spatialCoverage": "Global",
   "temporalExtent": {
