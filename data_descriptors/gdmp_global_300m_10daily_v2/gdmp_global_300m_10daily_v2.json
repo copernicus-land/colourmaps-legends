@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/dry-gross_dry_matter_productivity/gdmp_global_300m_10daily_v2",
   "browserName": "GDMP 300m 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Dry/Gross Dry Matter Productivity",
-  "collectionDescription": "Provides information about the total organic matter produced by plant photosynthesis. It is expressed in kg of dry matter per hectare and per day. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m.",
+  "collectionDescription": "This dataset represents the total amount of dry matter produced by land plants per unit of time through photosynthesis, without taking plant respiration into account. It is equivalent to Gross Primary Production (GPP) but expressed in kg of dry matter per hectare per day. Global estimates are produced every 10 days at a spatial resolution of approximately 300 m, covering the period from January 2014 to the present.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/gross-dry-matter-productivity-v2-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {
@@ -17,14 +17,26 @@
     {
       "fileName": "GDMP300-GDMP",
       "layerBrowserName": "GDMP",
-      "shortDescription": "Gross Dry Matter Productivity (kg DM/ha/day)",
-      "longDescription": "Gross Dry Matter Productivity represents the total organic matter produced by plant photosynthesis. It is expressed in kg of Dry Matter per hectare and per day (kg DM/ha/day).",
+      "shortDescription": "Gross Dry Matter Productivity (kg/ha/day)",
+      "longDescription": "Gross Dry Matter Productivity (GDMP) represents the total amount of dry matter produced by vegetation through photosynthesis, expressed in kg/ha/day.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/gdmp_global_300m_10daily_v2/clms_global_gdmp_300m_v2_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_gdmp_1km_v2_10daily.png",
-      "units": "[kg DM/ha/day]",
+      "units": "[kg/ha/day]",
       "scale": "0.02",
       "offSet": "0",
       "display": 1
+    },
+    {
+      "fileName": "GDMP300-QFLAG",
+      "layerBrowserName": "GDMP Quality Flag",
+      "shortDescription": "Quality Flag of the Gross Dry Matter Productivity",
+      "longDescription": "A per-pixel quality flag (QFLAG) describing the status of the Gross Dry Matter Productivity retrieval, derived from the quality indicator of the input FAPAR product.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "",
+      "scale": "",
+      "offSet": "",
+      "display": 0
     }
   ]
 }

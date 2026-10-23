@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/evapotranspiration/hf_global_300m_daily_v1",
   "browserName": "HF 300m daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Evapotranspiration",
-  "collectionDescription": "Provides information about surface energy heat fluxes: sensible heat flux (H) and latent heat flux (LE). Estimates are available daily at global scale, at a spatial resolution of ~300 m.",
+  "collectionDescription": "The latent heat flux (LE) represents the energy used for evaporation and transpiration, with higher values indicating wetter surfaces, while the sensible heat flux (H) represents the energy transferred by convection, with higher values indicating drier surfaces. Estimates are computed for each Sentinel-3 overpass — i.e. at daily frequency — and are available globally at a spatial resolution of approximately 300 m, from November 2025 onwards.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/evapotranspiration/heat-flux-2025-present-raster-300-m-global-daily-version-1",
   "spatialCoverage": "Global",
   "temporalExtent": {
@@ -17,7 +17,7 @@
     {
       "fileName": "H-TSEBPT",
       "layerBrowserName": "Sensible Heat Flux",
-      "shortDescription": "Sensible Heat Flux (W/m²)",
+      "shortDescription": "TSEB-PT sensible heat flux",
       "longDescription": "Sensible Heat Flux represents the exchange of heat between the surface and atmosphere through conduction and convection. It is expressed in W/m².",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/hf_global_300m_daily_v1/clms_global_hf-h_300m_v1_daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_hf-h_300m_v1_daily.png",
@@ -29,7 +29,7 @@
     {
       "fileName": "LE-TSEBPT",
       "layerBrowserName": "Latent Heat Flux",
-      "shortDescription": "Latent Heat Flux (W/m²)",
+      "shortDescription": "TSEB-PT latent heat flux",
       "longDescription": "Latent Heat Flux represents the heat flux associated with evapotranspiration from the surface to the atmosphere. It is expressed in W/m².",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/hf_global_300m_daily_v1/clms_global_hf-le_300m_v1_daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_hf-le_300m_v1_daily.png",
@@ -37,6 +37,18 @@
       "scale": "0.1",
       "offSet": "0",
       "display": 1
+    },
+    {
+      "fileName": "HF-OT",
+      "layerBrowserName": "HF-OT",
+      "shortDescription": "Thermal image acquisition overpass time",
+      "longDescription": "Per-pixel timestamp, in UTC, at which the Sentinel-3 SLSTR thermal image was acquired on a given day. This is also the time of day for which the instantaneous sensible (H) and latent (LE) heat fluxes are modelled by the TSEB-PT model, since TSEB-PT produces instantaneous fluxes at the moment of thermal image acquisition.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[seconds since 1970-01-01 UTC]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 0
     }
   ]
 }

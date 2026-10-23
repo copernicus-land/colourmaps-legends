@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/evapotranspiration/eta_global_300m_10daily_v1",
   "browserName": "ETA 300m 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Evapotranspiration",
-  "collectionDescription": "Provides information about actual evapotranspiration, the sum of plant transpiration and evaporation from land surface to atmosphere. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m.",
+  "collectionDescription": "This dataset provides actual evapotranspiration, together with its two components — soil evaporation and canopy transpiration — and accompanying quality indicators. The estimates are derived from two evapotranspiration schemes and an ensemble of models. Dekadal (10-day) estimates are available globally in near real time, at a spatial resolution of approximately 300 m, from November 2025 onwards.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/evapotranspiration/evapotranspiration-2025-present-raster-300m-global-10-daily-version-1",
   "spatialCoverage": "Global",
   "temporalExtent": {
@@ -17,7 +17,7 @@
     {
       "fileName": "ET-ENSEMBLE",
       "layerBrowserName": "ET Ensemble",
-      "shortDescription": "Evapotranspiration (ensemble mean)",
+      "shortDescription": "Ensemble actual evapotranspiration",
       "longDescription": "Mean actual evapotranspiration from the ensemble of models.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-ensemble_300m_v1_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-ensemble_300m_v1_10daily.png",
@@ -29,7 +29,7 @@
     {
       "fileName": "ET-ETLOOK",
       "layerBrowserName": "ET ETLook",
-      "shortDescription": "Evapotranspiration (ETLook model)",
+      "shortDescription": "ETLook actual evapotranspiration",
       "longDescription": "Actual evapotranspiration estimated by the ETLook model.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-etlook_300m_v1_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-etlook_300m_v1_10daily.png",
@@ -41,7 +41,7 @@
     {
       "fileName": "ET-TSEBPT",
       "layerBrowserName": "ET TSEB-PT",
-      "shortDescription": "Evapotranspiration (TSEB-PT model)",
+      "shortDescription": "TSEB-PT evapotranspiration",
       "longDescription": "Actual evapotranspiration estimated by the TSEB-PT model.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-tsebpt_300m_v1_10daily.sld",
       "legendLink": "",
@@ -53,8 +53,8 @@
     {
       "fileName": "ET-STD",
       "layerBrowserName": "ET StDev",
-      "shortDescription": "Standard deviation of ET",
-      "longDescription": "Standard deviation of evapotranspiration across ensemble models.",
+      "shortDescription": "Uncertainty of actual evapotranspiration (model agreement)",
+      "longDescription": "Per-pixel standard deviation between the actual evapotranspiration estimates of the two underlying models, TSEB-PT and ETLook. It expresses the level of agreement between the two schemes: low values indicate that both models produce similar estimates (higher confidence), whereas high values reveal larger divergence and thus greater uncertainty.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-std_300m_v1_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-std_300m_v1_10daily.png",
       "units": "[mm/day]",
@@ -65,7 +65,7 @@
     {
       "fileName": "E-ENSEMBLE",
       "layerBrowserName": "E Ensemble",
-      "shortDescription": "Evaporation (ensemble mean)",
+      "shortDescription": "Ensemble soil evaporation",
       "longDescription": "Mean evaporation from the ensemble of models.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_e-ensemble_300m_v1_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_e-ensemble_300m_v1_10daily.png",
@@ -77,7 +77,7 @@
     {
       "fileName": "E-ETLOOK",
       "layerBrowserName": "E ETLook",
-      "shortDescription": "Evaporation (ETLook model)",
+      "shortDescription": "ETLook soil evaporation",
       "longDescription": "Evaporation estimated by the ETLook model.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_e-etlook_300m_v1_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_e-etlook_300m_v1_10daily.png",
@@ -89,7 +89,7 @@
     {
       "fileName": "E-TSEBPT",
       "layerBrowserName": "E TSEB-PT",
-      "shortDescription": "Evaporation (TSEB-PT model)",
+      "shortDescription": "TSEB-PT soil evaporation",
       "longDescription": "Evaporation estimated by the TSEB-PT model.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_e-tsebpt_300m_v1_10daily.sld",
       "legendLink": "",
@@ -101,8 +101,8 @@
     {
       "fileName": "E-STD",
       "layerBrowserName": "E StDev",
-      "shortDescription": "Standard deviation of E",
-      "longDescription": "Standard deviation of evaporation across ensemble models.",
+      "shortDescription": "Uncertainty of soil evaporation (model agreement)",
+      "longDescription": "Per-pixel standard deviation between the soil evaporation estimates of the two underlying models, TSEB-PT and ETLook. It expresses the level of agreement between the two schemes: low values indicate that both models produce similar estimates (higher confidence), whereas high values reveal larger divergence and thus greater uncertainty.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_e-std_300m_v1_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_e-std_300m_v1_10daily.png",
       "units": "[mm/day]",
@@ -113,7 +113,7 @@
     {
       "fileName": "T-ENSEMBLE",
       "layerBrowserName": "T Ensemble",
-      "shortDescription": "Transpiration (ensemble mean)",
+      "shortDescription": "Ensemble canopy transpiration",
       "longDescription": "Mean transpiration from the ensemble of models.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-ensemble_300m_v1_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-ensemble_300m_v1_10daily.png",
@@ -125,7 +125,7 @@
     {
       "fileName": "T-ETLOOK",
       "layerBrowserName": "T ETLook",
-      "shortDescription": "Transpiration (ETLook model)",
+      "shortDescription": "ETLook canopy transpiration",
       "longDescription": "Transpiration estimated by the ETLook model.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-etlook_300m_v1_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-etlook_300m_v1_10daily.png",
@@ -137,7 +137,7 @@
     {
       "fileName": "T-TSEBPT",
       "layerBrowserName": "T TSEB-PT",
-      "shortDescription": "Transpiration (TSEB-PT model)",
+      "shortDescription": "TSEB-PT canopy transpiration",
       "longDescription": "Transpiration estimated by the TSEB-PT model.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-tsebpt_300m_v1_10daily.sld",
       "legendLink": "",
@@ -149,8 +149,8 @@
     {
       "fileName": "T-STD",
       "layerBrowserName": "T StDev",
-      "shortDescription": "Standard deviation of T",
-      "longDescription": "Standard deviation of transpiration across ensemble models.",
+      "shortDescription": "Uncertainty of canopy transpiration (model agreement)",
+      "longDescription": "Per-pixel standard deviation between the canopy transpiration estimates of the two underlying models, TSEB-PT and ETLook. It expresses the level of agreement between the two schemes: low values indicate that both models produce similar estimates (higher confidence), whereas high values reveal larger divergence and thus greater uncertainty.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-std_300m_v1_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-std_300m_v1_10daily.png",
       "units": "[mm/day]",
@@ -171,10 +171,22 @@
       "display": 1
     },
     {
+      "fileName": "GFD",
+      "layerBrowserName": "GFD",
+      "shortDescription": "Gap-filling distance",
+      "longDescription": "Per-pixel average time lag (days) between the gap-filled evapotranspiration of a dekad and the closest previous valid clear-sky Ensemble-model estimate.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta-gfd_300m_v1_10daily.sld",
+      "legendLink": "",
+      "units": "[days]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 0
+    },
+    {
       "fileName": "FLAG",
-      "layerBrowserName": "FLAG",
-      "shortDescription": "Quality flag",
-      "longDescription": "Quality flag layer.",
+      "layerBrowserName": "Quality Flag",
+      "shortDescription": "Quality flag of Ensemble evapotranspiration",
+      "longDescription": "Per-pixel annotation flag reporting the quality of, or any limitations affecting, the actual evapotranspiration estimated by the Ensemble model. It tells users whether the value for a given dekad was derived directly from clear-sky observations, has been gap-filled (reconstructed from earlier estimates, see the associated gap-filling distance layer), or could not be processed at all.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta-flag_300m_v1_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta-flag_300m_v1_10daily.png",
       "units": "",
