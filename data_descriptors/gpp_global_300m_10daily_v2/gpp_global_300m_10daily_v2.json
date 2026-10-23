@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/net-gross_primary_production/gpp_global_300m_10daily_v2",
   "browserName": "GPP 300m 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Net/Gross Primary Production",
-  "collectionDescription": "Expressed in gC/m²/day, this indicator measures the total carbon fixed by plants through photosynthesis at ecosystem level — the gross carbon input from which the net production (NPP) is obtained after subtracting plant respiration. Global GPP estimates are available every 10 days at a spatial resolution of roughly 300 m, from January 2014 onwards.",
+  "collectionDescription": "Gross Primary Production (GPP), expressed in gC/m²/day, measures the total carbon fixed by plants through photosynthesis at ecosystem level — the gross carbon input from which the net production (NPP) is obtained after subtracting plant respiration. Global GPP estimates are available every 10 days at a spatial resolution of roughly 300 m, from January 2014 onwards.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/gross-primary-production-v2-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

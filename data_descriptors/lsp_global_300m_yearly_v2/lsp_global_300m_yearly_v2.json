@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_phenology_and_productivity_parameters/lsp_global_300m_yearly_v2",
   "browserName": "LSP 300m Yearly V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Phenology and Productivity Parameters",
-  "collectionDescription": "This dataset describes the seasonal growth patterns of the vegetated land surface, as observed from satellite remote sensing. It provides 13 phenological and productivity metrics — such as the start, end and length of the growing season, peak development and seasonal productivity — for up to two growing seasons per year, each accompanied by a quality flag. Annual estimates are available globally at a spatial resolution of approximately 300 m, covering the period from 2014 to the present.",
+  "collectionDescription": "Land Surface Phenology describes the seasonal growth patterns of the vegetated land surface, as observed from satellite remote sensing. It provides 13 phenological and productivity metrics — such as the start, end and length of the growing season, peak development and seasonal productivity — for up to two growing seasons per year, each accompanied by a quality flag. Annual estimates are available globally at a spatial resolution of approximately 300 m, covering the period from 2014 to the present.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/land-surface-phenology-2014-present-raster-300m-global-yearly-version-2",
   "spatialCoverage": "Global",
   "temporalExtent": {

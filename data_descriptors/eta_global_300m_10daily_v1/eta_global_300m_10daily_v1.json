@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/evapotranspiration/eta_global_300m_10daily_v1",
   "browserName": "ETA 300m 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Evapotranspiration",
-  "collectionDescription": "This dataset provides actual evapotranspiration, together with its two components — soil evaporation and canopy transpiration — and accompanying quality indicators. The estimates are derived from two evapotranspiration schemes and an ensemble of models. Dekadal (10-day) estimates are available globally in near real time, at a spatial resolution of approximately 300 m, from November 2025 onwards.",
+  "collectionDescription": "Actual evapotranspiration is provided together with its two components — soil evaporation and canopy transpiration — and accompanying quality indicators. The estimates are derived from two evapotranspiration schemes and an ensemble of models. Dekadal (10-day) estimates are available globally in near real time, at a spatial resolution of approximately 300 m, from November 2025 onwards.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/evapotranspiration/evapotranspiration-2025-present-raster-300m-global-10-daily-version-1",
   "spatialCoverage": "Global",
   "temporalExtent": {

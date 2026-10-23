@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/dry-gross_dry_matter_productivity/gdmp_global_300m_10daily_v2",
   "browserName": "GDMP 300m 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Dry/Gross Dry Matter Productivity",
-  "collectionDescription": "This dataset represents the total amount of dry matter produced by land plants per unit of time through photosynthesis, without taking plant respiration into account. It is equivalent to Gross Primary Production (GPP) but expressed in kg of dry matter per hectare per day. Global estimates are produced every 10 days at a spatial resolution of approximately 300 m, covering the period from January 2014 to the present.",
+  "collectionDescription": "Gross Dry Matter Productivity (GDMP) represents the total amount of dry matter produced by land plants per unit of time through photosynthesis, without taking plant respiration into account. It is equivalent to Gross Primary Production (GPP) but expressed in kg of dry matter per hectare per day. Global estimates are produced every 10 days at a spatial resolution of approximately 300 m, covering the period from January 2014 to the present.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/gross-dry-matter-productivity-v2-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

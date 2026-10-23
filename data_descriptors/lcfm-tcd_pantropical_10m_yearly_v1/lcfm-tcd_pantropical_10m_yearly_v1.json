@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/landcover_landuse/dynamic_land_cover/tcd_pantropical_10m_yearly_v1",
   "browserName": "TCD 10m yearly V1",
   "browserSearchPath": "CLMS Land Cover/Land Use, Dynamic Land Cover",
-  "collectionDescription": "Provides yearly tree cover density for the pantropical region at 10 m resolution, expressed as percentage of tree cover.",
+  "collectionDescription": "Yearly tree cover density is provided for the pantropical region at 10 m resolution, expressed as percentage of tree cover.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/global-dynamic-land-cover/tree-cover-density-2020-raster-10-m-pantropical-annual",
   "spatialCoverage": "Pantropical",
   "temporalExtent": {

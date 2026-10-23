@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/soil_water_index/swi_europe_1km_daily_v1",
   "browserName": "SWI 1km daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Soil Moisture, Soil Water Index",
-  "collectionDescription": "Provides daily Soil Water Index for Europe, at a spatial resolution of ~1 km, with different T-values representing different soil depth integration times.",
+  "collectionDescription": "Soil Water Index is provided daily for Europe, at a spatial resolution of ~1 km, with different T-values representing different soil depth integration times.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/soil-moisture/daily-soil-water-index-europe-1km-v1",
   "spatialCoverage": "Europe",
   "temporalExtent": {

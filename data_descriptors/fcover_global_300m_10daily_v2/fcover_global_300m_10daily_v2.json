@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_properties/fcover_global_300m_10daily_v2",
   "browserName": "FCOVER 300m 10-daily V2.0",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Properties",
-  "collectionDescription": "The dataset delivers the Fraction of green Vegetation Cover (FCover), which corresponds to the proportion of the ground surface covered by green vegetation and therefore quantifies the spatial extent of vegetation. Estimates are generated at 10-day intervals at global scale, with a spatial resolution of about 300 m, and the time series extends from January 2014 to the present.",
+  "collectionDescription": "The Fraction of green Vegetation Cover (FCover) corresponds to the proportion of the ground surface covered by green vegetation and therefore quantifies the spatial extent of vegetation. Estimates are generated at 10-day intervals at global scale, with a spatial resolution of about 300 m, and the time series extends from January 2014 to the present.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/fraction-of-green-vegetation-cover-v2-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

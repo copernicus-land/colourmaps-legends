@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/top-of-canopy_reflectances/toc_global_300m_daily_v2",
   "browserName": "Surface Reflectance 300m daily V2.3",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Surface Reflectance",
-  "collectionDescription": "Provides atmospherically-corrected surface reflectances from Sentinel-3 OLCI and SLSTR sensors observations. Uncertainties are associated to the reflectance values. The data are available at global scale in the spatial resolution of ~300 m and cover the period from June 2018 to the present.",
+  "collectionDescription": "Atmospherically-corrected surface reflectances from Sentinel-3 OLCI and SLSTR sensors observations are provided. Uncertainties are associated to the reflectance values. The data are available at global scale in the spatial resolution of ~300 m and cover the period from June 2018 to the present.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/temperature-and-reflectance/surface-reflectance-2018-present-raster-300m-global-daily-version-2.3",
   "spatialCoverage": "Global",
   "temporalExtent": {

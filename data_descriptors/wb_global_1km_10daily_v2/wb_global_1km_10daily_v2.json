@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/water_bodies/wb_global_1km_10daily_v2",
   "browserName": "WB 1km 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies",
-  "collectionDescription": "Provides 10-daily Water Bodies detection at global scale, at a spatial resolution of ~1 km.",
+  "collectionDescription": "Water Bodies detection is provided 10-daily at global scale, at a spatial resolution of ~1 km.",
   "linkToCLMS": "",
   "spatialCoverage": "Global",
   "temporalExtent": {

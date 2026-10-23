@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/net-gross_primary_production/npp_global_300m_10daily_v2",
   "browserName": "NPP 300m 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Net/Gross Primary Production",
-  "collectionDescription": "The dataset delivers the Net Primary Production (NPP), defined as the net amount of biomass, or carbon, produced by vegetation per unit area and time (gC/m²/day). NPP is obtained by subtracting from the Gross Primary Production (GPP) — i.e. the total amount of carbon produced through photosynthesis — the amount of energy consumed by plant respiration. Estimates are generated at 10-day intervals at global scale, with a spatial resolution of about 300 m, and the time series extends from January 2014 to the present.",
+  "collectionDescription": "Net Primary Production (NPP) is defined as the net amount of biomass, or carbon, produced by vegetation per unit area and time (gC/m²/day). NPP is obtained by subtracting from the Gross Primary Production (GPP) — i.e. the total amount of carbon produced through photosynthesis — the amount of energy consumed by plant respiration. Estimates are generated at 10-day intervals at global scale, with a spatial resolution of about 300 m, and the time series extends from January 2014 to the present.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/net-primary-production-v2-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

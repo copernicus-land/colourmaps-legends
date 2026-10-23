@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_properties/lai_global_300m_10daily_v2",
   "browserName": "LAI 300m 10-daily V2.0",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Properties",
-  "collectionDescription": "This dataset delivers Leaf Area Index (LAI) estimates, where LAI is defined as half the total green canopy area per unit of horizontal ground area. Estimates are produced every 10 days at global scale, at a spatial resolution of approximately 300 m, covering the period from January 2014 to the present.",
+  "collectionDescription": "The Leaf Area Index (LAI) is defined as half the total green canopy area per unit of horizontal ground area. Estimates are produced every 10 days at global scale, at a spatial resolution of approximately 300 m, covering the period from January 2014 to the present.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/leaf-area-index-v2-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

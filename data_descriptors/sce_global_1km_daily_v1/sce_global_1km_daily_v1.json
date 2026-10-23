@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/snow_cover_extent/sce_global_1km_daily_v1",
   "browserName": "SCE 1km daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Snow, Snow Cover Extent",
-  "collectionDescription": "Provides daily Snow Cover Extent for Global, at a spatial resolution of ~1 km.",
+  "collectionDescription": "Snow Cover Extent is provided daily at global scale, at a spatial resolution of ~1 km.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/snow/snow-cover-global-v1-0-1km",
   "spatialCoverage": "Global",
   "temporalExtent": {

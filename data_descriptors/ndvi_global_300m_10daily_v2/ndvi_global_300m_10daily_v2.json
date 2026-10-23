@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_indices/ndvi_global_300m_10daily_v2",
   "browserName": "NDVI 300m 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Indices, NDVI 300m 10-daily V2",
-  "collectionDescription": "Provides information on the Normalized Difference Vegetation Index, a spectral index quantifying the amount and vigour of vegetation. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m.",
+  "collectionDescription": "The Normalized Difference Vegetation Index is a spectral index quantifying the amount and vigour of vegetation. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/normalised-difference-vegetation-index-v2-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

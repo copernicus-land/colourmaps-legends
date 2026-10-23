@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/net-gross_primary_production/npp_global_300m_10daily_v1",
   "browserName": "NPP 300m 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Net/Gross Primary Production",
-  "collectionDescription": "Provides information about the Net Primary Production, the net amount of carbon assimilated after subtracting the autotrophic respiration from GPP. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m.",
+  "collectionDescription": "Net Primary Production is the net amount of carbon assimilated after subtracting the autotrophic respiration from GPP. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/net-primary-production-v1-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_properties/fapar_global_1km_10daily_v2",
   "browserName": "FAPAR 1km 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Properties",
-  "collectionDescription": "Provides information on the Fraction of Absorbed Photosynthetically Active Radiation. Every 10-days, estimates are available at global scale, at a spatial resolution of ~1 km.",
+  "collectionDescription": "Fraction of Absorbed Photosynthetically Active Radiation estimates are available every 10 days at global scale, at a spatial resolution of ~1 km.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/fraction-of-absorbed-photosynthetically-active-radiation-v2-0-1km",
   "spatialCoverage": "Global",
   "temporalExtent": {

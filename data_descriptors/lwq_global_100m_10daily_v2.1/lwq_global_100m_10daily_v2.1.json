@@ -3,7 +3,7 @@
   "eodataPath": "/EODATA/CLMS/bio-geophysical/lake_water_quality/lwq-nrt_global_100m_10daily_v2",
   "browserName": "LWQ 100m 10-daily v2.1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Lake Water Quality",
-  "collectionDescription": "Provides semi-continuous observations for a large number of medium and large-sized lakes, according to the Global Lakes and Wetlands Database (GLWD) or otherwise of specific environmental monitoring interest. 10-daily observations are available in near real time at 100 m spatial resolution from March 2026 to the present.",
+  "collectionDescription": "Lake water quality observations are provided semi-continuously for a large number of medium and large-sized lakes, according to the Global Lakes and Wetlands Database (GLWD) or otherwise of specific environmental monitoring interest. 10-daily observations are available in near real time at 100 m spatial resolution from March 2026 to the present.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/lake-water-quality-v2-0-100m",
   "spatialCoverage": "Global",
   "temporalExtent": {

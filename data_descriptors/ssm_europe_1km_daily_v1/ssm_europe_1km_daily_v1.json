@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/surface_soil_moisture/ssm_europe_1km_daily_v1",
   "browserName": "SSM 1km daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Soil Moisture, Surface Soil Moisture",
-  "collectionDescription": "Provides daily Surface Soil Moisture estimates for Europe, at a spatial resolution of ~1 km, derived from Sentinel-1 C-SAR.",
+  "collectionDescription": "Surface Soil Moisture estimates are provided daily for Europe, at a spatial resolution of ~1 km, derived from Sentinel-1 C-SAR.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/soil-moisture/daily-surface-soil-moisture-v1.0",
   "spatialCoverage": "Europe",
   "temporalExtent": {

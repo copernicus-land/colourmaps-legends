@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_properties/fapar_global_300m_10daily_v2",
   "browserName": "FAPAR 300m 10-daily V2.0",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Properties",
-  "collectionDescription": "The dataset provides the Fraction of Absorbed Photosynthetically Active Radiation (fAPAR), which quantifies the proportion of incoming solar radiation absorbed by living vegetation for photosynthesis. Estimates are generated at 10-day intervals, worldwide and at a spatial resolution of about 300 m, with the time series extending from January 2014 to the present.",
+  "collectionDescription": "The Fraction of Absorbed Photosynthetically Active Radiation (fAPAR) quantifies the proportion of incoming solar radiation absorbed by living vegetation for photosynthesis. Estimates are generated at 10-day intervals, worldwide and at a spatial resolution of about 300 m, with the time series extending from January 2014 to the present.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/fraction-of-absorbed-photosynthetically-active-radiation-v2-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

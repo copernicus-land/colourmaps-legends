@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/land_surface_temperature/lst-tci_global_5km_10daily_v1",
   "browserName": "LST TCI 5km 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Land Surface Temperature",
-  "collectionDescription": "Provides 10-daily Land Surface Temperature Synthesis and Thermal Condition Index at global scale, at a spatial resolution of ~5 km.",
+  "collectionDescription": "Land Surface Temperature Synthesis and Thermal Condition Index are provided 10-daily at global scale, at a spatial resolution of ~5 km.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/temperature-and-reflectance/10-daily-land-surface-temperature-thermal-condition-index-global-v1-0-5km",
   "spatialCoverage": "Global",
   "temporalExtent": {

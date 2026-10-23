@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/lake_surface_water_temperature/lswt-nrt_global_1km_10daily_v1",
   "browserName": "LSWT NRT 1km 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Lake Surface Water Temperature",
-  "collectionDescription": "Provides 10-daily Lake Surface Water Temperature (Near Real Time) at global scale, at a spatial resolution of ~1 km.",
+  "collectionDescription": "Lake Surface Water Temperature (Near Real Time) is provided 10-daily at global scale, at a spatial resolution of ~1 km.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/temperature-and-reflectance/lake-surface-water-temperature-near-real-time-v1-0-1km",
   "spatialCoverage": "Global",
   "temporalExtent": {

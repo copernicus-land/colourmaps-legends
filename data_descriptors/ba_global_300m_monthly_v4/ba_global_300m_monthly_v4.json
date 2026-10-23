@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/burnt_area/ba_global_300m_monthly_v4",
   "browserName": "BA 300m monthly V4",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Burnt Area",
-  "collectionDescription": "The dataset maps burn scars — surfaces sufficiently affected by fire to show significant changes in vegetation cover and a temporarily darker ground surface due to ash — at global scale and at monthly intervals, with a spatial resolution of about 300 m. For each pixel, it delivers the date of burn together with the burnt fraction, both supported by quality indicators.",
+  "collectionDescription": "Burn scars — surfaces sufficiently affected by fire to show significant changes in vegetation cover and a temporarily darker ground surface due to ash — are mapped at global scale and at monthly intervals, with a spatial resolution of about 300 m. For each pixel, it delivers the date of burn together with the burnt fraction, both supported by quality indicators.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/burnt-area-v4-monthly-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {
