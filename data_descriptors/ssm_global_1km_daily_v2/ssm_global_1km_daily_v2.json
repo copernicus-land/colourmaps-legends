@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "0.0.4",
+  "eodataPath": "",
+  "browserName": "SSM 1km daily V2",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Soil Moisture, Surface Soil Moisture",
+  "collectionDescription": "Provides daily Surface Soil Moisture estimates for Global, at a spatial resolution of ~1 km, derived from Sentinel-1 C-SAR. More information here.",
+  "linkToCLMS": "",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "2015",
+    "end": "present"
+  },
+  "nominalSpatialResolution": "1km",
+  "frequency": "daily",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/ssm_europe_1km_daily_v1/ssm_europe_1km_daily_v1.jpg",
+  "layers": [
+    {
+      "fileName": "SSM1km-SSM",
+      "layerBrowserName": "SSM",
+      "shortDescription": "Surface Soil Moisture (%)",
+      "longDescription": "Surface Soil Moisture of the top 5 cm of soil, expressed as a degree of saturation (%).",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ssm_global_1km_daily_v2/clms_global_ssm_1km_v2_daily.txt",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ssm_europe_1km_daily_v1/ssm_global_1km_daily_v1.png",
+      "units": "[%]",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}
