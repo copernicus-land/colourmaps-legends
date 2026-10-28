@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1.0.0",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_phenology_and_productivity_parameters/clms_vpp_vpp-eosd_europe_utm_10m_yearly_v1",
+  "browserNameVisualiseTab": "VPP EOSD Europe 10m yearly V1",
+  "browserNameSearchTab": "Vegetation Phenology and Productivity, Europe, End Of Season Date, 10m/100m, (2017-2024), V1",
+  "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation Phenology and Productivity Parameters, VPP_VPP-EOSD 10m Yearly V1",
+  "multiCollectionName": "",
+  "collectionDescription": "The End-of-Season Date (EOSD), one of the Vegetation Phenology and Productivity (VPP) parameters, is a product of the pan-European High Resolution Vegetation Phenology and Productivity (HR-VPP) component of the Copernicus Land Monitoring Service (CLMS).\n\nThe End-of-Season Date (EOSD) marks the date when the vegetation growing season ends in the time profile of the Plant Phenology Index (PPI). The end-of-season occurs, by definition, when the PPI value reaches 15% of the season amplitude during the green-down period.\n\nThe Plant Phenology Index (PPI) is a physically based vegetation index, developed for improving the monitoring of the vegetation growth cycle. The PPI index values, with 5-day satellite revisit cycle, are first used in a function fitting to derive the PPI Seasonal Trajectories, which is a filtered time series with regular 10-day time step. From these Seasonal Trajectories, a suite of 13 Vegetation Phenology and Productivity (VPP) parameters are then computed and provided, for up to two seasons each year. The End-of-Season Date is one of the 13 parameters.\n\nA complementary quality indicator (QFLAG) provides a confidence level, that is described in table 4 of the same manual.\n\nThe EOSD dataset is made available as raster files with 10 x 10m resolution, in UTM/WGS84 projection corresponding to the Sentinel-2 tiling grid, for those tiles that cover the EEA38 countries and the United Kingdom and for two seasons in each year from 2017 onwards. It is updated in the first quarter of each year.",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/high-resolution-end-of-season-date",
+  "spatialCoverage": "Europe",
+  "temporalExtent": {
+    "start": "2017",
+    "end": "2024"
+  },
+  "nominalSpatialResolution": "",
+  "frequency": "yearly",
+  "thumbnailLink": "https://land.copernicus.eu/en/products/vegetation/high-resolution-end-of-season-date/@@images/image-400-08b3b62cb82f6e449f8699a0d2c73414.png",
+  "layers": [
+    {
+      "fileName": "SEASON1_EOSD",
+      "layerBrowserName": "EOSD Season 1",
+      "layerBrowserNameSearchTab": "",
+      "shortDescription": "Season 1 end of season date",
+      "longDescription": "Provides the date when the vegetation growing season ends in the time profile of the Plant Phenology Index. The end-of-season occurs, by definition, when the Plant Phenology Index value reaches 15% of the season amplitude during the green-down period. The data at pan-European level are updated in the first quarter of each year. The data are available at 10 m x 10 m spatial resolution with the temporal extent from 2017 to present.",
+      "colourMapLink": "",
+      "legendLink": "https://land.copernicus.eu/en/products/vegetation/legends/hrvpp-legends/legend_eosd.png/@@images/image",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "odataLink": "",
+      "display": 1
+    },
+    {
+      "fileName": "SEASON2_EOSD",
+      "layerBrowserName": "EOSD Season 2",
+      "layerBrowserNameSearchTab": "",
+      "shortDescription": "Season 2 end of season date",
+      "longDescription": "Provides the date when the vegetation growing season ends in the time profile of the Plant Phenology Index. The end-of-season occurs, by definition, when the Plant Phenology Index value reaches 15% of the season amplitude during the green-down period. The data at pan-European level are updated in the first quarter of each year. The data are available at 10 m x 10 m spatial resolution with the temporal extent from 2017 to present.",
+      "colourMapLink": "",
+      "legendLink": "https://land.copernicus.eu/en/products/vegetation/legends/hrvpp-legends/legend_eosd.png/@@images/image",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "odataLink": "",
+      "display": 1
+    }
+  ]
+}
