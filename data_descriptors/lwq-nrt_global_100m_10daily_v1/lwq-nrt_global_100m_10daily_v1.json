@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/lake_water_quality/lwq-nrt_global_100m_10daily_v1",
   "browserName": "LWQ NRT 100m 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, Lake Water Quality",
-  "collectionDescription": "Provides 10-daily Lake Water Quality (NRT) parameters at global scale, at a spatial resolution of ~100m. More information here.",
+  "collectionDescription": "Lake Water Quality (NRT) parameters are provided 10-daily at global scale, at a spatial resolution of ~100 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/lake-water-quality-v1-0-100m",
   "spatialCoverage": "Global",
   "temporalExtent": {
@@ -28,7 +28,7 @@
     },
     {
       "fileName": "LWQ100-TSI",
-      "layerBrowserName": "TSI",
+      "layerBrowserName": "Trophic State Index",
       "shortDescription": "Trophic State Index",
       "longDescription": "Trophic State Index of lake water.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_100m_10daily_v1/clms_global_lwq_100m_v1_10daily-trophic_state_index.sld",
@@ -40,7 +40,7 @@
     },
     {
       "fileName": "LWQ100-RW",
-      "layerBrowserName": "Rw",
+      "layerBrowserName": "Water-leaving Reflectance",
       "shortDescription": "Water-leaving reflectance",
       "longDescription": "Water-leaving reflectance at representative wavelengths.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_100m_10daily_v1/clms_global_lwq_100m_v1_10daily-Rw.sld",

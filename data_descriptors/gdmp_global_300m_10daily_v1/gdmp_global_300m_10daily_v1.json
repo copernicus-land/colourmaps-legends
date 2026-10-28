@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/dry-gross_dry_matter_productivity/gdmp_global_300m_10daily_v1",
   "browserName": "GDMP 300m 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Dry/Gross Dry Matter Productivity",
-  "collectionDescription": "Provides information about the total organic matter produced by plant photosynthesis. It is expressed in kg of dry matter per hectare and per day. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300m. More information here.",
+  "collectionDescription": "Gross Dry Matter Productivity is the total organic matter produced by plant photosynthesis. It is expressed in kg of dry matter per hectare and per day. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/gross-dry-matter-productivity-v1-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {

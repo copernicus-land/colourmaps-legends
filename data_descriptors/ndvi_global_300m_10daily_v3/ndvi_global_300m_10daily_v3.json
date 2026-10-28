@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_indices/ndvi_global_300m_10daily_v3",
   "browserName": "NDVI 300m 10-daily V3",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Indices, NDVI 300m 10-daily V3",
-  "collectionDescription": "Provides information on the Normalized Difference Vegetation Index, a spectral index quantifying the amount and vigour of vegetation. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300m. More information here.",
+  "collectionDescription": "The Normalized Difference Vegetation Index is a spectral index quantifying the amount and vigour of vegetation. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/normalised-difference-vegetation-index-v3-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {
@@ -40,7 +40,7 @@
     },
     {
       "fileName": "NDVI300-NOBS",
-      "layerBrowserName": "NOBS",
+      "layerBrowserName": "Number of Observations",
       "shortDescription": "Number of clear-sky surface reflectance in the dekad time window",
       "longDescription": "Number of clear-sky surface reflectance in the dekad time window, minimum over the spectral bands used for the NDVI calculation.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ndvi_global_300m_10daily_v3/clms_global_ndvi-nobs_300m_v3_10daily.sld",
@@ -52,7 +52,7 @@
     },
     {
       "fileName": "NDVI300-QFLAG",
-      "layerBrowserName": "QFLAG",
+      "layerBrowserName": "Quality Flag",
       "shortDescription": "Quality flag associated to NDVI",
       "longDescription": "Quality flag associated to NDVI, describing the quality of the BRDF inversion.",
       "colourMapLink": "",

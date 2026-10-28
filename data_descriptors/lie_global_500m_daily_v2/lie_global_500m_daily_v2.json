@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/river_and_lake_ice_extent/lie_global_500m_daily_v2",
   "browserName": "LIE 500m daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, River and Lake Ice Extent",
-  "collectionDescription": "Provides daily Lake Ice Extent at global scale, at a spatial resolution of ~500 m. More information here.",
+  "collectionDescription": "Lake Ice Extent is provided daily at global scale, at a spatial resolution of ~500 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/lake-ice-extent-global-500m_v2",
   "spatialCoverage": "Global",
   "temporalExtent": {

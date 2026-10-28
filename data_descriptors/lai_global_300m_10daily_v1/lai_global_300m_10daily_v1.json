@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_properties/lai_global_300m_10daily_v1",
   "browserName": "LAI 300m 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Properties",
-  "collectionDescription": "Provides information on Leaf Area Index, defined as half the total area of green elements of the canopy per unit horizontal ground area. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m. More information here.",
+  "collectionDescription": "Leaf Area Index is defined as half the total area of green elements of the canopy per unit horizontal ground area. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/leaf-area-index-300m-v1.0",
   "spatialCoverage": "Global",
   "temporalExtent": {
@@ -40,7 +40,7 @@
     },
     {
       "fileName": "LAI300-NOBS",
-      "layerBrowserName": "NOBS",
+      "layerBrowserName": "Number of Observations",
       "shortDescription": "Number of valid instantaneous LAI values",
       "longDescription": "Number of available valid instantaneous LAI values in the compositing window.",
       "colourMapLink": "",
@@ -52,7 +52,7 @@
     },
     {
       "fileName": "LAI300-LBEFORE",
-      "layerBrowserName": "LENGTH_BEFORE",
+      "layerBrowserName": "Semi-period Length Before",
       "shortDescription": "Length of semi-period before the date",
       "longDescription": "Length in days of the semi-period before the dekadal date of the compositing window [days].",
       "colourMapLink": "",
@@ -64,7 +64,7 @@
     },
     {
       "fileName": "LAI300-LAFTER",
-      "layerBrowserName": "LENGTH_AFTER",
+      "layerBrowserName": "Semi-period Length After",
       "shortDescription": "Length of semi-period after the date",
       "longDescription": "Length in days of the semi-period after the dekadal date of the compositing window [days].",
       "colourMapLink": "",
@@ -76,7 +76,7 @@
     },
     {
       "fileName": "LAI300-QFLAG",
-      "layerBrowserName": "",
+      "layerBrowserName": "Quality Flag",
       "shortDescription": "",
       "longDescription": "",
       "colourMapLink": "",

@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_properties/lai_global_1km_10daily_v1",
   "browserName": "LAI 1km 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Properties",
-  "collectionDescription": "Provides information on Leaf Area Index, at a spatial resolution of ~1 km. More information here.",
+  "collectionDescription": "Leaf Area Index is provided at a spatial resolution of ~1 km.",
   "linkToCLMS": "",
   "spatialCoverage": "Global",
   "temporalExtent": {
@@ -28,7 +28,7 @@
     },
     {
       "fileName": "LAI1KM-QFLAG",
-      "layerBrowserName": "",
+      "layerBrowserName": "Quality Flag",
       "shortDescription": "",
       "longDescription": "",
       "colourMapLink": "",

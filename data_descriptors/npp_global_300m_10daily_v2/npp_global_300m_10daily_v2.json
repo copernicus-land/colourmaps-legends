@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/net-gross_primary_production/npp_global_300m_10daily_v2",
   "browserName": "NPP 300m 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Net/Gross Primary Production",
-  "collectionDescription": "Provides information about the Net Primary Production, the net amount of carbon assimilated after subtracting the autotrophic respiration from GPP. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m. More information here.",
+  "collectionDescription": "Net Primary Production (NPP) is defined as the net amount of biomass, or carbon, produced by vegetation per unit area and time (gC/m²/day). NPP is obtained by subtracting from the Gross Primary Production (GPP) — i.e. the total amount of carbon produced through photosynthesis — the amount of energy consumed by plant respiration. Estimates are generated at 10-day intervals at global scale, with a spatial resolution of about 300 m, and the time series extends from January 2014 to the present.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/net-primary-production-v2-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {
@@ -18,13 +18,25 @@
       "fileName": "NPP300-NPP",
       "layerBrowserName": "NPP",
       "shortDescription": "Net Primary Production (g C/m²/day)",
-      "longDescription": "Net Primary Production represents the net amount of carbon assimilated after subtracting the autotrophic respiration from GPP. It is expressed in g C/m²/day.",
+      "longDescription": "Net Primary Production (NPP) represents the net amount of biomass, or carbon, produced by vegetation, expressed in gC/m²/day.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/npp_global_300m_10daily_v2/clms_global_npp_300m_v2_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_npp_300m_v1_10daily.png",
       "units": "[g C/m²/day]",
       "scale": "0.0005",
       "offSet": "0",
       "display": 1
+    },
+    {
+      "fileName": "NPP300-QFLAG",
+      "layerBrowserName": "NPP Quality Flag",
+      "shortDescription": "Quality Flag of the Net Primary Production",
+      "longDescription": "The quality flag (QFLAG) summarises, for each pixel, the conditions under which the Net Primary Production value was produced — for instance whether the input fAPAR or meteorological data were missing, whether the pixel is evergreen broadleaf forest, or whether the FAPAR value was corrected for low values, filled from the previous dekad or interpolated — enabling users to filter the dataset according to their quality requirements.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "",
+      "scale": "",
+      "offSet": "",
+      "display": 0
     }
   ]
 }

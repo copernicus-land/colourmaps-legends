@@ -3,11 +3,11 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/land_surface_temperature/lst_global_3km_hourly_v3",
   "browserName": "LST 3km hourly V3",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Land Surface Temperature",
-  "collectionDescription": "Provides Land Surface Temperature estimates at global scale, at a spatial resolution of ~3 km. More information here.",
+  "collectionDescription": "Land Surface Temperature estimates are provided at global scale, at a spatial resolution of ~3 km.",
   "linkToCLMS": "",
   "spatialCoverage": "Global",
   "temporalExtent": {
-    "start": "",
+    "start": "2018",
     "end": "present"
   },
   "nominalSpatialResolution": "3km",
@@ -49,10 +49,10 @@
       "scale": "0",
       "offSet": "0",
       "display": 0
-    },    
+    },
     {
       "fileName": "LST-QFLAG",
-      "layerBrowserName": "",
+      "layerBrowserName": "Quality Flag",
       "shortDescription": "",
       "longDescription": "",
       "colourMapLink": "",

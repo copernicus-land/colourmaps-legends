@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/soil_water_index/swi_global_12.5km_10daily_v4",
   "browserName": "SWI 12.5km 10-daily V4",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Soil Moisture, Soil Water Index",
-  "collectionDescription": "Provides Soil Water Index at global scale, at a spatial resolution of ~12.5 km, with different T-values representing different soil depth integration times. More information here.",
+  "collectionDescription": "Soil Water Index is provided at global scale, at a spatial resolution of ~12.5 km, with different T-values representing different soil depth integration times.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/soil-moisture/10-daily-soil-water-index-global-12-5-km-v4",
   "spatialCoverage": "Global",
   "temporalExtent": {

@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_properties/fcover_global_300m_10daily_v1",
   "browserName": "FCOVER 300m 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Properties",
-  "collectionDescription": "Provides information on the Fraction of green Vegetation Cover, the fraction of ground covered by green vegetation. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m. More information here.",
+  "collectionDescription": "The Fraction of green Vegetation Cover is the fraction of ground covered by green vegetation. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/fraction-of-green-vegetation-cover-v1-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {
@@ -40,7 +40,7 @@
     },
     {
       "fileName": "FCOVER300-NOBS",
-      "layerBrowserName": "NOBS",
+      "layerBrowserName": "Number of Observations",
       "shortDescription": "Number of valid instantaneous FCOVER values",
       "longDescription": "Number of available valid instantaneous FCOVER values in the compositing window.",
       "colourMapLink": "",
@@ -52,7 +52,7 @@
     },
     {
       "fileName": "FCOVER300-LBEFORE",
-      "layerBrowserName": "LENGTH_BEFORE",
+      "layerBrowserName": "Semi-period Length Before",
       "shortDescription": "Length of semi-period before the date",
       "longDescription": "Length in days of the semi-period before the dekadal date of the compositing window [days].",
       "colourMapLink": "",
@@ -64,7 +64,7 @@
     },
     {
       "fileName": "FCOVER300-LAFTER",
-      "layerBrowserName": "LENGTH_AFTER",
+      "layerBrowserName": "Semi-period Length After",
       "shortDescription": "Length of semi-period after the date",
       "longDescription": "Length in days of the semi-period after the dekadal date of the compositing window [days].",
       "colourMapLink": "",
@@ -76,7 +76,7 @@
     },
     {
       "fileName": "FCOVER300-QFLAG",
-      "layerBrowserName": "",
+      "layerBrowserName": "Quality Flag",
       "shortDescription": "",
       "longDescription": "",
       "colourMapLink": "",

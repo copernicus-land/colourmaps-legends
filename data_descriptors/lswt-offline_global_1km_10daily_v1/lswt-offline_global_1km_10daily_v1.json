@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/lake_surface_water_temperature/lswt-offline_global_1km_10daily_v1",
   "browserName": "LSWT Offline 1km 10-daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Lake Surface Water Temperature",
-  "collectionDescription": "Provides 10-daily Lake Surface Water Temperature (Offline) at global scale, at a spatial resolution of ~1 km. More information here.",
+  "collectionDescription": "Lake Surface Water Temperature (Offline) is provided 10-daily at global scale, at a spatial resolution of ~1 km.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/temperature-and-reflectance/lake-surface-water-temperature-offline-1km",
   "spatialCoverage": "Global",
   "temporalExtent": {

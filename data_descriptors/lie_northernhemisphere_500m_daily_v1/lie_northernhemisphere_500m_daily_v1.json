@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/river_and_lake_ice_extent/lie_northernhemisphere_500m_daily_v1",
   "browserName": "LIE 500m daily V1",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Water Bodies, River and Lake Ice Extent",
-  "collectionDescription": "Provides daily Lake Ice Extent for Northern Hemisphere, at a spatial resolution of ~500m. More information here.",
+  "collectionDescription": "Lake Ice Extent is provided daily for Northern Hemisphere, at a spatial resolution of ~500 m.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/water-bodies/lake-ice-extent-northern-hemisphere-500m",
   "spatialCoverage": "Northern Hemisphere",
   "temporalExtent": {

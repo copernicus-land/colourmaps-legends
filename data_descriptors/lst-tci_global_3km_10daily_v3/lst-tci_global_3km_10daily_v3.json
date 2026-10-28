@@ -3,17 +3,29 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/land_surface_temperature/lst-tci_global_3km_10daily_v3",
   "browserName": "LST TCI 3km 10-daily V3",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Land Surface Temperature",
-  "collectionDescription": "Provides Land Surface Temperature estimates at global scale, at a spatial resolution of ~3 km. More information here.",
+  "collectionDescription": "Land Surface Temperature Synthesis and Thermal Condition Index are provided 10-daily at global scale, at a spatial resolution of ~3 km.",
   "linkToCLMS": "",
   "spatialCoverage": "Global",
   "temporalExtent": {
-    "start": "",
+    "start": "2018",
     "end": "present"
   },
   "nominalSpatialResolution": "3km",
   "frequency": "10daily",
   "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/tree/main/thumbnails/lst-tci_global_3km_10daily_v3/clms_lst_global_3km_10daily-tci_v3.png",
   "layers": [
+    {
+      "fileName": "LST10-TCI-MIN",
+      "layerBrowserName": "LST Synthesis Minimum",
+      "shortDescription": "Minimum of Land Surface Temperature observed during the 10-days period, regardless the time of the day.",
+      "longDescription": "Minimum of Land Surface Temperature observed during the 10-days period, regardless the time of the day. Expressed in Kelvin.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-tci_global_3km_10daily_v3/clms_global_lst_3km_v3_10daily-min.sld ",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lst-tci_global_3km_10daily_v3/lst-min_global_3km_10daily_v3.png",
+      "units": "[K]",
+      "scale": "0.01",
+      "offSet": "273.15",
+      "display": 0
+    },
     {
       "fileName": "LST10-TCI-MEDIAN",
       "layerBrowserName": "LST Synthesis Median",
@@ -25,6 +37,18 @@
       "scale": "0.01",
       "offSet": "273.15",
       "display": 1
+    },
+    {
+      "fileName": "LST10-TCI-MAX",
+      "layerBrowserName": "LST Synthesis Maximum",
+      "shortDescription": "Maximum of Land Surface Temperature observed during the 10-days period, regardless the time of the day.",
+      "longDescription": "Maximum of Land Surface Temperature observed during the 10-days period, regardless the time of the day. Expressed in Kelvin.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-tci_global_3km_10daily_v3/clms_global_lst_3km_v3_10daily-max.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lst-tci_global_3km_10daily_v3/lst-max_global_3km_10daily_v3.png",
+      "units": "[K]",
+      "scale": "0.01",
+      "offSet": "273.15",
+      "display": 0
     },
     {
       "fileName": "LST10-TCI-TCI",
@@ -49,30 +73,6 @@
       "scale": "0.01",
       "offSet": "0",
       "display": 1
-    },    
-    {
-      "fileName": "LST10-TCI-MIN",
-      "layerBrowserName": "LST Synthesis Minimum",
-      "shortDescription": "Minimum of Land Surface Temperature observed during the 10-days period, regardless the time of the day.",
-      "longDescription": "Minimum of Land Surface Temperature observed during the 10-days period, regardless the time of the day. Expressed in Kelvin.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-tci_global_3km_10daily_v3/clms_global_lst_3km_v3_10daily-min.sld ",
-      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lst-tci_global_3km_10daily_v3/lst-min_global_3km_10daily_v3.png",
-      "units": "[K]",
-      "scale": "0.01",
-      "offSet": "273.15",
-      "display": 0
-    },    
-    {
-      "fileName": "LST10-TCI-MAX",
-      "layerBrowserName": "LST Synthesis Maximum",
-      "shortDescription": "Maximum of Land Surface Temperature observed during the 10-days period, regardless the time of the day.",
-      "longDescription": "Maximum of Land Surface Temperature observed during the 10-days period, regardless the time of the day. Expressed in Kelvin.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-tci_global_3km_10daily_v3/clms_global_lst_3km_v3_10daily-max.sld",
-      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lst-tci_global_3km_10daily_v3/lst-max_global_3km_10daily_v3.png",
-      "units": "[K]",
-      "scale": "0.01",
-      "offSet": "273.15",
-      "display": 0
-    }   
+    }
   ]
 }

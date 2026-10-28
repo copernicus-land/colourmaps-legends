@@ -3,12 +3,12 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/land_surface_temperature/lst-daily-cycle_global_5km_10daily_v2",
   "browserName": "LST Daily Cycle 5km 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Land Surface Temperature",
-  "collectionDescription": "Provides 10-daily Land Surface Temperature Daily Cycle parameters (min, max, median) at global scale, at a spatial resolution of ~5km. More information here.",
+  "collectionDescription": "Land Surface Temperature Daily Cycle parameters (min, max, median) are provided 10-daily at global scale, at a spatial resolution of ~5 km.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/temperature-and-reflectance/10-daily-land-surface-temperature-daily-cycle-global-v2-0-5km",
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2021",
-    "end": "present"
+    "end": "2026"
   },
   "nominalSpatialResolution": "5km",
   "frequency": "10daily",

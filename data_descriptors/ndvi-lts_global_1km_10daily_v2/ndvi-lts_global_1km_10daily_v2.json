@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/vegetation_indices/ndvi-lts_global_1km_10daily_v2",
   "browserName": "NDVI LTS 1km 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Indices",
-  "collectionDescription": "Provides the Long Term Statistics of the Normalized Difference Vegetation Index at ~1 km resolution. More information here.",
+  "collectionDescription": "Long Term Statistics of the Normalized Difference Vegetation Index are provided at ~1 km resolution.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/normalised-difference-vegetation-long-term-statistics-v3-0-1km",
   "spatialCoverage": "Global",
   "temporalExtent": {

@@ -3,7 +3,7 @@
   "eodataPath": "s3://eodata/CLMS/bio-geophysical/dry-gross_dry_matter_productivity/dmp_global_300m_10daily_v2",
   "browserName": "DMP 300m 10-daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Vegetation, Dry/Gross Dry Matter Productivity",
-  "collectionDescription": "Provides information about the overall growth rate, or net dry biomass increase, of the vegetation. It is equivalent to Net Primary Production but expressed in kg of dry matter per hectare and per day. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300m. More information here.",
+  "collectionDescription": "Dry Matter Productivity (DMP) represents the overall growth rate or dry biomass increase of the vegetation — that is, the amount of new dry matter produced per unit of time. DMP is closely related to ecosystem Net Primary Production (NPP) but uses units adapted to agro-statistical applications (kg/ha/day). Estimates are generated at 10-day intervals at global scale, with a spatial resolution of about 300 m, and the time series extends from January 2014 to the present.",
   "linkToCLMS": "https://land.copernicus.eu/en/products/vegetation/dry-matter-productivity-v2-0-300m",
   "spatialCoverage": "Global",
   "temporalExtent": {
@@ -17,14 +17,26 @@
     {
       "fileName": "DMP300-DMP",
       "layerBrowserName": "DMP",
-      "shortDescription": "Dry Matter Productivity (kg DM/ha/day)",
-      "longDescription": "Dry Matter Productivity is defined as the overall growth rate, or dry biomass increase, of the vegetation. It is expressed in kg of Dry Matter per hectare and per day (kg DM/ha/day).",
+      "shortDescription": "Dry Matter Productivity (kg/ha/day)",
+      "longDescription": "Dry Matter Productivity (DMP) represents the overall growth rate of vegetation — its dry biomass increase — expressed in kg/ha/day.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/dmp_global_300m_10daily_v2/clms_global_dmp_300m_v2_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_dmp_1km_v2_10daily.png",
-      "units": "[kg DM/ha/day]",
+      "units": "[kg/ha/day]",
       "scale": "0.01",
       "offSet": "0",
       "display": 1
+    },
+    {
+      "fileName": "DMP300-QFLAG",
+      "layerBrowserName": "DMP Quality Flag",
+      "shortDescription": "Quality Flag of the Dry Matter Productivity",
+      "longDescription": "A per-pixel quality flag (QFLAG) describing the status of the Dry Matter Productivity retrieval, derived from the quality indicator of the input FAPAR product.",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "",
+      "scale": "",
+      "offSet": "",
+      "display": 0
     }
   ]
 }
