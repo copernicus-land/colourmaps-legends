@@ -12,17 +12,17 @@
   },
   "nominalSpatialResolution": "1km",
   "frequency": "daily",
-  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/ssm_europe_1km_daily_v1/ssm_europe_1km_daily_v1.jpg",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/ssm_global_1km_daily_v2/ssm_global_1km_daily_v2.jpg",
   "layers": [
     {
       "fileName": "SSM1km-SSM",
       "layerBrowserName": "SSM",
       "shortDescription": "Surface Soil Moisture (%)",
       "longDescription": "Surface Soil Moisture of the top 5 cm of soil, expressed as a degree of saturation (%).",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ssm_global_1km_daily_v2/clms_global_ssm_1km_v2_daily.txt",
-      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ssm_europe_1km_daily_v1/ssm_global_1km_daily_v1.png",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ssm_global_1km_daily_v2/ssm_global_1km_daily_v2.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ssm_global_1km_daily_v2/ssm_global_1km_daily_v2.png",
       "units": "[%]",
-      "scale": "1",
+      "scale": "0.5",
       "offSet": "0",
       "display": 1
     }
