@@ -3,7 +3,7 @@
   "eodataPath": "",
   "browserName": "SWI 1km daily V3",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Soil Moisture, Soil Water Index",
-  "collectionDescription": "Provides daily Soil Water Index for Global, at a spatial resolution of ~1 km, with different T-values representing different soil depth integration times. More information here.",
+  "collectionDescription": "Soil Water Index is provided daily at global scale, at a spatial resolution of ~1 km, with different T-values representing different soil depth integration times.",
   "linkToCLMS": "",
   "spatialCoverage": "Global",
   "temporalExtent": {
