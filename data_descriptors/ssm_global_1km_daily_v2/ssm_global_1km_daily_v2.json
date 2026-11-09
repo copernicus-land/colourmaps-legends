@@ -4,7 +4,7 @@
   "browserName": "SSM 1km daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Soil Moisture, Surface Soil Moisture",
   "collectionDescription": "Surface Soil Moisture estimates are provided daily at global scale, at a spatial resolution of ~1 km, derived from Sentinel-1 C-SAR.",
-  "linkToCLMS": "",
+  "linkToCLMS": "https://land.copernicus.eu/en/products/soil-moisture/daily-surface-soil-moisture-v2.0",
   "spatialCoverage": "Global",
   "temporalExtent": {
     "start": "2015",
