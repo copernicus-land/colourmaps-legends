@@ -22,8 +22,8 @@
         },
         {
             "fileName": "CLMS_HRLVLCC_GRACL",
-            "layerBrowserName": "Grassland Change Confidence Layer",
-            "shortDescription": "Confidence of grassland change",
+            "layerBrowserName": "Grassland Confidence Layer",
+            "shortDescription": "Confidence of grassland classification",
             "longDescription": "Confidence layer - a quality indicator for grassland change.",
             "colourMapLink": "colourmaps/clms_vlcc_grassland-confidence-layer/clms_vlcc_grassland-confidence-layer_europe_10m_yearly_v1.sld",
             "legendLink": "",
