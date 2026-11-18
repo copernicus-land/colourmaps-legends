@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "0.0.4",
+  "eodataPath": "",
+  "browserName": "LCCM 10m yearly V2",
+  "browserSearchPath": "CLMS Land Cover/Land Use, Dynamic Land Cover",
+  "collectionDescription": "Land cover change between consecutive years is provided yearly at global scale, at a spatial resolution of ~10 m, derived from the annual Land Cover Maps. Each year refers to the target year of the interval (2021 represents the change from 2020 to 2021), with the lost and gained classes and a transition category accompanied by a probability of change.",
+  "linkToCLMS": "",
+  "spatialCoverage": "Global",
+  "temporalExtent": {
+    "start": "2021",
+    "end": "2024"
+  },
+  "nominalSpatialResolution": "10m",
+  "frequency": "yearly",
+  "thumbnailLink": "",
+  "layers": [
+    {
+      "fileName": "TRANSITION-MAP",
+      "layerBrowserName": "Land Cover Transition",
+      "shortDescription": "Land cover transition category",
+      "longDescription": "Land cover transition between two consecutive years, expressed as one of 15 categories of loss, gain or change, such as tree cover loss, cropland gain or built-up gain. Each class-to-class change is assigned to a single category following a priority of land cover classes and change processes.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lccm_global_10m_yearly_v2/lccm-transition-map_global_10m_yearly_v2.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lccm_global_10m_yearly_v2/lccm-transition-map_global_10m_yearly_v2.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "LOSS-MAP",
+      "layerBrowserName": "Land Cover Loss",
+      "shortDescription": "Land cover class lost",
+      "longDescription": "Land cover class lost between two consecutive years, i.e. the class of the first year that is replaced by another class in the second year, coded with the Land Cover Map (LCM) legend. Pixels with the same class in both years are labelled as no change.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lccm_global_10m_yearly_v2/lccm-loss-map_global_10m_yearly_v2.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lccm_global_10m_yearly_v2/lccm-loss-map_global_10m_yearly_v2.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "GAIN-MAP",
+      "layerBrowserName": "Land Cover Gain",
+      "shortDescription": "Land cover class gained",
+      "longDescription": "Land cover class gained between two consecutive years, i.e. the new class of the second year, coded with the Land Cover Map (LCM) legend. Pixels with the same class in both years are labelled as no change.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lccm_global_10m_yearly_v2/lccm-gain-map_global_10m_yearly_v2.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lccm_global_10m_yearly_v2/lccm-gain-map_global_10m_yearly_v2.png",
+      "units": "",
+      "scale": "1",
+      "offSet": "0",
+      "display": 1
+    },
+    {
+      "fileName": "CHANGE-PROB",
+      "layerBrowserName": "Change Probability",
+      "shortDescription": "Probability of land cover change",
+      "longDescription": "Probability of land cover change between two consecutive years, between 0 and 1, with higher values indicating stronger support for change. It complements the discrete transition, loss and gain maps.",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lccm_global_10m_yearly_v2/lccm-change-prob_global_10m_yearly_v2.sld",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lccm_global_10m_yearly_v2/lccm-change-prob_global_10m_yearly_v2.png",
+      "units": "",
+      "scale": "0.004",
+      "offSet": "0",
+      "display": 1
+    }
+  ]
+}
