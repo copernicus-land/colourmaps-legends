@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.0.4",
-  "eodataPath": "",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/soil_water_index/swi_global_1km_daily_v3",
   "browserName": "SWI 1km daily V3",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Soil Moisture, Soil Water Index",
   "collectionDescription": "Soil Water Index is provided daily at global scale, at a spatial resolution of ~1 km, with different T-values representing different soil depth integration times.",
@@ -117,8 +117,8 @@
       "longDescription": "Quality flag for Soil Water Index with characteristic time length T=2 days.",
       "colourMapLink": "",
       "legendLink": "",
-      "units": "",
-      "scale": "1",
+      "units": "[%]",
+      "scale": "0.5",
       "offSet": "0",
       "display": 0
     },
@@ -129,8 +129,8 @@
       "longDescription": "Quality flag for Soil Water Index with characteristic time length T=5 days.",
       "colourMapLink": "",
       "legendLink": "",
-      "units": "",
-      "scale": "1",
+      "units": "[%]",
+      "scale": "0.5",
       "offSet": "0",
       "display": 0
     },
@@ -141,8 +141,8 @@
       "longDescription": "Quality flag for Soil Water Index with characteristic time length T=10 days.",
       "colourMapLink": "",
       "legendLink": "",
-      "units": "",
-      "scale": "1",
+      "units": "[%]",
+      "scale": "0.5",
       "offSet": "0",
       "display": 0
     },
@@ -153,8 +153,8 @@
       "longDescription": "Quality flag for Soil Water Index with characteristic time length T=15 days.",
       "colourMapLink": "",
       "legendLink": "",
-      "units": "",
-      "scale": "1",
+      "units": "[%]",
+      "scale": "0.5",
       "offSet": "0",
       "display": 0
     },
@@ -165,8 +165,8 @@
       "longDescription": "Quality flag for Soil Water Index with characteristic time length T=20 days.",
       "colourMapLink": "",
       "legendLink": "",
-      "units": "",
-      "scale": "1",
+      "units": "[%]",
+      "scale": "0.5",
       "offSet": "0",
       "display": 0
     },
@@ -177,8 +177,8 @@
       "longDescription": "Quality flag for Soil Water Index with characteristic time length T=40 days.",
       "colourMapLink": "",
       "legendLink": "",
-      "units": "",
-      "scale": "1",
+      "units": "[%]",
+      "scale": "0.5",
       "offSet": "0",
       "display": 0
     },
@@ -189,8 +189,8 @@
       "longDescription": "Quality flag for Soil Water Index with characteristic time length T=60 days.",
       "colourMapLink": "",
       "legendLink": "",
-      "units": "",
-      "scale": "1",
+      "units": "[%]",
+      "scale": "0.5",
       "offSet": "0",
       "display": 0
     },
@@ -201,8 +201,8 @@
       "longDescription": "Quality flag for Soil Water Index with characteristic time length T=100 days.",
       "colourMapLink": "",
       "legendLink": "",
-      "units": "",
-      "scale": "1",
+      "units": "[%]",
+      "scale": "0.5",
       "offSet": "0",
       "display": 0
     },
@@ -216,7 +216,7 @@
       "units": "",
       "scale": "1",
       "offSet": "0",
-      "display": 1
+      "display": 0
     }
   ]
 }

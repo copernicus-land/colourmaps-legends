@@ -11,3 +11,10 @@ INTERPOLATION:INTERPOLATED
 160,74,120,182,255,80
 180,50,87,160,255,90
 200,27,55,139,255,100
+201,27,55,139,0,flag values
+241,0,0,0,0,ExceedingMin
+242,0,0,0,0,ExceedingMax
+243,0,0,0,0,LowModelSensitivity
+251,0,0,0,0,WaterMask
+252,0,0,0,0,FrozenMask
+255,0,0,0,0,no data
