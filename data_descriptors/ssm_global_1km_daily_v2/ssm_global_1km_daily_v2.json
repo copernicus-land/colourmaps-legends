@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.0.4",
-  "eodataPath": "",
+  "eodataPath": "s3://eodata/CLMS/bio-geophysical/surface_soil_moisture/ssm_global_1km_daily_v2",
   "browserName": "SSM 1km daily V2",
   "browserSearchPath": "CLMS Bio-geophysical Parameters, Soil Moisture, Surface Soil Moisture",
   "collectionDescription": "Surface Soil Moisture estimates are provided daily at global scale, at a spatial resolution of ~1 km, derived from Sentinel-1 C-SAR.",
@@ -25,6 +25,18 @@
       "scale": "0.5",
       "offSet": "0",
       "display": 1
+    },
+    {
+      "fileName": "SSM1km-UNCERTAINTY",
+      "layerBrowserName": "SSM Uncertainty",
+      "shortDescription": "Surface Soil Moisture uncertainty",
+      "longDescription": "Uncertainty of Surface Soil Moisture of the top 5 cm of soil, expressed as a degree of saturation (%).",
+      "colourMapLink": "",
+      "legendLink": "",
+      "units": "[%]",
+      "scale": "0.5",
+      "offSet": "0",
+      "display": 0
     }
   ]
 }

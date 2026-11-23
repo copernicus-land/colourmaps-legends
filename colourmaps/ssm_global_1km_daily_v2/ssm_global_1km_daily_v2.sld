@@ -26,6 +26,12 @@
               <sld:ColorMapEntry color="#4a78b6" quantity="160" label="80"/>
               <sld:ColorMapEntry color="#3257a0" quantity="180" label="90"/>
               <sld:ColorMapEntry color="#1b378b" quantity="200" label="100"/>
+              <sld:ColorMapEntry color="#1b378b" opacity="0" label="flag values (transparent)" quantity="201"/>
+              <sld:ColorMapEntry color="#000000" opacity="0" label="ExceedingMin" quantity="241"/>
+              <sld:ColorMapEntry color="#000000" opacity="0" label="ExceedingMax" quantity="242"/>
+              <sld:ColorMapEntry color="#000000" opacity="0" label="LowModelSensitivity" quantity="243"/>
+              <sld:ColorMapEntry color="#000000" opacity="0" label="WaterMask" quantity="251"/>
+              <sld:ColorMapEntry color="#000000" opacity="0" label="FrozenMask" quantity="252"/>
               <sld:ColorMapEntry color="#000000" opacity="0" label="no data" quantity="255"/>
             </sld:ColorMap>
           </sld:RasterSymbolizer>
