@@ -8,6 +8,8 @@ Every file of a dataset is named after the dataset: the **dataset identifier**, 
 <datasetIdentifier>[_<layer>].<extension>
 ```
 
+There is one exception: the INSPIRE record and its quicklook are named after the collection identifier of the metadata catalogue. See [INSPIRE exception](#inspire-exception).
+
 ## Status of existing files
 
 Files that were in the repository before this convention keep their current names. They are **not renamed**, because every rename breaks the links in the data descriptors, in the STAC collections and in the systems that read them.
@@ -73,12 +75,12 @@ Because the version is always the last part of the dataset identifier, everythin
 | `colour_scheme/` | `<datasetIdentifier>[_<layer>].sld` | `ndvi_global_300m_10daily_v2_ndvi300-ndvi.sld` |
 | `legends/` | `<datasetIdentifier>[_<layer>].png` | `ndvi_global_300m_10daily_v2_ndvi300-ndvi.png` |
 | `thumbnail/` (thumbnail) | `<datasetIdentifier>.png` | `ndvi_global_300m_10daily_v2.png` |
-| `thumbnail/` (INSPIRE quicklook) | `<datasetIdentifier>[_<parameter>]_quicklook.png` | `ndvi_global_300m_10daily_v2_quicklook.png` |
+| `thumbnail/` (INSPIRE quicklook) | `<collectionIdentifier>.png` (exception) | `clms_global_ndvi_300m_v2_10daily.png` |
 | `data_descriptor/` | `<datasetIdentifier>.json` | `ndvi_global_300m_10daily_v2.json` |
 | `stac/collection/` | `collection-clms_<datasetIdentifier>_cog.json` | `collection-clms_ndvi_global_300m_10daily_v2_cog.json` |
 | `stac/item/` | `<item id>.json` | not used yet |
 | `wms/` | `<datasetIdentifier>.<extension>` | format not agreed yet |
-| `inspire/` | `<datasetIdentifier>[_<parameter>].xml` | `ndvi_global_300m_10daily_v2.xml` |
+| `inspire/` | `<collectionIdentifier>.xml` (exception) | `clms_global_ndvi_300m_v2_10daily.xml` |
 | `documentation/` | `README.md` | `README.md` |
 
 Rules that go with the table:
@@ -88,8 +90,21 @@ Rules that go with the table:
 - **Thumbnail**: one per dataset. JPEG thumbnails (`.jpg`) are legacy.
 - **STAC collection**: the file name is `collection-` followed by the collection `id`, and the `id` is `clms_<datasetIdentifier>_cog`.
 - **STAC item**: the file name is the `id` of the item.
-- **INSPIRE**: a dataset with one record uses `<datasetIdentifier>.xml`. A dataset with several records (one per parameter) adds the parameter as a suffix, written like a layer suffix. The identifier written inside the record (`gmd:code`) is the collection identifier of the catalogue and does not change with the file name. The quicklook of a record has the name of the record followed by `_quicklook`.
+- **INSPIRE**: see the exception below.
 - **Documentation**: always `README.md`, built from the template.
+
+## INSPIRE exception
+
+The INSPIRE record and its quicklook do not use the dataset identifier. They are named after the **collection identifier** of the metadata catalogue, which is also written inside the record (`gmd:code`), so that the files keep the same names as in [copernicus-land/collection-metadata](https://github.com/copernicus-land/collection-metadata):
+
+```
+clms_global_<product>[_<parameter>]_<resolution>_<version>_<frequency>[-<variant>].xml
+clms_global_<product>[_<parameter>]_<resolution>_<version>_<frequency>[-<variant>].png
+```
+
+- The record goes in `inspire/`, its quicklook in `thumbnail/`, both with the same name apart from the extension.
+- A dataset with several records has one file per record.
+- The order of the parts differs from the dataset identifier (version before frequency), and `global` is the service component, not the coverage. The [INSPIRE guide](inspire/README.md#naming) explains the pattern.
 
 ## Complete example
 
@@ -105,7 +120,7 @@ datasets/ndvi_global_300m_10daily_v2/
 │   └── ndvi_global_300m_10daily_v2_ndvi300-nobs.png
 ├── thumbnail/
 │   ├── ndvi_global_300m_10daily_v2.png
-│   └── ndvi_global_300m_10daily_v2_quicklook.png
+│   └── clms_global_ndvi_300m_v2_10daily.png          # INSPIRE quicklook (exception)
 ├── data_descriptor/
 │   └── ndvi_global_300m_10daily_v2.json
 ├── stac/
@@ -114,7 +129,7 @@ datasets/ndvi_global_300m_10daily_v2/
 │   └── item/
 ├── wms/
 ├── inspire/
-│   └── ndvi_global_300m_10daily_v2.xml
+│   └── clms_global_ndvi_300m_v2_10daily.xml          # exception
 └── documentation/
     └── README.md
 ```
@@ -128,7 +143,6 @@ These are the earlier conventions. Do not use them for new files.
 | Colour maps | `clms_<coverage>_<product>[-<layer>]_<resolution>_<version>_<frequency>` | `clms_global_ndvi-nobs_300m_v2_10daily.sld` |
 | Legends | `<product>[-<layer>]_<coverage>_<resolution>_<frequency>_<version>` | `ndvi-nobs_global_300m_10daily_v2.png` |
 | Thumbnails | `<datasetIdentifier>.jpg`, and a few free names | `ndvi_global_300m_10daily_v2.jpg` |
-| INSPIRE records and quicklooks | collection identifier of the catalogue | `clms_global_ndvi_300m_v2_10daily.xml` |
 
 ## When a file is renamed or replaced
 

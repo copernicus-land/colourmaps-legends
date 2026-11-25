@@ -81,7 +81,7 @@ The **dataset folder** name follows the pattern:
 | Thumbnail | `<datasetIdentifier>.png` |
 | Data descriptor | `<datasetIdentifier>.json` |
 | STAC collection | `collection-clms_<datasetIdentifier>_cog.json` |
-| INSPIRE record | `<datasetIdentifier>[_<parameter>].xml` |
+| INSPIRE record and quicklook | `<collectionIdentifier>.xml` / `.png` (exception: name used in the metadata catalogue) |
 
 `<layer>` is the `fileName` of the layer in the data descriptor, in lowercase with hyphens, e.g. `ndvi_global_300m_10daily_v2_ndvi300-nobs.sld`.
 

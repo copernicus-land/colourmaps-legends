@@ -24,7 +24,7 @@ The thumbnail must be referenced by the data descriptor of the dataset, in `thum
 
 ## Quicklooks
 
-The quicklook is the image referenced by the INSPIRE record (`gmd:graphicOverview`). It is a PNG named after the record, followed by `_quicklook`: `<datasetIdentifier>[_<parameter>]_quicklook.png`, for example `ndvi_global_300m_10daily_v2_quicklook.png` (see the [naming convention](../naming_convention.md)). The existing quicklooks keep the name they have in the metadata catalogue, `<collectionIdentifier>.png`, for example `clms_global_ndvi_300m_v2_10daily.png`. A dataset with several records has several quicklooks. See the [INSPIRE guide](../inspire/README.md).
+The quicklook is the image referenced by the INSPIRE record (`gmd:graphicOverview`). It is a PNG with the same name as the record: `<collectionIdentifier>.png`, for example `clms_global_ndvi_300m_v2_10daily.png`. This is the exception to the [naming convention](../naming_convention.md); the `clms_` prefix tells the quicklook apart from the thumbnail. A dataset with several records has several quicklooks. See the [INSPIRE guide](../inspire/README.md).
 
 ## Template
 
