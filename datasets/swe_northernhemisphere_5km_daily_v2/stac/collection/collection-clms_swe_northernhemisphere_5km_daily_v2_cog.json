@@ -94,7 +94,7 @@
       ]
     },
     "swe5k_swe_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swe_northernhemisphere_5km_daily_v2/colour_scheme/clms_nhemi_swe_5km_v2_daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swe_northernhemisphere_5km_daily_v2/colour_scheme/clms_nhemi_swe_5km_daily_v2_1.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "SWE colour map",
       "roles": [

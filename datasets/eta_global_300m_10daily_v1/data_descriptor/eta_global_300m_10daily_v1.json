@@ -140,7 +140,7 @@
       "shortDescription": "TSEB-PT canopy transpiration",
       "longDescription": "Transpiration estimated by the TSEB-PT model.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta_et-tsebpt_300m_v1_10daily.sld",
-      "legendLink": "",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/legends/eta-et-tsebt_global_300m_10daily_v1.png",
       "units": "[mm/day]",
       "scale": "0.1",
       "offSet": "0",
