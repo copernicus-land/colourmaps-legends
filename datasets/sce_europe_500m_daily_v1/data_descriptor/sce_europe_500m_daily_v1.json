@@ -20,7 +20,7 @@
       "shortDescription": "Snow Cover Extent (%)",
       "longDescription": "Fractional Snow Cover Extent, indicating the percentage of ground covered by snow.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_europe_500m_daily_v1/colour_scheme/clms_ceuro_sce_500m_v1_daily.txt",
-      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_ceuro_sce_500m_v1_daily.png",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_europe_500m_daily_v1/legends/sce_ceuro_500m_daily_v1.png",
       "units": "[%]",
       "scale": "1",
       "offSet": "0",

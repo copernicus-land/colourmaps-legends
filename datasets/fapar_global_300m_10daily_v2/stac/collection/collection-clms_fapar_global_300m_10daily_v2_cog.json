@@ -105,7 +105,7 @@
       ]
     },
     "fapar300_fapar_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_fapar-fapar_300m_v2_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_300m_10daily_v2/legends/fapar-fapar_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "FAPAR legend",
       "roles": [
@@ -122,7 +122,7 @@
       ]
     },
     "fapar300_rmse_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_fapar-rmse_300m_v2_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_300m_10daily_v2/legends/fapar-rmse_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "RMSE on FAPAR legend",
       "roles": [
@@ -139,7 +139,7 @@
       ]
     },
     "fapar300_nobs_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_fapar-nobs_300m_v2_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_300m_10daily_v2/legends/fapar-nobs_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "NOBS legend",
       "roles": [
@@ -156,7 +156,7 @@
       ]
     },
     "fapar300_lbefore_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_fapar-lbefore_300m_v2_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_300m_10daily_v2/legends/fapar-lbefore_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "LENGTH_BEFORE legend",
       "roles": [
@@ -173,7 +173,7 @@
       ]
     },
     "fapar300_lafter_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_fapar-lafter_300m_v2_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_300m_10daily_v2/legends/fapar-lafter_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "LENGTH_AFTER legend",
       "roles": [

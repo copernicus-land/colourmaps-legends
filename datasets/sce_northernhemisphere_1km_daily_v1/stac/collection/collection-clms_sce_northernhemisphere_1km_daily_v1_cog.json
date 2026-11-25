@@ -104,7 +104,7 @@
       ]
     },
     "sce_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_nhemi_sce_1km_v1_daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_northernhemisphere_1km_daily_v1/legends/sce_nhemi_1km_daily_v1.png",
       "type": "image/png",
       "title": "Snow Cover Extent legend",
       "roles": [

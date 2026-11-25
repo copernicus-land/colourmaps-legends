@@ -20,7 +20,7 @@
       "shortDescription": "Water Bodies detection",
       "longDescription": "Water Bodies detection layer indicating the presence of water.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/wb_global_100m_monthly_v1/colour_scheme/clms_global_wb_100m_v1_monthly.txt",
-      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_wb_100m_v1_monthly.png",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/wb_global_100m_monthly_v1/legends/wb_global_100m_monthly_v1.png",
       "units": "",
       "scale": "1",
       "offSet": "0",

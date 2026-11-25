@@ -103,7 +103,7 @@
       ]
     },
     "lwq300_tmean_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_300m_v1_10daily-reproc-turbidity_mean.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_300m_10daily_v1/legends/lwq-turbidity-mean_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "Turbidity legend",
       "roles": [
@@ -120,7 +120,7 @@
       ]
     },
     "lwq300_tsi_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_300m_v1_10daily-reproc-trophic_state_index.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_300m_10daily_v1/legends/lwq-trophic-state-index_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "TSI legend",
       "roles": [

@@ -107,7 +107,7 @@
       ]
     },
     "sce_sce_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_sce_1km_v1_daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_global_1km_daily_v1/legends/sce_global_1km_daily_v1.png",
       "type": "image/png",
       "title": "Snow Cover Extent legend",
       "roles": [
@@ -124,7 +124,7 @@
       ]
     },
     "sce_unc_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_sce-unc_1km_v1_daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_global_1km_daily_v1/legends/sce-unc_global_1km_daily_v1.png",
       "type": "image/png",
       "title": "SCE Uncertainty legend",
       "roles": [

@@ -104,7 +104,7 @@
       ]
     },
     "lwq300_tmean_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_300m_v1_10daily-reproc-turbidity_mean.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_300m_10daily_v2/legends/lwq-turbidity-mean_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "Turbidity legend",
       "roles": [
@@ -121,7 +121,7 @@
       ]
     },
     "lwq300_chlamean_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_300m_v2.1_10daily-chla_mean.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_300m_10daily_v2/legends/lwq-chla-mean_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "Chlorophyll-a legend",
       "roles": [
@@ -138,7 +138,7 @@
       ]
     },
     "lwq300_tsmmean_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_300m_v2.1_10daily-tsm_mean.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_300m_10daily_v2/legends/lwq-tsm-mean_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "TSM legend",
       "roles": [
@@ -155,7 +155,7 @@
       ]
     },
     "lwq300_tsi_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_300m_v1_10daily-reproc-trophic_state_index.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_300m_10daily_v2/legends/lwq-trophic-state-index_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "TSI legend",
       "roles": [
@@ -172,7 +172,7 @@
       ]
     },
     "lwq300_fcbprob_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lwq_300m_v2.1_10daily-floating_cyanobacteria.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_300m_10daily_v2/legends/lwq-floating-cyanobacteria_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "Floating Cyanobacteria legend",
       "roles": [

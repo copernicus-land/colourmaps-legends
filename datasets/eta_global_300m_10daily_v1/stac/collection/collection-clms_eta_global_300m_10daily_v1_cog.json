@@ -103,7 +103,7 @@
       ]
     },
     "et_ensemble_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-ensemble_300m_v1_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/legends/eta-et-ensemble_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "ET Ensemble legend",
       "roles": [
@@ -120,7 +120,7 @@
       ]
     },
     "et_etlook_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-etlook_300m_v1_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/legends/eta-et-etlook_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "ET ETLook legend",
       "roles": [
@@ -146,7 +146,7 @@
       ]
     },
     "et_std_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-std_300m_v1_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/legends/eta-et-std_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "ET StDev legend",
       "roles": [
@@ -163,7 +163,7 @@
       ]
     },
     "e_ensemble_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_e-ensemble_300m_v1_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/legends/eta-e-ensemble_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "E Ensemble legend",
       "roles": [
@@ -180,7 +180,7 @@
       ]
     },
     "e_etlook_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_e-etlook_300m_v1_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/legends/eta-e-etlook_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "E ETLook legend",
       "roles": [
@@ -206,7 +206,7 @@
       ]
     },
     "e_std_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_e-std_300m_v1_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/legends/eta-e-std_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "E StDev legend",
       "roles": [
@@ -223,7 +223,7 @@
       ]
     },
     "t_ensemble_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-ensemble_300m_v1_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/legends/eta-et-ensemble_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "T Ensemble legend",
       "roles": [
@@ -240,7 +240,7 @@
       ]
     },
     "t_etlook_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-etlook_300m_v1_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/legends/eta-et-etlook_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "T ETLook legend",
       "roles": [
@@ -266,7 +266,7 @@
       ]
     },
     "t_std_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-std_300m_v1_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/legends/eta-et-std_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "T StDev legend",
       "roles": [
@@ -283,7 +283,7 @@
       ]
     },
     "nobs_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta-nobs_300m_v1_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/legends/eta-nobs_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "NOBS legend",
       "roles": [
@@ -300,7 +300,7 @@
       ]
     },
     "flag_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta-flag_300m_v1_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/legends/eta-flag_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "FLAG legend",
       "roles": [

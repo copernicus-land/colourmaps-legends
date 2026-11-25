@@ -101,7 +101,7 @@
       ]
     },
     "lst10_dc_min_00_11_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_5km_v2_min_10daily-daily-cycle.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v2/legends/lst-min-daily-cycle_global_5km_10daily_v2.png",
       "type": "image/png",
       "title": "LST Min legend",
       "roles": [
@@ -118,7 +118,7 @@
       ]
     },
     "lst10_dc_min_12_23_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_5km_v2_min_10daily-daily-cycle.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v2/legends/lst-min-daily-cycle_global_5km_10daily_v2.png",
       "type": "image/png",
       "title": "LST Min legend",
       "roles": [
@@ -135,7 +135,7 @@
       ]
     },
     "lst10_dc_max_00_11_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_5km_v2_max_10daily-daily-cycle.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v2/legends/lst-max-daily-cycle_global_5km_10daily_v2.png",
       "type": "image/png",
       "title": "LST Max legend",
       "roles": [
@@ -152,7 +152,7 @@
       ]
     },
     "lst10_dc_max_12_23_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_5km_v2_max_10daily-daily-cycle.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v2/legends/lst-max-daily-cycle_global_5km_10daily_v2.png",
       "type": "image/png",
       "title": "LST Max legend",
       "roles": [
@@ -169,7 +169,7 @@
       ]
     },
     "lst10_dc_median_00_11_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_5km_v2_med_10daily-daily-cycle.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v2/legends/lst-med-daily-cycle_global_5km_10daily_v2.png",
       "type": "image/png",
       "title": "LST Median legend",
       "roles": [
@@ -186,7 +186,7 @@
       ]
     },
     "lst10_dc_median_12_23_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_5km_v2_med_10daily-daily-cycle.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v2/legends/lst-med-daily-cycle_global_5km_10daily_v2.png",
       "type": "image/png",
       "title": "LST Median legend",
       "roles": [
@@ -203,7 +203,7 @@
       ]
     },
     "lst10_dc_fobs_00_11_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_5km_v2_frac_valid_10daily-daily-cycle.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v2/legends/lst-frac-valid-daily-cycle_global_5km_10daily_v2.png",
       "type": "image/png",
       "title": "Fraction Valid legend",
       "roles": [
@@ -220,7 +220,7 @@
       ]
     },
     "lst10_dc_fobs_12_23_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_5km_v2_frac_valid_10daily-daily-cycle.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v2/legends/lst-frac-valid-daily-cycle_global_5km_10daily_v2.png",
       "type": "image/png",
       "title": "Fraction Valid legend",
       "roles": [

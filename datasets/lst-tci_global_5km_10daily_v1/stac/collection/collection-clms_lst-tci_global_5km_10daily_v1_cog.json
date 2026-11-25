@@ -92,7 +92,7 @@
       ]
     },
     "lst10_tci_median_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_5km_v1_10daily-synthesis.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v1/legends/lst-synthesis_global_5km_10daily_v1.png",
       "type": "image/png",
       "title": "LST Synthesis legend",
       "roles": [
@@ -109,7 +109,7 @@
       ]
     },
     "lst10_tci_tci_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_5km_v1_10daily-tci.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_5km_10daily_v1/legends/lst-tci_global_5km_10daily_v1.png",
       "type": "image/png",
       "title": "TCI legend",
       "roles": [

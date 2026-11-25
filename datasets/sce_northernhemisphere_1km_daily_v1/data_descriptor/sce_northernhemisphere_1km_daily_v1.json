@@ -20,7 +20,7 @@
       "shortDescription": "Snow Cover Extent (%)",
       "longDescription": "Fractional Snow Cover Extent, indicating the percentage of ground covered by snow.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_northernhemisphere_1km_daily_v1/colour_scheme/clms_nhemi_sce_1km_v1_daily.txt",
-      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_nhemi_sce_1km_v1_daily.png",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_northernhemisphere_1km_daily_v1/legends/sce_nhemi_1km_daily_v1.png",
       "units": "[%]",
       "scale": "1",
       "offSet": "0",

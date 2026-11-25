@@ -12,7 +12,7 @@
   },
   "nominalSpatialResolution": "300m",
   "frequency": "10daily",
-  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/gpp_global_300m_10daily_v2/thumbnail/.gitkeep",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/gpp_global_300m_10daily_v2/thumbnail/GPP300mV2_Dataset-page_Thumbnail.png",
   "layers": [
     {
       "fileName": "GPP300-GPP",
@@ -20,7 +20,7 @@
       "shortDescription": "Gross Primary Production (g C/m²/day)",
       "longDescription": "Gross Primary Production (GPP) represents the total amount of carbon fixed by plants through photosynthesis in an ecosystem, expressed in gC/m²/day.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/gpp_global_300m_10daily_v2/colour_scheme/clms_global_gpp_300m_v2_10daily.sld",
-      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_gpp_300m_v1_10daily.png",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/gpp_global_300m_10daily_v2/legends/gpp-gpp_global_300m_10daily_v2.png",
       "units": "[g C/m²/day]",
       "scale": "0.001",
       "offSet": "0",

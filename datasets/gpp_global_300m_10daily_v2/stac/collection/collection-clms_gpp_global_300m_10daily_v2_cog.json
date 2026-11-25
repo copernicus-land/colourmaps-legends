@@ -103,7 +103,7 @@
       ]
     },
     "gpp300_gpp_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_gpp_300m_v1_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/gpp_global_300m_10daily_v2/legends/gpp-gpp_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "GPP legend",
       "roles": [

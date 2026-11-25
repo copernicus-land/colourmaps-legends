@@ -102,7 +102,7 @@
       ]
     },
     "lst_lst_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_5km_v1_hourly.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst_global_5km_hourly_v1/legends/lst_global_5km_hourly_v1.png",
       "type": "image/png",
       "title": "LST legend",
       "roles": [

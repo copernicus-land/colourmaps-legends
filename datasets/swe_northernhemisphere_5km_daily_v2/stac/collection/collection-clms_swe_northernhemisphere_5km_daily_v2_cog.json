@@ -103,7 +103,7 @@
       ]
     },
     "swe5k_swe_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_nhemi_swe_5km_v2_daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swe_northernhemisphere_5km_daily_v2/legends/swe_nhemi_5km_daily_v2.png",
       "type": "image/png",
       "title": "SWE legend",
       "roles": [

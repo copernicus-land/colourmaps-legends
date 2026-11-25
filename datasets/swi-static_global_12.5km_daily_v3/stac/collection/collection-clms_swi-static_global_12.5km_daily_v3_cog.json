@@ -103,7 +103,7 @@
       ]
     },
     "swi_static_tc_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_swi_12.5km_static_tc_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swi-static_global_12.5km_daily_v3/legends/swi-tc_global_12.5km_static_v3.png",
       "type": "image/png",
       "title": "Topographic Complexity legend",
       "roles": [
@@ -120,7 +120,7 @@
       ]
     },
     "swi_static_wf_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_swi_12.5km_static_wf_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swi-static_global_12.5km_daily_v3/legends/swi-wf_global_12.5km_static_v3.png",
       "type": "image/png",
       "title": "Wetland Fraction legend",
       "roles": [
@@ -137,7 +137,7 @@
       ]
     },
     "swi_static_fm_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_swi_12.5km_static_fm_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swi-static_global_12.5km_daily_v3/legends/swi-fm_global_12.5km_static_v3.png",
       "type": "image/png",
       "title": "Forest Mask legend",
       "roles": [
@@ -154,7 +154,7 @@
       ]
     },
     "swi_static_ci_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_swi_12.5km_static_ci_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swi-static_global_12.5km_daily_v3/legends/swi-ci_global_12.5km_static_v3.png",
       "type": "image/png",
       "title": "Correlation Information legend",
       "roles": [

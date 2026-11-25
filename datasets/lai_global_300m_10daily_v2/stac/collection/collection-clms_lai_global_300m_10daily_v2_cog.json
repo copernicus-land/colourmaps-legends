@@ -105,7 +105,7 @@
       ]
     },
     "lai300_lai_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lai-lai_300m_v2_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lai_global_300m_10daily_v2/legends/lai-lai_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "LAI legend",
       "roles": [
@@ -122,7 +122,7 @@
       ]
     },
     "lai300_rmse_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lai-rmse_300m_v2_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lai_global_300m_10daily_v2/legends/lai-rmse_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "RMSE on LAI legend",
       "roles": [
@@ -139,7 +139,7 @@
       ]
     },
     "lai300_nobs_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lai-nobs_300m_v2_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lai_global_300m_10daily_v2/legends/lai-nobs_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "NOBS legend",
       "roles": [
@@ -156,7 +156,7 @@
       ]
     },
     "lai300_lbefore_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lai-lbefore_300m_v2_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lai_global_300m_10daily_v2/legends/lai-lbefore_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "LENGTH_BEFORE legend",
       "roles": [
@@ -173,7 +173,7 @@
       ]
     },
     "lai300_lafter_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lai-lafter_300m_v2_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lai_global_300m_10daily_v2/legends/lai-lafter_global_300m_10daily_v2.png",
       "type": "image/png",
       "title": "LENGTH_AFTER legend",
       "roles": [

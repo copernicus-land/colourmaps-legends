@@ -104,7 +104,7 @@
       ]
     },
     "ba300_dob_nrt_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_ba_300m_v3_daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ba_global_300m_daily_v3/legends/ba_global_300m_daily_v3.png",
       "type": "image/png",
       "title": "Burnt Area legend",
       "roles": [

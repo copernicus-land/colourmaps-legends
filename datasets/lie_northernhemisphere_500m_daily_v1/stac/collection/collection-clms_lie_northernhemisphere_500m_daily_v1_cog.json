@@ -104,7 +104,7 @@
       ]
     },
     "lie_nh_lie_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_nhemi_lie_500m_lie_v1_daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lie_northernhemisphere_500m_daily_v1/legends/lie_nhemi_500m_daily_v1.png",
       "type": "image/png",
       "title": "Lake Ice Extent legend",
       "roles": [
@@ -121,7 +121,7 @@
       ]
     },
     "lie_nh_p_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_nhemi_lie_500m_statistical_probability_v1_daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lie_northernhemisphere_500m_daily_v1/legends/lie-statistical-probability_nhemi_500m_daily_v1.png",
       "type": "image/png",
       "title": "Statistical Probability legend",
       "roles": [

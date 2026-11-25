@@ -103,7 +103,7 @@
       ]
     },
     "lai300_lai_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lai_300m_v1_10daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lai_global_300m_10daily_v1/legends/lai_global_300m_10daily_v1.png",
       "type": "image/png",
       "title": "LAI legend",
       "roles": [

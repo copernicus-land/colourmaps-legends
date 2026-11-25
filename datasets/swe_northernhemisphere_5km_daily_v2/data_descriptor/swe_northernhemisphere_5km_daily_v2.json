@@ -20,7 +20,7 @@
       "shortDescription": "Snow Water Equivalent (mm)",
       "longDescription": "Snow Water Equivalent represents the amount of water contained in the snowpack. It is expressed in mm.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swe_northernhemisphere_5km_daily_v2/colour_scheme/clms_nhemi_swe_5km_v2_daily.sld",
-      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_nhemi_swe_5km_v2_daily.png",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swe_northernhemisphere_5km_daily_v2/legends/swe_nhemi_5km_daily_v2.png",
       "units": "[mm]",
       "scale": "1",
       "offSet": "0",

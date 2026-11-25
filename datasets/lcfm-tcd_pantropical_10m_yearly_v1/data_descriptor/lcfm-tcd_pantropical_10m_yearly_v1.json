@@ -20,7 +20,7 @@
       "shortDescription": "Tree Cover Density (%)",
       "longDescription": "Tree Cover Density expressed as percentage of tree cover at 10 m resolution.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lcfm-tcd_pantropical_10m_yearly_v1/colour_scheme/lcfm-tcd_pantropical_10m_yearly_v1.txt",
-      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lcfm-tcd_pantropical_10m_yearly_v1.png",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lcfm-tcd_pantropical_10m_yearly_v1/legends/lcfm-tcd_pantropical_10m_yearly_v1.png",
       "units": "[%]",
       "scale": "1",
       "offSet": "0",

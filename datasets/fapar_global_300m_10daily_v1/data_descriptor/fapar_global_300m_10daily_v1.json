@@ -20,7 +20,7 @@
       "shortDescription": "Fraction of Absorbed Photosynthetically Active Radiation",
       "longDescription": "FAPAR (Fraction of Absorbed Photosynthetically Active Radiation) quantifies the fraction of the solar radiation absorbed by live leaves for photosynthesis. Values range from 0 to 0.94.",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_300m_10daily_v1/colour_scheme/clms_global_fapar_300m_v1_10daily.sld",
-      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_fapar_300m_v1_10daily.png",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_300m_10daily_v1/legends/fapar_global_300m_10daily_v1.png",
       "units": "",
       "scale": "0.004",
       "offSet": "0",

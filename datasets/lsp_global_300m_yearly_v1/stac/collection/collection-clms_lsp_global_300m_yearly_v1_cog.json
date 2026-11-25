@@ -104,7 +104,7 @@
       ]
     },
     "lsp300_sosd_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_sosd_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-sosd-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Start of Season Date (Season 1) legend",
       "roles": [
@@ -121,7 +121,7 @@
       ]
     },
     "lsp300_sosd_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_sosd_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-sosd-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Start of Season Date (Season 2) legend",
       "roles": [
@@ -138,7 +138,7 @@
       ]
     },
     "lsp300_eosd_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_eosd_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-eosd-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "End of Season Date (Season 1) legend",
       "roles": [
@@ -155,7 +155,7 @@
       ]
     },
     "lsp300_eosd_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_eosd_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-eosd-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "End of Season Date (Season 2) legend",
       "roles": [
@@ -172,7 +172,7 @@
       ]
     },
     "lsp300_maxv_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_maxv_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-maxv-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Maximum Value (Season 1) legend",
       "roles": [
@@ -189,7 +189,7 @@
       ]
     },
     "lsp300_maxv_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_maxv_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-maxv-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Maximum Value (Season 2) legend",
       "roles": [
@@ -206,7 +206,7 @@
       ]
     },
     "lsp300_minv_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_minv_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-minv-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Minimum Value (Season 1) legend",
       "roles": [
@@ -223,7 +223,7 @@
       ]
     },
     "lsp300_minv_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_minv_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-minv-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Minimum Value (Season 2) legend",
       "roles": [
@@ -240,7 +240,7 @@
       ]
     },
     "lsp300_ampl_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_ampl_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-ampl-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Amplitude (Season 1) legend",
       "roles": [
@@ -257,7 +257,7 @@
       ]
     },
     "lsp300_ampl_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_ampl_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-ampl-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Amplitude (Season 2) legend",
       "roles": [
@@ -274,7 +274,7 @@
       ]
     },
     "lsp300_maxd_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_maxd_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-maxd-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Max Date (Season 1) legend",
       "roles": [
@@ -291,7 +291,7 @@
       ]
     },
     "lsp300_maxd_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_maxd_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-maxd-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Max Date (Season 2) legend",
       "roles": [
@@ -308,7 +308,7 @@
       ]
     },
     "lsp300_length_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_length_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-length-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Season Length (Season 1) legend",
       "roles": [
@@ -325,7 +325,7 @@
       ]
     },
     "lsp300_length_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_length_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-length-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Season Length (Season 2) legend",
       "roles": [
@@ -342,7 +342,7 @@
       ]
     },
     "lsp300_sprod_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_sprod_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-sprod-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Season Productivity (Season 1) legend",
       "roles": [
@@ -359,7 +359,7 @@
       ]
     },
     "lsp300_sprod_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_sprod_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-sprod-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Season Productivity (Season 2) legend",
       "roles": [
@@ -376,7 +376,7 @@
       ]
     },
     "lsp300_tprod_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_tprod_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-tprod-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Total Productivity (Season 1) legend",
       "roles": [
@@ -393,7 +393,7 @@
       ]
     },
     "lsp300_tprod_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_tprod_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-tprod-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Total Productivity (Season 2) legend",
       "roles": [
@@ -410,7 +410,7 @@
       ]
     },
     "lsp300_lslope_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_lslope_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-lslope-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Left Slope (Season 1) legend",
       "roles": [
@@ -427,7 +427,7 @@
       ]
     },
     "lsp300_lslope_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_lslope_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-lslope-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Left Slope (Season 2) legend",
       "roles": [
@@ -444,7 +444,7 @@
       ]
     },
     "lsp300_rslope_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_rslope_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-rslope-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Right Slope (Season 1) legend",
       "roles": [
@@ -461,7 +461,7 @@
       ]
     },
     "lsp300_rslope_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_rslope_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-rslope-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Right Slope (Season 2) legend",
       "roles": [
@@ -478,7 +478,7 @@
       ]
     },
     "lsp300_sosv_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_sosv_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-sosv-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "SOS Value (Season 1) legend",
       "roles": [
@@ -495,7 +495,7 @@
       ]
     },
     "lsp300_sosv_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_sosv_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-sosv-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "SOS Value (Season 2) legend",
       "roles": [
@@ -512,7 +512,7 @@
       ]
     },
     "lsp300_eosv_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_eosv_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-eosv-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "EOS Value (Season 1) legend",
       "roles": [
@@ -529,7 +529,7 @@
       ]
     },
     "lsp300_eosv_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_eosv_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-eosv-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "EOS Value (Season 2) legend",
       "roles": [
@@ -546,7 +546,7 @@
       ]
     },
     "lsp300_qa_s1_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_qa_season1.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-qa-season1_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Quality (Season 1) legend",
       "roles": [
@@ -563,7 +563,7 @@
       ]
     },
     "lsp300_qa_s2_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lsp_300m_v1_yearly_qa_season2.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/legends/lsp-qa-season2_global_300m_yearly_v1.png",
       "type": "image/png",
       "title": "Quality (Season 2) legend",
       "roles": [

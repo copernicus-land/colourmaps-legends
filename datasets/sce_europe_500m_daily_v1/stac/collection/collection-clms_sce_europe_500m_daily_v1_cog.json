@@ -104,7 +104,7 @@
       ]
     },
     "sce500_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_ceuro_sce_500m_v1_daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_europe_500m_daily_v1/legends/sce_ceuro_500m_daily_v1.png",
       "type": "image/png",
       "title": "Snow Cover Extent legend",
       "roles": [

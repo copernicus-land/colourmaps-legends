@@ -20,7 +20,7 @@
       "shortDescription": "Soil Water Index (T=1 days)",
       "longDescription": "Soil Water Index with characteristic time length T=1 days, expressed as degree of saturation (%).",
       "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swi_global_12.5km_10daily_v3/colour_scheme/clms_global_swi_12.5km_v3_10daily.txt",
-      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_swi_12.5km_v3_10daily.png",
+      "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swi_global_12.5km_10daily_v3/legends/swi_global_12.5km_10daily_v3.png",
       "units": "[%]",
       "scale": "0.5",
       "offSet": "0",

@@ -12,7 +12,7 @@
   },
   "nominalSpatialResolution": "300m",
   "frequency": "yearly",
-  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/tree/main/datasets/lsp_global_300m_yearly_v2/thumbnail",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v2/thumbnail/lsp_global_300m_yearly_v2.jpg",
   "layers": [
     {
       "fileName": "LSP300-TPROD-S1",

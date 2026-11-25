@@ -106,7 +106,7 @@
       ]
     },
     "swi1km_swi002_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_swi_1km_v1_daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swi_europe_1km_daily_v1/legends/swi_global_1km_daily_v1.png",
       "type": "image/png",
       "title": "SWI T=2 legend",
       "roles": [
