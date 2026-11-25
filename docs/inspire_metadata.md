@@ -12,7 +12,7 @@ datasets/ndvi_global_300m_10daily_v2/inspire/clms_global_ndvi_300m_v2_10daily.xm
 
 A dataset without a record yet keeps a `.gitkeep`.
 
-The existing records were copied unchanged from [copernicus-land/collection-metadata](https://github.com/copernicus-land/collection-metadata) (state of April 2025), where they are organised as `CLMS-GLOBAL/metadata/` and `LCFM/metadata/`. That repository also holds a quicklook PNG per record (`CLMS-GLOBAL/quicklooks/`), which is not copied here.
+The existing records were copied unchanged from [copernicus-land/collection-metadata](https://github.com/copernicus-land/collection-metadata) (state of April 2025), where they are organised as `CLMS-GLOBAL/metadata/` and `LCFM/metadata/`. That repository also holds a quicklook PNG per record (`CLMS-GLOBAL/quicklooks/`); these are stored in the `thumbnail/` folder of the dataset under the same file name as the record (`<collectionIdentifier>.png`).
 
 Most datasets have one record. A dataset can have several when each layer is published as its own collection: `lsp_global_300m_yearly_v1` has 15, one per phenology parameter. One record can also cover two datasets: the NDVI 1 km v3 statistics record covers both the long-term and the short-term statistics, and is present in both folders.
 
