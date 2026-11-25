@@ -8,7 +8,7 @@ The Web Map Service endpoints through which the dataset can be viewed.
 
 ## Status
 
-This component is not defined yet: no dataset has WMS content, there is no template (`templates/wms/` is empty) and the file format and naming still have to be agreed. Until then the folder holds a `.gitkeep`.
+This component is not defined yet: no dataset has WMS content, there is no template (`templates/wms/` is empty) and the file format still has to be agreed. The file will be named `<datasetIdentifier>.<extension>`, as set by the [naming convention](../naming_convention.md). Until then the folder holds a `.gitkeep`.
 
 ## Related information
 

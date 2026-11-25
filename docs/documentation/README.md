@@ -4,7 +4,7 @@
 
 ## What goes in `datasets/<datasetIdentifier>/documentation/`
 
-A single `README.md` that links to the technical documents of the dataset (ATBD, PUM, QAR and related documents).
+A single file, always named `README.md`, that links to the technical documents of the dataset (ATBD, PUM, QAR and related documents).
 
 The documents themselves are **not stored in this repository**, to keep it light to clone and fork. They are hosted in [copernicus-land/dataset-technical-docs](https://github.com/copernicus-land/dataset-technical-docs), which has one folder per dataset with the same identifier: `docs/<datasetIdentifier>/`.
 

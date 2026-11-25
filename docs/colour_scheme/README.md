@@ -13,14 +13,19 @@ The colour maps that define how each layer of the dataset is displayed. One colo
 
 ## File naming
 
-`<layer_name>.sld` (or `.txt`), for example `clms_global_ndvi_1km_v2_10daily.sld`.
+`<datasetIdentifier>[_<layer>].sld`, following the [naming convention](../naming_convention.md):
 
-When a dataset has several layers or variables, each file name must identify the variable it represents, for example:
+- one colour map for the whole dataset: `ndvi_global_1km_10daily_v2.sld`;
+- one colour map per layer: add the layer, which is the `fileName` of the layer in the data descriptor, in lowercase with hyphens:
 
 ```
-clms_global_ndvi-ndvi_300m_v2_10daily.sld
-clms_global_ndvi-nobs_300m_v2_10daily.sld
+ndvi_global_300m_10daily_v2_ndvi300-ndvi.sld
+ndvi_global_300m_10daily_v2_ndvi300-nobs.sld
 ```
+
+A legacy TXT colour map has the same name with `.txt`.
+
+Existing files keep their earlier names (`clms_global_ndvi-nobs_300m_v2_10daily.sld`); they are not renamed. Use the convention for new files and for files that replace an existing one.
 
 ## Template
 

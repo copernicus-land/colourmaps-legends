@@ -8,7 +8,7 @@ One JSON file that describes the collection and its layers for integration in th
 
 ## File naming
 
-`<datasetIdentifier>.json`, for example `ndvi_global_300m_10daily_v2.json`.
+`<datasetIdentifier>.json`, for example `ndvi_global_300m_10daily_v2.json`. See the [naming convention](../naming_convention.md).
 
 ## Template
 

@@ -2,6 +2,8 @@
 
 How to compile each component of a dataset. The documentation has one folder per component, with the same names as the folders inside a dataset.
 
+File names are set by one rule for all components: see the [naming convention](naming_convention.md).
+
 ## Find your guide
 
 | I want to add or update... | Goes into `datasets/<datasetIdentifier>/` | Guide | Template |
@@ -18,9 +20,9 @@ How to compile each component of a dataset. The documentation has one folder per
 
 ## Adding a new dataset
 
-1. Choose the dataset identifier: `<product>_<coverage>_<resolution>_<frequency>_<version>`, for example `ndvi_global_300m_10daily_v2`. See the [naming convention](../README.md#naming-convention).
+1. Choose the dataset identifier: `<product>_<coverage>_<resolution>_<frequency>_<version>`, for example `ndvi_global_300m_10daily_v2`. See the [naming convention](naming_convention.md).
 2. Create `datasets/<datasetIdentifier>/` with all component folders: `colour_scheme`, `legends`, `thumbnail`, `data_descriptor`, `stac/collection`, `stac/item`, `wms`, `inspire`, `documentation`.
-3. Fill the components you have, following the guide of each one. A suggested order, because later components refer to earlier ones:
+3. Fill the components you have, following the guide of each one and naming every file as the [naming convention](naming_convention.md) requires. A suggested order, because later components refer to earlier ones:
    1. colour scheme, legends and thumbnail (the files);
    2. data descriptor (links to those files);
    3. STAC collection (built from the data descriptor);
@@ -34,6 +36,7 @@ Every folder has a `README.md` that says what goes in the dataset folder, how to
 ```
 docs/
 ├── README.md                  # this page
+├── naming_convention.md       # file names for every component
 ├── colour_scheme/
 ├── legends/
 ├── thumbnail/

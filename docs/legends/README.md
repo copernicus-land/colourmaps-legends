@@ -12,12 +12,14 @@ PNG.
 
 ## File naming
 
-One file per layer, named after the layer. The existing legends follow `<product>-<layer>_<coverage>_<resolution>_<frequency>_<version>.png`, for example:
+`<datasetIdentifier>[_<layer>].png`, following the [naming convention](../naming_convention.md). The legend has the same name as the colour map of its layer, with `.png`:
 
 ```
-ndvi-ndvi_global_300m_10daily_v2.png
-ba-dob_global_300m_daily_v4.png
+ndvi_global_300m_10daily_v2_ndvi300-ndvi.png
+ndvi_global_300m_10daily_v2_ndvi300-nobs.png
 ```
+
+Existing files keep their earlier names (`ndvi-nobs_global_300m_10daily_v2.png`); they are not renamed. Use the convention for new files and for files that replace an existing one.
 
 ## Template
 

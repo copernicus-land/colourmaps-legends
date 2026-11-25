@@ -72,13 +72,20 @@ The **dataset folder** name follows the pattern:
 - CGLS products: `<dataset_short_name>_<coverage_area>_<nominal_resolution>_<temporal_sampling>_<version>`, e.g., `ndvi_global_300m_10daily_v2`
 - VLCC/UA/WSI products: `clms_<family>_<product_name>`, e.g., `clms_vlcc_crop-types`, `clms_ua_building-height`, `clms_wsi_fractional-snow-cover`
 
-The filename of the colour maps and legends follows this pattern:
+**Files inside a global dataset folder** are named after the dataset: `<datasetIdentifier>[_<layer>].<extension>`. The full rules are in the [naming convention](docs/naming_convention.md). In short:
 
-- **Colourmaps**: `<layer_name>.(sld|txt)`, e.g., `clms_global_ndvi_1km_v2_10daily.sld`
-- **Data descriptors**: `<dataset_name>.json`, e.g., `fapar_global_1km_10daily_v2.json`
-- **Legends**: `<layer_name>.png`, e.g., `clms_global_ndvi_1km_v2_10daily.png`
+| Component | File name |
+|---|---|
+| Colour map | `<datasetIdentifier>[_<layer>].sld` |
+| Legend | `<datasetIdentifier>[_<layer>].png` |
+| Thumbnail | `<datasetIdentifier>.png` |
+| Data descriptor | `<datasetIdentifier>.json` |
+| STAC collection | `collection-clms_<datasetIdentifier>_cog.json` |
+| INSPIRE record | `<datasetIdentifier>[_<parameter>].xml` |
 
-NOTE: in case of multiple layers/variables names should be distinct accordingly to the specific variable represented e.g. `clms_global_NDVI300-NDVI_v2_10daily.sld`, `clms_global_NDVI300-NOBS_v2_10daily.sld` ...
+`<layer>` is the `fileName` of the layer in the data descriptor, in lowercase with hyphens, e.g. `ndvi_global_300m_10daily_v2_ndvi300-nobs.sld`.
+
+Files added before this convention keep their earlier names (e.g. `clms_global_ndvi-nobs_300m_v2_10daily.sld`, `ndvi-nobs_global_300m_10daily_v2.png`) and are not renamed. The convention applies to new files and to files that replace an existing one.
 
 ## Data Descriptors
 

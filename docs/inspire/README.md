@@ -20,7 +20,9 @@ Most datasets have one record. A dataset can have several when each layer is pub
 
 ## Naming
 
-The record file name is the **collection identifier**, which is also written inside the record (`gmd:citation/.../gmd:identifier/.../gmd:code`):
+**New records** are named after the dataset, following the [naming convention](../naming_convention.md): `<datasetIdentifier>.xml`, or `<datasetIdentifier>_<parameter>.xml` when the dataset has one record per parameter. The collection identifier written inside the record (`gmd:code`) is not affected by the file name.
+
+**Existing records** keep the name they have in the metadata catalogue and are not renamed. That name is the **collection identifier**, which is also written inside the record (`gmd:citation/.../gmd:identifier/.../gmd:code`):
 
 ```
 clms_global_<product>[_<parameter>]_<resolution>_<version>_<frequency>[-<variant>].xml
@@ -46,11 +48,11 @@ Points to watch:
 
 ## Writing a new record
 
-1. Copy [`templates/inspire/inspire_metadata_template.xml`](../../templates/inspire/inspire_metadata_template.xml) and name it after the collection identifier.
+1. Copy [`templates/inspire/inspire_metadata_template.xml`](../../templates/inspire/inspire_metadata_template.xml) and name it `<datasetIdentifier>.xml`.
 2. Replace every `{{PLACEHOLDER}}` using the table below. Everything that is not a placeholder is common to the CLMS records and can stay as it is.
 3. Remove the blocks that do not apply (see "Variations").
 4. Validate the file with the [INSPIRE Validator](https://inspire.ec.europa.eu/validator/).
-5. Save the record as `datasets/<datasetIdentifier>/inspire/<collectionIdentifier>.xml` and remove the `.gitkeep` of that folder.
+5. Save the record as `datasets/<datasetIdentifier>/inspire/<datasetIdentifier>.xml` and remove the `.gitkeep` of that folder.
 
 ### Placeholders
 
@@ -58,7 +60,7 @@ Points to watch:
 |---|---|---|
 | `{{METADATA_UUID}}` | UUID of the record. It is used as the file identifier and, for records with a DOI, as the DOI suffix (`10.2909/<UUID>`). | `ae760a70-708e-459a-8eec-6852462a5faf` |
 | `{{METADATA_DATESTAMP}}` | Date-time of the last edit of the record. | `2025-04-16T13:43:21Z` |
-| `{{COLLECTION_ID}}` | Collection identifier, identical to the file name without `.xml`. Also used for the quicklook URL. | `clms_global_ndvi_300m_v2_10daily` |
+| `{{COLLECTION_ID}}` | Collection identifier of the metadata catalogue (see the pattern above). Also used for the quicklook URL. | `clms_global_ndvi_300m_v2_10daily` |
 | `{{TITLE}}` | `<Product name> <start>-<end or present> (raster <resolution>), <coverage>, <frequency> - version <N>` | `Normalised Difference Vegetation Index 2020-present (raster 300 m), global, 10-daily - version 2` |
 | `{{CREATION_DATE}}`, `{{PUBLICATION_DATE}}` | Dates of creation and publication of the dataset (`YYYY-MM-DD`). | `2021-08-01` |
 | `{{EDITION}}`, `{{EDITION_DATE}}` | Product version and its date. | `2.0`, `2020-01-01` |

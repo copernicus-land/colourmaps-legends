@@ -13,6 +13,10 @@
 
 Collection: `collection-clms_<datasetIdentifier>_cog.json`, for example `collection-clms_ndvi_global_300m_10daily_v2_cog.json`. The `id` inside the file is `clms_<datasetIdentifier>_cog`.
 
+Item: `<item id>.json`.
+
+See the [naming convention](../naming_convention.md).
+
 ## Template
 
 [`templates/stac/collection/stac_collection_template.json`](../../templates/stac/collection/stac_collection_template.json): an empty STAC 1.1.0 collection. There is no item template yet (`templates/stac/item/` is empty).
