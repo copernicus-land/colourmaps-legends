@@ -78,6 +78,8 @@ Because the version is always the last part of the dataset identifier, everythin
 | `thumbnail/` (INSPIRE quicklook) | `<collectionIdentifier>.png` (exception) | `clms_global_ndvi_300m_v2_10daily.png` |
 | `data_descriptor/` | `<datasetIdentifier>.json` | `ndvi_global_300m_10daily_v2.json` |
 | `stac/collection/` | `collection-clms_<datasetIdentifier>_nc.json` (`_cog` for a dataset served in COG only) | `collection-clms_ndvi_global_300m_10daily_v2_nc.json` |
+| `stac/collection/_nc/` | `collection-clms_<datasetIdentifier>_nc.json` | `collection-clms_ndvi_global_300m_10daily_v2_nc.json` |
+| `stac/collection/_cog/` | `collection-clms_<datasetIdentifier>_cog.json` | `collection-clms_ndvi_global_300m_10daily_v2_cog.json` |
 | `stac/item/` | `<item id>.json` | not used yet |
 | `wms/` | `<datasetIdentifier>.<extension>` | format not agreed yet |
 | `inspire/` | `<collectionIdentifier>.xml` (exception) | `clms_global_ndvi_300m_v2_10daily.xml` |
@@ -88,7 +90,7 @@ Rules that go with the table:
 - **Colour map and legend of the same layer have the same name**, apart from the extension.
 - **Colour maps** are SLD. A TXT colour map is legacy; if one is still needed it has the same name as the SLD, with `.txt`.
 - **Thumbnail**: one per dataset. JPEG thumbnails (`.jpg`) are legacy.
-- **STAC collection**: the file name is `collection-` followed by the collection `id`. NetCDF is the official format of the datasets and the COG is created from it, so the `id` is `clms_<datasetIdentifier>_nc`. It is `clms_<datasetIdentifier>_cog` only for a dataset that is served in COG only. One collection per dataset.
+- **STAC collection**: the file name is `collection-` followed by the collection `id`. NetCDF is the official format of the datasets and the COG is created from it, so the `id` is `clms_<datasetIdentifier>_nc`. It is `clms_<datasetIdentifier>_cog` only for a dataset that is served in COG only. One collection per dataset. The NetCDF and the COG collection as the CDSE catalogue serves them are kept next to it, unchanged, in the folders `_nc/` and `_cog/`.
 - **STAC item**: the file name is the `id` of the item.
 - **INSPIRE**: see the exception below.
 - **Documentation**: always `README.md`, built from the template.
@@ -125,7 +127,11 @@ datasets/ndvi_global_300m_10daily_v2/
 │   └── ndvi_global_300m_10daily_v2.json
 ├── stac/
 │   ├── collection/
-│   │   └── collection-clms_ndvi_global_300m_10daily_v2_nc.json
+│   │   ├── collection-clms_ndvi_global_300m_10daily_v2_nc.json
+│   │   ├── _nc/
+│   │   │   └── collection-clms_ndvi_global_300m_10daily_v2_nc.json    # NetCDF collection as served by CDSE
+│   │   └── _cog/
+│   │       └── collection-clms_ndvi_global_300m_10daily_v2_cog.json   # COG collection as served by CDSE
 │   └── item/
 ├── wms/
 ├── inspire/

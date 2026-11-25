@@ -1,0 +1,420 @@
+{
+  "id": "clms_lie_global_500m_daily_v2_cog",
+  "type": "Collection",
+  "bands": [
+    {
+      "name": "lie",
+      "description": "Lake Ice Extent",
+      "classification:classes": [
+        {
+          "name": "missing",
+          "value": 0,
+          "nodata": true,
+          "color_hint": "000000",
+          "description": "No satellite image data available"
+        },
+        {
+          "name": "snow_covered_ice",
+          "value": 10,
+          "color_hint": "FFFFFF",
+          "description": "Fully snow-covered ice"
+        },
+        {
+          "name": "ice",
+          "value": 20,
+          "color_hint": "ADD8E6",
+          "description": "Partially snow-covered or snow-free ice"
+        },
+        {
+          "name": "open_water",
+          "value": 30,
+          "color_hint": "0000FF",
+          "description": "Open water"
+        },
+        {
+          "name": "cloud",
+          "value": 40,
+          "color_hint": "C8C8C8",
+          "description": "Cloud-covered pixel"
+        },
+        {
+          "name": "not_interpreted",
+          "value": 50,
+          "color_hint": "404040",
+          "description": "No satellite image data available (uninterpreted area)"
+        },
+        {
+          "name": "sea",
+          "value": 60,
+          "color_hint": "1A1A6E",
+          "description": "Sea area (masked out)"
+        },
+        {
+          "name": "land",
+          "value": 70,
+          "color_hint": "8B6914",
+          "description": "Land area (masked out)"
+        }
+      ]
+    },
+    {
+      "name": "p",
+      "description": "GMM predicted posterior probability of the most likely class for Lake Ice Extent"
+    }
+  ],
+  "links": [
+    {
+      "rel": "items",
+      "type": "application/geo+json",
+      "href": "https://stac.dataspace.copernicus.eu/v1/collections/clms_lie_global_500m_daily_v2_cog/items"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "https://stac.dataspace.copernicus.eu/v1/"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://stac.dataspace.copernicus.eu/v1/"
+    },
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "https://stac.dataspace.copernicus.eu/v1/collections/clms_lie_global_500m_daily_v2_cog"
+    },
+    {
+      "rel": "license",
+      "href": "https://land.copernicus.eu/en/data-policy",
+      "type": "text/html",
+      "title": "Data policy for Copernicus Land Monitoring Service products and services"
+    },
+    {
+      "rel": "about",
+      "href": "https://land.copernicus.eu/en/products/water-bodies/lake-ice-extent-global-500m_v2",
+      "type": "text/html",
+      "title": "Product page"
+    },
+    {
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+      "type": "application/schema+json",
+      "title": "Queryables",
+      "href": "https://stac.dataspace.copernicus.eu/v1/collections/clms_lie_global_500m_daily_v2_cog/queryables"
+    }
+  ],
+  "title": "CLMS Lake Ice Extent (LIE) Global 500m daily V2 (COG)",
+  "assets": {
+    "thumbnail": {
+      "href": "https://s3.waw3-2.cloudferro.com/swift/v1/stac-png/clms_lie_global_500m_daily_v2.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "CLMS Lake Ice Extent (LIE) Global 500m daily V2 (COG) Thumbnail",
+      "proj:code": null,
+      "proj:shape": [
+        360,
+        640
+      ]
+    }
+  },
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9999999,
+          -59.9975,
+          179.9975,
+          80.0025
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-07-08T00:15:46.000Z",
+          null
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "sci:doi": "10.2909/64a4d49d-281d-42c0-a45c-3abb3f337ad3",
+  "contacts": [
+    {
+      "name": "Copernicus Land Monitoring Service",
+      "links": [
+        {
+          "rel": "about",
+          "href": "https://land.copernicus.eu/",
+          "type": "text/html",
+          "title": "Homepage of the Copernicus Land Monitoring Service"
+        }
+      ],
+      "roles": [
+        "producer"
+      ],
+      "emails": [
+        {
+          "roles": [
+            "contact point"
+          ],
+          "value": "copernicus@eea.europa.eu"
+        }
+      ],
+      "phones": [
+        {
+          "roles": [
+            "contact point"
+          ],
+          "value": "+4533367100"
+        }
+      ],
+      "organization": "European Environment Agency"
+    }
+  ],
+  "keywords": [
+    "Copernicus",
+    "CLMS",
+    "LIE",
+    "Lake Ice Extent",
+    "cryosphere",
+    "global",
+    "daily",
+    "500m",
+    "Sentinel-3",
+    "SLSTR"
+  ],
+  "providers": [
+    {
+      "url": "https://cloudferro.com/",
+      "name": "CloudFerro",
+      "roles": [
+        "host"
+      ]
+    },
+    {
+      "url": "https://joint-research-centre.ec.europa.eu/",
+      "name": "European Commission's Joint Research Centre",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "url": "https://commission.europa.eu/",
+      "name": "European Commission",
+      "roles": [
+        "licensor"
+      ]
+    },
+    {
+      "url": "https://vito.be/",
+      "name": "VITO",
+      "roles": [
+        "processor"
+      ]
+    }
+  ],
+  "summaries": {
+    "gsd": [
+      500.0
+    ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
+    "proj:shape": [
+      28000,
+      72000
+    ],
+    "instruments": [
+      "the sea and land surface temperature radiometer (slstr)"
+    ],
+    "product:type": [
+      "river_and_lake_ice_extent"
+    ],
+    "constellation": [
+      "sentinel-3"
+    ],
+    "processing:level": [
+      "L3"
+    ],
+    "processing:version": [
+      "V2.0.1"
+    ],
+    "product:timeliness": [
+      "P1D"
+    ],
+    "product:timeliness_category": [
+      "NRT"
+    ]
+  },
+  "description": "On a daily basis classifies pixels in Northern Hemisphere freshwater bodies into 1) Ice, 2) Open water, and 3) Cloud. The class Ice includes various types of ice, also snow-covered ice. The data is updated in near real-time with the spatial resolution of 500 m.",
+  "item_assets": {
+    "p": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "p",
+          "description": "GMM predicted posterior probability of the most likely class for Lake Ice Extent"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "GMM predicted posterior probability of the most likely class for Lake Ice Extent",
+      "nodata": 0.0,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "uint8",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "lie": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "lie",
+          "description": "Lake Ice Extent",
+          "classification:classes": [
+            {
+              "name": "missing",
+              "value": 0,
+              "nodata": true,
+              "color_hint": "000000",
+              "description": "No satellite image data available"
+            },
+            {
+              "name": "snow_covered_ice",
+              "value": 10,
+              "color_hint": "FFFFFF",
+              "description": "Fully snow-covered ice"
+            },
+            {
+              "name": "ice",
+              "value": 20,
+              "color_hint": "ADD8E6",
+              "description": "Partially snow-covered or snow-free ice"
+            },
+            {
+              "name": "open_water",
+              "value": 30,
+              "color_hint": "0000FF",
+              "description": "Open water"
+            },
+            {
+              "name": "cloud",
+              "value": 40,
+              "color_hint": "C8C8C8",
+              "description": "Cloud-covered pixel"
+            },
+            {
+              "name": "not_interpreted",
+              "value": 50,
+              "color_hint": "404040",
+              "description": "No satellite image data available (uninterpreted area)"
+            },
+            {
+              "name": "sea",
+              "value": 60,
+              "color_hint": "1A1A6E",
+              "description": "Sea area (masked out)"
+            },
+            {
+              "name": "land",
+              "value": 70,
+              "color_hint": "8B6914",
+              "description": "Land area (masked out)"
+            }
+          ]
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Lake Ice Extent",
+      "nodata": 0.0,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "uint8",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "Product": {
+      "type": "application/zip",
+      "roles": [
+        "data",
+        "metadata",
+        "archive"
+      ],
+      "title": "Zipped product",
+      "auth:refs": [
+        "oidc"
+      ]
+    }
+  },
+  "auth:schemes": {
+    "s3": {
+      "type": "s3"
+    },
+    "oidc": {
+      "type": "openIdConnect",
+      "openIdConnectUrl": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/.well-known/openid-configuration"
+    }
+  },
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/product/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/storage/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
+  ],
+  "storage:schemes": {
+    "cdse-s3": {
+      "type": "custom-s3",
+      "class": "hot",
+      "title": "Copernicus Data Space Ecosystem S3",
+      "platform": "https://eodata.dataspace.copernicus.eu",
+      "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
+      "requester_pays": false
+    },
+    "creodias-s3": {
+      "type": "custom-s3",
+      "class": "hot",
+      "title": "CREODIAS S3",
+      "platform": "https://eodata.cloudferro.com",
+      "description": "Comprehensive Earth Observation Data (EODATA) archive offered by CREODIAS as a commercial part of CDSE, designed to provide users with access to a vast repository of satellite data without predefined quota limits.",
+      "requester_pays": true
+    }
+  }
+}

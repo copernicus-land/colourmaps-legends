@@ -7,6 +7,8 @@
 | Folder | Content |
 |---|---|
 | `stac/collection/` | The STAC collection of the dataset: one JSON file, describing the NetCDF |
+| `stac/collection/_nc/` | The NetCDF collection of the dataset as the CDSE STAC catalogue serves it, unchanged |
+| `stac/collection/_cog/` | The COG collection of the dataset as the CDSE STAC catalogue serves it, unchanged |
 | `stac/item/` | STAC item(s) of the dataset. None are stored yet |
 
 ## File naming
@@ -14,6 +16,8 @@
 Collection: `collection-clms_<datasetIdentifier>_nc.json`, for example `collection-clms_ndvi_global_300m_10daily_v2_nc.json`. The `id` inside the file is `clms_<datasetIdentifier>_nc`.
 
 NetCDF is the official format of the datasets; the COG is created from it. The collection of a dataset is therefore the NetCDF one. Only a dataset that is served in COG only has `collection-clms_<datasetIdentifier>_cog.json`, with `id` `clms_<datasetIdentifier>_cog`. Today these are `eta_global_300m_10daily_v1`, `hf_global_300m_daily_v1`, `lc_global_100m_yearly_v3`, `lsp_global_300m_yearly_v1` and `lsp_global_300m_yearly_v2`.
+
+Collections as served: `_nc/collection-clms_<datasetIdentifier>_nc.json` and `_cog/collection-clms_<datasetIdentifier>_cog.json`. They are copies of what the catalogue returns, links of the catalogue API included; nothing from the data descriptor is added. They show what the collection in `stac/collection/` was built from. The COG one also holds information the NetCDF one does not have: data type, no-data value, scale and offset, and the class tables of the layers. A dataset without a collection of a format in the catalogue has no folder for that format.
 
 Item: `<item id>.json`.
 
@@ -35,6 +39,8 @@ There is no item template yet (`templates/stac/item/` is empty).
 
 `python descriptor_to_stac.py` (repository root) downloads the CLMS collections from the CDSE STAC catalogue (`https://stac.dataspace.copernicus.eu/v1`, shown in the [STAC Browser](https://browser.stac.dataspace.copernicus.eu/)), adds the fields of the data descriptors and writes `stac/collection/` of every dataset that has both. It takes the NetCDF collection of a dataset, and the COG collection only when the catalogue has no NetCDF one. It never changes a value of the catalogue.
 
+The same run writes the NetCDF and the COG collection of every dataset, as served, to `stac/collection/_nc/` and `stac/collection/_cog/`.
+
 The layer names of the descriptors follow the COG file names (`BA300-DOB`), while the NetCDF variables can be named differently (`day_of_burn`). The script matches them by name and, where the names differ, with the `NETCDF_ALIASES` table at the top of the script. The pairs it used are listed per collection in `stac_merge_report.md`. Run it again after a descriptor or the catalogue changes; do not edit the collections by hand. The last run was on 2026-11-25.
 
 ## To do
@@ -47,5 +53,6 @@ The layer names of the descriptors follow the COG file names (`BA300-DOB`), whil
 ## Rules
 
 - The collection combines the collection of the CDSE STAC catalogue with the fields of the [data descriptor](../data_descriptor/README.md). When the descriptor changes, update the collection.
+- The files in `_nc/` and `_cog/` are copies of the catalogue. Do not edit them; run the script to refresh them.
 - Colour map and legend URLs are copied from the descriptor and must point to existing files of the dataset folder. The thumbnail is the one of the catalogue.
 - `sci:doi` is the DOI of the dataset; it is the same DOI as in the [INSPIRE record](../inspire/README.md).

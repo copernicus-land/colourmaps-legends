@@ -1,0 +1,1134 @@
+{
+  "id": "clms_lwq-reproc_global_300m_10daily_v1_cog",
+  "type": "Collection",
+  "bands": [
+    {
+      "name": "rw412",
+      "description": "Fully normalized water leaving reflectance at 412 nm"
+    },
+    {
+      "name": "rw443",
+      "description": "Fully normalized water leaving reflectance at 443 nm"
+    },
+    {
+      "name": "rw490",
+      "description": "Fully normalized water leaving reflectance at 490 nm"
+    },
+    {
+      "name": "rw510",
+      "description": "Fully normalized water leaving reflectance at 510 nm"
+    },
+    {
+      "name": "rw560",
+      "description": "Fully normalized water leaving reflectance at 560 nm"
+    },
+    {
+      "name": "rw620",
+      "description": "Fully normalized water leaving reflectance at 620 nm"
+    },
+    {
+      "name": "rw665",
+      "description": "Fully normalized water leaving reflectance at 665 nm"
+    },
+    {
+      "name": "rw681",
+      "description": "Fully normalized water leaving reflectance at 681 nm"
+    },
+    {
+      "name": "rw709",
+      "description": "Fully normalized water leaving reflectance at 709 nm"
+    },
+    {
+      "name": "rw754",
+      "description": "Fully normalized water leaving reflectance at 754 nm"
+    },
+    {
+      "name": "rw760",
+      "description": "Fully normalized water leaving reflectance at 760 nm"
+    },
+    {
+      "name": "rw779",
+      "description": "Fully normalized water leaving reflectance at 779 nm"
+    },
+    {
+      "name": "rw865",
+      "description": "Fully normalized water leaving reflectance at 865 nm"
+    },
+    {
+      "name": "rw885",
+      "description": "Fully normalized water leaving reflectance at 885 nm"
+    },
+    {
+      "name": "rw900",
+      "description": "Fully normalized water leaving reflectance at 900 nm"
+    },
+    {
+      "name": "tmean",
+      "description": "Mean of turbidity in water body"
+    },
+    {
+      "name": "tnobs",
+      "description": "Number of observation for turbidity in water body"
+    },
+    {
+      "name": "tsi",
+      "description": "Trophic state index"
+    },
+    {
+      "name": "tsinobs",
+      "description": "Number of observation for trophic state index"
+    },
+    {
+      "name": "tstdev",
+      "description": "Standar deviation of turbidity in water body"
+    },
+    {
+      "name": "fobs",
+      "description": "First observation day within 10-daily period of Lake Water Quality"
+    },
+    {
+      "name": "lobs",
+      "description": "Last observation day within 10-daily period of Lake Water Quality"
+    },
+    {
+      "name": "nobs",
+      "description": "Number of observation"
+    },
+    {
+      "name": "nobsqrs",
+      "description": "Number of observation potentially affected by suboptimal observation conditions"
+    },
+    {
+      "name": "tobs",
+      "description": "Observation day within 10-daily period of Lake Water Quality"
+    }
+  ],
+  "links": [
+    {
+      "rel": "items",
+      "type": "application/geo+json",
+      "href": "https://stac.dataspace.copernicus.eu/v1/collections/clms_lwq-reproc_global_300m_10daily_v1_cog/items"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "https://stac.dataspace.copernicus.eu/v1/"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://stac.dataspace.copernicus.eu/v1/"
+    },
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "https://stac.dataspace.copernicus.eu/v1/collections/clms_lwq-reproc_global_300m_10daily_v1_cog"
+    },
+    {
+      "rel": "license",
+      "href": "https://land.copernicus.eu/en/data-policy",
+      "type": "text/html",
+      "title": "Data policy for Copernicus Land Monitoring Service products and services"
+    },
+    {
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+      "type": "application/schema+json",
+      "title": "Queryables",
+      "href": "https://stac.dataspace.copernicus.eu/v1/collections/clms_lwq-reproc_global_300m_10daily_v1_cog/queryables"
+    }
+  ],
+  "title": "CLMS Lake Water Quality (LWQ) Reproc Global 300m 10-daily V1 (COG)",
+  "assets": {
+    "thumbnail": {
+      "href": "https://s3.waw3-2.cloudferro.com/swift/v1/stac-png/clms_lwq-reproc_global_300m_10daily_v1.jpg",
+      "type": "image/jpeg",
+      "roles": [
+        "thumbnail"
+      ],
+      "title": "CLMS Lake Water Quality (LWQ) Reproc Global 300m 10-daily V1 (COG) Thumbnail",
+      "proj:code": null,
+      "proj:shape": [
+        360,
+        640
+      ]
+    }
+  },
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2002-05-11T00:00:00.000Z",
+          "2012-04-10T23:59:59.000Z"
+        ]
+      ]
+    }
+  },
+  "license": "other",
+  "contacts": [
+    {
+      "name": "Copernicus Land Monitoring Service",
+      "links": [
+        {
+          "rel": "about",
+          "href": "https://land.copernicus.eu/",
+          "type": "text/html",
+          "title": "Homepage of the Copernicus Land Monitoring Service"
+        }
+      ],
+      "roles": [
+        "producer"
+      ],
+      "emails": [
+        {
+          "roles": [
+            "contact point"
+          ],
+          "value": "copernicus@eea.europa.eu"
+        }
+      ],
+      "phones": [
+        {
+          "roles": [
+            "contact point"
+          ],
+          "value": "+4533367100"
+        }
+      ],
+      "organization": "European Environment Agency"
+    }
+  ],
+  "keywords": [
+    "Copernicus",
+    "CLMS",
+    "LWQ",
+    "Lake Water Quality",
+    "inland water quality",
+    "global",
+    "10-daily",
+    "300m",
+    "Sentinel-3",
+    "OLCI"
+  ],
+  "providers": [
+    {
+      "url": "https://cloudferro.com/",
+      "name": "CloudFerro",
+      "roles": [
+        "host"
+      ]
+    },
+    {
+      "url": "https://joint-research-centre.ec.europa.eu/",
+      "name": "European Commission's Joint Research Centre",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "url": "https://commission.europa.eu/",
+      "name": "European Commission",
+      "roles": [
+        "licensor"
+      ]
+    },
+    {
+      "url": "https://vito.be/",
+      "name": "VITO",
+      "roles": [
+        "processor"
+      ]
+    }
+  ],
+  "summaries": {
+    "gsd": [
+      300.0
+    ],
+    "platform": [
+      "envisat"
+    ],
+    "proj:code": [
+      "EPSG:4326"
+    ],
+    "proj:shape": [
+      80640,
+      161280
+    ],
+    "instruments": [
+      "meris"
+    ],
+    "product:type": [
+      "lake_water_quality"
+    ],
+    "constellation": [
+      "envisat"
+    ],
+    "processing:level": [
+      "L3"
+    ],
+    "processing:version": [
+      "1.3.0"
+    ]
+  },
+  "description": "Provides semi-continuous observations for a large number of medium and large-sized lakes. The reprocessed archive provides 10-daily observations at 300 m spatial resolution based on MERIS sensor data with the temporal extent from 2002 to 2012.",
+  "item_assets": {
+    "tsi": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "tsi",
+          "description": "Trophic state index"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Trophic state index",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "fobs": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "fobs",
+          "description": "First observation day within 10-daily period of Lake Water Quality"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "First observation day within 10-daily period of Lake Water Quality",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "lobs": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "lobs",
+          "description": "Last observation day within 10-daily period of Lake Water Quality"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Last observation day within 10-daily period of Lake Water Quality",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "nobs": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "nobs",
+          "description": "Number of observation"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Number of observation",
+      "nodata": 0.0,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "int16",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "tobs": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "tobs",
+          "description": "Observation day within 10-daily period of Lake Water Quality"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Observation day within 10-daily period of Lake Water Quality",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw412": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw412",
+          "description": "Fully normalized water leaving reflectance at 412 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 412 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw443": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw443",
+          "description": "Fully normalized water leaving reflectance at 443 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 443 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw490": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw490",
+          "description": "Fully normalized water leaving reflectance at 490 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 490 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw510": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw510",
+          "description": "Fully normalized water leaving reflectance at 510 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 510 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw560": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw560",
+          "description": "Fully normalized water leaving reflectance at 560 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 560 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw620": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw620",
+          "description": "Fully normalized water leaving reflectance at 620 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 620 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw665": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw665",
+          "description": "Fully normalized water leaving reflectance at 665 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 665 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw681": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw681",
+          "description": "Fully normalized water leaving reflectance at 681 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 681 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw709": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw709",
+          "description": "Fully normalized water leaving reflectance at 709 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 709 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw754": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw754",
+          "description": "Fully normalized water leaving reflectance at 754 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 754 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw760": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw760",
+          "description": "Fully normalized water leaving reflectance at 760 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 760 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw779": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw779",
+          "description": "Fully normalized water leaving reflectance at 779 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 779 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw865": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw865",
+          "description": "Fully normalized water leaving reflectance at 865 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 865 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw885": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw885",
+          "description": "Fully normalized water leaving reflectance at 885 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 885 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "rw900": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "rw900",
+          "description": "Fully normalized water leaving reflectance at 900 nm"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Fully normalized water leaving reflectance at 900 nm",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "tmean": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "tmean",
+          "description": "Mean of turbidity in water body"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Mean of turbidity in water body",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "tnobs": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "tnobs",
+          "description": "Number of observation for turbidity in water body"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Number of observation for turbidity in water body",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "tstdev": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "tstdev",
+          "description": "Standar deviation of turbidity in water body"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Standar deviation of turbidity in water body",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "Product": {
+      "type": "application/zip",
+      "roles": [
+        "data",
+        "metadata",
+        "archive"
+      ],
+      "title": "Zipped product",
+      "auth:refs": [
+        "oidc"
+      ]
+    },
+    "nobsqrs": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "nobsqrs",
+          "description": "Number of observation potentially affected by suboptimal observation conditions"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Number of observation potentially affected by suboptimal observation conditions",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    },
+    "tsinobs": {
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "bands": [
+        {
+          "name": "tsinobs",
+          "description": "Number of observation for trophic state index"
+        }
+      ],
+      "roles": [
+        "data"
+      ],
+      "title": "Number of observation for trophic state index",
+      "nodata": 9.96921e+36,
+      "alternate": {
+        "https": {
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": [],
+          "alternate:name": "HTTPS"
+        }
+      },
+      "auth:refs": [
+        "s3"
+      ],
+      "data_type": "float32",
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "alternate:name": "S3"
+    }
+  },
+  "auth:schemes": {
+    "s3": {
+      "type": "s3"
+    },
+    "oidc": {
+      "type": "openIdConnect",
+      "openIdConnectUrl": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/.well-known/openid-configuration"
+    }
+  },
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/product/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/storage/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v1.0.0/schema.json"
+  ],
+  "storage:schemes": {
+    "cdse-s3": {
+      "type": "custom-s3",
+      "class": "hot",
+      "title": "Copernicus Data Space Ecosystem S3",
+      "platform": "https://eodata.dataspace.copernicus.eu",
+      "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
+      "requester_pays": false
+    },
+    "creodias-s3": {
+      "type": "custom-s3",
+      "class": "hot",
+      "title": "CREODIAS S3",
+      "platform": "https://eodata.cloudferro.com",
+      "description": "Comprehensive Earth Observation Data (EODATA) archive offered by CREODIAS as a commercial part of CDSE, designed to provide users with access to a vast repository of satellite data without predefined quota limits.",
+      "requester_pays": true
+    }
+  }
+}

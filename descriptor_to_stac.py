@@ -12,6 +12,11 @@ A dataset is therefore described from its NetCDF collection
 (clms_<name>_nc -> collection-clms_<name>_nc.json). The COG collection
 (clms_<name>_cog) is used only for a dataset the catalogue serves in COG only.
 
+The collections of a dataset are in addition written as the catalogue serves
+them, without any change, to datasets/<name>/stac/collection/_nc/ (NetCDF) and
+datasets/<name>/stac/collection/_cog/ (COG). The COG one keeps the information
+that only the COG collection has (data type, no-data value, class tables).
+
 In a NetCDF collection the layers are the bands of the single "Product" asset,
 so the layer fields of the descriptor are added to those bands. In a COG
 collection every layer is an item asset of its own.
@@ -50,6 +55,8 @@ TEMPLATE_PATHS = {
 }
 # the format a dataset is described from, in order of preference
 FORMATS = ("nc", "cog")
+# format -> folder under stac/collection/ for the collection as the catalogue serves it
+DUMP_FOLDERS = {"nc": "_nc", "cog": "_cog"}
 
 # Descriptor layer names follow the COG file names; some NetCDF variables are
 # named differently. Layer name, whole or without its leading segment(s) (lower
@@ -374,7 +381,31 @@ def merge(coll_src, desc, log):
     return coll
 
 
-def write_report(matched_logs, colls_without_desc, descs_without_coll, source):
+def dump_collections(collections):
+    """Write every collection as served to stac/collection/_nc/ or _cog/ of its dataset.
+
+    Nothing is added, removed or reordered. Returns format -> names of the datasets written.
+    """
+    written = {fmt: [] for fmt in DUMP_FOLDERS}
+    for cid, coll in sorted(collections.items()):
+        name, fmt = split_id(cid)
+        dataset_dir = DATASETS_DIR / name
+        if not dataset_dir.is_dir():
+            continue
+        out_dir = dataset_dir / "stac" / "collection" / DUMP_FOLDERS[fmt]
+        out_dir.mkdir(parents=True, exist_ok=True)
+        with open(out_dir / f"collection-{cid}.json", "w", encoding="utf-8", newline="\n") as f:
+            json.dump(coll, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+        # stac/collection/ is no longer empty: drop its placeholder
+        placeholder = out_dir.parent / ".gitkeep"
+        if placeholder.is_file():
+            placeholder.unlink()
+        written[fmt].append(name)
+    return written
+
+
+def write_report(matched_logs, colls_without_desc, descs_without_coll, source, dumps):
     from_cog = [log.name for log in matched_logs if log.format == "cog"]
     lines = [
         "# Data descriptor -> STAC collection merge report",
@@ -391,6 +422,8 @@ def write_report(matched_logs, colls_without_desc, descs_without_coll, source):
         f"  - from the COG collection (the catalogue has no NetCDF collection): {len(from_cog)}",
         f"- Datasets in the catalogue without a data descriptor (untouched): {len(colls_without_desc)}",
         f"- Descriptors without a STAC collection (no output): {len(descs_without_coll)}",
+        f"- NetCDF collections written as served to `stac/collection/{DUMP_FOLDERS['nc']}/`: {len(dumps['nc'])}",
+        f"- COG collections written as served to `stac/collection/{DUMP_FOLDERS['cog']}/`: {len(dumps['cog'])}",
         f"- Descriptor layers matched: {sum(len(log.matched) for log in matched_logs)} "
         f"bands/item assets; not matched: {sum(len(log.unmatched_layers) for log in matched_logs)} layers",
         "",
@@ -535,6 +568,9 @@ def main():
         collections = fetch_collections()
         source = f"{CATALOGUE_URL} on {datetime.date.today().isoformat()}"
 
+    # before the merge: the merge removes the API links from the collections it reads
+    dumps = dump_collections(collections)
+
     templates = {}
     for fmt, path in TEMPLATE_PATHS.items():
         with open(path, encoding="utf-8") as f:
@@ -582,7 +618,7 @@ def main():
             if path.is_file():
                 path.unlink()
 
-    write_report(logs, colls_without_desc, descs_without_coll, source)
+    write_report(logs, colls_without_desc, descs_without_coll, source, dumps)
 
     total_added = sum(len(l.added) for l in logs)
     total_conflicts = sum(len(l.conflicts) for l in logs)
@@ -590,6 +626,8 @@ def main():
     print(f"merged {len(logs)} collections "
           f"({sum(l.format == 'nc' for l in logs)} NetCDF, {sum(l.format == 'cog' for l in logs)} COG), "
           f"{total_added} additions, {total_conflicts} conflicts, {total_unmatched} unmatched layers")
+    for fmt, folder in DUMP_FOLDERS.items():
+        print(f"{len(dumps[fmt])} collections written as served to stac/collection/{folder}/")
     print(f"report: {REPORT_PATH}")
 
 

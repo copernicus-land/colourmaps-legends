@@ -12,6 +12,8 @@ Collections read from: https://stac.dataspace.copernicus.eu/v1 on 2026-11-25
   - from the COG collection (the catalogue has no NetCDF collection): 5
 - Datasets in the catalogue without a data descriptor (untouched): 3
 - Descriptors without a STAC collection (no output): 16
+- NetCDF collections written as served to `stac/collection/_nc/`: 71
+- COG collections written as served to `stac/collection/_cog/`: 74
 - Descriptor layers matched: 373 bands/item assets; not matched: 16 layers
 
 ### Datasets described from the COG collection

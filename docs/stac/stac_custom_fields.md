@@ -76,6 +76,8 @@ Text that drives how the product is shown in the CDSE Copernicus Browser.
   catalogue API generates (`self`, `root`, `parent`, `items`, queryables) are
   dropped; everything else is kept unchanged. Keys are written in the order of
   the template.
+- The collections in `stac/collection/_nc/` and `stac/collection/_cog/` are copies of the catalogue;
+  nothing of this document applies to them.
 - Only collections are touched here; no items are stored.
 - All 75 outputs validate with `pystac` against the STAC 1.1.0 core schema and
   every declared extension schema.

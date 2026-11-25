@@ -18,6 +18,8 @@ colourmaps-legends/
 │       ├── data_descriptor/       # <datasetIdentifier>.json, metadata for Copernicus Browser integration
 │       ├── stac/
 │       │   ├── collection/        # STAC collection: collection-clms_<datasetIdentifier>_nc.json (_cog if served in COG only)
+│       │   │   ├── _nc/           # NetCDF collection as served by the CDSE STAC catalogue, unchanged
+│       │   │   └── _cog/          # COG collection as served by the CDSE STAC catalogue, unchanged
 │       │   └── item/              # STAC item(s)
 │       ├── wms/                   # Web Map Service (WMS) endpoints
 │       ├── inspire/               # INSPIRE metadata record(s): ISO 19115/19139 *.xml
@@ -102,7 +104,7 @@ The `thumbnail/` folder of each dataset contains the preview image used in the C
 
 ## STAC
 
-The `stac/collection/` folder of each dataset contains its STAC collection. It describes the NetCDF, the official format of the dataset; the COG collection is used only for a dataset that is served in COG only. See the [STAC collection template explained](docs/stac/stac_collection_template_explained.md) and the [custom STAC fields](docs/stac/stac_custom_fields.md); the template is in `templates/stac/collection/`.
+The `stac/collection/` folder of each dataset contains its STAC collection. It describes the NetCDF, the official format of the dataset; the COG collection is used only for a dataset that is served in COG only. The NetCDF and the COG collection as the CDSE STAC catalogue serves them are kept unchanged in `stac/collection/_nc/` and `stac/collection/_cog/`. See the [STAC collection template explained](docs/stac/stac_collection_template_explained.md) and the [custom STAC fields](docs/stac/stac_custom_fields.md); the template is in `templates/stac/collection/`.
 
 ## INSPIRE metadata
 
