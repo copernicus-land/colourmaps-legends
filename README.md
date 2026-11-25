@@ -34,7 +34,7 @@ colourmaps-legends/
 │   ├── wms/
 │   ├── inspire/
 │   └── documentation/
-├── docs/                          # How to compile each component (see docs/README.md)
+├── docs/                          # How to compile each component: one folder per component (start at docs/README.md)
 ├── clms_datasets/                 # Pan-European datasets (clms_*), not yet migrated to datasets/
 │   ├── colourmaps/
 │   │   └── clms_<family>_<product>/
@@ -84,21 +84,21 @@ NOTE: in case of multiple layers/variables names should be distinct accordingly 
 
 The `data_descriptor/` folder of each dataset (`clms_datasets/data_descriptors/` for pan-European datasets) contains the JSON file that provides metadata for integrating the CLMS collection into the Copernicus Browser. Each JSON file describes a single collection and its layers.
 
-For detailed documentation on how to populate these files, see [Data Descriptors Documentation](docs/Structure_description_of_the_proposed_json_scheme_for_CLMS_collections.adoc).
+For detailed documentation on how to populate these files, see [Data Descriptors Documentation](docs/data_descriptor/Structure_description_of_the_proposed_json_scheme_for_CLMS_collections.adoc).
 
 Templates for each version are available under `templates/data_descriptor/`.
 
 ## Thumbnails
 
-The `thumbnail/` folder of each dataset contains the preview image used in the Copernicus Browser. For specifications, see [Thumbnail Specifications](docs/CLMS_Thumbnail_Specifications.adoc).
+The `thumbnail/` folder of each dataset contains the preview image used in the Copernicus Browser. For specifications, see [Thumbnail Specifications](docs/thumbnail/CLMS_Thumbnail_Specifications.adoc).
 
 ## STAC
 
-The `stac/collection/` folder of each dataset contains its STAC collection. See the [STAC collection template explained](docs/stac_collection_template_explained.md) and the [custom STAC fields](docs/stac_custom_fields.md); the template is in `templates/stac/collection/`.
+The `stac/collection/` folder of each dataset contains its STAC collection. See the [STAC collection template explained](docs/stac/stac_collection_template_explained.md) and the [custom STAC fields](docs/stac/stac_custom_fields.md); the template is in `templates/stac/collection/`.
 
 ## INSPIRE metadata
 
-The `inspire/` folder of each dataset contains its INSPIRE (ISO 19115/19139) metadata record(s) as XML. The existing records were copied from [copernicus-land/collection-metadata](https://github.com/copernicus-land/collection-metadata). See [INSPIRE metadata: how to compile it](docs/inspire_metadata.md); the record template is in `templates/inspire/`.
+The `inspire/` folder of each dataset contains its INSPIRE (ISO 19115/19139) metadata record(s) as XML. The existing records were copied from [copernicus-land/collection-metadata](https://github.com/copernicus-land/collection-metadata). See [INSPIRE guide](docs/inspire/README.md); the record template is in `templates/inspire/`.
 
 ## Documentation
 

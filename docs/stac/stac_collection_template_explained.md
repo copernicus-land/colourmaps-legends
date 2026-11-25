@@ -1,6 +1,6 @@
 # CLMS STAC Collection template — element-by-element explanation
 
-Companion to [`stac_collection_template.json`](../templates/stac/collection/stac_collection_template.json),
+Companion to [`stac_collection_template.json`](../../templates/stac/collection/stac_collection_template.json),
 an empty template for the enriched CLMS collections produced by
 `descriptor_to_stac.py` (upstream structure from
 [cdse-stac-samples](https://github.com/copernicus-land/cdse-stac-samples) plus

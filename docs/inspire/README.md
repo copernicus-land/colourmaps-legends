@@ -1,4 +1,6 @@
-# INSPIRE metadata: how to compile it
+# INSPIRE metadata
+
+[Back to the documentation index](../README.md)
 
 Each dataset has an INSPIRE metadata record: an XML file following ISO 19115/19139 that describes the dataset for European spatial data catalogues. This page explains where the records live, how they are named, and how to write a new one from the template.
 
@@ -44,7 +46,7 @@ Points to watch:
 
 ## Writing a new record
 
-1. Copy [`templates/inspire/inspire_metadata_template.xml`](../templates/inspire/inspire_metadata_template.xml) and name it after the collection identifier.
+1. Copy [`templates/inspire/inspire_metadata_template.xml`](../../templates/inspire/inspire_metadata_template.xml) and name it after the collection identifier.
 2. Replace every `{{PLACEHOLDER}}` using the table below. Everything that is not a placeholder is common to the CLMS records and can stay as it is.
 3. Remove the blocks that do not apply (see "Variations").
 4. Validate the file with the [INSPIRE Validator](https://inspire.ec.europa.eu/validator/).
