@@ -1,0 +1,1176 @@
+{
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9999999,
+          -65.0,
+          179.9999999,
+          85.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-11-01T00:00:00.000Z",
+          null
+        ]
+      ]
+    }
+  },
+  "id": "clms_eta_global_300m_10daily_v1_cog",
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/product/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/storage/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/classification/v2.0.0/schema.json"
+  ],
+  "title": "CLMS ETA Global 300m 10-daily V1 (COG)",
+  "keywords": [
+    "Copernicus",
+    "CLMS",
+    "ET",
+    "Evapotranspiration",
+    "water cycle",
+    "global",
+    "10-daily",
+    "300m",
+    "Sentinel-3",
+    "OLCI",
+    "SLSTR"
+  ],
+  "description": "Provides actual evapotranspiration, soil evaporation and canopy transpiration with some quality indicators. Estimates are provided for two evapotranspiration schemes and an Ensemble of models. The 10-daily estimates are available at global scale in the spatial resolution of 300 m from November 2025 to present, derived from Sentinel-3 OLCI and SLSTR data.",
+  "license": "other",
+  "providers": [
+    {
+      "name": "CloudFerro",
+      "roles": [
+        "host"
+      ],
+      "url": "https://cloudferro.com/"
+    },
+    {
+      "url": "https://land.copernicus.eu/",
+      "name": "European Environment Agency",
+      "roles": [
+        "producer"
+      ]
+    },
+    {
+      "url": "https://commission.europa.eu/",
+      "name": "European Commission",
+      "roles": [
+        "licensor"
+      ]
+    },
+    {
+      "url": "https://vito.be/",
+      "name": "VITO",
+      "roles": [
+        "processor"
+      ]
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://s3.waw3-2.cloudferro.com/swift/v1/stac-png/clms_eta_global_300m_10daily_v1.jpg",
+      "type": "image/jpeg",
+      "title": "CLMS ETA Global 300m 10-daily V1 (COG) Thumbnail",
+      "roles": [
+        "thumbnail"
+      ],
+      "proj:code": null,
+      "proj:shape": [
+        360,
+        640
+      ]
+    },
+    "et_ensemble_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-ensemble_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "ET Ensemble colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "et_ensemble_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-ensemble_300m_v1_10daily.png",
+      "type": "image/png",
+      "title": "ET Ensemble legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "et_etlook_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-etlook_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "ET ETLook colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "et_etlook_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-etlook_300m_v1_10daily.png",
+      "type": "image/png",
+      "title": "ET ETLook legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "et_tsebpt_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-tsebpt_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "ET TSEB-PT colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "et_std_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-std_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "ET StDev colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "et_std_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-std_300m_v1_10daily.png",
+      "type": "image/png",
+      "title": "ET StDev legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "e_ensemble_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_e-ensemble_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "E Ensemble colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "e_ensemble_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_e-ensemble_300m_v1_10daily.png",
+      "type": "image/png",
+      "title": "E Ensemble legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "e_etlook_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_e-etlook_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "E ETLook colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "e_etlook_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_e-etlook_300m_v1_10daily.png",
+      "type": "image/png",
+      "title": "E ETLook legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "e_tsebpt_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_e-tsebpt_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "E TSEB-PT colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "e_std_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_e-std_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "E StDev colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "e_std_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_e-std_300m_v1_10daily.png",
+      "type": "image/png",
+      "title": "E StDev legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "t_ensemble_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-ensemble_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "T Ensemble colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "t_ensemble_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-ensemble_300m_v1_10daily.png",
+      "type": "image/png",
+      "title": "T Ensemble legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "t_etlook_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-etlook_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "T ETLook colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "t_etlook_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-etlook_300m_v1_10daily.png",
+      "type": "image/png",
+      "title": "T ETLook legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "t_tsebpt_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-tsebpt_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "T TSEB-PT colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "t_std_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-std_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "T StDev colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "t_std_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta_et-std_300m_v1_10daily.png",
+      "type": "image/png",
+      "title": "T StDev legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "nobs_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta-nobs_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "NOBS colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "nobs_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta-nobs_300m_v1_10daily.png",
+      "type": "image/png",
+      "title": "NOBS legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "flag_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta-flag_300m_v1_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "FLAG colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "flag_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_eta-flag_300m_v1_10daily.png",
+      "type": "image/png",
+      "title": "FLAG legend",
+      "roles": [
+        "legend"
+      ]
+    }
+  },
+  "summaries": {
+    "proj:code": [
+      "EPSG:4326"
+    ],
+    "processing:level": [
+      "L4"
+    ],
+    "product:type": [
+      "evapotranspiration"
+    ],
+    "processing:version": [
+      "V1.0.1"
+    ],
+    "instruments": [
+      "olci",
+      "slstr"
+    ],
+    "product:timeliness_category": [
+      "OFFL"
+    ],
+    "gsd": [
+      300.0
+    ],
+    "product:timeliness": [
+      "P2D"
+    ],
+    "proj:shape": [
+      47040,
+      120960
+    ]
+  },
+  "item_assets": {
+    "e_ensemble": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Dekadal actual evaporation (from soil) Ensemble (average)",
+      "bands": [
+        {
+          "name": "ensemble",
+          "description": "Dekadal actual evaporation (from soil) Ensemble (average)",
+          "unit": "mm/day"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "raster:scale": 0.1,
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "E Ensemble",
+      "cdse:short_description": "Evaporation (ensemble mean)",
+      "cdse:long_description": "Mean evaporation from the ensemble of models.",
+      "clms:display": 1,
+      "clms:display_order": 4,
+      "raster:offset": 0
+    },
+    "e_etlook": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Dekadal actual evaporation (from soil) ETLook",
+      "bands": [
+        {
+          "name": "etlook",
+          "description": "Dekadal actual evaporation (from soil) ETLook",
+          "unit": "mm/day"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "raster:scale": 0.1,
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "E ETLook",
+      "cdse:short_description": "Evaporation (ETLook model)",
+      "cdse:long_description": "Evaporation estimated by the ETLook model.",
+      "clms:display": 1,
+      "clms:display_order": 5,
+      "raster:offset": 0
+    },
+    "e_std": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Dekadal actual evaporation (from soil) Standard Deviation (Ensemble)",
+      "bands": [
+        {
+          "name": "std",
+          "description": "Dekadal actual evaporation (from soil) Standard Deviation (Ensemble)",
+          "unit": "mm/day"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "raster:scale": 0.1,
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "E StDev",
+      "cdse:short_description": "Standard deviation of E",
+      "cdse:long_description": "Standard deviation of evaporation across ensemble models.",
+      "clms:display": 1,
+      "clms:display_order": 7,
+      "raster:offset": 0
+    },
+    "e_tsebpt": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Dekadal actual evaporation (from soil) TSEB-PT",
+      "bands": [
+        {
+          "name": "tsebpt",
+          "description": "Dekadal actual evaporation (from soil) TSEB-PT",
+          "unit": "mm/day"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "raster:scale": 0.1,
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "E TSEB-PT",
+      "cdse:short_description": "Evaporation (TSEB-PT model)",
+      "cdse:long_description": "Evaporation estimated by the TSEB-PT model.",
+      "clms:display": 1,
+      "clms:display_order": 6,
+      "raster:offset": 0
+    },
+    "et_ensemble": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Dekadal actual evapotranspiration Ensemble (average)",
+      "bands": [
+        {
+          "name": "ensemble",
+          "description": "Dekadal actual evapotranspiration Ensemble (average)",
+          "unit": "mm/day"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "raster:scale": 0.1,
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "ET Ensemble",
+      "cdse:short_description": "Evapotranspiration (ensemble mean)",
+      "cdse:long_description": "Mean actual evapotranspiration from the ensemble of models.",
+      "clms:display": 1,
+      "clms:display_order": 0,
+      "raster:offset": 0
+    },
+    "et_etlook": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Dekadal actual evapotranspiration ETLook",
+      "bands": [
+        {
+          "name": "etlook",
+          "description": "Dekadal actual evapotranspiration ETLook",
+          "unit": "mm/day"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "raster:scale": 0.1,
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "ET ETLook",
+      "cdse:short_description": "Evapotranspiration (ETLook model)",
+      "cdse:long_description": "Actual evapotranspiration estimated by the ETLook model.",
+      "clms:display": 1,
+      "clms:display_order": 1,
+      "raster:offset": 0
+    },
+    "et_std": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Dekadal actual evapotranspiration Standard Deviation (Ensemble)",
+      "bands": [
+        {
+          "name": "std",
+          "description": "Dekadal actual evapotranspiration Standard Deviation (Ensemble)",
+          "unit": "mm/day"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "raster:scale": 0.1,
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "ET StDev",
+      "cdse:short_description": "Standard deviation of ET",
+      "cdse:long_description": "Standard deviation of evapotranspiration across ensemble models.",
+      "clms:display": 1,
+      "clms:display_order": 3,
+      "raster:offset": 0
+    },
+    "et_tsebpt": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Dekadal actual evapotranspiration TSEB-PT",
+      "bands": [
+        {
+          "name": "tsebpt",
+          "description": "Dekadal actual evapotranspiration TSEB-PT",
+          "unit": "mm/day"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "raster:scale": 0.1,
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "ET TSEB-PT",
+      "cdse:short_description": "Evapotranspiration (TSEB-PT model)",
+      "cdse:long_description": "Actual evapotranspiration estimated by the TSEB-PT model.",
+      "clms:display": 1,
+      "clms:display_order": 2,
+      "raster:offset": 0
+    },
+    "flag": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Annotation flags",
+      "bands": [
+        {
+          "name": "flag",
+          "description": "Annotation flags",
+          "classification:bitfields": [
+            {
+              "name": "no_et",
+              "description": "ET not modelled due to cloud cover, snow, or model non-convergence",
+              "offset": 0,
+              "length": 1,
+              "classes": [
+                {
+                  "value": 0,
+                  "name": "valid",
+                  "description": "ET modelled normally"
+                },
+                {
+                  "value": 1,
+                  "name": "not_modelled",
+                  "description": "ET not modelled - cloud, snow, or model non-convergence"
+                }
+              ]
+            },
+            {
+              "name": "inland_water",
+              "description": "Inland open-water pixel where ET is not modelled",
+              "offset": 1,
+              "length": 1,
+              "classes": [
+                {
+                  "value": 0,
+                  "name": "not_water",
+                  "description": "Not an inland open-water pixel"
+                },
+                {
+                  "value": 1,
+                  "name": "water",
+                  "description": "ET not modelled - inland open-water pixel"
+                }
+              ]
+            },
+            {
+              "name": "urban",
+              "description": "Urban pixel where ET is modelled but with very high uncertainty",
+              "offset": 2,
+              "length": 1,
+              "classes": [
+                {
+                  "value": 0,
+                  "name": "not_urban",
+                  "description": "Not an urban pixel"
+                },
+                {
+                  "value": 1,
+                  "name": "urban",
+                  "description": "ET modelled but with very high uncertainty - urban pixel"
+                }
+              ]
+            },
+            {
+              "name": "unused_bit3",
+              "description": "Currently unused",
+              "offset": 3,
+              "length": 1,
+              "classes": [
+                {
+                  "value": 0,
+                  "name": "unused",
+                  "description": "Currently unused"
+                }
+              ]
+            },
+            {
+              "name": "unused_bit4",
+              "description": "Currently unused",
+              "offset": 4,
+              "length": 1,
+              "classes": [
+                {
+                  "value": 0,
+                  "name": "unused",
+                  "description": "Currently unused"
+                }
+              ]
+            },
+            {
+              "name": "unused_bit5",
+              "description": "Currently unused",
+              "offset": 5,
+              "length": 1,
+              "classes": [
+                {
+                  "value": 0,
+                  "name": "unused",
+                  "description": "Currently unused"
+                }
+              ]
+            },
+            {
+              "name": "unused_bit6",
+              "description": "Currently unused",
+              "offset": 6,
+              "length": 1,
+              "classes": [
+                {
+                  "value": 0,
+                  "name": "unused",
+                  "description": "Currently unused"
+                }
+              ]
+            },
+            {
+              "name": "unused_bit7",
+              "description": "Currently unused",
+              "offset": 7,
+              "length": 1,
+              "classes": [
+                {
+                  "value": 0,
+                  "name": "unused",
+                  "description": "Currently unused"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "FLAG",
+      "cdse:short_description": "Quality flag",
+      "cdse:long_description": "Quality flag layer.",
+      "clms:display": 0,
+      "clms:display_order": 13,
+      "raster:scale": 1,
+      "raster:offset": 0
+    },
+    "gfd": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Gap-filling distance",
+      "bands": [
+        {
+          "name": "gfd",
+          "description": "Gap-filling distance"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ]
+    },
+    "nobs": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Number of cloud free observations in a given dekade",
+      "bands": [
+        {
+          "name": "nobs",
+          "description": "Number of cloud free observations in a given dekade"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "NOBS",
+      "cdse:short_description": "Number of observations",
+      "cdse:long_description": "Number of clear-sky observations.",
+      "clms:display": 1,
+      "clms:display_order": 12,
+      "raster:scale": 1,
+      "raster:offset": 0
+    },
+    "Product": {
+      "roles": [
+        "data",
+        "metadata",
+        "archive"
+      ],
+      "auth:refs": [
+        "oidc"
+      ],
+      "type": "application/zip",
+      "title": "Zipped product"
+    },
+    "t_ensemble": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Dekadal actual transpiration (from canopy) Ensemble (average)",
+      "bands": [
+        {
+          "name": "ensemble",
+          "description": "Dekadal actual transpiration (from canopy) Ensemble (average)",
+          "unit": "mm/day"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "raster:scale": 0.1,
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "T Ensemble",
+      "cdse:short_description": "Transpiration (ensemble mean)",
+      "cdse:long_description": "Mean transpiration from the ensemble of models.",
+      "clms:display": 1,
+      "clms:display_order": 8,
+      "raster:offset": 0
+    },
+    "t_etlook": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Dekadal actual transpiration (from canopy) ETLook",
+      "bands": [
+        {
+          "name": "etlook",
+          "description": "Dekadal actual transpiration (from canopy) ETLook",
+          "unit": "mm/day"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "raster:scale": 0.1,
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "T ETLook",
+      "cdse:short_description": "Transpiration (ETLook model)",
+      "cdse:long_description": "Transpiration estimated by the ETLook model.",
+      "clms:display": 1,
+      "clms:display_order": 9,
+      "raster:offset": 0
+    },
+    "t_std": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Dekadal actual transpiration (from canopy) Standard Deviation (Ensemble)",
+      "bands": [
+        {
+          "name": "std",
+          "description": "Dekadal actual transpiration (from canopy) Standard Deviation (Ensemble)",
+          "unit": "mm/day"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "raster:scale": 0.1,
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "T StDev",
+      "cdse:short_description": "Standard deviation of T",
+      "cdse:long_description": "Standard deviation of transpiration across ensemble models.",
+      "clms:display": 1,
+      "clms:display_order": 11,
+      "raster:offset": 0
+    },
+    "t_tsebpt": {
+      "alternate:name": "S3",
+      "roles": [
+        "data"
+      ],
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "nodata": 255.0,
+      "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+      "title": "Dekadal actual transpiration (from canopy) TSEB-PT",
+      "bands": [
+        {
+          "name": "tsebpt",
+          "description": "Dekadal actual transpiration (from canopy) TSEB-PT",
+          "unit": "mm/day"
+        }
+      ],
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "raster:scale": 0.1,
+      "data_type": "uint8",
+      "auth:refs": [
+        "s3"
+      ],
+      "cdse:layer_browser_name": "T TSEB-PT",
+      "cdse:short_description": "Transpiration (TSEB-PT model)",
+      "cdse:long_description": "Transpiration estimated by the TSEB-PT model.",
+      "clms:display": 1,
+      "clms:display_order": 10,
+      "raster:offset": 0
+    }
+  },
+  "links": [
+    {
+      "href": "https://land.copernicus.eu/en/data-policy",
+      "rel": "license",
+      "type": "text/html",
+      "title": "Data policy for Copernicus Land Monitoring Service products and services"
+    },
+    {
+      "rel": "about",
+      "href": "https://land.copernicus.eu/en/products/evapotranspiration/evapotranspiration-2025-present-raster-300m-global-10-daily-version-1",
+      "type": "text/html",
+      "title": "Product page"
+    }
+  ],
+  "bands": [
+    {
+      "name": "std",
+      "description": "Dekadal actual evaporation (from soil) Standard Deviation (Ensemble)"
+    },
+    {
+      "name": "tsebpt",
+      "description": "Dekadal actual transpiration (from canopy) TSEB-PT"
+    },
+    {
+      "name": "etlook",
+      "description": "Dekadal actual evapotranspiration ETLook"
+    },
+    {
+      "name": "nobs",
+      "description": "Number of cloud free observations in a given dekade"
+    },
+    {
+      "description": "Gap-filling distance",
+      "name": "gfd"
+    },
+    {
+      "name": "ensemble",
+      "description": "Dekadal actual evaporation (from soil) Ensemble (average)"
+    },
+    {
+      "description": "Annotation flags",
+      "name": "flag"
+    }
+  ],
+  "auth:schemes": {
+    "s3": {
+      "type": "s3"
+    },
+    "oidc": {
+      "openIdConnectUrl": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/.well-known/openid-configuration",
+      "type": "openIdConnect"
+    }
+  },
+  "storage:schemes": {
+    "creodias-s3": {
+      "description": "Comprehensive Earth Observation Data (EODATA) archive offered by CREODIAS as a commercial part of CDSE, designed to provide users with access to a vast repository of satellite data without predefined quota limits.",
+      "title": "CREODIAS S3",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.cloudferro.com",
+      "requester_pays": true
+    },
+    "cdse-s3": {
+      "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
+      "title": "Copernicus Data Space Ecosystem S3",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.dataspace.copernicus.eu",
+      "requester_pays": false
+    }
+  },
+  "contacts": [
+    {
+      "name": "Copernicus Land Monitoring Service",
+      "organization": "European Environment Agency",
+      "roles": [
+        "producer"
+      ],
+      "emails": [
+        {
+          "value": "copernicus@eea.europa.eu",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "phones": [
+        {
+          "value": "+4533367100",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://land.copernicus.eu/",
+          "rel": "about",
+          "type": "text/html",
+          "title": "Homepage of the Copernicus Land Monitoring Service"
+        }
+      ]
+    }
+  ],
+  "cdse:browser_name": "ETA 300m 10-daily V1",
+  "cdse:browser_search_path": "CLMS Bio-geophysical Parameters, Evapotranspiration",
+  "cdse:collection_description": "Provides information about actual evapotranspiration, the sum of plant transpiration and evaporation from land surface to atmosphere. Every 10-days, estimates are available at global scale, at a spatial resolution of ~300 m. More information here.",
+  "clms:spatial_coverage": "Global",
+  "clms:frequency": "10daily"
+}
