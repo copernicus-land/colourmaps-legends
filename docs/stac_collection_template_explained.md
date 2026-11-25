@@ -1,6 +1,6 @@
 # CLMS STAC Collection template — element-by-element explanation
 
-Companion to [`stac_collection_template.json`](stac_collection_template.json),
+Companion to [`stac_collection_template.json`](../templates/stac/collection/stac_collection_template.json),
 an empty template for the enriched CLMS collections produced by
 `descriptor_to_stac.py` (upstream structure from
 [cdse-stac-samples](https://github.com/copernicus-land/cdse-stac-samples) plus
@@ -12,7 +12,7 @@ Conventions used below:
 - **Boilerplate** — identical across all CLMS collections; copy as-is.
 - **Per-collection** — fill in for each dataset.
 - **Descriptor** — value originates from the data descriptor
-  (`datasets/<name>/<name>.json`, schema 0.0.4).
+  (`datasets/<name>/data_descriptor/<name>.json`, schema 0.0.4).
 - Placeholders in the template are written as `<angle brackets>`; empty
   strings/arrays/`null`/`0` mean "fill in".
 

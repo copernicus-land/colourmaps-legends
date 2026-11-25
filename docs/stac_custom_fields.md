@@ -1,7 +1,7 @@
 # Custom STAC fields used by the data-descriptor merge
 
 This document tracks every non-core field that `descriptor_to_stac.py` adds to
-the CDSE STAC collections (outputs in `datasets/<name>/STAC/`). The merge is
+the CDSE STAC collections (outputs in `datasets/<name>/stac/collection/`). The merge is
 add-only: no upstream value is modified or removed.
 
 The `cdse:` and `clms:` prefixed fields are **proposed** fields. No published
@@ -54,10 +54,11 @@ Text that drives how the product is shown in the CDSE Copernicus Browser.
 
 ## Caveats
 
-- Colourmap/legend/thumbnail URLs are carried over verbatim and point at the
-  pre-reorganisation repository paths (`/colourmaps/...`, `/legends/...`).
-  They must be remapped to `datasets/<name>/{colorschema,legend}/` once the
-  per-dataset layout is pushed to GitHub `main`.
+- Colourmap/legend/thumbnail URLs are carried over from the descriptors. Those
+  pointing at files moved by the per-dataset reorganisation were remapped to
+  `datasets/<name>/{colour_scheme,legends,thumbnail}/`. Links that were already
+  broken in the descriptors (old flat `legends/<file>.png` names) are still
+  broken, and the new URLs only resolve once the layout is on GitHub `main`.
 - Upstream sample *items* reference collection ids **without** the `_cog`
   suffix while the collection files use it; only collections are touched here.
 - All 71 outputs validate with `pystac` against the STAC 1.1.0 core schema and

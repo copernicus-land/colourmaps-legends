@@ -35,7 +35,7 @@
   ]
 }
 ----
-https://github.com/copernicus-land/colourmaps-legends/tree/main/schemas/data_descriptors[source: data_descriptors schema]
+https://github.com/copernicus-land/colourmaps-legends/tree/main/templates/data_descriptor[source: data descriptor templates]
 
 IMPORTANT NOTE: Comments are not allowed in the file.
 
@@ -105,7 +105,7 @@ The link to the thumbnail image in the CLMS git repository.
 
 Note: the link must point to the dedicated folder in the CLMS git repository.
 
-dmp global 300m 10daily v2:: https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/dmp_global_300m_10daily_v2/thumbnails/dmp_global_300m_10daily_v2/CLMS_DMP300mV2_Brazil_20250630.png
+dmp global 300m 10daily v2:: https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/dmp_global_300m_10daily_v2/thumbnail/CLMS_DMP300mV2_Brazil_20250630.png
 
 === layers
 
@@ -152,13 +152,13 @@ Note 2: as the ultimate goal is to represent this information in a human-readabl
 
 The link to the colourmap in the Github repository governing the display of the data in the Browser.
 
-SSM 1km Daily V1:: https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ssm_europe_1km_daily_v1/clms_global_ssm_1km_v1_daily.txt
+SSM 1km Daily V1:: https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ssm_europe_1km_daily_v1/colour_scheme/clms_global_ssm_1km_v1_daily.txt
 
 ==== legendLink
 
 The link to the legend in the Github repository that will be integrated in the layer description in the Browser.
 
-SSM 1km Daily V1:: https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_ssm_1km_v1_daily.png
+SSM 1km Daily V1:: https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ssm_europe_1km_daily_v1/legends/ssm_global_1km_daily_v1.png
 
 ==== scale
 
