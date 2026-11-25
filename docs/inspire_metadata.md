@@ -1,23 +1,20 @@
 # INSPIRE metadata: how to compile it
 
-Each dataset has an INSPIRE metadata record: an XML file following ISO 19115/19139 that describes the dataset for European spatial data catalogues. This page explains where the records live, how they relate to the dataset folders of this repository, and how to write a new one from the template.
+Each dataset has an INSPIRE metadata record: an XML file following ISO 19115/19139 that describes the dataset for European spatial data catalogues. This page explains where the records live, how they are named, and how to write a new one from the template.
 
 ## Where the records live
 
-The records are **not stored in this repository**. They are maintained in [copernicus-land/collection-metadata](https://github.com/copernicus-land/collection-metadata):
+The XML record(s) of a dataset are stored in its `inspire/` folder:
 
 ```
-collection-metadata/
-├── CLMS-GLOBAL/
-│   ├── metadata/      # one XML record per collection
-│   └── quicklooks/    # one PNG preview per collection, same file name as the record
-└── LCFM/
-    └── metadata/
+datasets/ndvi_global_300m_10daily_v2/inspire/clms_global_ndvi_300m_v2_10daily.xml
 ```
 
-In this repository, the `inspire/` folder of a dataset contains a `README.md` that links to its record(s) and lists the key identifiers (collection identifier, metadata UUID, DOI, product page, quicklook). A dataset without a record yet keeps a `.gitkeep`.
+A dataset without a record yet keeps a `.gitkeep`.
 
-Most datasets have one record. A dataset can have several when each layer is published as its own collection: `lsp_global_300m_yearly_v1` has 15, one per phenology parameter. One record can also cover two datasets: the NDVI 1 km v3 statistics record covers both the long-term and the short-term statistics.
+The existing records were copied unchanged from [copernicus-land/collection-metadata](https://github.com/copernicus-land/collection-metadata) (state of April 2025), where they are organised as `CLMS-GLOBAL/metadata/` and `LCFM/metadata/`. That repository also holds a quicklook PNG per record (`CLMS-GLOBAL/quicklooks/`), which is not copied here.
+
+Most datasets have one record. A dataset can have several when each layer is published as its own collection: `lsp_global_300m_yearly_v1` has 15, one per phenology parameter. One record can also cover two datasets: the NDVI 1 km v3 statistics record covers both the long-term and the short-term statistics, and is present in both folders.
 
 ## Naming
 
@@ -31,7 +28,7 @@ for example `clms_global_ndvi_300m_v2_10daily.xml` or `clms_global_lst_5km_v2_10
 
 This is **not** the same order as the dataset identifier used for the folders of this repository (`<product>[-<variant>]_<coverage>_<resolution>_<frequency>_<version>`):
 
-| Dataset folder in this repository | Record in collection-metadata |
+| Dataset folder | Record file name |
 |---|---|
 | `ndvi_global_300m_10daily_v2` | `clms_global_ndvi_300m_v2_10daily.xml` |
 | `lst-tci_global_5km_10daily_v2` | `clms_global_lst_5km_v2_10daily-tci.xml` |
@@ -51,8 +48,7 @@ Points to watch:
 2. Replace every `{{PLACEHOLDER}}` using the table below. Everything that is not a placeholder is common to the CLMS records and can stay as it is.
 3. Remove the blocks that do not apply (see "Variations").
 4. Validate the file with the [INSPIRE Validator](https://inspire.ec.europa.eu/validator/).
-5. Add the record, and its quicklook PNG with the same file name, to the collection-metadata repository through a pull request.
-6. In this repository, copy [`templates/inspire/README.md`](../templates/inspire/README.md) to `datasets/<datasetIdentifier>/inspire/README.md`, fill it in, and remove the `.gitkeep`.
+5. Save the record as `datasets/<datasetIdentifier>/inspire/<collectionIdentifier>.xml` and remove the `.gitkeep` of that folder.
 
 ### Placeholders
 
