@@ -11,7 +11,7 @@ Each dataset folder (`datasets/<datasetIdentifier>/`) has the same components. T
 | STAC collection | `stac/collection/` | [`templates/stac/collection/stac_collection_template.json`](../templates/stac/collection/stac_collection_template.json) | [STAC collection template explained](stac_collection_template_explained.md), [custom STAC fields](stac_custom_fields.md) |
 | STAC item | `stac/item/` | none yet (`templates/stac/item/`) | To be written. |
 | WMS endpoints | `wms/` | none yet (`templates/wms/`) | To be written. |
-| INSPIRE | `inspire/` | none yet (`templates/inspire/`) | To be written. |
+| INSPIRE | `inspire/` | [`templates/inspire/inspire_metadata_template.xml`](../templates/inspire/inspire_metadata_template.xml) for the record, [`templates/inspire/README.md`](../templates/inspire/README.md) for the link file | [INSPIRE metadata: how to compile it](inspire_metadata.md). The records are hosted in [collection-metadata](https://github.com/copernicus-land/collection-metadata). |
 | Documentation | `documentation/` | [`templates/documentation/README.md`](../templates/documentation/README.md) | The documents are hosted in [dataset-technical-docs](https://github.com/copernicus-land/dataset-technical-docs) under `docs/<datasetIdentifier>/`. Copy the template and replace `<datasetIdentifier>`; do not add the documents to this repository. |
 
 The overall repository layout and naming conventions are described in the [repository README](../README.md).

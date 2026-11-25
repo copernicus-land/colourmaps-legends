@@ -20,7 +20,7 @@ colourmaps-legends/
 │       │   ├── collection/        # STAC collection: collection-clms_<datasetIdentifier>_cog.json
 │       │   └── item/              # STAC item(s)
 │       ├── wms/                   # Web Map Service (WMS) endpoints
-│       ├── inspire/               # INSPIRE metadata
+│       ├── inspire/               # README.md linking to the INSPIRE record(s) in the collection-metadata repository
 │       └── documentation/         # README.md linking to the dataset's folder in the documentation repository
 ├── templates/                     # One template per component, same structure as a dataset folder
 │   ├── colour_scheme/
@@ -95,6 +95,10 @@ The `thumbnail/` folder of each dataset contains the preview image used in the C
 ## STAC
 
 The `stac/collection/` folder of each dataset contains its STAC collection. See the [STAC collection template explained](docs/stac_collection_template_explained.md) and the [custom STAC fields](docs/stac_custom_fields.md); the template is in `templates/stac/collection/`.
+
+## INSPIRE metadata
+
+The INSPIRE (ISO 19115/19139) records are maintained in a separate repository, [copernicus-land/collection-metadata](https://github.com/copernicus-land/collection-metadata). The `inspire/` folder of each dataset contains a `README.md` that links to its record(s) and lists the collection identifier, metadata UUID, DOI and quicklook. See [INSPIRE metadata: how to compile it](docs/inspire_metadata.md); the record template is in `templates/inspire/`.
 
 ## Documentation
 
