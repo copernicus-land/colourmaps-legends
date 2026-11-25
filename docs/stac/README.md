@@ -22,6 +22,11 @@ Collection: `collection-clms_<datasetIdentifier>_cog.json`, for example `collect
 - [STAC collection template explained](stac_collection_template_explained.md): every element of the template, and whether it is boilerplate, per-collection, or taken from the data descriptor.
 - [Custom STAC fields](stac_custom_fields.md): the `cdse:*` and `clms:*` fields that carry data-descriptor information into the collection, and how each descriptor field is mapped.
 
+## To do
+
+- The script that builds a collection from a data descriptor (`descriptor_to_stac.py`, named in the two guides above) is not in this repository yet and still expects the folder layout used before the per-dataset folders. It has to be updated to `datasets/<datasetIdentifier>/data_descriptor/` and `stac/collection/` and added here. Until then, edit collections by hand.
+- Colour map and legend links added to a descriptor after its collection was built are not in the collection yet; they will be added when the script is run again.
+
 ## Rules
 
 - The collection combines the upstream CDSE collection with the fields of the [data descriptor](../data_descriptor/README.md). When the descriptor changes, update the collection.

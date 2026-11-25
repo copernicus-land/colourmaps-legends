@@ -31,16 +31,13 @@ This specification covers:
 |Parameter |Value
 
 |File Format
-|JPEG (JPG)
+|PNG
 
 |Color Depth
 |8 bits per channel (24-bit total)
 
 |Compression
-|Lossy JPEG compression (DCT-based)
-
-|Encoding Mode
-|Baseline (sequential) JPEG
+|Lossless PNG compression
 
 |Color Profile
 |sRGB IEC61966-2.1
@@ -48,6 +45,8 @@ This specification covers:
 |Metadata
 |Minimal embedded metadata (no EXIF, XMP, or other metadata blocks)
 |===
+
+NOTE: Legacy thumbnails are JPEG (`.jpg`). They remain valid until they are replaced; new and updated thumbnails are PNG.
 
 ==== Rationale
 

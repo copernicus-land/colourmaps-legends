@@ -50,3 +50,7 @@ docs/
 ```
 
 Pan-European datasets (`clms_*`) are not yet in the per-dataset layout; they are in `clms_datasets/`. The file formats and descriptor rules described here apply to them as well.
+
+## Open points
+
+- STAC: the descriptor-to-collection script must be updated to the per-dataset layout and added to the repository. See [STAC, To do](stac/README.md#to-do).
