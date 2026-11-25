@@ -43,7 +43,7 @@ colourmaps-legends/
 
 Every dataset folder contains all component folders. A component that has no content yet holds a `.gitkeep` placeholder; the same applies to components in `templates/` for which no template exists yet.
 
-**Pan-European datasets** (VLCC, UA, WSI, VPP and other `clms_*` products) use full dataset identifiers under `datasets/`, for example `datasets/clms_ua_land-cover-land-use_europe_v025ha_3yearly_v1_2021/`. Each dataset folder can contain colour maps for multiple layers.
+**Pan-European datasets** (VLCC, UA, WSI, VPP and other `clms_*` products) use full dataset identifiers under `datasets/`, for example `datasets/clms_ua_land-cover-land-use_europe_V025ha_3yearly_v1/`. Each dataset folder can contain colour maps for multiple layers.
 
 ### Adding or updating a global dataset
 
@@ -68,7 +68,7 @@ SLD (Style Layer Descriptor) is the standard format used for colour maps. TXT fi
 
 The **dataset folder** name follows the pattern:
 - CGLS products: `<dataset_short_name>_<coverage_area>_<nominal_resolution>_<temporal_sampling>_<version>`, e.g., `ndvi_global_300m_10daily_v2`
-- Pan-European products: the full lowercase dataset identifier, e.g., `clms_vlcc_crop-types_europe_10m_yearly_v1`. Keep projection and reference-year suffixes when they are part of the identifier.
+- Pan-European products: the full dataset identifier, e.g., `clms_vlcc_crop-types_europe_10m_yearly_v1`. Preserve the identifier’s capitalization. Files for different reference years or year ranges belong in the same dataset folder and keep those suffixes in their filenames.
 
 **Files inside a global dataset folder** are named after the dataset: `<datasetIdentifier>[_<layer>].<extension>`. The full rules are in the [naming convention](docs/naming_convention.md). In short:
 
