@@ -4,15 +4,15 @@ This repository contains the colour maps, legends, thumbnails, data descriptors 
 
 ## Repository Structure
 
-Global (CGLS) datasets are organised **per dataset**: one folder per dataset identifier, holding every component of that dataset.
+Global (CGLS) and pan-European CLMS datasets are organised **per dataset**: one folder per dataset identifier, holding every component of that dataset.
 
 ```
 colourmaps-legends/
 ├── README.md                      # This documentation file
 ├── LICENSE                        # License information for this repository
-├── datasets/                      # One folder per global dataset
+├── datasets/                      # One folder per dataset
 │   └── <datasetIdentifier>/       # e.g. ndvi_global_300m_10daily_v2
-│       ├── colour_scheme/         # Colour maps: *.sld (standard), *.txt (legacy QGIS export)
+│       ├── colour_scheme/         # Colour maps: *.sld and other supported style formats
 │       ├── legends/               # Legend images: *.png
 │       ├── thumbnail/             # Preview image for the Copernicus Browser: *.jpg / *.png
 │       ├── data_descriptor/       # <datasetIdentifier>.json, metadata for Copernicus Browser integration
@@ -38,17 +38,12 @@ colourmaps-legends/
 │   ├── inspire/
 │   └── documentation/
 ├── docs/                          # How to compile each component: one folder per component (start at docs/README.md)
-├── clms_datasets/                 # Pan-European datasets (clms_*), not yet migrated to datasets/
-│   ├── colourmaps/
-│   │   └── clms_<family>_<product>/
-│   └── data_descriptors/
-│       └── clms_<family>_<product>/
 └── archive/                       # Superseded files kept for reference only
 ```
 
 Every dataset folder contains all component folders. A component that has no content yet holds a `.gitkeep` placeholder; the same applies to components in `templates/` for which no template exists yet.
 
-**Pan-European datasets** (VLCC, UA, WSI, VPP and other `clms_*` products) have not been migrated to the per-dataset layout yet. They are kept in their previous component-first structure under `clms_datasets/colourmaps/clms_*/` and `clms_datasets/data_descriptors/clms_*/`.
+**Pan-European datasets** (VLCC, UA, WSI, VPP and other `clms_*` products) use their existing product identifiers under `datasets/`. A product folder can contain multiple collection descriptors or colour maps.
 
 ### Adding or updating a global dataset
 
@@ -92,7 +87,7 @@ Files added before this convention keep their earlier names (e.g. `clms_global_n
 
 ## Data Descriptors
 
-The `data_descriptor/` folder of each dataset (`clms_datasets/data_descriptors/` for pan-European datasets) contains the JSON file that provides metadata for integrating the CLMS collection into the Copernicus Browser. Each JSON file describes a single collection and its layers.
+The `data_descriptor/` folder of each dataset contains JSON files that provide metadata for integrating the CLMS collection into the Copernicus Browser. Each JSON file describes a single collection and its layers.
 
 For detailed documentation on how to populate these files, see [Data Descriptors Documentation](docs/data_descriptor/Structure_description_of_the_proposed_json_scheme_for_CLMS_collections.adoc).
 
