@@ -15,7 +15,7 @@
       "layerBrowserName": "Land Cover and Land Use Change, 3-yearly, 2018-2021 ",
       "shortDescription": "UA 2018–2021 LCLU Change (MMU 0.1–0.25 ha)",
       "longDescription": "Provides land cover and land use change data between the 2018 and 2021 Urban Atlas layers. The Minimum Mapping Unit (MMU) varies from 0.1 ha to 0.25 ha depending on the class. The Minimum Mapping Width (MMW) is 10 m, and the dataset is available as vector data.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_ua_land-cover-land-use-change/clms_ua_land-cover-land-use-change_europe_V010ha_3yearly_v1_2018-2021.sld ",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/clms_datasets/colourmaps/clms_ua_land-cover-land-use-change/clms_ua_land-cover-land-use-change_europe_V010ha_3yearly_v1_2018-2021.sld ",
       "legendLink": "",
       "display": 1
     }

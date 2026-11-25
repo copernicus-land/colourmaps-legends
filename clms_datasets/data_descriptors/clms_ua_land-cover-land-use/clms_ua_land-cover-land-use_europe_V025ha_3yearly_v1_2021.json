@@ -15,7 +15,7 @@
       "layerBrowserName": "Land Cover and Land Use, 3-yearly, 2021",
       "shortDescription": "UA 2021 LCLU (MMU 0.25/1 ha)",
       "longDescription": "Provides land cover and land use data in 790 Functional Urban Areas (FUA) with more than 50,000 inhabitants in EEA38 countries and the United Kingdom for the 2021 reference year. The dataset maps land cover and land use for 19 urban classes with the Minimum Mapping Unit (MMU) of 0.25 ha and for 9 rural classes with the MMU of 1 ha and is available as vector data.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_ua_land-cover-land-use/clms_ua_land-cover-land-use_europe_V025ha_3yearly_v1_2021.sld",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/clms_datasets/colourmaps/clms_ua_land-cover-land-use/clms_ua_land-cover-land-use_europe_V025ha_3yearly_v1_2021.sld",
       "legendLink": "",
       "display": 1
     }

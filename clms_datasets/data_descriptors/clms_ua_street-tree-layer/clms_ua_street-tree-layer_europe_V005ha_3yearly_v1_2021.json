@@ -15,7 +15,7 @@
       "layerBrowserName": "Street Tree Layer, 3-yearly, 2021",
       "shortDescription": "Urban Atlas 2021 tree cover ≥500 m²",
       "longDescription": "Provides a separate layer of Urban Atlas 2021 showing contiguous rows or patches of trees covering 500 m² or more and with a Minimum Mapping Width (MMW) of 10 m over \"Artificial surfaces\" (nomenclature class 1) inside each Functional Urban Area (FUA). The dataset is available as vector data.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/clms_ua_street-tree-layer/clms_ua_street-tree-layer_europe_V005ha_3yearly_v1_stl.sld",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/clms_datasets/colourmaps/clms_ua_street-tree-layer/clms_ua_street-tree-layer_europe_V005ha_3yearly_v1_stl.sld",
       "legendLink": "",
       "display": 1
     },
