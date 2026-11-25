@@ -56,4 +56,4 @@ Pan-European datasets (`clms_*`) are not yet in the per-dataset layout; they are
 
 ## Open points
 
-- STAC: the descriptor-to-collection script must be updated to the per-dataset layout and added to the repository. See [STAC, To do](stac/README.md#to-do).
+- STAC: some descriptor layers have no variable in the collection, and some datasets have no collection in the CDSE catalogue. See [STAC, To do](stac/README.md#to-do).

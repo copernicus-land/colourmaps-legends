@@ -1,0 +1,380 @@
+{
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/product/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/storage/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v2.0.0/schema.json"
+  ],
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "sci:doi": "10.2909/290e81fb-4c84-42ad-ae12-f663312b0eda",
+  "id": "clms_ndvi-lts_global_1km_10daily_v3_nc",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9999999,
+          -59.9955357,
+          179.9955357,
+          80.0044643
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1999-01-01T00:00:00.000Z",
+          "2019-12-31T23:59:59.000Z"
+        ]
+      ]
+    }
+  },
+  "title": "CLMS Normalized Difference Vegetation Index (NDVI) Long-Term Statistics (LTS) Global 1km 10-daily V3 (NetCDF)",
+  "keywords": [
+    "Copernicus",
+    "CLMS",
+    "NDVI-LTS",
+    "NDVI Long-Term Statistics",
+    "vegetation monitoring",
+    "global",
+    "10-daily",
+    "1km",
+    "SPOT",
+    "VEGETATION",
+    "PROBA-V"
+  ],
+  "description": "Provides long-term statistics (minimum, mean, median, maximum) of the 10-daily NDVI at global scale in the spatial resolution of about 1 km over the period from 2015 to 2025.",
+  "license": "other",
+  "providers": [
+    {
+      "name": "CloudFerro",
+      "roles": [
+        "host"
+      ],
+      "url": "https://cloudferro.com/"
+    },
+    {
+      "name": "European Commission's Joint Research Centre",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://joint-research-centre.ec.europa.eu/"
+    },
+    {
+      "name": "European Commission",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://commission.europa.eu/"
+    },
+    {
+      "name": "VITO",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://vito.be/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://s3.waw3-2.cloudferro.com/swift/v1/stac-png/clms_ndvi-lts_global_1km_10daily_v3.jpg",
+      "type": "image/jpeg",
+      "title": "CLMS Normalized Difference Vegetation Index (NDVI) Long-Term Statistics (LTS) Global 1km 10-daily V3 (NetCDF) Thumbnail",
+      "roles": [
+        "thumbnail"
+      ],
+      "proj:code": null,
+      "proj:shape": [
+        360,
+        640
+      ]
+    },
+    "max_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/colour_scheme/clms_global_ndvi-lts-max_1km_v3_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Maximum NDVI colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "max_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/legends/ndvi-lts-max_global_1km_10daily_v3.png",
+      "type": "image/png",
+      "title": "Maximum NDVI legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "mean_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/colour_scheme/clms_global_ndvi-lts-mean_1km_v3_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Mean NDVI colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "mean_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/legends/ndvi-lts-mean_global_1km_10daily_v3.png",
+      "type": "image/png",
+      "title": "Mean NDVI legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "median_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/colour_scheme/clms_global_ndvi-lts-median_1km_v3_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Median NDVI colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "median_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/legends/ndvi-lts-median_global_1km_10daily_v3.png",
+      "type": "image/png",
+      "title": "Median NDVI legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "min_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/colour_scheme/clms_global_ndvi-lts-min_1km_v3_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Minimum NDVI colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "min_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/legends/ndvi-lts-min_global_1km_10daily_v3.png",
+      "type": "image/png",
+      "title": "Minimum NDVI legend",
+      "roles": [
+        "legend"
+      ]
+    }
+  },
+  "summaries": {
+    "proj:code": [
+      "EPSG:4326"
+    ],
+    "gsd": [
+      1000.0
+    ],
+    "processing:level": [
+      "L4"
+    ],
+    "processing:version": [
+      "V3.0.1"
+    ],
+    "product:type": [
+      "vegetation_indices"
+    ],
+    "instruments": [
+      "vegetation",
+      "vegetation-1",
+      "vegetation-2"
+    ]
+  },
+  "item_assets": {
+    "Product": {
+      "title": "Normalized Difference Vegetation Index: Long Term Statistics 1KM: GLOBE",
+      "type": "application/netcdf",
+      "roles": [
+        "data"
+      ],
+      "alternate:name": "S3",
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "auth:refs": [
+        "s3"
+      ],
+      "bands": [
+        {
+          "name": "min",
+          "description": "Minimum Normalized Difference Vegetation Index over time period",
+          "raster:scale": 0.004,
+          "raster:offset": -0.08,
+          "cdse:layer_browser_name": "Minimum NDVI",
+          "cdse:short_description": "Minimum value of Normalized Difference Vegetation Index",
+          "cdse:long_description": "Minimum value of the Normalized Difference Vegetation Index calculated over the 21-years period 1999-2019.",
+          "clms:display": 1,
+          "clms:display_order": 3
+        },
+        {
+          "name": "median",
+          "description": "Median Normalized Difference Vegetation Index over time period",
+          "raster:scale": 0.004,
+          "raster:offset": -0.08,
+          "cdse:layer_browser_name": "Median NDVI",
+          "cdse:short_description": "Median value of Normalized Difference Vegetation Index",
+          "cdse:long_description": "Median value of the Normalized Difference Vegetation Index calculated over the 21-years period 1999-2019.",
+          "clms:display": 1,
+          "clms:display_order": 2
+        },
+        {
+          "name": "max",
+          "description": "Maximum Normalized Difference Vegetation Index over time period",
+          "raster:scale": 0.004,
+          "raster:offset": -0.08,
+          "cdse:layer_browser_name": "Maximum NDVI",
+          "cdse:short_description": "Maximum value of Normalized Difference Vegetation Index",
+          "cdse:long_description": "Maximum value of the Normalized Difference Vegetation Index calculated over the 21-years period 1999-2019.",
+          "clms:display": 1,
+          "clms:display_order": 0
+        },
+        {
+          "name": "mean",
+          "description": "Mean Normalized Difference Vegetation Index over time period",
+          "raster:scale": 0.004,
+          "raster:offset": -0.08,
+          "cdse:layer_browser_name": "Mean NDVI",
+          "cdse:short_description": "Mean value of Normalized Difference Vegetation Index",
+          "cdse:long_description": "Mean value of the Normalized Difference Vegetation Index calculated over the 21-years period 1999-2019.",
+          "clms:display": 1,
+          "clms:display_order": 1
+        },
+        {
+          "name": "stdev",
+          "description": "Standard deviation Normalized Difference Vegetation Index over time period",
+          "raster:scale": 0.004,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "NDVI Standard Deviation",
+          "cdse:short_description": "Standard deviation of Normalized Difference Vegetation Index",
+          "cdse:long_description": "Standard deviation of the Normalized Difference Vegetation Index calculated over the 21-years period 1999-2019.",
+          "clms:display": 0,
+          "clms:display_order": 4
+        },
+        {
+          "name": "nobs",
+          "description": "normalized_difference_vegetation_index number_of_observations"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://land.copernicus.eu/en/data-policy",
+      "type": "text/html",
+      "title": "Data policy for Copernicus Land Monitoring Service products and services"
+    },
+    {
+      "rel": "about",
+      "href": "https://land.copernicus.eu/en/products/vegetation/normalised-difference-vegetation-long-term-statistics-v3-0-1km",
+      "type": "text/html",
+      "title": "Product page"
+    }
+  ],
+  "bands": [
+    {
+      "name": "min",
+      "description": "Minimum Normalized Difference Vegetation Index over time period"
+    },
+    {
+      "name": "mean",
+      "description": "Mean Normalized Difference Vegetation Index over time period"
+    },
+    {
+      "name": "median",
+      "description": "Median Normalized Difference Vegetation Index over time period"
+    },
+    {
+      "name": "max",
+      "description": "Maximum Normalized Difference Vegetation Index over time period"
+    },
+    {
+      "name": "stdev",
+      "description": "Standard deviation Normalized Difference Vegetation Index over time period"
+    },
+    {
+      "name": "nobs",
+      "description": "normalized_difference_vegetation_index number_of_observations"
+    }
+  ],
+  "auth:schemes": {
+    "s3": {
+      "type": "s3"
+    },
+    "oidc": {
+      "type": "openIdConnect",
+      "openIdConnectUrl": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/.well-known/openid-configuration"
+    }
+  },
+  "storage:schemes": {
+    "cdse-s3": {
+      "title": "Copernicus Data Space Ecosystem S3",
+      "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.dataspace.copernicus.eu",
+      "requester_pays": false
+    },
+    "creodias-s3": {
+      "title": "CREODIAS S3",
+      "description": "Comprehensive Earth Observation Data (EODATA) archive offered by CREODIAS as a commercial part of CDSE, designed to provide users with access to a vast repository of satellite data without predefined quota limits.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.cloudferro.com",
+      "requester_pays": true
+    }
+  },
+  "contacts": [
+    {
+      "name": "Copernicus Land Monitoring Service",
+      "organization": "European Environment Agency",
+      "roles": [
+        "producer"
+      ],
+      "emails": [
+        {
+          "value": "copernicus@eea.europa.eu",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "phones": [
+        {
+          "value": "+4533367100",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://land.copernicus.eu/",
+          "rel": "about",
+          "type": "text/html",
+          "title": "Homepage of the Copernicus Land Monitoring Service"
+        }
+      ]
+    }
+  ],
+  "cdse:browser_name": "NDVI LTS 1km 10-daily V3",
+  "cdse:browser_search_path": "CLMS Bio-geophysical Parameters, Vegetation, Vegetation Indices, NDVI LTS 1km 10-daily V3",
+  "cdse:collection_description": "Long-Term Statistics of the Normalized Difference Vegetation Index are provided. Every 10-days, minimum, median, maximum and mean are available at global scale, at a spatial resolution of ~1 km over the 21-years period 1999-2019.",
+  "clms:spatial_coverage": "Global",
+  "clms:frequency": "10daily"
+}

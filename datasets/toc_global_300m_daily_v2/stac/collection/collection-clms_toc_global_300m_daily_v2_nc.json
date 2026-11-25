@@ -1,0 +1,1363 @@
+{
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/product/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/storage/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v2.0.0/schema.json"
+  ],
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "sci:doi": "10.2909/b4149b9b-f020-42ea-9159-9c437ce4c15b",
+  "id": "clms_toc_global_300m_daily_v2_nc",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9999999,
+          -65.0,
+          179.9999999,
+          85.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-05-01T00:09:19.000Z",
+          null
+        ]
+      ]
+    }
+  },
+  "title": "CLMS Top-of-Canopy (TOC) Reflectance Global 300m daily V2 (NetCDF)",
+  "keywords": [
+    "Copernicus",
+    "CLMS",
+    "TOC",
+    "Top-of-Canopy Reflectance",
+    "surface reflectance",
+    "global",
+    "daily",
+    "300m",
+    "Sentinel-3",
+    "OLCI",
+    "SLSTR"
+  ],
+  "description": "Provides top-of-canopy reflectances derived from Sentinel-3/OLCI observations at global scale in the spatial resolution of 300 m on a daily basis.",
+  "license": "other",
+  "providers": [
+    {
+      "name": "CloudFerro",
+      "roles": [
+        "host"
+      ],
+      "url": "https://cloudferro.com/"
+    },
+    {
+      "name": "European Environment Agency",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://land.copernicus.eu/"
+    },
+    {
+      "name": "European Commission",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://commission.europa.eu/"
+    },
+    {
+      "name": "VITO",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://vito.be/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://s3.waw3-2.cloudferro.com/swift/v1/stac-png/clms_toc_global_300m_daily_v2.jpg",
+      "type": "image/jpeg",
+      "title": "CLMS Top-of-Canopy (TOC) Reflectance Global 300m daily V2 (NetCDF) Thumbnail",
+      "roles": [
+        "thumbnail"
+      ],
+      "proj:code": null,
+      "proj:shape": [
+        360,
+        640
+      ]
+    },
+    "Oa02_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa02 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa02_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa02 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa03_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa03 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa03_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa03 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa04_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa04 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa04_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa04 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa05_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa05 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa05_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa05 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa06_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa06 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa06_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa06 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa07_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa07 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa07_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa07 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa08_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa08 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa08_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa08 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa09_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa09 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa09_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa09 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa10_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa10 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa10_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa10 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa11_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa11 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa11_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa11 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa12_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa12 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa12_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa12 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa16_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa16 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa16_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa16 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa17_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa17 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa17_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa17 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa18_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa18 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa18_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa18 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "Oa21_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance Oa21 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "Oa21_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance Oa21 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "S1_an_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance S1 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "S1_an_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance S1 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "S2_an_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance S2 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "S2_an_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance S2 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "S3_an_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance S3 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "S3_an_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance S3 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "S5_an_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance S5 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "S5_an_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance S5 legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "S6_an_toc_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/colour_scheme/clms_global_toc_300m_v2_daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Surface Reflectance S6 colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "S6_an_toc_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/toc_global_300m_daily_v2/legends/toc_global_300m_daily_v2.png",
+      "type": "image/png",
+      "title": "Surface Reflectance S6 legend",
+      "roles": [
+        "legend"
+      ]
+    }
+  },
+  "summaries": {
+    "proj:code": [
+      "EPSG:4326"
+    ],
+    "gsd": [
+      300.0
+    ],
+    "processing:level": [
+      "L2"
+    ],
+    "processing:version": [
+      "v2.3.4",
+      "v2.3.1",
+      "v2.3.5"
+    ],
+    "product:type": [
+      "top-of-canopy_reflectances"
+    ],
+    "product:timeliness": [
+      "P1D"
+    ],
+    "product:timeliness_category": [
+      "OFFL"
+    ],
+    "instruments": [
+      "olci",
+      "slstr"
+    ],
+    "constellation": [
+      "sentinel-3"
+    ],
+    "platform": [
+      "sentinel-3a",
+      "sentinel-3b"
+    ]
+  },
+  "item_assets": {
+    "Product": {
+      "title": "Sentinel 3 L2 Top Of Canopy at 333m resolution",
+      "type": "application/netcdf",
+      "roles": [
+        "data"
+      ],
+      "alternate:name": "S3",
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "auth:refs": [
+        "s3"
+      ],
+      "bands": [
+        {
+          "name": "Oa02_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa02",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa02",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa02",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa02 (412.5 nm).",
+          "clms:display": 0,
+          "clms:display_order": 0
+        },
+        {
+          "name": "Oa02_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa02",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa02",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa02",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa02 (412.5 nm).",
+          "clms:display": 0,
+          "clms:display_order": 20
+        },
+        {
+          "name": "Oa03_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa03",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa03",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa03",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa03 (442.5 nm).",
+          "clms:display": 0,
+          "clms:display_order": 1
+        },
+        {
+          "name": "Oa03_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa03",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa03",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa03",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa03 (442.5 nm).",
+          "clms:display": 0,
+          "clms:display_order": 21
+        },
+        {
+          "name": "Oa04_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa04",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa04",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa04",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa04 (490 nm).",
+          "clms:display": 0,
+          "clms:display_order": 2
+        },
+        {
+          "name": "Oa04_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa04",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa04",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa04",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa04 (490 nm).",
+          "clms:display": 0,
+          "clms:display_order": 22
+        },
+        {
+          "name": "Oa05_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa05",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa05",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa05",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa05 (510 nm).",
+          "clms:display": 0,
+          "clms:display_order": 3
+        },
+        {
+          "name": "Oa05_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa05",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa05",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa05",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa05 (510 nm).",
+          "clms:display": 0,
+          "clms:display_order": 23
+        },
+        {
+          "name": "Oa06_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa06",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa06",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa06",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa06 (560 nm).",
+          "clms:display": 0,
+          "clms:display_order": 4
+        },
+        {
+          "name": "Oa06_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa06",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa06",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa06",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa06 (560 nm).",
+          "clms:display": 0,
+          "clms:display_order": 24
+        },
+        {
+          "name": "Oa07_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa07",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa07",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa07",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa07 (620 nm).",
+          "clms:display": 0,
+          "clms:display_order": 5
+        },
+        {
+          "name": "Oa07_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa07",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa07",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa07",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa07 (620 nm).",
+          "clms:display": 0,
+          "clms:display_order": 25
+        },
+        {
+          "name": "Oa08_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa08",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa08",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa08",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa08 (665 nm).",
+          "clms:display": 0,
+          "clms:display_order": 6
+        },
+        {
+          "name": "Oa08_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa08",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa08",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa08",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa08 (665 nm).",
+          "clms:display": 0,
+          "clms:display_order": 26
+        },
+        {
+          "name": "Oa09_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa09",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa09",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa09",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa09 (673.75 nm).",
+          "clms:display": 0,
+          "clms:display_order": 7
+        },
+        {
+          "name": "Oa09_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa09",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa09",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa09",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa09 (673.75 nm).",
+          "clms:display": 0,
+          "clms:display_order": 27
+        },
+        {
+          "name": "Oa10_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa10",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa10",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa10",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa10 (681.25 nm).",
+          "clms:display": 0,
+          "clms:display_order": 8
+        },
+        {
+          "name": "Oa10_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa10",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa10",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa10",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa10 (681.25 nm).",
+          "clms:display": 0,
+          "clms:display_order": 28
+        },
+        {
+          "name": "Oa11_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa11",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa11",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa11",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa11 (708.75 nm).",
+          "clms:display": 0,
+          "clms:display_order": 9
+        },
+        {
+          "name": "Oa11_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa11",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa11",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa11",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa11 (708.75 nm).",
+          "clms:display": 0,
+          "clms:display_order": 29
+        },
+        {
+          "name": "Oa12_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa12",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa12",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa12",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa12 (753.75 nm).",
+          "clms:display": 0,
+          "clms:display_order": 10
+        },
+        {
+          "name": "Oa12_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa12",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa12",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa12",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa12 (753.75 nm).",
+          "clms:display": 0,
+          "clms:display_order": 30
+        },
+        {
+          "name": "Oa16_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa16",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa16",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa16",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa16 (778.75 nm).",
+          "clms:display": 0,
+          "clms:display_order": 11
+        },
+        {
+          "name": "Oa16_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa16",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa16",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa16",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa16 (778.75 nm).",
+          "clms:display": 0,
+          "clms:display_order": 31
+        },
+        {
+          "name": "Oa17_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa17",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa17",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa17",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa17 (865 nm).",
+          "clms:display": 0,
+          "clms:display_order": 12
+        },
+        {
+          "name": "Oa17_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa17",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa17",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa17",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa17 (865 nm).",
+          "clms:display": 0,
+          "clms:display_order": 32
+        },
+        {
+          "name": "Oa18_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa18",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa18",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa18",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa18 (885 nm).",
+          "clms:display": 0,
+          "clms:display_order": 13
+        },
+        {
+          "name": "Oa18_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa18",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa18",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa18",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa18 (885 nm).",
+          "clms:display": 0,
+          "clms:display_order": 33
+        },
+        {
+          "name": "Oa21_toc",
+          "description": "TOC reflectance for OLCI acquisition band Oa21",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance Oa21",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 OLCI band Oa21",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa21 (1020 nm).",
+          "clms:display": 0,
+          "clms:display_order": 14
+        },
+        {
+          "name": "Oa21_toc_error",
+          "description": "TOC reflectance error for OLCI acquisition band Oa21",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance Oa21",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 OLCI band Oa21",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 OLCI observations in band Oa21 (1020 nm).",
+          "clms:display": 0,
+          "clms:display_order": 34
+        },
+        {
+          "name": "S1_an_toc",
+          "description": "TOC reflectance for channel S1 (A stripe grid, nadir view) (500 m)",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance S1",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 SLSTR band S1",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S1 (555 nm, A stripe, nadir view).",
+          "clms:display": 0,
+          "clms:display_order": 15
+        },
+        {
+          "name": "S1_an_toc_error",
+          "description": "TOC reflectance error for channel S1 (A stripe grid, nadir view) (500 m)",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance S1",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 SLSTR band S1",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S1 (555 nm, A stripe, nadir view).",
+          "clms:display": 0,
+          "clms:display_order": 35
+        },
+        {
+          "name": "S2_an_toc",
+          "description": "TOC reflectance for channel S2 (A stripe grid, nadir view) (500 m)",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance S2",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 SLSTR band S2",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S2 (659 nm, A stripe, nadir view).",
+          "clms:display": 0,
+          "clms:display_order": 16
+        },
+        {
+          "name": "S2_an_toc_error",
+          "description": "TOC reflectance error for channel S2 (A stripe grid, nadir view) (500 m)",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance S2",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 SLSTR band S2",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S2 (659 nm, A stripe, nadir view).",
+          "clms:display": 0,
+          "clms:display_order": 36
+        },
+        {
+          "name": "S3_an_toc",
+          "description": "TOC reflectance for channel S3 (A stripe grid, nadir view) (500 m)",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance S3",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 SLSTR band S3",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S3 (865 nm, A stripe, nadir view).",
+          "clms:display": 0,
+          "clms:display_order": 17
+        },
+        {
+          "name": "S3_an_toc_error",
+          "description": "TOC reflectance error for channel S3 (A stripe grid, nadir view) (500 m)",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance S3",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 SLSTR band S3",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S3 (865 nm, A stripe, nadir view).",
+          "clms:display": 0,
+          "clms:display_order": 37
+        },
+        {
+          "name": "S5_an_toc",
+          "description": "TOC reflectance for channel S5 (A stripe grid, nadir view) (500 m)",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance S5",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 SLSTR band S5",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S5 (1610 nm, A stripe, nadir view).",
+          "clms:display": 0,
+          "clms:display_order": 18
+        },
+        {
+          "name": "S5_an_toc_error",
+          "description": "TOC reflectance error for channel S5 (A stripe grid, nadir view) (500 m)",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance S5",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 SLSTR band S5",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S5 (1610 nm, A stripe, nadir view).",
+          "clms:display": 0,
+          "clms:display_order": 38
+        },
+        {
+          "name": "S6_an_toc",
+          "description": "TOC reflectance for channel S6 (A stripe grid, nadir view) (500 m)",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Surface Reflectance S6",
+          "cdse:short_description": "Surface Reflectance Sentinel-3 SLSTR band S6",
+          "cdse:long_description": "Atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S6 (2250 nm, A stripe, nadir view).",
+          "clms:display": 0,
+          "clms:display_order": 19
+        },
+        {
+          "name": "S6_an_toc_error",
+          "description": "TOC reflectance error for channel S6 (A stripe grid, nadir view) (500 m)",
+          "raster:scale": 5e-05,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Uncertainties of Surface Reflectance S6",
+          "cdse:short_description": "Uncertainties of Surface Reflectance Sentinel-3 SLSTR band S6",
+          "cdse:long_description": "Uncertainties of the atmospherically-corrected surface reflectances derived from Sentinel-3 SLSTR observations in band S6 (2250 nm, A stripe, nadir view).",
+          "clms:display": 0,
+          "clms:display_order": 39
+        },
+        {
+          "name": "SAA_olci",
+          "description": "OLCI Solar Azimuth Angle",
+          "unit": "degree",
+          "raster:scale": 0.01,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Sun azimuth angle for OLCI",
+          "cdse:short_description": "Sun azimuth angle of the OLCI sensor",
+          "cdse:long_description": "Sun azimuth angle of the OLCI sensor. Physical range -180° to 180° (negative values east-looking).",
+          "clms:display": 0,
+          "clms:display_order": 40
+        },
+        {
+          "name": "SZA_olci",
+          "description": "OLCI Solar Zenith Angle",
+          "unit": "degree",
+          "raster:scale": 0.01,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Sun zenith angle for OLCI",
+          "cdse:short_description": "Sun zenith angle of the OLCI sensor",
+          "cdse:long_description": "Sun zenith angle of the OLCI sensor.",
+          "clms:display": 0,
+          "clms:display_order": 41
+        },
+        {
+          "name": "VAA_olci",
+          "description": "OLCI Viewing Azimuth Angle",
+          "unit": "degree",
+          "raster:scale": 0.01,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "View azimuth angle for OLCI",
+          "cdse:short_description": "View azimuth angle of the OLCI sensor",
+          "cdse:long_description": "View azimuth angle of the OLCI sensor. Physical range -180° to 180° (negative values east-looking).",
+          "clms:display": 0,
+          "clms:display_order": 42
+        },
+        {
+          "name": "VZA_olci",
+          "description": "OLCI Viewing Zenith Angle",
+          "unit": "degree",
+          "raster:scale": 0.01,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "View zenith angle for OLCI",
+          "cdse:short_description": "View zenith angle of the OLCI sensor",
+          "cdse:long_description": "View zenith angle of the OLCI sensor.",
+          "clms:display": 0,
+          "clms:display_order": 43
+        },
+        {
+          "name": "SAA_slstr",
+          "description": "SLSTR Solar Azimuth Angle",
+          "unit": "degree",
+          "raster:scale": 0.01,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Sun azimuth angle for SLSTR",
+          "cdse:short_description": "Sun azimuth angle of the SLSTR sensor",
+          "cdse:long_description": "Sun azimuth angle of the SLSTR sensor. Stored as unsigned 16-bit integer with physical range 0° to 360° (values above 180° east-looking), differently from the netCDF metadata.",
+          "clms:display": 0,
+          "clms:display_order": 44
+        },
+        {
+          "name": "SZA_slstr",
+          "description": "SLSTR Solar Zenith Angle",
+          "unit": "degree",
+          "raster:scale": 0.01,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Sun zenith angle for SLSTR",
+          "cdse:short_description": "Sun zenith angle of the SLSTR sensor",
+          "cdse:long_description": "Sun zenith angle of the SLSTR sensor.",
+          "clms:display": 0,
+          "clms:display_order": 45
+        },
+        {
+          "name": "VAA_slstr",
+          "description": "SLSTR Viewing Azimuth Angle",
+          "unit": "degree",
+          "raster:scale": 0.01,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "View azimuth angle for SLSTR",
+          "cdse:short_description": "View azimuth angle of the SLSTR sensor",
+          "cdse:long_description": "View azimuth angle of the SLSTR sensor. Stored as unsigned 16-bit integer with physical range 0° to 360° (values above 180° east-looking), differently from the netCDF metadata.",
+          "clms:display": 0,
+          "clms:display_order": 46
+        },
+        {
+          "name": "VZA_slstr",
+          "description": "SLSTR Viewing Zenith Angle",
+          "unit": "degree",
+          "raster:scale": 0.01,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "View zenith angle for SLSTR",
+          "cdse:short_description": "View zenith angle of the SLSTR sensor",
+          "cdse:long_description": "View zenith angle of the SLSTR sensor.",
+          "clms:display": 0,
+          "clms:display_order": 47
+        },
+        {
+          "name": "cloud_an",
+          "description": "Cloud mask (A stripe grid, nadir view) (500 m)",
+          "cdse:layer_browser_name": "SLSTR Cloud flag",
+          "cdse:short_description": "Cloud flag from SLSTR Level 1B",
+          "cdse:long_description": "Cloud flag from SLSTR Level 1B, stored as 16-bit bit mask (see PUM Table 8).",
+          "clms:display": 0,
+          "clms:display_order": 48
+        },
+        {
+          "name": "quality_flags",
+          "description": "Classification and quality flags",
+          "cdse:layer_browser_name": "OLCI Quality flag",
+          "cdse:short_description": "Quality flags from OLCI Level 1B",
+          "cdse:long_description": "Quality flags from OLCI Level 1B, stored as 32-bit bit mask (see PUM Table 9).",
+          "clms:display": 0,
+          "clms:display_order": 49
+        },
+        {
+          "name": "pixel_classif_flags",
+          "description": "OLCI Idepix Cloud mask",
+          "cdse:layer_browser_name": "Pixel classification",
+          "cdse:short_description": "Pixel classification of OLCI pixels",
+          "cdse:long_description": "Pixel classification of OLCI pixels by IdePix, stored as 16-bit bit mask (see PUM Table 10).",
+          "clms:display": 0,
+          "clms:display_order": 50
+        },
+        {
+          "name": "AC_process_flag",
+          "description": "Cloud mask (A stripe grid, nadir view) (500 m)",
+          "cdse:layer_browser_name": "Atmospheric correction flag",
+          "cdse:short_description": "Atmospheric correction flag",
+          "cdse:long_description": "Flag resulting from the atmospheric correction applied on OLCI and SLSTR observations, stored as one-byte bit mask (see PUM Table 11).",
+          "clms:display": 0,
+          "clms:display_order": 51
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://land.copernicus.eu/en/data-policy",
+      "type": "text/html",
+      "title": "Data policy for Copernicus Land Monitoring Service products and services"
+    },
+    {
+      "rel": "about",
+      "href": "https://land.copernicus.eu/en/products/temperature-and-reflectance/surface-reflectance-2018-present-raster-300m-global-daily-version-2.3",
+      "type": "text/html",
+      "title": "Product page"
+    }
+  ],
+  "bands": [
+    {
+      "name": "Oa02_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa02"
+    },
+    {
+      "name": "Oa02_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa02"
+    },
+    {
+      "name": "Oa03_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa03"
+    },
+    {
+      "name": "Oa03_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa03"
+    },
+    {
+      "name": "Oa04_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa04"
+    },
+    {
+      "name": "Oa04_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa04"
+    },
+    {
+      "name": "Oa05_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa05"
+    },
+    {
+      "name": "Oa05_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa05"
+    },
+    {
+      "name": "Oa06_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa06"
+    },
+    {
+      "name": "Oa06_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa06"
+    },
+    {
+      "name": "Oa07_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa07"
+    },
+    {
+      "name": "Oa07_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa07"
+    },
+    {
+      "name": "Oa08_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa08"
+    },
+    {
+      "name": "Oa08_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa08"
+    },
+    {
+      "name": "Oa09_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa09"
+    },
+    {
+      "name": "Oa09_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa09"
+    },
+    {
+      "name": "Oa10_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa10"
+    },
+    {
+      "name": "Oa10_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa10"
+    },
+    {
+      "name": "Oa11_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa11"
+    },
+    {
+      "name": "Oa11_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa11"
+    },
+    {
+      "name": "Oa12_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa12"
+    },
+    {
+      "name": "Oa12_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa12"
+    },
+    {
+      "name": "Oa16_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa16"
+    },
+    {
+      "name": "Oa16_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa16"
+    },
+    {
+      "name": "Oa17_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa17"
+    },
+    {
+      "name": "Oa17_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa17"
+    },
+    {
+      "name": "Oa18_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa18"
+    },
+    {
+      "name": "Oa18_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa18"
+    },
+    {
+      "name": "Oa21_toc",
+      "description": "TOC reflectance for OLCI acquisition band Oa21"
+    },
+    {
+      "name": "Oa21_toc_error",
+      "description": "TOC reflectance error for OLCI acquisition band Oa21"
+    },
+    {
+      "name": "S1_an_toc",
+      "description": "TOC reflectance for channel S1 (A stripe grid, nadir view) (500 m)"
+    },
+    {
+      "name": "S1_an_toc_error",
+      "description": "TOC reflectance error for channel S1 (A stripe grid, nadir view) (500 m)"
+    },
+    {
+      "name": "S2_an_toc",
+      "description": "TOC reflectance for channel S2 (A stripe grid, nadir view) (500 m)"
+    },
+    {
+      "name": "S2_an_toc_error",
+      "description": "TOC reflectance error for channel S2 (A stripe grid, nadir view) (500 m)"
+    },
+    {
+      "name": "S3_an_toc",
+      "description": "TOC reflectance for channel S3 (A stripe grid, nadir view) (500 m)"
+    },
+    {
+      "name": "S3_an_toc_error",
+      "description": "TOC reflectance error for channel S3 (A stripe grid, nadir view) (500 m)"
+    },
+    {
+      "name": "S5_an_toc",
+      "description": "TOC reflectance for channel S5 (A stripe grid, nadir view) (500 m)"
+    },
+    {
+      "name": "S5_an_toc_error",
+      "description": "TOC reflectance error for channel S5 (A stripe grid, nadir view) (500 m)"
+    },
+    {
+      "name": "S6_an_toc",
+      "description": "TOC reflectance for channel S6 (A stripe grid, nadir view) (500 m)"
+    },
+    {
+      "name": "S6_an_toc_error",
+      "description": "TOC reflectance error for channel S6 (A stripe grid, nadir view) (500 m)"
+    },
+    {
+      "name": "SAA_olci",
+      "description": "OLCI Solar Azimuth Angle"
+    },
+    {
+      "name": "SZA_olci",
+      "description": "OLCI Solar Zenith Angle"
+    },
+    {
+      "name": "VAA_olci",
+      "description": "OLCI Viewing Azimuth Angle"
+    },
+    {
+      "name": "VZA_olci",
+      "description": "OLCI Viewing Zenith Angle"
+    },
+    {
+      "name": "SAA_slstr",
+      "description": "SLSTR Solar Azimuth Angle"
+    },
+    {
+      "name": "SZA_slstr",
+      "description": "SLSTR Solar Zenith Angle"
+    },
+    {
+      "name": "VAA_slstr",
+      "description": "SLSTR Viewing Azimuth Angle"
+    },
+    {
+      "name": "VZA_slstr",
+      "description": "SLSTR Viewing Zenith Angle"
+    },
+    {
+      "name": "cloud_an",
+      "description": "Cloud mask (A stripe grid, nadir view) (500 m)"
+    },
+    {
+      "name": "quality_flags",
+      "description": "Classification and quality flags"
+    },
+    {
+      "name": "pixel_classif_flags",
+      "description": "OLCI Idepix Cloud mask"
+    },
+    {
+      "name": "AC_process_flag",
+      "description": "Cloud mask (A stripe grid, nadir view) (500 m)"
+    }
+  ],
+  "auth:schemes": {
+    "s3": {
+      "type": "s3"
+    },
+    "oidc": {
+      "type": "openIdConnect",
+      "openIdConnectUrl": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/.well-known/openid-configuration"
+    }
+  },
+  "storage:schemes": {
+    "cdse-s3": {
+      "title": "Copernicus Data Space Ecosystem S3",
+      "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.dataspace.copernicus.eu",
+      "requester_pays": false
+    },
+    "creodias-s3": {
+      "title": "CREODIAS S3",
+      "description": "Comprehensive Earth Observation Data (EODATA) archive offered by CREODIAS as a commercial part of CDSE, designed to provide users with access to a vast repository of satellite data without predefined quota limits.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.cloudferro.com",
+      "requester_pays": true
+    }
+  },
+  "contacts": [
+    {
+      "name": "Copernicus Land Monitoring Service",
+      "organization": "European Environment Agency",
+      "roles": [
+        "producer"
+      ],
+      "emails": [
+        {
+          "value": "copernicus@eea.europa.eu",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "phones": [
+        {
+          "value": "+4533367100",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://land.copernicus.eu/",
+          "rel": "about",
+          "type": "text/html",
+          "title": "Homepage of the Copernicus Land Monitoring Service"
+        }
+      ]
+    }
+  ],
+  "cdse:browser_name": "Surface Reflectance 300m daily V2.3",
+  "cdse:browser_search_path": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Surface Reflectance",
+  "cdse:collection_description": "Atmospherically-corrected surface reflectances from Sentinel-3 OLCI and SLSTR sensors observations are provided. Uncertainties are associated to the reflectance values. The data are available at global scale in the spatial resolution of ~300 m and cover the period from June 2018 to the present.",
+  "clms:spatial_coverage": "Global",
+  "clms:frequency": "daily"
+}

@@ -1,0 +1,282 @@
+{
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/product/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/storage/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v2.0.0/schema.json"
+  ],
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "sci:doi": "10.2909/86c14646-c0b6-4b82-a82f-cbb23b331743",
+  "id": "clms_wb_global_100m_monthly_v1_nc",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9999999,
+          -60.0,
+          179.9999999,
+          80.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-10-01T00:00:00.000Z",
+          null
+        ]
+      ]
+    }
+  },
+  "title": "CLMS Water Bodies (WB) Global 100m monthly V1 (NetCDF)",
+  "keywords": [
+    "Copernicus",
+    "CLMS",
+    "WB",
+    "Water Bodies",
+    "inland water",
+    "global",
+    "monthly",
+    "100m",
+    "Sentinel-2",
+    "MSI"
+  ],
+  "description": "Provides monthly maps of permanent water body extent at global scale in the spatial resolution of 100 m.",
+  "license": "other",
+  "providers": [
+    {
+      "name": "CloudFerro",
+      "roles": [
+        "host"
+      ],
+      "url": "https://cloudferro.com/"
+    },
+    {
+      "name": "European Environment Agency",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://land.copernicus.eu/"
+    },
+    {
+      "name": "European Commission",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://commission.europa.eu/"
+    },
+    {
+      "name": "VITO",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://vito.be/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://s3.waw3-2.cloudferro.com/swift/v1/stac-png/clms_wb_global_100m_monthly_v1.jpg",
+      "type": "image/jpeg",
+      "title": "CLMS Water Bodies (WB) Global 100m monthly V1 (NetCDF) Thumbnail",
+      "roles": [
+        "thumbnail"
+      ],
+      "proj:code": null,
+      "proj:shape": [
+        360,
+        640
+      ]
+    },
+    "wb_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/wb_global_100m_monthly_v1/colour_scheme/clms_global_wb_100m_v1_monthly.txt",
+      "type": "text/plain",
+      "title": "Water Bodies colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "wb_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/wb_global_100m_monthly_v1/legends/wb_global_100m_monthly_v1.png",
+      "type": "image/png",
+      "title": "Water Bodies legend",
+      "roles": [
+        "legend"
+      ]
+    }
+  },
+  "summaries": {
+    "proj:code": [
+      "EPSG:4326"
+    ],
+    "gsd": [
+      100.0
+    ],
+    "processing:level": [
+      "L3"
+    ],
+    "processing:version": [
+      "V1.0.1"
+    ],
+    "product:type": [
+      "water_bodies"
+    ],
+    "product:timeliness": [
+      "P1M"
+    ],
+    "product:timeliness_category": [
+      "OFFL"
+    ],
+    "instruments": [
+      "msi"
+    ],
+    "constellation": [
+      "sentinel-2"
+    ]
+  },
+  "item_assets": {
+    "Product": {
+      "title": "Monthly Water Bodies 100M: GLOBE",
+      "type": "application/netcdf",
+      "roles": [
+        "data"
+      ],
+      "alternate:name": "S3",
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "auth:refs": [
+        "s3"
+      ],
+      "bands": [
+        {
+          "name": "wb",
+          "description": "Water Body 100M",
+          "raster:scale": 1,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Water Bodies",
+          "cdse:short_description": "Water Bodies detection",
+          "cdse:long_description": "Water Bodies detection layer indicating the presence of water.",
+          "clms:display": 1,
+          "clms:display_order": 0
+        },
+        {
+          "name": "qual",
+          "description": "Water Body Quality 100M",
+          "raster:scale": 1,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Quality/Occurrence",
+          "cdse:short_description": "Water occurrence and quality",
+          "cdse:long_description": "Water Bodies occurrence indicating how often water is detected at a given location.",
+          "clms:display": 1,
+          "clms:display_order": 1
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://land.copernicus.eu/en/data-policy",
+      "type": "text/html",
+      "title": "Data policy for Copernicus Land Monitoring Service products and services"
+    },
+    {
+      "rel": "about",
+      "href": "https://land.copernicus.eu/en/products/water-bodies/water-bodies-global-v1-0-100m",
+      "type": "text/html",
+      "title": "Product page"
+    }
+  ],
+  "bands": [
+    {
+      "name": "wb",
+      "description": "Water Body 100M"
+    },
+    {
+      "name": "qual",
+      "description": "Water Body Quality 100M"
+    }
+  ],
+  "auth:schemes": {
+    "s3": {
+      "type": "s3"
+    },
+    "oidc": {
+      "type": "openIdConnect",
+      "openIdConnectUrl": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/.well-known/openid-configuration"
+    }
+  },
+  "storage:schemes": {
+    "cdse-s3": {
+      "title": "Copernicus Data Space Ecosystem S3",
+      "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.dataspace.copernicus.eu",
+      "requester_pays": false
+    },
+    "creodias-s3": {
+      "title": "CREODIAS S3",
+      "description": "Comprehensive Earth Observation Data (EODATA) archive offered by CREODIAS as a commercial part of CDSE, designed to provide users with access to a vast repository of satellite data without predefined quota limits.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.cloudferro.com",
+      "requester_pays": true
+    }
+  },
+  "contacts": [
+    {
+      "name": "Copernicus Land Monitoring Service",
+      "organization": "European Environment Agency",
+      "roles": [
+        "producer"
+      ],
+      "emails": [
+        {
+          "value": "copernicus@eea.europa.eu",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "phones": [
+        {
+          "value": "+4533367100",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://land.copernicus.eu/",
+          "rel": "about",
+          "type": "text/html",
+          "title": "Homepage of the Copernicus Land Monitoring Service"
+        }
+      ]
+    }
+  ],
+  "cdse:browser_name": "WB 100m monthly V1",
+  "cdse:browser_search_path": "CLMS Bio-geophysical Parameters, Water Bodies",
+  "cdse:collection_description": "Water Bodies detection is provided monthly at global scale, at a spatial resolution of ~100 m.",
+  "clms:spatial_coverage": "Global",
+  "clms:frequency": "monthly"
+}

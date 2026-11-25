@@ -1,0 +1,439 @@
+{
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/product/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/storage/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v2.0.0/schema.json"
+  ],
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "sci:doi": "10.2909/e15ffbfd-644c-48e8-8c2c-5a14e0f523c1",
+  "id": "clms_lwq-nrt_global_100m_10daily_v1_nc",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-12-21T00:00:00.000Z",
+          "2020-03-31T23:59:59.000Z"
+        ]
+      ]
+    }
+  },
+  "title": "CLMS Lake Water Quality (LWQ) NRT Global 100m 10-daily V1 (NetCDF)",
+  "keywords": [
+    "Copernicus",
+    "CLMS",
+    "LWQ",
+    "Lake Water Quality",
+    "inland water quality",
+    "Europe and Africa",
+    "10-daily",
+    "100m",
+    "Sentinel-2",
+    "MSI"
+  ],
+  "description": "Provides semi-continuous observations for a large number of medium and large-sized lakes, according to the Global Lakes and Wetlands Database (GLWD) or otherwise of specific environmental monitoring interest. 10-daily observations are available at 100 m spatial resolution with a temporal extent from 2019 to 2024, derived from Sentinel-2 MSI.",
+  "license": "other",
+  "providers": [
+    {
+      "name": "CloudFerro",
+      "roles": [
+        "host"
+      ],
+      "url": "https://cloudferro.com/"
+    },
+    {
+      "name": "European Commission's Joint Research Centre",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://joint-research-centre.ec.europa.eu/"
+    },
+    {
+      "name": "European Commission",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://commission.europa.eu/"
+    },
+    {
+      "name": "VITO",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://vito.be/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://s3.waw3-2.cloudferro.com/swift/v1/stac-png/clms_lwq-nrt_global_100m_10daily_v1.jpg",
+      "type": "image/jpeg",
+      "title": "CLMS Lake Water Quality (LWQ) NRT Global 100m 10-daily V1 (NetCDF) Thumbnail",
+      "roles": [
+        "thumbnail"
+      ],
+      "proj:code": null,
+      "proj:shape": [
+        360,
+        640
+      ]
+    },
+    "turbidity_blended_mean_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_100m_10daily_v1/colour_scheme/clms_global_lwq_100m_v1_10daily-turbidity_blended_mean.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Turbidity Blended colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "turbidity_blended_mean_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_100m_10daily_v1/legends/lwq-turbidity-blended-mean_global_100m_10daily_v1.png",
+      "type": "image/png",
+      "title": "Turbidity Blended legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "trophic_state_mean_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_100m_10daily_v1/colour_scheme/clms_global_lwq_100m_v1_10daily-trophic_state_index.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Trophic State Index colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "trophic_state_mean_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_100m_10daily_v1/legends/lwq-trophic-state-index_global_100m_10daily_v1.png",
+      "type": "image/png",
+      "title": "Trophic State Index legend",
+      "roles": [
+        "legend"
+      ]
+    }
+  },
+  "summaries": {
+    "proj:code": [
+      "EPSG:4326"
+    ],
+    "gsd": [
+      100.0
+    ],
+    "processing:level": [
+      "L3"
+    ],
+    "processing:version": [
+      "1.3.1"
+    ],
+    "product:type": [
+      "lake_water_quality"
+    ],
+    "product:timeliness": [
+      "P4D"
+    ],
+    "product:timeliness_category": [
+      "NRT"
+    ],
+    "instruments": [
+      "msi"
+    ],
+    "constellation": [
+      "sentinel-2"
+    ],
+    "platform": [
+      "sentinel-2a"
+    ]
+  },
+  "item_assets": {
+    "Product": {
+      "title": "Water Quality, Calimnos L3 Aggregated product",
+      "type": "application/netcdf",
+      "roles": [
+        "data"
+      ],
+      "alternate:name": "S3",
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "auth:refs": [
+        "s3"
+      ],
+      "bands": [
+        {
+          "name": "num_obs",
+          "description": "number of observations of the pixel area"
+        },
+        {
+          "name": "first_obs",
+          "description": "age in days after the start of the observation period of the first observation included in the pixel area"
+        },
+        {
+          "name": "last_obs",
+          "description": "age in days after the start of the observation period of the last observation included in the pixel area"
+        },
+        {
+          "name": "turbidity_blended_mean",
+          "description": "pixel-mean turbidity derived with Calimnos optical water type dependant blending of total suspended matter algorithms as tuned in the GloboLakes project",
+          "unit": "FNU",
+          "raster:scale": 1,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Turbidity Blended",
+          "cdse:short_description": "Mean blended turbidity",
+          "cdse:long_description": "Mean blended turbidity of lake water.",
+          "clms:display": 1,
+          "clms:display_order": 0
+        },
+        {
+          "name": "rw1375_rep",
+          "description": "Rw1375 rep"
+        },
+        {
+          "name": "rw1610_rep",
+          "description": "reflectance at 1610 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+        },
+        {
+          "name": "rw2190_rep",
+          "description": "Rw2190 rep"
+        },
+        {
+          "name": "rw443_rep",
+          "description": "reflectance at 443 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+        },
+        {
+          "name": "rw490_rep",
+          "description": "reflectance at 490 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+        },
+        {
+          "name": "rw560_rep",
+          "description": "reflectance at 560 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+        },
+        {
+          "name": "rw665_rep",
+          "description": "reflectance at 665 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+        },
+        {
+          "name": "rw705_rep",
+          "description": "reflectance at 705 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+        },
+        {
+          "name": "rw740_rep",
+          "description": "reflectance at 740 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+        },
+        {
+          "name": "rw783_rep",
+          "description": "reflectance at 783 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+        },
+        {
+          "name": "rw842_rep",
+          "description": "Rw842 rep"
+        },
+        {
+          "name": "rw865_rep",
+          "description": "reflectance at 865 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+        },
+        {
+          "name": "rw945_rep",
+          "description": "Rw945 rep"
+        },
+        {
+          "name": "rwdaynum_rep",
+          "description": "age in days after the start of the observation period of the most representative water-leaving reflectance spectrum"
+        },
+        {
+          "name": "trophic_state_mean",
+          "description": "pixel-mean trophic state index derived with Calimnos optical water type dependant blending of chlorophyll-a algorithms as tuned in the GloboLakes project.",
+          "raster:scale": 1,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Trophic State Index",
+          "cdse:short_description": "Trophic State Index",
+          "cdse:long_description": "Trophic State Index of lake water.",
+          "clms:display": 1,
+          "clms:display_order": 1
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://land.copernicus.eu/en/data-policy",
+      "type": "text/html",
+      "title": "Data policy for Copernicus Land Monitoring Service products and services"
+    },
+    {
+      "rel": "about",
+      "href": "https://land.copernicus.eu/en/products/water-bodies/lake-water-quality-v1-0-100m",
+      "type": "text/html",
+      "title": "Product page"
+    }
+  ],
+  "bands": [
+    {
+      "name": "rw443_rep",
+      "description": "reflectance at 443 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+    },
+    {
+      "name": "rw490_rep",
+      "description": "reflectance at 490 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+    },
+    {
+      "name": "rw560_rep",
+      "description": "reflectance at 560 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+    },
+    {
+      "name": "rw665_rep",
+      "description": "reflectance at 665 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+    },
+    {
+      "name": "rw705_rep",
+      "description": "reflectance at 705 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+    },
+    {
+      "name": "rw740_rep",
+      "description": "reflectance at 740 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+    },
+    {
+      "name": "rw783_rep",
+      "description": "reflectance at 783 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+    },
+    {
+      "name": "rw842_rep",
+      "description": "Rw842 rep"
+    },
+    {
+      "name": "rw865_rep",
+      "description": "reflectance at 865 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+    },
+    {
+      "name": "rw945_rep",
+      "description": "Rw945 rep"
+    },
+    {
+      "name": "rw1375_rep",
+      "description": "Rw1375 rep"
+    },
+    {
+      "name": "rw1610_rep",
+      "description": "reflectance at 1610 nm in the most representative spectrum of fully normalized water-leaving obtained from polymer atmospheric correction processor"
+    },
+    {
+      "name": "rw2190_rep",
+      "description": "Rw2190 rep"
+    },
+    {
+      "name": "rwdaynum_rep",
+      "description": "age in days after the start of the observation period of the most representative water-leaving reflectance spectrum"
+    },
+    {
+      "name": "trophic_state_mean",
+      "description": "pixel-mean trophic state index derived with Calimnos optical water type dependant blending of chlorophyll-a algorithms as tuned in the GloboLakes project."
+    },
+    {
+      "name": "turbidity_blended_mean",
+      "description": "pixel-mean turbidity derived with Calimnos optical water type dependant blending of total suspended matter algorithms as tuned in the GloboLakes project"
+    },
+    {
+      "name": "first_obs",
+      "description": "age in days after the start of the observation period of the first observation included in the pixel area"
+    },
+    {
+      "name": "last_obs",
+      "description": "age in days after the start of the observation period of the last observation included in the pixel area"
+    },
+    {
+      "name": "num_obs",
+      "description": "number of observations of the pixel area"
+    }
+  ],
+  "auth:schemes": {
+    "s3": {
+      "type": "s3"
+    },
+    "oidc": {
+      "type": "openIdConnect",
+      "openIdConnectUrl": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/.well-known/openid-configuration"
+    }
+  },
+  "storage:schemes": {
+    "cdse-s3": {
+      "title": "Copernicus Data Space Ecosystem S3",
+      "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.dataspace.copernicus.eu",
+      "requester_pays": false
+    },
+    "creodias-s3": {
+      "title": "CREODIAS S3",
+      "description": "Comprehensive Earth Observation Data (EODATA) archive offered by CREODIAS as a commercial part of CDSE, designed to provide users with access to a vast repository of satellite data without predefined quota limits.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.cloudferro.com",
+      "requester_pays": true
+    }
+  },
+  "contacts": [
+    {
+      "name": "Copernicus Land Monitoring Service",
+      "organization": "European Environment Agency",
+      "roles": [
+        "producer"
+      ],
+      "emails": [
+        {
+          "value": "copernicus@eea.europa.eu",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "phones": [
+        {
+          "value": "+4533367100",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://land.copernicus.eu/",
+          "rel": "about",
+          "type": "text/html",
+          "title": "Homepage of the Copernicus Land Monitoring Service"
+        }
+      ]
+    }
+  ],
+  "cdse:browser_name": "LWQ NRT 100m 10-daily V1",
+  "cdse:browser_search_path": "CLMS Bio-geophysical Parameters, Water Bodies, Lake Water Quality",
+  "cdse:collection_description": "Lake Water Quality (NRT) parameters are provided 10-daily at global scale, at a spatial resolution of ~100 m.",
+  "clms:spatial_coverage": "Global",
+  "clms:frequency": "10daily"
+}

@@ -17,7 +17,7 @@ colourmaps-legends/
 │       ├── thumbnail/             # Preview image for the Copernicus Browser: *.jpg / *.png
 │       ├── data_descriptor/       # <datasetIdentifier>.json, metadata for Copernicus Browser integration
 │       ├── stac/
-│       │   ├── collection/        # STAC collection: collection-clms_<datasetIdentifier>_cog.json
+│       │   ├── collection/        # STAC collection: collection-clms_<datasetIdentifier>_nc.json (_cog if served in COG only)
 │       │   └── item/              # STAC item(s)
 │       ├── wms/                   # Web Map Service (WMS) endpoints
 │       ├── inspire/               # INSPIRE metadata record(s): ISO 19115/19139 *.xml
@@ -29,7 +29,8 @@ colourmaps-legends/
 │   ├── data_descriptor/
 │   │   └── <version>/information_template.json
 │   ├── stac/
-│   │   ├── collection/stac_collection_template.json
+│   │   ├── collection/stac_collection_template.json      # NetCDF (reference)
+│   │   ├── collection/stac_collection_template_cog.json  # datasets served in COG only
 │   │   └── item/
 │   ├── wms/
 │   ├── inspire/
@@ -80,7 +81,7 @@ The **dataset folder** name follows the pattern:
 | Legend | `<datasetIdentifier>[_<layer>].png` |
 | Thumbnail | `<datasetIdentifier>.png` |
 | Data descriptor | `<datasetIdentifier>.json` |
-| STAC collection | `collection-clms_<datasetIdentifier>_cog.json` |
+| STAC collection | `collection-clms_<datasetIdentifier>_nc.json` (`_cog` for a dataset served in COG only) |
 | INSPIRE record and quicklook | `<collectionIdentifier>.xml` / `.png` (exception: name used in the metadata catalogue) |
 
 `<layer>` is the `fileName` of the layer in the data descriptor, in lowercase with hyphens, e.g. `ndvi_global_300m_10daily_v2_ndvi300-nobs.sld`.
@@ -101,7 +102,7 @@ The `thumbnail/` folder of each dataset contains the preview image used in the C
 
 ## STAC
 
-The `stac/collection/` folder of each dataset contains its STAC collection. See the [STAC collection template explained](docs/stac/stac_collection_template_explained.md) and the [custom STAC fields](docs/stac/stac_custom_fields.md); the template is in `templates/stac/collection/`.
+The `stac/collection/` folder of each dataset contains its STAC collection. It describes the NetCDF, the official format of the dataset; the COG collection is used only for a dataset that is served in COG only. See the [STAC collection template explained](docs/stac/stac_collection_template_explained.md) and the [custom STAC fields](docs/stac/stac_custom_fields.md); the template is in `templates/stac/collection/`.
 
 ## INSPIRE metadata
 

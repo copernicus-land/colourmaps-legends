@@ -1,0 +1,395 @@
+{
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/product/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/storage/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v2.0.0/schema.json"
+  ],
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "sci:doi": "10.2909/d12aa3df-1376-491f-9663-12a3e0822986",
+  "id": "clms_lst-tci_global_3km_10daily_v3_nc",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9999999,
+          -79.97868240000001,
+          179.9999999,
+          80.0233214
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2018-01-01T00:00:00.000Z",
+          null
+        ]
+      ]
+    }
+  },
+  "title": "CLMS Land Surface Temperature with Thermal Condition Index (LST-TCI) Global 3km 10-daily V3 (NetCDF)",
+  "keywords": [
+    "Copernicus",
+    "CLMS",
+    "LST-TCI",
+    "Land Surface Temperature",
+    "thermal infrared",
+    "global",
+    "10-daily",
+    "3km"
+  ],
+  "description": "Provides a statistical overview of the land surface temperature over each 10-day compositing period and every geostationary sensor image pixel, including a Thermal Condition Index. The minimum, median and maximum LST are calculated regardless of any specific hour of the day. The data are available at global scale in the spatial resolution of about 3 km and cover the period from January 2018 to the present.",
+  "license": "other",
+  "providers": [
+    {
+      "name": "CloudFerro",
+      "roles": [
+        "host"
+      ],
+      "url": "https://cloudferro.com/"
+    },
+    {
+      "name": "European Commission's Joint Research Centre",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://joint-research-centre.ec.europa.eu/"
+    },
+    {
+      "name": "European Commission",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://commission.europa.eu/"
+    },
+    {
+      "name": "VITO",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://vito.be/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://s3.waw3-2.cloudferro.com/swift/v1/stac-png/clms_lst-tci_global_3km_10daily_v3.jpg",
+      "type": "image/jpeg",
+      "title": "CLMS Land Surface Temperature with Thermal Condition Index (LST-TCI) Global 3km 10-daily V3 (NetCDF) Thumbnail",
+      "roles": [
+        "thumbnail"
+      ],
+      "proj:code": null,
+      "proj:shape": [
+        360,
+        640
+      ]
+    },
+    "min_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/colour_scheme/clms_global_lst_3km_v3_10daily-min.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "LST Synthesis Minimum colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "min_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/legends/lst-min_global_3km_10daily_v3.png",
+      "type": "image/png",
+      "title": "LST Synthesis Minimum legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "median_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/colour_scheme/clms_global_lst_3km_v3_10daily-med.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "LST Synthesis Median colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "median_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/legends/lst-med_global_3km_10daily_v3.png",
+      "type": "image/png",
+      "title": "LST Synthesis Median legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "max_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/colour_scheme/clms_global_lst_3km_v3_10daily-max.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "LST Synthesis Maximum colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "max_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/legends/lst-max_global_3km_10daily_v3.png",
+      "type": "image/png",
+      "title": "LST Synthesis Maximum legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "tci_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/colour_scheme/clms_global_lst_3km_v3_10daily-tci.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "LST TCI colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "tci_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/legends/lst-tci_global_3km_10daily_v3.png",
+      "type": "image/png",
+      "title": "LST TCI legend",
+      "roles": [
+        "legend"
+      ]
+    },
+    "frac_valid_obs_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/colour_scheme/clms_global_lst_3km_v3_10daily-frac_valid.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "Fraction of valid observations. colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "frac_valid_obs_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/legends/clms_global_lst_3km_v3_10daily-frac_valid.png",
+      "type": "image/png",
+      "title": "Fraction of valid observations. legend",
+      "roles": [
+        "legend"
+      ]
+    }
+  },
+  "summaries": {
+    "proj:code": [
+      "EPSG:4326"
+    ],
+    "gsd": [
+      3000.0
+    ],
+    "processing:level": [
+      "L4"
+    ],
+    "processing:version": [
+      "V3.0.1"
+    ],
+    "product:type": [
+      "land_surface_temperature"
+    ],
+    "product:timeliness": [
+      "P2D"
+    ],
+    "product:timeliness_category": [
+      "OFFL"
+    ],
+    "instruments": [
+      "seviri",
+      "ahi",
+      "abi"
+    ]
+  },
+  "item_assets": {
+    "Product": {
+      "title": "10-day Synthesis Land Surface Temperature: GLOBE 2026-05-11T00:00:00Z",
+      "type": "application/netcdf",
+      "roles": [
+        "data"
+      ],
+      "alternate:name": "S3",
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "auth:refs": [
+        "s3"
+      ],
+      "bands": [
+        {
+          "name": "frac_valid_obs",
+          "description": "Fraction of Valid Observations",
+          "raster:scale": 0.01,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "Fraction of valid observations.",
+          "cdse:short_description": "Fraction of valid observations.",
+          "cdse:long_description": "Fraction of valid observations as used to calculate the minimum, median and maximum temperature values, regardless the time of the day.",
+          "clms:display": 1,
+          "clms:display_order": 4
+        },
+        {
+          "name": "max",
+          "description": "Maximum Land Surface Temperature ",
+          "unit": "K",
+          "raster:scale": 0.01,
+          "raster:offset": 273.15,
+          "cdse:layer_browser_name": "LST Synthesis Maximum",
+          "cdse:short_description": "Maximum of Land Surface Temperature observed during the 10-days period, regardless the time of the day.",
+          "cdse:long_description": "Maximum of Land Surface Temperature observed during the 10-days period, regardless the time of the day. Expressed in Kelvin.",
+          "clms:display": 0,
+          "clms:display_order": 2
+        },
+        {
+          "name": "median",
+          "description": "Median Land Surface Temperature ",
+          "unit": "K",
+          "raster:scale": 0.01,
+          "raster:offset": 273.15,
+          "cdse:layer_browser_name": "LST Synthesis Median",
+          "cdse:short_description": "Median of Land Surface Temperature observed during the 10-days period, regardless the time of the day.",
+          "cdse:long_description": "Median of Land Surface Temperature observed during the 10-days period, regardless the time of the day. Expressed in Kelvin.",
+          "clms:display": 1,
+          "clms:display_order": 1
+        },
+        {
+          "name": "min",
+          "description": "Minimum Land Surface Temperature ",
+          "unit": "K",
+          "raster:scale": 0.01,
+          "raster:offset": 273.15,
+          "cdse:layer_browser_name": "LST Synthesis Minimum",
+          "cdse:short_description": "Minimum of Land Surface Temperature observed during the 10-days period, regardless the time of the day.",
+          "cdse:long_description": "Minimum of Land Surface Temperature observed during the 10-days period, regardless the time of the day. Expressed in Kelvin.",
+          "clms:display": 0,
+          "clms:display_order": 0
+        },
+        {
+          "name": "tci",
+          "description": "Thermal Conditions Index",
+          "raster:scale": 0.0001,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "LST TCI",
+          "cdse:short_description": "Thermal Condition Index for the compositing period.",
+          "cdse:long_description": "Thermal Condition Index for the compositing period, estimated using LST observations around local solar noon.",
+          "clms:display": 1,
+          "clms:display_order": 3
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://land.copernicus.eu/en/data-policy",
+      "type": "text/html",
+      "title": "Data policy for Copernicus Land Monitoring Service products and services"
+    },
+    {
+      "rel": "about",
+      "href": "https://land.copernicus.eu/en/products/temperature-and-reflectance/10daily-land-surface-temperature-synthesis-global-v3-0-3km",
+      "type": "text/html",
+      "title": "Product page"
+    }
+  ],
+  "bands": [
+    {
+      "name": "tci",
+      "description": "Thermal Conditions Index"
+    },
+    {
+      "name": "min",
+      "description": "Minimum Land Surface Temperature "
+    },
+    {
+      "name": "median",
+      "description": "Median Land Surface Temperature "
+    },
+    {
+      "name": "max",
+      "description": "Maximum Land Surface Temperature "
+    },
+    {
+      "name": "frac_valid_obs",
+      "description": "Fraction of Valid Observations"
+    }
+  ],
+  "auth:schemes": {
+    "s3": {
+      "type": "s3"
+    },
+    "oidc": {
+      "type": "openIdConnect",
+      "openIdConnectUrl": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/.well-known/openid-configuration"
+    }
+  },
+  "storage:schemes": {
+    "cdse-s3": {
+      "title": "Copernicus Data Space Ecosystem S3",
+      "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.dataspace.copernicus.eu",
+      "requester_pays": false
+    },
+    "creodias-s3": {
+      "title": "CREODIAS S3",
+      "description": "Comprehensive Earth Observation Data (EODATA) archive offered by CREODIAS as a commercial part of CDSE, designed to provide users with access to a vast repository of satellite data without predefined quota limits.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.cloudferro.com",
+      "requester_pays": true
+    }
+  },
+  "contacts": [
+    {
+      "name": "Copernicus Land Monitoring Service",
+      "organization": "European Environment Agency",
+      "roles": [
+        "producer"
+      ],
+      "emails": [
+        {
+          "value": "copernicus@eea.europa.eu",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "phones": [
+        {
+          "value": "+4533367100",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://land.copernicus.eu/",
+          "rel": "about",
+          "type": "text/html",
+          "title": "Homepage of the Copernicus Land Monitoring Service"
+        }
+      ]
+    }
+  ],
+  "cdse:browser_name": "LST TCI 3km 10-daily V3",
+  "cdse:browser_search_path": "CLMS Bio-geophysical Parameters, Temperature and Reflectance, Land Surface Temperature",
+  "cdse:collection_description": "Land Surface Temperature Synthesis and Thermal Condition Index are provided 10-daily at global scale, at a spatial resolution of ~3 km.",
+  "clms:spatial_coverage": "Global",
+  "clms:frequency": "10daily"
+}

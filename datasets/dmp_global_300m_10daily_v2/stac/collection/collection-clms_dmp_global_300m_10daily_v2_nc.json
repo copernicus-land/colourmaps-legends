@@ -1,0 +1,284 @@
+{
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/product/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/storage/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v2.0.0/schema.json"
+  ],
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "id": "clms_dmp_global_300m_10daily_v2_nc",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9999999,
+          -59.9985119,
+          179.9985119,
+          80.0014881
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2013-11-01T00:00:00.000Z",
+          null
+        ]
+      ]
+    }
+  },
+  "title": "CLMS Dry Matter Productivity (DMP) Global 300m 10-daily V2 (NetCDF)",
+  "keywords": [
+    "Copernicus",
+    "CLMS",
+    "DMP",
+    "Dry Matter Productivity",
+    "vegetation productivity",
+    "global",
+    "10-daily",
+    "300m",
+    "PROBA-V",
+    "Sentinel-3",
+    "OLCI"
+  ],
+  "description": "Represents the overall growth rate, or dry biomass increase, of the vegetation. It is directly related to ecosystem Net Primary Production (NPP) but expressed in kg of Dry Matter per hectare and per day (kg DM/ha/day). Every 10-days estimates are available in near real time at global scale in the spatial resolution of about 300 m from January 2014 to the present.",
+  "license": "other",
+  "providers": [
+    {
+      "name": "CloudFerro",
+      "roles": [
+        "host"
+      ],
+      "url": "https://cloudferro.com/"
+    },
+    {
+      "name": "European Commission's Joint Research Centre",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://joint-research-centre.ec.europa.eu/"
+    },
+    {
+      "name": "European Commission",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://commission.europa.eu/"
+    },
+    {
+      "name": "VITO",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://vito.be/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://s3.waw3-2.cloudferro.com/swift/v1/stac-png/clms_dmp_global_300m_10daily_v1.jpg",
+      "type": "image/jpeg",
+      "title": "CLMS Dry Matter Productivity (DMP) Global 300m 10-daily V2 (NetCDF) Thumbnail",
+      "roles": [
+        "thumbnail"
+      ],
+      "proj:code": null,
+      "proj:shape": [
+        360,
+        640
+      ]
+    },
+    "dmp_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/dmp_global_300m_10daily_v2/colour_scheme/clms_global_dmp_300m_v2_10daily.sld",
+      "type": "application/vnd.ogc.sld+xml",
+      "title": "DMP colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "dmp_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/dmp_global_300m_10daily_v2/legends/dmp-dmp_global_300m_10daily_v2.png",
+      "type": "image/png",
+      "title": "DMP legend",
+      "roles": [
+        "legend"
+      ]
+    }
+  },
+  "summaries": {
+    "proj:code": [
+      "EPSG:4326"
+    ],
+    "gsd": [
+      300.0
+    ],
+    "processing:level": [
+      "L3"
+    ],
+    "processing:version": [
+      "V2.0.1"
+    ],
+    "product:type": [
+      "dry-gross_dry_matter_productivity"
+    ],
+    "product:timeliness": [
+      "P2D"
+    ],
+    "product:timeliness_category": [
+      "NRT"
+    ],
+    "instruments": [
+      "olci",
+      "probav"
+    ],
+    "constellation": [
+      "proba-1"
+    ],
+    "platform": [
+      "proba-v"
+    ]
+  },
+  "item_assets": {
+    "Product": {
+      "title": "10-daily Dry Matter Productivity 333M: GLOBE",
+      "type": "application/netcdf",
+      "roles": [
+        "data"
+      ],
+      "alternate:name": "S3",
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "auth:refs": [
+        "s3"
+      ],
+      "bands": [
+        {
+          "name": "dmp",
+          "description": "Dry Matter Productivity 333m",
+          "unit": "kg/ha/day",
+          "raster:scale": 0.01,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "DMP",
+          "cdse:short_description": "Dry Matter Productivity (kg/ha/day)",
+          "cdse:long_description": "Dry Matter Productivity (DMP) represents the overall growth rate of vegetation — its dry biomass increase — expressed in kg/ha/day.",
+          "clms:display": 1,
+          "clms:display_order": 0
+        },
+        {
+          "name": "qflag",
+          "description": "Quality Flag on DMP 333m",
+          "cdse:layer_browser_name": "DMP Quality Flag",
+          "cdse:short_description": "Quality Flag of the Dry Matter Productivity",
+          "cdse:long_description": "A per-pixel quality flag (QFLAG) describing the status of the Dry Matter Productivity retrieval, derived from the quality indicator of the input FAPAR product.",
+          "clms:display": 0,
+          "clms:display_order": 1
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://land.copernicus.eu/en/data-policy",
+      "type": "text/html",
+      "title": "Data policy for Copernicus Land Monitoring Service products and services"
+    },
+    {
+      "rel": "about",
+      "href": "https://land.copernicus.eu/en/products/vegetation/dry-matter-productivity-v2-0-300m",
+      "type": "text/html",
+      "title": "Product page"
+    }
+  ],
+  "bands": [
+    {
+      "name": "dmp",
+      "description": "Dry Matter Productivity 333m"
+    },
+    {
+      "name": "qflag",
+      "description": "Quality Flag on DMP 333m"
+    }
+  ],
+  "auth:schemes": {
+    "s3": {
+      "type": "s3"
+    },
+    "oidc": {
+      "type": "openIdConnect",
+      "openIdConnectUrl": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/.well-known/openid-configuration"
+    }
+  },
+  "storage:schemes": {
+    "cdse-s3": {
+      "title": "Copernicus Data Space Ecosystem S3",
+      "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.dataspace.copernicus.eu",
+      "requester_pays": false
+    },
+    "creodias-s3": {
+      "title": "CREODIAS S3",
+      "description": "Comprehensive Earth Observation Data (EODATA) archive offered by CREODIAS as a commercial part of CDSE, designed to provide users with access to a vast repository of satellite data without predefined quota limits.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.cloudferro.com",
+      "requester_pays": true
+    }
+  },
+  "contacts": [
+    {
+      "name": "Copernicus Land Monitoring Service",
+      "organization": "European Environment Agency",
+      "roles": [
+        "producer"
+      ],
+      "emails": [
+        {
+          "value": "copernicus@eea.europa.eu",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "phones": [
+        {
+          "value": "+4533367100",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://land.copernicus.eu/",
+          "rel": "about",
+          "type": "text/html",
+          "title": "Homepage of the Copernicus Land Monitoring Service"
+        }
+      ]
+    }
+  ],
+  "cdse:browser_name": "DMP 300m 10-daily V2",
+  "cdse:browser_search_path": "CLMS Bio-geophysical Parameters, Vegetation, Dry/Gross Dry Matter Productivity",
+  "cdse:collection_description": "Dry Matter Productivity (DMP) represents the overall growth rate or dry biomass increase of the vegetation — that is, the amount of new dry matter produced per unit of time. DMP is closely related to ecosystem Net Primary Production (NPP) but uses units adapted to agro-statistical applications (kg/ha/day). Estimates are generated at 10-day intervals at global scale, with a spatial resolution of about 300 m, and the time series extends from January 2014 to the present.",
+  "clms:spatial_coverage": "Global",
+  "clms:frequency": "10daily"
+}

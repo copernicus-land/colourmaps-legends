@@ -1,0 +1,279 @@
+{
+  "stac_extensions": [
+    "https://stac-extensions.github.io/alternate-assets/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/authentication/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/processing/v1.2.0/schema.json",
+    "https://stac-extensions.github.io/product/v1.1.0/schema.json",
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/scientific/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/storage/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/contacts/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/raster/v2.0.0/schema.json"
+  ],
+  "type": "Collection",
+  "stac_version": "1.1.0",
+  "sci:doi": "10.2909/b54be6e3-5962-4e9a-a443-9ff7ea943dfe",
+  "id": "clms_gdmp_global_1km_10daily_v2_nc",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.9999999,
+          -59.9955357,
+          179.9955357,
+          80.0044643
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1999-01-01T00:00:00.000Z",
+          "2020-06-30T23:59:59.000Z"
+        ]
+      ]
+    }
+  },
+  "title": "CLMS Gross Dry Matter Productivity (GDMP) Global 1km 10-daily V2 (NetCDF)",
+  "keywords": [
+    "Copernicus",
+    "CLMS",
+    "GDMP",
+    "Gross Dry Matter Productivity",
+    "vegetation productivity",
+    "global",
+    "10-daily",
+    "1km",
+    "SPOT",
+    "VEGETATION",
+    "PROBA-V"
+  ],
+  "description": "Equivalent to Gross Primary Production (GPP). Every 10-days estimates are available at global scale in the spatial resolution of about 1 km and with the temporal extent from 1999 to June 2020.",
+  "license": "other",
+  "providers": [
+    {
+      "name": "CloudFerro",
+      "roles": [
+        "host"
+      ],
+      "url": "https://cloudferro.com/"
+    },
+    {
+      "name": "European Commission's Joint Research Centre",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://joint-research-centre.ec.europa.eu/"
+    },
+    {
+      "name": "European Commission",
+      "roles": [
+        "licensor"
+      ],
+      "url": "https://commission.europa.eu/"
+    },
+    {
+      "name": "VITO",
+      "roles": [
+        "processor"
+      ],
+      "url": "https://vito.be/"
+    }
+  ],
+  "assets": {
+    "thumbnail": {
+      "href": "https://s3.waw3-2.cloudferro.com/swift/v1/stac-png/clms_gdmp_global_1km_10daily_v2.jpg",
+      "type": "image/jpeg",
+      "title": "CLMS Gross Dry Matter Productivity (GDMP) Global 1km 10-daily V2 (NetCDF) Thumbnail",
+      "roles": [
+        "thumbnail"
+      ],
+      "proj:code": null,
+      "proj:shape": [
+        360,
+        640
+      ]
+    },
+    "gdmp_colormap": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/gdmp_global_1km_10daily_v2/colour_scheme/clms_global_gdmp_1km_v2_10daily.txt",
+      "type": "text/plain",
+      "title": "GDMP colour map",
+      "roles": [
+        "metadata",
+        "colormap"
+      ]
+    },
+    "gdmp_legend": {
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/gdmp_global_1km_10daily_v2/legends/gdmp_global_1km_10daily_v2.png",
+      "type": "image/png",
+      "title": "GDMP legend",
+      "roles": [
+        "legend"
+      ]
+    }
+  },
+  "summaries": {
+    "proj:code": [
+      "EPSG:4326"
+    ],
+    "gsd": [
+      1000.0
+    ],
+    "processing:level": [
+      "L3"
+    ],
+    "processing:version": [
+      "V2.0.1"
+    ],
+    "product:type": [
+      "dry-gross_dry_matter_productivity"
+    ],
+    "instruments": [
+      "vegetation",
+      "vegetation-2",
+      "vegetation-1"
+    ],
+    "constellation": [
+      "spot",
+      "proba-1"
+    ],
+    "platform": [
+      "proba-v",
+      "spot 5",
+      "spot 4"
+    ]
+  },
+  "item_assets": {
+    "Product": {
+      "title": "10-daily Gross Dry Matter Productivity 1KM: GLOBE",
+      "type": "application/netcdf",
+      "roles": [
+        "data"
+      ],
+      "alternate:name": "S3",
+      "alternate": {
+        "https": {
+          "alternate:name": "HTTPS",
+          "auth:refs": [
+            "oidc"
+          ],
+          "storage:refs": []
+        }
+      },
+      "storage:refs": [
+        "cdse-s3",
+        "creodias-s3"
+      ],
+      "auth:refs": [
+        "s3"
+      ],
+      "bands": [
+        {
+          "name": "gdmp",
+          "description": "Gross dry matter productivity 1KM",
+          "unit": "kg DM/ha/day",
+          "raster:scale": 0.02,
+          "raster:offset": 0,
+          "cdse:layer_browser_name": "GDMP",
+          "cdse:short_description": "Gross Dry Matter Productivity (kg DM/ha/day)",
+          "cdse:long_description": "Gross Dry Matter Productivity represents the total organic matter produced by plant photosynthesis. It is expressed in kg of Dry Matter per hectare and per day (kg DM/ha/day).",
+          "clms:display": 1,
+          "clms:display_order": 0
+        },
+        {
+          "name": "qflag",
+          "description": "Quality flag on GDMP 1KM"
+        }
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://land.copernicus.eu/en/data-policy",
+      "type": "text/html",
+      "title": "Data policy for Copernicus Land Monitoring Service products and services"
+    },
+    {
+      "rel": "about",
+      "href": "https://land.copernicus.eu/en/products/vegetation/gross-dry-matter-productivity-v2-0-1km",
+      "type": "text/html",
+      "title": "Product page"
+    }
+  ],
+  "bands": [
+    {
+      "name": "gdmp",
+      "description": "Gross dry matter productivity 1KM"
+    },
+    {
+      "name": "qflag",
+      "description": "Quality flag on GDMP 1KM"
+    }
+  ],
+  "auth:schemes": {
+    "s3": {
+      "type": "s3"
+    },
+    "oidc": {
+      "type": "openIdConnect",
+      "openIdConnectUrl": "https://identity.dataspace.copernicus.eu/auth/realms/CDSE/.well-known/openid-configuration"
+    }
+  },
+  "storage:schemes": {
+    "cdse-s3": {
+      "title": "Copernicus Data Space Ecosystem S3",
+      "description": "This endpoint provides access to EO data which is stored on the object storage of both CloudFerro Cloud and OpenTelekom Cloud (OTC). See the [documentation](https://documentation.dataspace.copernicus.eu/APIs/S3.html) for more information, including how to get credentials.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.dataspace.copernicus.eu",
+      "requester_pays": false
+    },
+    "creodias-s3": {
+      "title": "CREODIAS S3",
+      "description": "Comprehensive Earth Observation Data (EODATA) archive offered by CREODIAS as a commercial part of CDSE, designed to provide users with access to a vast repository of satellite data without predefined quota limits.",
+      "type": "custom-s3",
+      "class": "hot",
+      "platform": "https://eodata.cloudferro.com",
+      "requester_pays": true
+    }
+  },
+  "contacts": [
+    {
+      "name": "Copernicus Land Monitoring Service",
+      "organization": "European Environment Agency",
+      "roles": [
+        "producer"
+      ],
+      "emails": [
+        {
+          "value": "copernicus@eea.europa.eu",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "phones": [
+        {
+          "value": "+4533367100",
+          "roles": [
+            "contact point"
+          ]
+        }
+      ],
+      "links": [
+        {
+          "href": "https://land.copernicus.eu/",
+          "rel": "about",
+          "type": "text/html",
+          "title": "Homepage of the Copernicus Land Monitoring Service"
+        }
+      ]
+    }
+  ],
+  "cdse:browser_name": "GDMP 1km 10-daily V2",
+  "cdse:browser_search_path": "CLMS Bio-geophysical Parameters, Vegetation, Dry/Gross Dry Matter Productivity",
+  "cdse:collection_description": "Gross Dry Matter Productivity is the total organic matter produced by plant photosynthesis. It is expressed in kg of dry matter per hectare and per day. Every 10-days, estimates are available at global scale, at a spatial resolution of ~1 km.",
+  "clms:spatial_coverage": "Global",
+  "clms:frequency": "10daily"
+}
