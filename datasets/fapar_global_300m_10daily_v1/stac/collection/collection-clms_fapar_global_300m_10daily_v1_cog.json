@@ -94,7 +94,7 @@
       ]
     },
     "fapar300_fapar_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fapar_global_300m_10daily_v1/clms_global_fapar_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_300m_10daily_v1/colour_scheme/clms_global_fapar_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "FAPAR colour map",
       "roles": [

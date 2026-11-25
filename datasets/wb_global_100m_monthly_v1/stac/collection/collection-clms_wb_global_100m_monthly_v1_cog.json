@@ -95,7 +95,7 @@
       ]
     },
     "wb100_wb_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/wb_global_100m_monthly_v1/clms_global_wb_100m_v1_monthly.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/wb_global_100m_monthly_v1/colour_scheme/clms_global_wb_100m_v1_monthly.txt",
       "type": "text/plain",
       "title": "Water Bodies colour map",
       "roles": [

@@ -12,14 +12,14 @@
   },
   "nominalSpatialResolution": "300m",
   "frequency": "10daily",
-  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/gdmp_global_300m_10daily_v2/GDMP300mV2_Dataset-page_Thumbnail.png",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/gdmp_global_300m_10daily_v2/thumbnail/GDMP300mV2_Dataset-page_Thumbnail.png",
   "layers": [
     {
       "fileName": "GDMP300-GDMP",
       "layerBrowserName": "GDMP",
       "shortDescription": "Gross Dry Matter Productivity (kg/ha/day)",
       "longDescription": "Gross Dry Matter Productivity (GDMP) represents the total amount of dry matter produced by vegetation through photosynthesis, expressed in kg/ha/day.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/gdmp_global_300m_10daily_v2/clms_global_gdmp_300m_v2_10daily.sld",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/gdmp_global_300m_10daily_v2/colour_scheme/clms_global_gdmp_300m_v2_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_gdmp_1km_v2_10daily.png",
       "units": "[kg/ha/day]",
       "scale": "0.02",

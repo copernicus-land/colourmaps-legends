@@ -92,7 +92,7 @@
       ]
     },
     "lwq300_tmean_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-reproc_global_300m_10daily_v1/clms_global_lwq_300m_v1_10daily-reproc-turbidity_mean.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-reproc_global_300m_10daily_v1/colour_scheme/clms_global_lwq_300m_v1_10daily-reproc-turbidity_mean.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Turbidity colour map",
       "roles": [
@@ -109,7 +109,7 @@
       ]
     },
     "lwq300_tsi_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-reproc_global_300m_10daily_v1/clms_global_lwq_300m_v1_10daily-reproc-trophic_state_index.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-reproc_global_300m_10daily_v1/colour_scheme/clms_global_lwq_300m_v1_10daily-reproc-trophic_state_index.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "TSI colour map",
       "roles": [

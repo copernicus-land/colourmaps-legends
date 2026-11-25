@@ -93,7 +93,7 @@
       ]
     },
     "lst_lst_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst_global_3km_hourly_v3/clms_global_lst_3km_v3_hourly.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst_global_3km_hourly_v3/colour_scheme/clms_global_lst_3km_v3_hourly.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LST colour map",
       "roles": [
@@ -102,7 +102,7 @@
       ]
     },
     "lst_lst_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lst_global_3km_hourly_v3/lst_global_3km_hourly_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst_global_3km_hourly_v3/legends/lst_global_3km_hourly_v3.png",
       "type": "image/png",
       "title": "LST legend",
       "roles": [
@@ -110,7 +110,7 @@
       ]
     },
     "lst_errorbar_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst_global_3km_hourly_v3/clms_global_lst-errorbar_3km_v3_hourly.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst_global_3km_hourly_v3/colour_scheme/clms_global_lst-errorbar_3km_v3_hourly.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LST error colour map",
       "roles": [
@@ -119,7 +119,7 @@
       ]
     },
     "lst_errorbar_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lst_global_3km_hourly_v3/lst-errorbar_global_3km_hourly_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst_global_3km_hourly_v3/legends/lst-errorbar_global_3km_hourly_v3.png",
       "type": "image/png",
       "title": "LST error legend",
       "roles": [

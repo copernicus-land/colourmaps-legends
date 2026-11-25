@@ -95,7 +95,7 @@
       ]
     },
     "lie_nh_lie_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lie_northernhemisphere_500m_daily_v1/clms_nhemi_lie_500m_lie_v1_daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lie_northernhemisphere_500m_daily_v1/colour_scheme/clms_nhemi_lie_500m_lie_v1_daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Lake Ice Extent colour map",
       "roles": [
@@ -112,7 +112,7 @@
       ]
     },
     "lie_nh_p_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lie_northernhemisphere_500m_daily_v1/clms_nhemi_lie_500m_statistical_probability_v1_daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lie_northernhemisphere_500m_daily_v1/colour_scheme/clms_nhemi_lie_500m_statistical_probability_v1_daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Statistical Probability colour map",
       "roles": [

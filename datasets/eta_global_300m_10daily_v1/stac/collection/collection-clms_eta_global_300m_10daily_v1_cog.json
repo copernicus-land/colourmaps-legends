@@ -94,7 +94,7 @@
       ]
     },
     "et_ensemble_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-ensemble_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta_et-ensemble_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "ET Ensemble colour map",
       "roles": [
@@ -111,7 +111,7 @@
       ]
     },
     "et_etlook_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-etlook_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta_et-etlook_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "ET ETLook colour map",
       "roles": [
@@ -128,7 +128,7 @@
       ]
     },
     "et_tsebpt_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-tsebpt_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta_et-tsebpt_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "ET TSEB-PT colour map",
       "roles": [
@@ -137,7 +137,7 @@
       ]
     },
     "et_std_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-std_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta_et-std_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "ET StDev colour map",
       "roles": [
@@ -154,7 +154,7 @@
       ]
     },
     "e_ensemble_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_e-ensemble_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta_e-ensemble_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "E Ensemble colour map",
       "roles": [
@@ -171,7 +171,7 @@
       ]
     },
     "e_etlook_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_e-etlook_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta_e-etlook_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "E ETLook colour map",
       "roles": [
@@ -188,7 +188,7 @@
       ]
     },
     "e_tsebpt_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_e-tsebpt_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta_e-tsebpt_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "E TSEB-PT colour map",
       "roles": [
@@ -197,7 +197,7 @@
       ]
     },
     "e_std_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_e-std_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta_e-std_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "E StDev colour map",
       "roles": [
@@ -214,7 +214,7 @@
       ]
     },
     "t_ensemble_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-ensemble_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta_et-ensemble_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "T Ensemble colour map",
       "roles": [
@@ -231,7 +231,7 @@
       ]
     },
     "t_etlook_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-etlook_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta_et-etlook_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "T ETLook colour map",
       "roles": [
@@ -248,7 +248,7 @@
       ]
     },
     "t_tsebpt_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-tsebpt_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta_et-tsebpt_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "T TSEB-PT colour map",
       "roles": [
@@ -257,7 +257,7 @@
       ]
     },
     "t_std_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta_et-std_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta_et-std_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "T StDev colour map",
       "roles": [
@@ -274,7 +274,7 @@
       ]
     },
     "nobs_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta-nobs_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta-nobs_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "NOBS colour map",
       "roles": [
@@ -291,7 +291,7 @@
       ]
     },
     "flag_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/eta_global_300m_10daily_v1/clms_global_eta-flag_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/eta_global_300m_10daily_v1/colour_scheme/clms_global_eta-flag_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "FLAG colour map",
       "roles": [

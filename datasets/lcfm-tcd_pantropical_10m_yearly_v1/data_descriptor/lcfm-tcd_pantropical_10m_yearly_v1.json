@@ -12,14 +12,14 @@
   },
   "nominalSpatialResolution": "10m",
   "frequency": "yearly",
-  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lcfm-tcd_pantropical_10m_yearly_v1/lcfm-tcd_pantropical_10m_yearly_v1.jpg",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lcfm-tcd_pantropical_10m_yearly_v1/thumbnail/lcfm-tcd_pantropical_10m_yearly_v1.jpg",
   "layers": [
     {
       "fileName": "TCD",
       "layerBrowserName": "Tree Cover Density",
       "shortDescription": "Tree Cover Density (%)",
       "longDescription": "Tree Cover Density expressed as percentage of tree cover at 10 m resolution.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lcfm-tcd_pantropical_10m_yearly_v1/lcfm-tcd_pantropical_10m_yearly_v1.txt",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lcfm-tcd_pantropical_10m_yearly_v1/colour_scheme/lcfm-tcd_pantropical_10m_yearly_v1.txt",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lcfm-tcd_pantropical_10m_yearly_v1.png",
       "units": "[%]",
       "scale": "1",

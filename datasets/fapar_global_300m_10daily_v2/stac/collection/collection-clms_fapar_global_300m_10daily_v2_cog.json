@@ -96,7 +96,7 @@
       ]
     },
     "fapar300_fapar_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fapar_global_300m_10daily_v2/clms_global_fapar-fapar_300m_v2_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_300m_10daily_v2/colour_scheme/clms_global_fapar-fapar_300m_v2_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "FAPAR colour map",
       "roles": [
@@ -113,7 +113,7 @@
       ]
     },
     "fapar300_rmse_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fapar_global_300m_10daily_v2/clms_global_fapar-rmse_300m_v2_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_300m_10daily_v2/colour_scheme/clms_global_fapar-rmse_300m_v2_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "RMSE on FAPAR colour map",
       "roles": [
@@ -130,7 +130,7 @@
       ]
     },
     "fapar300_nobs_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fapar_global_300m_10daily_v2/clms_global_fapar-nobs_300m_v2_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_300m_10daily_v2/colour_scheme/clms_global_fapar-nobs_300m_v2_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "NOBS colour map",
       "roles": [
@@ -147,7 +147,7 @@
       ]
     },
     "fapar300_lbefore_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fapar_global_300m_10daily_v2/clms_global_fapar-lbefore_300m_v2_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_300m_10daily_v2/colour_scheme/clms_global_fapar-lbefore_300m_v2_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LENGTH_BEFORE colour map",
       "roles": [
@@ -164,7 +164,7 @@
       ]
     },
     "fapar300_lafter_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fapar_global_300m_10daily_v2/clms_global_fapar-lafter_300m_v2_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_300m_10daily_v2/colour_scheme/clms_global_fapar-lafter_300m_v2_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LENGTH_AFTER colour map",
       "roles": [

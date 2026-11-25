@@ -94,7 +94,7 @@
       ]
     },
     "gpp300_gpp_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/gpp_global_300m_10daily_v2/clms_global_gpp_300m_v2_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/gpp_global_300m_10daily_v2/colour_scheme/clms_global_gpp_300m_v2_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "GPP colour map",
       "roles": [

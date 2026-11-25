@@ -94,7 +94,7 @@
       ]
     },
     "fcover300_fcover_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fcover_global_300m_10daily_v1/clms_global_fcover_300m_v1_10daily.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fcover_global_300m_10daily_v1/colour_scheme/clms_global_fcover_300m_v1_10daily.txt",
       "type": "text/plain",
       "title": "FCOVER colour map",
       "roles": [

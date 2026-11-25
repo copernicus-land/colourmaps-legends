@@ -95,7 +95,7 @@
       ]
     },
     "ba300_dob_ntc_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ba_global_300m_monthly_v4/clms_global_ba-dob_300m_v4_monthly.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ba_global_300m_monthly_v4/colour_scheme/clms_global_ba-dob_300m_v4_monthly.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Burnt Area colour map",
       "roles": [
@@ -104,7 +104,7 @@
       ]
     },
     "ba300_dob_ntc_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ba_global_300m_monthly_v4/ba-dob_global_300m_monthly_v4.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ba_global_300m_monthly_v4/legends/ba-dob_global_300m_monthly_v4.png",
       "type": "image/png",
       "title": "Burnt Area legend",
       "roles": [
@@ -112,7 +112,7 @@
       ]
     },
     "ba300_cp_ntc_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ba_global_300m_monthly_v4/clms_global_ba-cp_300m_v4_monthly.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ba_global_300m_monthly_v4/colour_scheme/clms_global_ba-cp_300m_v4_monthly.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Classification probability colour map",
       "roles": [
@@ -121,7 +121,7 @@
       ]
     },
     "ba300_cp_ntc_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ba_global_300m_monthly_v4/ba-cp_global_300m_monthly_v4.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ba_global_300m_monthly_v4/legends/ba-cp_global_300m_monthly_v4.png",
       "type": "image/png",
       "title": "Classification probability legend",
       "roles": [
@@ -129,7 +129,7 @@
       ]
     },
     "ba300_bf_ntc_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ba_global_300m_monthly_v4/clms_global_ba-bf_300m_v4_monthly.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ba_global_300m_monthly_v4/colour_scheme/clms_global_ba-bf_300m_v4_monthly.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Burn Fraction colour map",
       "roles": [
@@ -138,7 +138,7 @@
       ]
     },
     "ba300_bf_ntc_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ba_global_300m_monthly_v4/ba-bf_global_300m_monthly_v4.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ba_global_300m_monthly_v4/legends/ba-bf_global_300m_monthly_v4.png",
       "type": "image/png",
       "title": "Burn Fraction legend",
       "roles": [
@@ -146,7 +146,7 @@
       ]
     },
     "ba300_lfp_ntc_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ba_global_300m_monthly_v4/clms_global_ba-lfp_300m_v4_monthly.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ba_global_300m_monthly_v4/colour_scheme/clms_global_ba-lfp_300m_v4_monthly.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Large Fraction Probability colour map",
       "roles": [
@@ -155,7 +155,7 @@
       ]
     },
     "ba300_lfp_ntc_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ba_global_300m_monthly_v4/ba-lfp_global_300m_monthly_v4.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ba_global_300m_monthly_v4/legends/ba-lfp_global_300m_monthly_v4.png",
       "type": "image/png",
       "title": "Large Fraction Probability legend",
       "roles": [

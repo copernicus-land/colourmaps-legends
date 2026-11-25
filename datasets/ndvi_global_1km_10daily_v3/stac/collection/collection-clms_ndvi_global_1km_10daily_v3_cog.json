@@ -96,7 +96,7 @@
       ]
     },
     "ndvi_ndvi_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ndvi_global_1km_10daily_v3/clms_global_ndvi-ndvi_1km_v3_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi_global_1km_10daily_v3/colour_scheme/clms_global_ndvi-ndvi_1km_v3_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "NDVI colour map",
       "roles": [
@@ -105,7 +105,7 @@
       ]
     },
     "ndvi_ndvi_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ndvi_global_1km_10daily_v3/ndvi-ndvi_global_1km_10daily_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi_global_1km_10daily_v3/legends/ndvi-ndvi_global_1km_10daily_v3.png",
       "type": "image/png",
       "title": "NDVI legend",
       "roles": [
@@ -113,7 +113,7 @@
       ]
     },
     "ndvi_unc_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ndvi_global_1km_10daily_v3/clms_global_ndvi-unc_1km_v3_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi_global_1km_10daily_v3/colour_scheme/clms_global_ndvi-unc_1km_v3_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "NDVI Uncertainty colour map",
       "roles": [
@@ -122,7 +122,7 @@
       ]
     },
     "ndvi_unc_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ndvi_global_1km_10daily_v3/ndvi-unc_global_1km_10daily_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi_global_1km_10daily_v3/legends/ndvi-unc_global_1km_10daily_v3.png",
       "type": "image/png",
       "title": "NDVI Uncertainty legend",
       "roles": [
@@ -130,7 +130,7 @@
       ]
     },
     "ndvi_nobs_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ndvi_global_1km_10daily_v3/clms_global_ndvi-nobs_1km_v3_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi_global_1km_10daily_v3/colour_scheme/clms_global_ndvi-nobs_1km_v3_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "NOBS colour map",
       "roles": [
@@ -139,7 +139,7 @@
       ]
     },
     "ndvi_nobs_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ndvi_global_1km_10daily_v3/ndvi-nobs_global_1km_10daily_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi_global_1km_10daily_v3/legends/ndvi-nobs_global_1km_10daily_v3.png",
       "type": "image/png",
       "title": "NOBS legend",
       "roles": [

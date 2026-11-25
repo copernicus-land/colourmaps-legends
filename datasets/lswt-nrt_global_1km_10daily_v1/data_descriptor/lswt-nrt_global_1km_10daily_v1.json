@@ -12,14 +12,14 @@
   },
   "nominalSpatialResolution": "1km",
   "frequency": "10daily",
-  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lswt-nrt_global_1km_10daily_v1/.gitkeep",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lswt-nrt_global_1km_10daily_v1/thumbnail/.gitkeep",
   "layers": [
     {
       "fileName": "LSWT-LSWT",
       "layerBrowserName": "LSWT",
       "shortDescription": "Lake Surface Water Temperature (K)",
       "longDescription": "Lake Surface Water Temperature expressed in Kelvin.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lswt-nrt_global_1km_10daily_v1/clms_global_lswt_1km_v1_10daily-nrt-lake_surface_water_temperature.sld",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lswt-nrt_global_1km_10daily_v1/colour_scheme/clms_global_lswt_1km_v1_10daily-nrt-lake_surface_water_temperature.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lswt_1km_v1_10daily-nrt-lake_surface_water_temperature.png",
       "units": "[K]",
       "scale": "0.01",

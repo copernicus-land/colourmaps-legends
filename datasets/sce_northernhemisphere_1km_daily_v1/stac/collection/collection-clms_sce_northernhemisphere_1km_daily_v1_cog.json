@@ -95,7 +95,7 @@
       ]
     },
     "sce_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/sce_northernhemisphere_1km_daily_v1/clms_nhemi_sce_1km_v1_daily.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_northernhemisphere_1km_daily_v1/colour_scheme/clms_nhemi_sce_1km_v1_daily.txt",
       "type": "text/plain",
       "title": "Snow Cover Extent colour map",
       "roles": [

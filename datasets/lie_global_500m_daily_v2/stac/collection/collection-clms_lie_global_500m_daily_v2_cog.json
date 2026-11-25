@@ -95,7 +95,7 @@
       ]
     },
     "lie500_lie_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lie_global_500m_daily_v2/clms_global_lie_500m_lie_v2_daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lie_global_500m_daily_v2/colour_scheme/clms_global_lie_500m_lie_v2_daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Lake Ice Extent colour map",
       "roles": [
@@ -104,7 +104,7 @@
       ]
     },
     "lie500_lie_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lie_global_500m_daily_v2/clms_global_lie_500m_lie_v2_daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lie_global_500m_daily_v2/legends/clms_global_lie_500m_lie_v2_daily.png",
       "type": "image/png",
       "title": "Lake Ice Extent legend",
       "roles": [
@@ -112,7 +112,7 @@
       ]
     },
     "lie500_p_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lie_global_500m_daily_v2/clms_global_lie_500m_statistical_probability_v2_daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lie_global_500m_daily_v2/colour_scheme/clms_global_lie_500m_statistical_probability_v2_daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Statistical Probability colour map",
       "roles": [
@@ -121,7 +121,7 @@
       ]
     },
     "lie500_p_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lie_global_500m_daily_v2/clms_global_lie_500m_statistical_probability_v2_daily.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lie_global_500m_daily_v2/legends/clms_global_lie_500m_statistical_probability_v2_daily.png",
       "type": "image/png",
       "title": "Statistical Probability legend",
       "roles": [

@@ -12,14 +12,14 @@
   },
   "nominalSpatialResolution": "5km",
   "frequency": "hourly",
-  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lst_global_5km_hourly_v1/.gitkeep",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst_global_5km_hourly_v1/thumbnail/.gitkeep",
   "layers": [
     {
       "fileName": "LST-LST",
       "layerBrowserName": "LST",
       "shortDescription": "Land Surface Temperature (K)",
       "longDescription": "Land Surface Temperature in Kelvin, derived from thermal infrared measurements.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst_global_5km_hourly_v1/clms_global_lst_5km_v1_hourly.sld",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst_global_5km_hourly_v1/colour_scheme/clms_global_lst_5km_v1_hourly.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_lst_5km_v1_hourly.png",
       "units": "[K]",
       "scale": "0.01",

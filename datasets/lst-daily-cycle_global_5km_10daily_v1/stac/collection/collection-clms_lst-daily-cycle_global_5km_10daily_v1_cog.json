@@ -92,7 +92,7 @@
       ]
     },
     "lst10_dc_min_00_11_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-daily-cycle_global_5km_10daily_v1/clms_global_lst_5km_v1_min_10daily-daily-cycle.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v1/colour_scheme/clms_global_lst_5km_v1_min_10daily-daily-cycle.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LST Min colour map",
       "roles": [
@@ -109,7 +109,7 @@
       ]
     },
     "lst10_dc_min_12_23_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-daily-cycle_global_5km_10daily_v1/clms_global_lst_5km_v1_min_10daily-daily-cycle.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v1/colour_scheme/clms_global_lst_5km_v1_min_10daily-daily-cycle.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LST Min colour map",
       "roles": [
@@ -126,7 +126,7 @@
       ]
     },
     "lst10_dc_max_00_11_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-daily-cycle_global_5km_10daily_v1/clms_global_lst_5km_v1_max_10daily-daily-cycle.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v1/colour_scheme/clms_global_lst_5km_v1_max_10daily-daily-cycle.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LST Max colour map",
       "roles": [
@@ -143,7 +143,7 @@
       ]
     },
     "lst10_dc_max_12_23_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-daily-cycle_global_5km_10daily_v1/clms_global_lst_5km_v1_max_10daily-daily-cycle.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v1/colour_scheme/clms_global_lst_5km_v1_max_10daily-daily-cycle.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LST Max colour map",
       "roles": [
@@ -160,7 +160,7 @@
       ]
     },
     "lst10_dc_median_00_11_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-daily-cycle_global_5km_10daily_v1/clms_global_lst_5km_v1_med_10daily-daily-cycle.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v1/colour_scheme/clms_global_lst_5km_v1_med_10daily-daily-cycle.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LST Median colour map",
       "roles": [
@@ -177,7 +177,7 @@
       ]
     },
     "lst10_dc_median_12_23_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-daily-cycle_global_5km_10daily_v1/clms_global_lst_5km_v1_med_10daily-daily-cycle.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v1/colour_scheme/clms_global_lst_5km_v1_med_10daily-daily-cycle.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LST Median colour map",
       "roles": [
@@ -194,7 +194,7 @@
       ]
     },
     "lst10_dc_fobs_00_11_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-daily-cycle_global_5km_10daily_v1/clms_global_lst_5km_v1_frac_valid_10daily-daily-cycle.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v1/colour_scheme/clms_global_lst_5km_v1_frac_valid_10daily-daily-cycle.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Fraction Valid colour map",
       "roles": [
@@ -211,7 +211,7 @@
       ]
     },
     "lst10_dc_fobs_12_23_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-daily-cycle_global_5km_10daily_v1/clms_global_lst_5km_v1_frac_valid_10daily-daily-cycle.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-daily-cycle_global_5km_10daily_v1/colour_scheme/clms_global_lst_5km_v1_frac_valid_10daily-daily-cycle.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Fraction Valid colour map",
       "roles": [

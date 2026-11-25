@@ -95,7 +95,7 @@
       ]
     },
     "lwq100_tmean_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_100m_10daily_v2/clms_global_lwq_100m_v2_10daily-turbidity_mean.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_100m_10daily_v2/colour_scheme/clms_global_lwq_100m_v2_10daily-turbidity_mean.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Turbidity colour map",
       "roles": [
@@ -112,7 +112,7 @@
       ]
     },
     "lwq100_chlamean_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_100m_10daily_v2/clms_global_lwq_100m_v2_10daily-chla_mean.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_100m_10daily_v2/colour_scheme/clms_global_lwq_100m_v2_10daily-chla_mean.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Chlorophyll-a colour map",
       "roles": [
@@ -129,7 +129,7 @@
       ]
     },
     "lwq100_tsmmean_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_100m_10daily_v2/clms_global_lwq_100m_v2_10daily-tsm_mean.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_100m_10daily_v2/colour_scheme/clms_global_lwq_100m_v2_10daily-tsm_mean.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "TSM colour map",
       "roles": [
@@ -146,7 +146,7 @@
       ]
     },
     "lwq100_tsi_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_100m_10daily_v2/clms_global_lwq_100m_v2_10daily-trophic_state_index.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_100m_10daily_v2/colour_scheme/clms_global_lwq_100m_v2_10daily-trophic_state_index.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "TSI colour map",
       "roles": [
@@ -163,7 +163,7 @@
       ]
     },
     "lwq100_fcbprob_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lwq-nrt_global_100m_10daily_v2/clms_global_lwq_100m_v2_10daily-floating_cyanobacteria.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lwq-nrt_global_100m_10daily_v2/colour_scheme/clms_global_lwq_100m_v2_10daily-floating_cyanobacteria.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Floating Cyanobacteria colour map",
       "roles": [

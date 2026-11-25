@@ -94,7 +94,7 @@
       ]
     },
     "ndvi_ndvi_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ndvi_global_1km_10daily_v2/clms_global_ndvi_1km_v2_10daily.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi_global_1km_10daily_v2/colour_scheme/clms_global_ndvi_1km_v2_10daily.txt",
       "type": "text/plain",
       "title": "NDVI colour map",
       "roles": [

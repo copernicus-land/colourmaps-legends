@@ -95,7 +95,7 @@
       ]
     },
     "sce500_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/sce_europe_500m_daily_v1/clms_ceuro_sce_500m_v1_daily.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_europe_500m_daily_v1/colour_scheme/clms_ceuro_sce_500m_v1_daily.txt",
       "type": "text/plain",
       "title": "Snow Cover Extent colour map",
       "roles": [

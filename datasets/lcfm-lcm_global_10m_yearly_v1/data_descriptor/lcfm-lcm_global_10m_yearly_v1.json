@@ -12,14 +12,14 @@
   },
   "nominalSpatialResolution": "10m",
   "frequency": "yearly",
-  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lcfm-lcm_global_10m_yearly_v1/lcfm-lcm_global_10m_yearly_v1.jpg",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lcfm-lcm_global_10m_yearly_v1/thumbnail/lcfm-lcm_global_10m_yearly_v1.jpg",
   "layers": [
     {
       "fileName": "LCM",
       "layerBrowserName": "Land Cover Map",
       "shortDescription": "Discrete land cover classification",
       "longDescription": "Discrete land cover classification with 11 land cover classes at 10 m resolution.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lcfm-lcm_global_10m_yearly_v1/lcfm-lcm_global_10m_yearly_v1.txt",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lcfm-lcm_global_10m_yearly_v1/colour_scheme/lcfm-lcm_global_10m_yearly_v1.txt",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lcfm-lcm_global_10m_yearly_v1.png",
       "units": "",
       "scale": "1",

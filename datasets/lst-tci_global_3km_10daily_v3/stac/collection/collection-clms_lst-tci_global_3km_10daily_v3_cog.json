@@ -92,7 +92,7 @@
       ]
     },
     "lst10_tci_median_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-tci_global_3km_10daily_v3/clms_global_lst_3km_v3_10daily-med.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/colour_scheme/clms_global_lst_3km_v3_10daily-med.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LST Synthesis Median colour map",
       "roles": [
@@ -101,7 +101,7 @@
       ]
     },
     "lst10_tci_median_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lst-tci_global_3km_10daily_v3/lst-med_global_3km_10daily_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/legends/lst-med_global_3km_10daily_v3.png",
       "type": "image/png",
       "title": "LST Synthesis Median legend",
       "roles": [
@@ -109,7 +109,7 @@
       ]
     },
     "lst10_tci_tci_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-tci_global_3km_10daily_v3/clms_global_lst_3km_v3_10daily-tci.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/colour_scheme/clms_global_lst_3km_v3_10daily-tci.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LST TCI colour map",
       "roles": [
@@ -118,7 +118,7 @@
       ]
     },
     "lst10_tci_tci_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lst-tci_global_3km_10daily_v3/lst-tci_global_3km_10daily_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/legends/lst-tci_global_3km_10daily_v3.png",
       "type": "image/png",
       "title": "LST TCI legend",
       "roles": [
@@ -143,7 +143,7 @@
       ]
     },
     "lst10_tci_min_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-tci_global_3km_10daily_v3/clms_global_lst_3km_v3_10daily-min.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/colour_scheme/clms_global_lst_3km_v3_10daily-min.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LST Synthesis Minimum colour map",
       "roles": [
@@ -152,7 +152,7 @@
       ]
     },
     "lst10_tci_min_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lst-tci_global_3km_10daily_v3/lst-min_global_3km_10daily_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/legends/lst-min_global_3km_10daily_v3.png",
       "type": "image/png",
       "title": "LST Synthesis Minimum legend",
       "roles": [
@@ -160,7 +160,7 @@
       ]
     },
     "lst10_tci_max_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-tci_global_3km_10daily_v3/clms_global_lst_3km_v3_10daily-max.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/colour_scheme/clms_global_lst_3km_v3_10daily-max.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LST Synthesis Maximum colour map",
       "roles": [
@@ -169,7 +169,7 @@
       ]
     },
     "lst10_tci_max_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/lst-tci_global_3km_10daily_v3/lst-max_global_3km_10daily_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_3km_10daily_v3/legends/lst-max_global_3km_10daily_v3.png",
       "type": "image/png",
       "title": "LST Synthesis Maximum legend",
       "roles": [

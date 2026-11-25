@@ -95,7 +95,7 @@
       ]
     },
     "lsp300_sosd_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_sosd_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_sosd_season1.txt",
       "type": "text/plain",
       "title": "Start of Season Date (Season 1) colour map",
       "roles": [
@@ -112,7 +112,7 @@
       ]
     },
     "lsp300_sosd_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_sosd_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_sosd_season2.txt",
       "type": "text/plain",
       "title": "Start of Season Date (Season 2) colour map",
       "roles": [
@@ -129,7 +129,7 @@
       ]
     },
     "lsp300_eosd_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_eosd_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_eosd_season1.txt",
       "type": "text/plain",
       "title": "End of Season Date (Season 1) colour map",
       "roles": [
@@ -146,7 +146,7 @@
       ]
     },
     "lsp300_eosd_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_eosd_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_eosd_season2.txt",
       "type": "text/plain",
       "title": "End of Season Date (Season 2) colour map",
       "roles": [
@@ -163,7 +163,7 @@
       ]
     },
     "lsp300_maxv_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_maxv_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_maxv_season1.txt",
       "type": "text/plain",
       "title": "Maximum Value (Season 1) colour map",
       "roles": [
@@ -180,7 +180,7 @@
       ]
     },
     "lsp300_maxv_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_maxv_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_maxv_season2.txt",
       "type": "text/plain",
       "title": "Maximum Value (Season 2) colour map",
       "roles": [
@@ -197,7 +197,7 @@
       ]
     },
     "lsp300_minv_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_minv_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_minv_season1.txt",
       "type": "text/plain",
       "title": "Minimum Value (Season 1) colour map",
       "roles": [
@@ -214,7 +214,7 @@
       ]
     },
     "lsp300_minv_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_minv_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_minv_season2.txt",
       "type": "text/plain",
       "title": "Minimum Value (Season 2) colour map",
       "roles": [
@@ -231,7 +231,7 @@
       ]
     },
     "lsp300_ampl_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_ampl_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_ampl_season1.txt",
       "type": "text/plain",
       "title": "Amplitude (Season 1) colour map",
       "roles": [
@@ -248,7 +248,7 @@
       ]
     },
     "lsp300_ampl_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_ampl_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_ampl_season2.txt",
       "type": "text/plain",
       "title": "Amplitude (Season 2) colour map",
       "roles": [
@@ -265,7 +265,7 @@
       ]
     },
     "lsp300_maxd_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_maxd_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_maxd_season1.txt",
       "type": "text/plain",
       "title": "Max Date (Season 1) colour map",
       "roles": [
@@ -282,7 +282,7 @@
       ]
     },
     "lsp300_maxd_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_maxd_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_maxd_season2.txt",
       "type": "text/plain",
       "title": "Max Date (Season 2) colour map",
       "roles": [
@@ -299,7 +299,7 @@
       ]
     },
     "lsp300_length_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_length_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_length_season1.txt",
       "type": "text/plain",
       "title": "Season Length (Season 1) colour map",
       "roles": [
@@ -316,7 +316,7 @@
       ]
     },
     "lsp300_length_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_length_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_length_season2.txt",
       "type": "text/plain",
       "title": "Season Length (Season 2) colour map",
       "roles": [
@@ -333,7 +333,7 @@
       ]
     },
     "lsp300_sprod_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_sprod_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_sprod_season1.txt",
       "type": "text/plain",
       "title": "Season Productivity (Season 1) colour map",
       "roles": [
@@ -350,7 +350,7 @@
       ]
     },
     "lsp300_sprod_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_sprod_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_sprod_season2.txt",
       "type": "text/plain",
       "title": "Season Productivity (Season 2) colour map",
       "roles": [
@@ -367,7 +367,7 @@
       ]
     },
     "lsp300_tprod_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_tprod_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_tprod_season1.txt",
       "type": "text/plain",
       "title": "Total Productivity (Season 1) colour map",
       "roles": [
@@ -384,7 +384,7 @@
       ]
     },
     "lsp300_tprod_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_tprod_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_tprod_season2.txt",
       "type": "text/plain",
       "title": "Total Productivity (Season 2) colour map",
       "roles": [
@@ -401,7 +401,7 @@
       ]
     },
     "lsp300_lslope_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_lslope_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_lslope_season1.txt",
       "type": "text/plain",
       "title": "Left Slope (Season 1) colour map",
       "roles": [
@@ -418,7 +418,7 @@
       ]
     },
     "lsp300_lslope_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_lslope_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_lslope_season2.txt",
       "type": "text/plain",
       "title": "Left Slope (Season 2) colour map",
       "roles": [
@@ -435,7 +435,7 @@
       ]
     },
     "lsp300_rslope_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_rslope_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_rslope_season1.txt",
       "type": "text/plain",
       "title": "Right Slope (Season 1) colour map",
       "roles": [
@@ -452,7 +452,7 @@
       ]
     },
     "lsp300_rslope_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_rslope_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_rslope_season2.txt",
       "type": "text/plain",
       "title": "Right Slope (Season 2) colour map",
       "roles": [
@@ -469,7 +469,7 @@
       ]
     },
     "lsp300_sosv_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_sosv_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_sosv_season1.txt",
       "type": "text/plain",
       "title": "SOS Value (Season 1) colour map",
       "roles": [
@@ -486,7 +486,7 @@
       ]
     },
     "lsp300_sosv_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_sosv_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_sosv_season2.txt",
       "type": "text/plain",
       "title": "SOS Value (Season 2) colour map",
       "roles": [
@@ -503,7 +503,7 @@
       ]
     },
     "lsp300_eosv_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_eosv_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_eosv_season1.txt",
       "type": "text/plain",
       "title": "EOS Value (Season 1) colour map",
       "roles": [
@@ -520,7 +520,7 @@
       ]
     },
     "lsp300_eosv_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_eosv_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_eosv_season2.txt",
       "type": "text/plain",
       "title": "EOS Value (Season 2) colour map",
       "roles": [
@@ -537,7 +537,7 @@
       ]
     },
     "lsp300_qa_s1_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_qa_season1.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_qa_season1.txt",
       "type": "text/plain",
       "title": "Quality (Season 1) colour map",
       "roles": [
@@ -554,7 +554,7 @@
       ]
     },
     "lsp300_qa_s2_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lsp_global_300m_yearly_v1/clms_global_lsp_300m_v1_yearly_qa_season2.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lsp_global_300m_yearly_v1/colour_scheme/clms_global_lsp_300m_v1_yearly_qa_season2.txt",
       "type": "text/plain",
       "title": "Quality (Season 2) colour map",
       "roles": [

@@ -96,7 +96,7 @@
       ]
     },
     "fcover300_fcover_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fcover_global_300m_10daily_v2/clms_global_fcover-fcover_300m_v2_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fcover_global_300m_10daily_v2/colour_scheme/clms_global_fcover-fcover_300m_v2_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "FCOVER colour map",
       "roles": [
@@ -113,7 +113,7 @@
       ]
     },
     "fcover300_rmse_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fcover_global_300m_10daily_v2/clms_global_fcover-rmse_300m_v2_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fcover_global_300m_10daily_v2/colour_scheme/clms_global_fcover-rmse_300m_v2_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "RMSE on FCOVER colour map",
       "roles": [
@@ -130,7 +130,7 @@
       ]
     },
     "fcover300_nobs_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fcover_global_300m_10daily_v2/clms_global_fcover-nobs_300m_v2_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fcover_global_300m_10daily_v2/colour_scheme/clms_global_fcover-nobs_300m_v2_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "NOBS colour map",
       "roles": [
@@ -147,7 +147,7 @@
       ]
     },
     "fcover300_lbefore_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fcover_global_300m_10daily_v2/clms_global_fcover-lbefore_300m_v2_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fcover_global_300m_10daily_v2/colour_scheme/clms_global_fcover-lbefore_300m_v2_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LENGTH_BEFORE colour map",
       "roles": [
@@ -164,7 +164,7 @@
       ]
     },
     "fcover300_lafter_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fcover_global_300m_10daily_v2/clms_global_fcover-lafter_300m_v2_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fcover_global_300m_10daily_v2/colour_scheme/clms_global_fcover-lafter_300m_v2_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LENGTH_AFTER colour map",
       "roles": [

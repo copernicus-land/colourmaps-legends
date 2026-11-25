@@ -93,7 +93,7 @@
       ]
     },
     "lst_lst_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst_global_5km_hourly_v1/clms_global_lst_5km_v1_hourly.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst_global_5km_hourly_v1/colour_scheme/clms_global_lst_5km_v1_hourly.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LST colour map",
       "roles": [

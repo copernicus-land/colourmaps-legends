@@ -96,7 +96,7 @@
       ]
     },
     "ndvi_max_lts_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ndvi-lts_global_1km_10daily_v3/clms_global_ndvi-lts-max_1km_v3_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/colour_scheme/clms_global_ndvi-lts-max_1km_v3_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "MAX NDVI colour map",
       "roles": [
@@ -105,7 +105,7 @@
       ]
     },
     "ndvi_max_lts_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ndvi-lts_global_1km_10daily_v3/ndvi-lts-max_global_1km_10daily_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/legends/ndvi-lts-max_global_1km_10daily_v3.png",
       "type": "image/png",
       "title": "MAX NDVI legend",
       "roles": [
@@ -113,7 +113,7 @@
       ]
     },
     "ndvi_mean_lts_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ndvi-lts_global_1km_10daily_v3/clms_global_ndvi-lts-mean_1km_v3_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/colour_scheme/clms_global_ndvi-lts-mean_1km_v3_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "MEAN NDVI colour map",
       "roles": [
@@ -122,7 +122,7 @@
       ]
     },
     "ndvi_mean_lts_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ndvi-lts_global_1km_10daily_v3/ndvi-lts-mean_global_1km_10daily_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/legends/ndvi-lts-mean_global_1km_10daily_v3.png",
       "type": "image/png",
       "title": "MEAN NDVI legend",
       "roles": [
@@ -130,7 +130,7 @@
       ]
     },
     "ndvi_median_lts_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ndvi-lts_global_1km_10daily_v3/clms_global_ndvi-lts-median_1km_v3_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/colour_scheme/clms_global_ndvi-lts-median_1km_v3_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "MEDIAN NDVI colour map",
       "roles": [
@@ -139,7 +139,7 @@
       ]
     },
     "ndvi_median_lts_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ndvi-lts_global_1km_10daily_v3/ndvi-lts-median_global_1km_10daily_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/legends/ndvi-lts-median_global_1km_10daily_v3.png",
       "type": "image/png",
       "title": "MEDIAN NDVI legend",
       "roles": [
@@ -147,7 +147,7 @@
       ]
     },
     "ndvi_min_lts_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ndvi-lts_global_1km_10daily_v3/clms_global_ndvi-lts-min_1km_v3_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/colour_scheme/clms_global_ndvi-lts-min_1km_v3_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "MIN NDVI colour map",
       "roles": [
@@ -156,7 +156,7 @@
       ]
     },
     "ndvi_min_lts_legend": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/ndvi-lts_global_1km_10daily_v3/ndvi-lts-min_global_1km_10daily_v3.png",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ndvi-lts_global_1km_10daily_v3/legends/ndvi-lts-min_global_1km_10daily_v3.png",
       "type": "image/png",
       "title": "MIN NDVI legend",
       "roles": [

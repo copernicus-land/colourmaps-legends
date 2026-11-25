@@ -97,7 +97,7 @@
       ]
     },
     "swi1km_swi002_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/swi_europe_1km_daily_v1/clms_global_swi_1km_v1_daily.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swi_europe_1km_daily_v1/colour_scheme/clms_global_swi_1km_v1_daily.txt",
       "type": "text/plain",
       "title": "SWI T=2 colour map",
       "roles": [

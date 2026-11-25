@@ -100,7 +100,7 @@
       ]
     },
     "lst10_tci_tci_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lst-tci_global_5km_10daily_v1/clms_global_lst_5km_v1_10daily-tci.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lst-tci_global_5km_10daily_v1/colour_scheme/clms_global_lst_5km_v1_10daily-tci.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "TCI colour map",
       "roles": [

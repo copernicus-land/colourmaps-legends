@@ -96,7 +96,7 @@
       ]
     },
     "dmp_dmp_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/dmp_global_1km_10daily_v2/clms_global_dmp_1km_v2_10daily.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/dmp_global_1km_10daily_v2/colour_scheme/clms_global_dmp_1km_v2_10daily.txt",
       "type": "text/plain",
       "title": "DMP colour map",
       "roles": [

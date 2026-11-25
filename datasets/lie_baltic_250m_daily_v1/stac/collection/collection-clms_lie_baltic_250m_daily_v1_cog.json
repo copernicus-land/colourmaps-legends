@@ -94,7 +94,7 @@
       ]
     },
     "lie250_lie_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lie_baltic_250m_daily_v1/clms_baltic_lie_250m_v1_daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lie_baltic_250m_daily_v1/colour_scheme/clms_baltic_lie_250m_v1_daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Lake Ice Extent colour map",
       "roles": [

@@ -98,7 +98,7 @@
       ]
     },
     "sce_sce_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/sce_global_1km_daily_v1/clms_global_sce_1km_v1_daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_global_1km_daily_v1/colour_scheme/clms_global_sce_1km_v1_daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Snow Cover Extent colour map",
       "roles": [
@@ -115,7 +115,7 @@
       ]
     },
     "sce_unc_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/sce_global_1km_daily_v1/clms_global_sce_unc_1km_v1_daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_global_1km_daily_v1/colour_scheme/clms_global_sce_unc_1km_v1_daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "SCE Uncertainty colour map",
       "roles": [

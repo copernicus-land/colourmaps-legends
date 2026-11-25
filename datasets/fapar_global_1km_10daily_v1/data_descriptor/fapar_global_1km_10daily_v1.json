@@ -12,14 +12,14 @@
   },
   "nominalSpatialResolution": "1km",
   "frequency": "10daily",
-  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/fapar_global_1km_10daily_v1/.gitkeep",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_1km_10daily_v1/thumbnail/.gitkeep",
   "layers": [
     {
       "fileName": "FAPAR1KM-FAPAR",
       "layerBrowserName": "FAPAR",
       "shortDescription": "Fraction of Absorbed Photosynthetically Active Radiation",
       "longDescription": "FAPAR quantifies the fraction of the solar radiation absorbed by live leaves for photosynthesis.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/fapar_global_1km_10daily_v1/clms_global_fapar_1km_v1_10daily.sld",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/fapar_global_1km_10daily_v1/colour_scheme/clms_global_fapar_1km_v1_10daily.sld",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_fapar_1km_v1_10daily.png",
       "units": "",
       "scale": "0.004",

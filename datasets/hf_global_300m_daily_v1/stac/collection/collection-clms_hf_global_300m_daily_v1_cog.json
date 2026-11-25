@@ -93,7 +93,7 @@
       ]
     },
     "h_tsebpt_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/hf_global_300m_daily_v1/clms_global_hf-h_300m_v1_daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/hf_global_300m_daily_v1/colour_scheme/clms_global_hf-h_300m_v1_daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Sensible Heat Flux colour map",
       "roles": [
@@ -110,7 +110,7 @@
       ]
     },
     "le_tsebpt_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/hf_global_300m_daily_v1/clms_global_hf-le_300m_v1_daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/hf_global_300m_daily_v1/colour_scheme/clms_global_hf-le_300m_v1_daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Latent Heat Flux colour map",
       "roles": [

@@ -12,7 +12,7 @@
   },
   "nominalSpatialResolution": "100m",
   "frequency": "yearly",
-  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/lc_global_100m_yearly_v3/lc_global_100m_yearly_v3.jpg",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lc_global_100m_yearly_v3/thumbnail/lc_global_100m_yearly_v3.jpg",
   "layers": [
     {
       "fileName": "Discrete-Classification-map",

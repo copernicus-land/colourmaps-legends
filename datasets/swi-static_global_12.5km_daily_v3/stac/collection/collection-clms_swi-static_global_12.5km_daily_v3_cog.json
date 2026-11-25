@@ -94,7 +94,7 @@
       ]
     },
     "swi_static_tc_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/swi-static_global_12.5km_daily_v3/clms_global_swi_12.5km_static_tc_v3.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swi-static_global_12.5km_daily_v3/colour_scheme/clms_global_swi_12.5km_static_tc_v3.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Topographic Complexity colour map",
       "roles": [
@@ -111,7 +111,7 @@
       ]
     },
     "swi_static_wf_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/swi-static_global_12.5km_daily_v3/clms_global_swi_12.5km_static_wf_v3.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swi-static_global_12.5km_daily_v3/colour_scheme/clms_global_swi_12.5km_static_wf_v3.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Wetland Fraction colour map",
       "roles": [
@@ -128,7 +128,7 @@
       ]
     },
     "swi_static_fm_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/swi-static_global_12.5km_daily_v3/clms_global_swi_12.5km_static_fm_v3.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swi-static_global_12.5km_daily_v3/colour_scheme/clms_global_swi_12.5km_static_fm_v3.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Forest Mask colour map",
       "roles": [
@@ -145,7 +145,7 @@
       ]
     },
     "swi_static_ci_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/swi-static_global_12.5km_daily_v3/clms_global_swi_12.5km_static_ci_v3.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/swi-static_global_12.5km_daily_v3/colour_scheme/clms_global_swi_12.5km_static_ci_v3.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "Correlation Information colour map",
       "roles": [

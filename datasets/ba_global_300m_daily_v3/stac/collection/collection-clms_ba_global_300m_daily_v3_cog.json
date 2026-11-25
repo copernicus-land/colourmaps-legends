@@ -95,7 +95,7 @@
       ]
     },
     "ba300_dob_nrt_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/ba_global_300m_daily_v3/clms_global_ba_300m_v3_daily.txt",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/ba_global_300m_daily_v3/colour_scheme/clms_global_ba_300m_v3_daily.txt",
       "type": "text/plain",
       "title": "Burnt Area colour map",
       "roles": [

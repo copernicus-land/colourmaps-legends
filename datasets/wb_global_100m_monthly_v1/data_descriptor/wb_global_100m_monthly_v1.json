@@ -12,14 +12,14 @@
   },
   "nominalSpatialResolution": "100m",
   "frequency": "monthly",
-  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/wb_global_100m_monthly_v1/wb_global_100m_monthly_v1.jpg",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/wb_global_100m_monthly_v1/thumbnail/wb_global_100m_monthly_v1.jpg",
   "layers": [
     {
       "fileName": "WB",
       "layerBrowserName": "Water Bodies",
       "shortDescription": "Water Bodies detection",
       "longDescription": "Water Bodies detection layer indicating the presence of water.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/wb_global_100m_monthly_v1/clms_global_wb_100m_v1_monthly.txt",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/wb_global_100m_monthly_v1/colour_scheme/clms_global_wb_100m_v1_monthly.txt",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_global_wb_100m_v1_monthly.png",
       "units": "",
       "scale": "1",

@@ -12,14 +12,14 @@
   },
   "nominalSpatialResolution": "500m",
   "frequency": "daily",
-  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/thumbnails/sce_europe_500m_daily_v1/sce_europe_500m_daily_v1.jpg",
+  "thumbnailLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_europe_500m_daily_v1/thumbnail/sce_europe_500m_daily_v1.jpg",
   "layers": [
     {
       "fileName": "SCE",
       "layerBrowserName": "Snow Cover Extent",
       "shortDescription": "Snow Cover Extent (%)",
       "longDescription": "Fractional Snow Cover Extent, indicating the percentage of ground covered by snow.",
-      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/sce_europe_500m_daily_v1/clms_ceuro_sce_500m_v1_daily.txt",
+      "colourMapLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/sce_europe_500m_daily_v1/colour_scheme/clms_ceuro_sce_500m_v1_daily.txt",
       "legendLink": "https://github.com/copernicus-land/colourmaps-legends/blob/main/legends/clms_ceuro_sce_500m_v1_daily.png",
       "units": "[%]",
       "scale": "1",

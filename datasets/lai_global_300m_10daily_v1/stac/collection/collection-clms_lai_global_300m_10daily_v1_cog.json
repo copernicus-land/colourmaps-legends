@@ -94,7 +94,7 @@
       ]
     },
     "lai300_lai_colormap": {
-      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/colourmaps/lai_global_300m_10daily_v1/clms_global_lai_300m_v1_10daily.sld",
+      "href": "https://github.com/copernicus-land/colourmaps-legends/blob/main/datasets/lai_global_300m_10daily_v1/colour_scheme/clms_global_lai_300m_v1_10daily.sld",
       "type": "application/vnd.ogc.sld+xml",
       "title": "LAI colour map",
       "roles": [
