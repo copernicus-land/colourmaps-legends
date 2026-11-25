@@ -12,6 +12,6 @@ Each dataset folder (`datasets/<datasetIdentifier>/`) has the same components. T
 | STAC item | `stac/item/` | none yet (`templates/stac/item/`) | To be written. |
 | WMS endpoints | `wms/` | none yet (`templates/wms/`) | To be written. |
 | INSPIRE | `inspire/` | none yet (`templates/inspire/`) | To be written. |
-| Documentation | `documentation/` | none yet (`templates/documentation/`) | Dataset documentation is hosted in a separate repository; this folder is a placeholder for the link to it. |
+| Documentation | `documentation/` | [`templates/documentation/README.md`](../templates/documentation/README.md) | The documents are hosted in [dataset-technical-docs](https://github.com/copernicus-land/dataset-technical-docs) under `docs/<datasetIdentifier>/`. Copy the template and replace `<datasetIdentifier>`; do not add the documents to this repository. |
 
 The overall repository layout and naming conventions are described in the [repository README](../README.md).

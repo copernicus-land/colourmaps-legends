@@ -21,7 +21,7 @@ colourmaps-legends/
 │       │   └── item/              # STAC item(s)
 │       ├── wms/                   # Web Map Service (WMS) endpoints
 │       ├── inspire/               # INSPIRE metadata
-│       └── documentation/         # Dataset documentation (hosted in a separate repository)
+│       └── documentation/         # README.md linking to the dataset's folder in the documentation repository
 ├── templates/                     # One template per component, same structure as a dataset folder
 │   ├── colour_scheme/
 │   ├── legends/
@@ -35,11 +35,12 @@ colourmaps-legends/
 │   ├── inspire/
 │   └── documentation/
 ├── docs/                          # How to compile each component (see docs/README.md)
-└── clms_datasets/                 # Pan-European datasets (clms_*), not yet migrated to datasets/
-    ├── colourmaps/
-    │   └── clms_<family>_<product>/
-    └── data_descriptors/
-        └── clms_<family>_<product>/
+├── clms_datasets/                 # Pan-European datasets (clms_*), not yet migrated to datasets/
+│   ├── colourmaps/
+│   │   └── clms_<family>_<product>/
+│   └── data_descriptors/
+│       └── clms_<family>_<product>/
+└── archive/                       # Superseded files kept for reference only
 ```
 
 Every dataset folder contains all component folders. A component that has no content yet holds a `.gitkeep` placeholder; the same applies to components in `templates/` for which no template exists yet.
@@ -94,6 +95,10 @@ The `thumbnail/` folder of each dataset contains the preview image used in the C
 ## STAC
 
 The `stac/collection/` folder of each dataset contains its STAC collection. See the [STAC collection template explained](docs/stac_collection_template_explained.md) and the [custom STAC fields](docs/stac_custom_fields.md); the template is in `templates/stac/collection/`.
+
+## Documentation
+
+The technical documentation of the datasets (ATBD, PUM, QAR and related documents) is hosted in a separate repository, [copernicus-land/dataset-technical-docs](https://github.com/copernicus-land/dataset-technical-docs), so that this repository stays light to clone and fork. The `documentation/` folder of each dataset contains a `README.md` that links to the dataset's folder there (`docs/<datasetIdentifier>/`). Datasets that have no folder in the documentation repository yet keep a `.gitkeep` placeholder.
 
 ## Contact
 
