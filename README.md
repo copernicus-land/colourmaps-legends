@@ -35,15 +35,16 @@ colourmaps-legends/
 │   ├── inspire/
 │   └── documentation/
 ├── docs/                          # How to compile each component (see docs/README.md)
-├── colourmaps/                    # Pan-European datasets (clms_*), not yet migrated
-│   └── clms_<family>_<product>/
-└── data_descriptors/              # Pan-European datasets (clms_*), not yet migrated
-    └── clms_<family>_<product>/
+└── clms_datasets/                 # Pan-European datasets (clms_*), not yet migrated to datasets/
+    ├── colourmaps/
+    │   └── clms_<family>_<product>/
+    └── data_descriptors/
+        └── clms_<family>_<product>/
 ```
 
 Every dataset folder contains all component folders. A component that has no content yet holds a `.gitkeep` placeholder; the same applies to components in `templates/` for which no template exists yet.
 
-**Pan-European datasets** (VLCC, UA, WSI, VPP and other `clms_*` products) have not been migrated to the per-dataset layout yet. They remain in `colourmaps/clms_*/` and `data_descriptors/clms_*/`.
+**Pan-European datasets** (VLCC, UA, WSI, VPP and other `clms_*` products) have not been migrated to the per-dataset layout yet. They are kept in their previous component-first structure under `clms_datasets/colourmaps/clms_*/` and `clms_datasets/data_descriptors/clms_*/`.
 
 ### Adding or updating a global dataset
 
@@ -80,7 +81,7 @@ NOTE: in case of multiple layers/variables names should be distinct accordingly 
 
 ## Data Descriptors
 
-The `data_descriptor/` folder of each dataset (`data_descriptors/` for pan-European datasets) contains the JSON file that provides metadata for integrating the CLMS collection into the Copernicus Browser. Each JSON file describes a single collection and its layers.
+The `data_descriptor/` folder of each dataset (`clms_datasets/data_descriptors/` for pan-European datasets) contains the JSON file that provides metadata for integrating the CLMS collection into the Copernicus Browser. Each JSON file describes a single collection and its layers.
 
 For detailed documentation on how to populate these files, see [Data Descriptors Documentation](docs/Structure_description_of_the_proposed_json_scheme_for_CLMS_collections.adoc).
 
