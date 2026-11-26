@@ -52,7 +52,7 @@ docs/
 └── documentation/
 ```
 
-Pan-European datasets (`clms_*`) are not yet in the per-dataset layout; they are in `clms_datasets/`. The file formats and descriptor rules described here apply to them as well.
+Pan-European datasets (`clms_*`) use the same per-dataset layout under `datasets/`. The file formats and descriptor rules described here apply to them as well.
 
 ## Open points
 
